@@ -1,0 +1,321 @@
+{% extends "layouts/base.html" %} {% block title %} Churn Prediction {% endblock
+%}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %} {% block content %}
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-25" style="font-weight: 600"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="./churn_analysis.html">Churn Analysis</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:">Predict Existing Policyholders</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Predict Existing Policyholders Churn</h5>
+                  </div>
+
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-sm-6 p-0">
+                        {% if error %}
+                        <p style="color: red">{{ error }}</p>
+
+                        {% endif %} {% if success %}
+                        <p style="color: green">{{ success }}</p>
+
+                        {% endif %} {% if allErrors %}
+                        <p style="color: red">{{ allErrors }}</p>
+
+                        {% endif %}
+                      </div>
+                      <div class="col-md-6 col-xl-6 my-1 ml-0 pl-0">
+                        <div class="card yearly-sales">
+                          <div class="card-block">
+                            <h4 class="mb-3 f-w-700">Prediction Results</h4>
+                            <div class="row d-flex align-items-center">
+                              <div class="col-9">
+                                <h6 class="f-w-400 mt-3 f-16 m-b-0">
+                                  {{ prediction }}
+                                </h6>
+                                <h6
+                                  class="align-items-center f-w-200 f-16 my-4 f-w-500">
+                                  {{ probability }}
+                                </h6>
+                              </div>
+                            </div>
+                            <div class="progress m-t-10" style="height: 7px">
+                              <div
+                                id="progress-bar"
+                                class="progress-bar progress-c-theme2"
+                                role="progressbar"
+                                aria-valuenow="{{ percentage }}"
+                                aria-valuemin="0"
+                                aria-valuemax="100">
+                                <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                                <script>
+                                  $("#progress-bar").css(
+                                    "width",
+                                    "{{percentage}}%"
+                                  );
+                                </script>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="row">
+                      <div class="col mx-auto">
+                        <div class="col-md-12 col-xl-12 my-1 ml-0 pl-0">
+                          <div class="card yearly-sales">
+                            <div class="card-block">
+                              <h4 class="mb-3 f-w-700">
+                                Policyholder Details: {{ datas.agcode1 }}
+                              </h4>
+                              <div class="row d-flex align-items-center">
+                                <hr />
+                              </div>
+                              <form
+                                method="post"
+                                action='{{url_for("home_blueprint.predict")}}'>
+                                <div class="row">
+                                  <div class="col form-group">
+                                    <label>Entry Date</label>
+                                    <input
+                                      type="date"
+                                      name="endate"
+                                      required
+                                      class="form-control"
+                                      placeholder="Enter Date..."
+                                      readonly="true"
+                                      value="{{ datas.endate }}" />
+                                  </div>
+                                  <div class="col form-group">
+                                    <label>Assured ID</label>
+                                    <input
+                                      type="text"
+                                      name="agcode1"
+                                      required
+                                      class="form-control"
+                                      readonly="true"
+                                      value="{{ datas.agcode1 }}" />
+                                  </div>
+                                  <div class="col form-group mb-3">
+                                    <label>Line</label>
+                                    <select
+                                      class="form-control"
+                                      name="line"
+                                      id="line"
+                                      readonly="true"
+                                      value="{{ datas.line }}">
+                                      <option>MC</option>
+                                    </select>
+                                  </div>
+                                  <div class="col form-group mb-3">
+                                    <label>Branch</label>
+                                    <input
+                                      type="text"
+                                      name="branch"
+                                      required
+                                      class="form-control"
+                                      readonly="true"
+                                      value="{{ datas.branch }}" />
+                                  </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                  <div class="col form-group">
+                                    <label>Policy Start Date</label>
+                                    <input
+                                      type="date"
+                                      name="idate"
+                                      required
+                                      class="form-control"
+                                      placeholder="Select Policy Start Date..."
+                                      readonly="true"
+                                      value="{{ datas.idate }}" />
+                                  </div>
+                                  <div class="col form-group">
+                                    <label>Policy End Date</label>
+                                    <input
+                                      type="date"
+                                      name="edate"
+                                      required
+                                      class="form-control"
+                                      placeholder="Select Policy End Date..."
+                                      readonly="true"
+                                      value="{{ datas.edate }}" />
+                                  </div>
+                                  <div class="col form-group mb-3">
+                                    <label>Policy Category</label>
+                                    <input
+                                      type="text"
+                                      name="pcategory"
+                                      required
+                                      class="form-control"
+                                      readonly="true"
+                                      value="{{ datas.pcategory }}" />
+                                  </div>
+                                  <div class="col form-group mb-3">
+                                    <label>Policy Type</label>
+                                    <input
+                                      type="text"
+                                      name="ptype"
+                                      required
+                                      class="form-control"
+                                      readonly="true"
+                                      value="{{ datas.ptype }}" />
+                                  </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                  <div class="col form-group mb-3">
+                                    <label>Vehicle Use</label>
+                                    <input
+                                      type="text"
+                                      name="vuse"
+                                      required
+                                      class="form-control"
+                                      readonly="true"
+                                      value="{{ datas.vuse }}" />
+                                  </div>
+                                  <div class="col form-group mb-3">
+                                    <label>Vehicle Brand</label>
+                                    <input
+                                      type="text"
+                                      name="brand"
+                                      required
+                                      class="form-control"
+                                      placeholder="Enter Vehicle Maker..."
+                                      readonly="true"
+                                      value="{{ datas.brand }}" />
+                                  </div>
+                                  <div class="col form-group mb-3">
+                                    <label>Vehicle Body Type</label>
+                                    <input
+                                      type="text"
+                                      name="body"
+                                      required
+                                      class="form-control"
+                                      placeholder="Enter Vehicle Type..."
+                                      readonly="true"
+                                      value="{{ datas.body }}" />
+                                  </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                  <div class="col form-group mb-3">
+                                    <label>Vehicle Model Year</label>
+                                    <input
+                                      name="model"
+                                      required
+                                      class="form-control"
+                                      placeholder="Enter Vehicle Model..."
+                                      readonly="true"
+                                      value="{{ datas.model }}" />
+                                  </div>
+                                  <div class="col form-group mb-3">
+                                    <label>Vehicle Color</label>
+                                    <input
+                                      type="text"
+                                      name="color"
+                                      required
+                                      class="form-control"
+                                      placeholder="Enter Vehicle Color..."
+                                      readonly="true"
+                                      value="{{ datas.color }}" />
+                                  </div>
+                                  <div class="col form-group mb-3">
+                                    <label>Vehicle Transmission</label>
+                                    <input
+                                      type="text"
+                                      name="transmission"
+                                      required
+                                      class="form-control"
+                                      readonly="true"
+                                      value="{{ datas.transmission }}" />
+                                  </div>
+                                  <div class="col form-group">
+                                    <label>Vehicle Fuel Type</label>
+                                    <input
+                                      type="text"
+                                      name="fuel"
+                                      required
+                                      class="form-control"
+                                      readonly="true"
+                                      value="{{ datas.fuel }}" />
+                                  </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                  <div class="col form-group">
+                                    <label>Premium</label>
+                                    <input
+                                      type="text"
+                                      name="prem"
+                                      required
+                                      class="form-control"
+                                      readonly="true"
+                                      value="{{ datas.prem }}" />
+                                  </div>
+                                  <div class="col my-4">
+                                    <input
+                                      type="submit"
+                                      value="Submit"
+                                      class="btn btn-success" />
+                                  </div>
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <hr />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- [ Main Content ] end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

@@ -1,0 +1,238 @@
+{% extends "layouts/base.html" %} {% block title %} Churn Analysis {% endblock
+%}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js" />
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+  integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"></script>
+<script
+  type="text/javascript"
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+{% endblock stylesheets %} {% block content %}
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-25"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:" style="font-weight: 200"
+                      >Churn Analysis</a
+                    >
+                  </li>
+                  <div class="container pt-3">
+                    {% with messages=get_flashed_messages(with_categories=true)
+                    %} {% if messages %} {% for category,message in messages %}
+                    <div class="alert alert-{{category}}">{{message}}</div>
+                    {% endfor %} {% endif %} {% endwith %}
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5 style="font-weight: 700">
+                      Churn Analysis: Customer Churn Prediction
+                    </h5>
+                  </div>
+                  <div class="card-header col-sm-12 pl-4 mb-0 text-left">
+                    <form action="/predictchurn" method="POST">
+                      <button type="submit" class="btn btn-success w-50">
+                        Predict Churn (New Policyholder)
+                      </button>
+                    </form>
+                  </div>
+                  <div class="card-header col-sm-6 pl-4 mb-0">
+                    <div class="col-sm-12 pl-0">
+                      <h3 class="f-w-700 f-18 pl-0">
+                        Predict Churn (Existing Policyholders)
+                      </h3>
+                      <form
+                        class="contact-bx dzForm"
+                        action="/verify"
+                        method="POST">
+                        <div class="col-lg-12 pl-0">
+                          <div class="form-group">
+                            <h4 class="mb-3 pt-3 f-18 f-w-500">
+                              Enter Assured ID:
+                            </h4>
+                            <div class="input-group">
+                              <input
+                                name="agcode1"
+                                type="text"
+                                class="form-control"
+                                minh="1"
+                                maxh="500"
+                                required />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4 pt-3 pl-0" align="left">
+                          <button
+                            name="post_feedback"
+                            type="submit"
+                            value="Submit"
+                            class="btn"
+                            style="background: #265138; color: white">
+                            CONTINUE
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="col-sm-12 pl-0 pt-3">
+                      {% if error %}
+                      <p style="color: red">{{ error }}</p>
+
+                      {% endif %} {% if success %}
+                      <p style="color: green">{{ success }}</p>
+
+                      {% endif %} {% if allErrors %}
+                      <p style="color: red">{{ allErrors }}</p>
+
+                      {% endif %}
+                    </div>
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <h3 class="f-w-600 f-24">Recent Predictions</h3>
+                        <hr />
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 my-4">
+                        <div class="table-responsive">
+                          <table
+                            id="churnTable"
+                            class="table table-bordered"
+                            width="100%">
+                            <thead>
+                              <tr>
+                                <th scope="col">Entry Date</th>
+                                <th scope="col">Assured ID</th>
+                                <th scope="col">Churn</th>
+                                <th scope="col">Probability</th>
+                                <th scope="col">Line</th>
+                                <th scope="col">Branch</th>
+                                <th scope="col">Insured Date</th>
+                                <th scope="col">End Date</th>
+                                <th scope="col">Policy Category</th>
+                                <th scope="col">Policy Type</th>
+                                <th scope="col">Vehicle Use</th>
+                                <th scope="col">Vehicle Brand</th>
+                                <th scope="col">Vehicle Body</th>
+                                <th scope="col">Vehicle Model</th>
+                                <th scope="col">Vehicle Color</th>
+                                <th scope="col">Vehicle Transmission</th>
+                                <th scope="col">Vehicle Fuel</th>
+                                <th scope="col">Premium</th>
+                                <th scope="col">Delete</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {% for details in datas %}
+                              <tr>
+                                <td>{{ details.endate}}</td>
+                                <td>{{ details.agcode1}}</td>
+                                <td id="churn" class="churn">
+                                  {{ details.churn }}
+                                </td>
+                                <td>
+                                  {{'%0.2f'| format(details.proba|float)}}
+                                </td>
+                                <td>{{ details.line }}</td>
+                                <td>{{ details.branch }}</td>
+                                <td>{{ details.idate }}</td>
+                                <td>{{ details.edate }}</td>
+                                <td>{{ details.pcategory }}</td>
+                                <td>{{ details.ptype }}</td>
+                                <td>{{ details.vuse }}</td>
+                                <td>{{ details.brand }}</td>
+                                <td>{{ details.body }}</td>
+                                <td>{{ details.model }}</td>
+                                <td>{{ details.color }}</td>
+                                <td>{{ details.transmission }}</td>
+                                <td>{{ details.fuel }}</td>
+                                <td>{{ details.prem }}</td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.delete_prediction",uid=details.id)}}'
+                                    class="btn btn-danger"
+                                    onclick='return confirm("Are You Sure")'
+                                    >Delete</a
+                                  >
+                                </td>
+                              </tr>
+                              {% endfor %}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- [ Main Content ] end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<script>
+  $(document).ready(function () {
+    $("#churnTable td.churn:contains('No')").css("background-color", "#a9c8a3");
+    $("#churnTable td.churn:contains('Yes')").css(
+      "background-color",
+      "#ec8b8b"
+    );
+  });
+
+  $(document).ready(function () {
+    $("#churnTable tr td").each(function () {
+      if ($(this).text() >= 0 && $(this).text() <= 50) {
+        $(this).css("background-color", "#a9c8a3");
+      } else if ($(this).text() > 50 && $(this).text() <= 100) {
+        $(this).css("background-color", "#ec8b8b");
+      }
+    });
+  });
+</script>
+{% endblock javascripts %}

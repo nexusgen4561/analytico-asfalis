@@ -1,0 +1,3173 @@
+﻿custid,policystartd,policyendd,gender,age,ptype,vclass,vcolor,vmaker,product
+ID_0040R73,5/14/10,5/13/11,Male,30,1,Saloon,Black,TOYOTA,Car Classic
+ID_0046BNK,11/29/10,11/28/11,Female,79,1,JEEP,Grey,TOYOTA,Car Classic
+ID_005QMC3,3/21/10,3/20/11,Male,43,1,Saloon,Red,TOYOTA,Car Classic
+ID_0079OHW,8/21/10,8/20/11,Male,2,1,,,,CarSafe
+ID_00BRP63,8/29/10,12/31/10,Entity,20,3,,,,Muuve
+ID_00D3EF6,10/21/10,10/20/11,Male,37,2,,,,Car Classic
+ID_00HHZ8Y,8/2/10,8/1/11,Female,40,3,,,,CVTP
+ID_00M1X6U,9/12/10,9/11/11,Male,43,1,Saloon,,TOYOTA,CarSafe
+ID_00N7XT1,7/6/10,7/5/11,Female,71,2,JEEP,Black,REXTON,Car Classic
+ID_00QF156,12/18/10,12/17/11,Female,58,1,,,,Car Classic
+ID_00RDFUY,12/23/10,12/22/11,Female,43,1,,,,CarSafe
+ID_00TMUS4,10/25/10,10/23/11,Male,45,1,JEEP,,Lexus,Car Plus
+ID_00VRPZL,1/3/10,1/2/11,Male,51,1,Saloon,,TOYOTA,Car Classic
+ID_019TN1T,9/10/10,9/9/11,Male,38,1,,,,Car Classic
+ID_01A4DSV,11/19/10,11/5/11,Male,81,1,,As Attached,Hyundai,Car Classic
+ID_01BJS22,4/26/10,4/25/11,Female,69,1,Saloon,,TOYOTA,CarSafe
+ID_01HTP5J,5/9/10,5/8/11,Female,31,1,Saloon,Black,TOYOTA,Car Classic
+ID_01ITX31,6/28/10,6/27/11,Male,70,1,,,TOYOTA,Car Classic
+ID_01P8CIZ,7/27/10,6/14/11,Male,20,1,,Blue,Iveco,CVTP
+ID_01T1B6E,12/13/10,6/12/11,Entity,20,2,,,DAF,CVTP
+ID_01Z1YOR,10/16/10,10/15/11,Male,30,1,,,,Car Classic
+ID_01ZY7FF,8/7/10,8/6/11,Male,30,1,Saloon,Grey,TOYOTA,Car Classic
+ID_020608O,3/5/10,3/4/11,Male,34,1,Saloon,Blue,TOYOTA,Car Classic
+ID_022U6TV,10/28/10,10/27/11,Male,40,2,Saloon,Black,Honda,Car Classic
+ID_02390ZY,12/11/10,12/10/11,Male,1,1,,,,CarSafe
+ID_02DJWEN,1/23/10,1/16/11,Male,41,1,Saloon,Silver,TOYOTA,Car Classic
+ID_02GM2IL,7/2/10,7/1/11,Male,31,1,Saloon,Grey,TOYOTA,Car Classic
+ID_02NAGK1,3/1/10,3/1/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_02O5FDM,2/10/10,2/9/11,Joint Gender,20,1,,As Attached,TOYOTA,Car Classic
+ID_02RCBEU,3/16/10,3/15/11,Male,47,2,Saloon,,TOYOTA,CarSafe
+ID_02T5M8A,1/22/10,1/21/11,Female,40,1,,Grey,Mercedes,Car Classic
+ID_02XA0UK,10/7/10,4/5/11,,34,1,,,,Car Classic
+ID_034XN1U,7/2/10,7/1/11,,2,1,Motorcycle,Red,Jincheng,Motor Cycle
+ID_035HSJO,6/21/10,6/19/11,Female,36,1,JEEP,,Mercedes,Car Plus
+ID_03H676V,4/4/10,4/3/11,Male,37,1,Saloon,,Honda,CarSafe
+ID_03HT5Q0,11/28/10,11/27/11,Male,46,1,,,,CarSafe
+ID_03LHF6C,8/7/10,8/6/11,Male,48,1,,,,CarSafe
+ID_03U3I31,9/6/10,9/5/11,Male,39,2,Saloon,Red,TOYOTA,Car Classic
+ID_03UD6OT,11/9/10,11/8/11,Female,63,2,Saloon,,ACURA,CarSafe
+ID_03V06TZ,3/12/10,3/11/11,Female,39,1,Saloon,Black,Honda,Car Classic
+ID_042RNAI,2/12/10,2/11/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_046FQ5I,4/25/10,4/9/11,Male,47,1,JEEP,Black,Ford,Car Classic
+ID_04C9IRV,12/25/10,4/24/11,Female,36,1,,,,Car Classic
+ID_04FP4M2,1/13/10,1/12/11,Female,47,3,JEEP,,Lexus,Car Classic
+ID_04JEN82,3/8/10,2/9/11,Male,41,2,Saloon,Silver,TOYOTA,Car Plus
+ID_04RDLQY,7/8/10,7/7/11,Male,42,3,Truck,Green,Iveco,CVTP
+ID_04RZ9TY,4/15/10,4/14/11,Male,38,1,Saloon,Green,TOYOTA,Car Classic
+ID_04Z1VXP,9/9/10,9/8/11,Female,27,1,,,,Car Classic
+ID_052YTIW,6/6/10,6/5/11,Male,42,1,Saloon,Red,TOYOTA,Car Classic
+ID_0559SH8,5/20/10,5/19/11,Male,39,1,Saloon,Grey,Honda,Car Classic
+ID_0577HW2,4/26/10,4/25/11,Female,30,2,Saloon,Black,TOYOTA,Car Classic
+ID_058FZ64,4/23/10,4/22/11,Female,64,1,Saloon,Black,TOYOTA,Car Classic
+ID_05CDD8E,7/31/10,7/30/11,Male,36,1,Saloon,,Volkswagen,CarSafe
+ID_05FC0AD,7/4/10,7/3/11,Female,50,1,Saloon,,TOYOTA,Car Classic
+ID_05HTYFW,8/15/10,8/14/11,Female,53,1,Saloon,,TOYOTA,CarSafe
+ID_05R7YFI,2/18/10,2/17/11,Male,37,1,JEEP,Ash,Lexus,Car Classic
+ID_05RDR1E,8/21/10,7/16/11,Male,33,2,,,,Car Classic
+ID_05ROASD,9/17/10,9/16/11,Male,23,1,,,,Car Classic
+ID_05VUW92,7/26/10,3/1/11,Male,47,1,,,,Car Classic
+ID_063CV9E,9/20/10,9/19/11,Male,47,1,,,,CarSafe
+ID_063MQH3,10/9/10,4/8/11,Male,45,1,Saloon,Blue,TOYOTA,Car Classic
+ID_067V50A,4/4/10,4/2/11,Male,32,1,Saloon,,Mercedes,CarSafe
+ID_06A4GSU,11/26/10,11/25/11,Male,59,1,,,,Car Classic
+ID_06BSIZB,1/17/10,1/16/11,Male,30,1,Saloon,,Nissan,CarSafe
+ID_06CA2IY,5/13/10,4/10/11,Female,60,1,Saloon,,TOYOTA,Car Classic
+ID_06HCAU1,6/19/10,4/14/11,Male,37,1,Truck,White,DAF,CVTP
+ID_06MWQX4,7/11/10,7/10/11,Female,37,1,Saloon,,TOYOTA,CarSafe
+ID_06TZLPR,11/6/10,8/6/11,Male,52,3,Saloon,Blue,TOYOTA,Car Classic
+ID_06WKCVO,4/28/10,4/27/11,Male,54,1,JEEP,,Honda,Car Plus
+ID_075PIAF,10/17/10,10/16/11,Female,40,1,,,,CarSafe
+ID_076DFB7,8/8/10,8/7/11,Joint Gender,1,1,,,,CarSafe
+ID_0785NAL,5/17/10,5/15/11,Male,44,1,Saloon,,Hyundai,CarSafe
+ID_0790YUZ,9/30/10,8/13/11,Female,11,3,,,,Car Classic
+ID_079GMOS,4/10/10,4/9/11,Entity,20,2,,,TOYOTA,Car Classic
+ID_07LQ83J,10/23/10,10/22/11,Male,78,2,Saloon,,TOYOTA,Car Classic
+ID_07Q2HUE,3/25/10,3/24/11,Male,20,1,Saloon,,TOYOTA,CarSafe
+ID_07SVRHZ,8/23/10,8/22/11,Female,28,1,,,,Car Classic
+ID_08833XP,5/23/10,5/22/11,Female,42,1,JEEP,Gray & Gray,Honda,Car Classic
+ID_088DOQ3,1/7/10,1/6/11,Female,50,2,Saloon,Black,TOYOTA,Car Classic
+ID_08EMHRD,7/23/10,7/22/11,Female,37,1,Saloon,White,TOYOTA,Car Classic
+ID_08QV44L,7/24/10,6/13/11,Female,34,1,Bus,Blue,TOYOTA,Car Classic
+ID_094BCZS,9/17/10,9/16/11,Male,44,1,Saloon,Black,Mercedes,Car Classic
+ID_09BCKQW,7/24/10,7/23/11,Male,39,2,Saloon,Black,TOYOTA,Car Classic
+ID_09E0NR0,9/16/10,9/15/11,Female,29,1,,,,Car Classic
+ID_09ECI55,2/1/10,1/31/11,Female,32,1,Saloon,Wine,TOYOTA,Car Classic
+ID_09IHZ9D,12/12/10,8/10/11,,57,1,Saloon,Grey,Pontiac,Customized Motor
+ID_09M1LIC,2/11/10,2/10/11,Male,38,1,Saloon,,TOYOTA,Car Classic
+ID_09MIIAB,1/15/10,1/14/11,Female,12,3,Saloon,,TOYOTA,Customized Motor
+ID_09N5ZQL,4/4/10,4/3/11,Male,53,2,Saloon,Black,Honda,Car Classic
+ID_09OYXKX,2/12/10,2/11/11,Female,65,1,Saloon,,Mercedes,CarSafe
+ID_09TVK15,1/12/10,1/11/11,Female,32,1,Saloon,,TOYOTA,Car Classic
+ID_09YO39R,7/19/10,7/18/11,,20,1,Motorcycle,As Attached,.,Motor Cycle
+ID_0A94GFU,10/30/10,10/29/11,Female,30,1,,,,CarSafe
+ID_0AJ12UF,3/27/10,3/26/11,Male,48,1,JEEP,,TOYOTA,Customized Motor
+ID_0AP9C8K,10/23/10,5/27/11,Female,37,2,Saloon,Black,TOYOTA,Car Classic
+ID_0AU7A1K,12/12/10,12/11/11,Male,37,1,,,,Car Classic
+ID_0B5W1GU,2/8/10,2/7/11,Female,50,1,Saloon,,TOYOTA,CarSafe
+ID_0B7IUMF,11/13/10,11/12/11,Male,53,2,,White,Range Rover,Car Classic
+ID_0BBIOBG,5/17/10,5/16/11,Female,44,1,Saloon,,TOYOTA,CarSafe
+ID_0BN4W5V,7/1/10,12/31/10,Male,35,2,JEEP,As Attached,Lexus,Car Classic
+ID_0BUJCEP,12/16/10,12/15/11,Female,73,2,JEEP,,TOYOTA,Customized Motor
+ID_0BXLGTA,12/27/10,12/26/11,Male,34,1,JEEP,,Lexus,Car Classic
+ID_0C14U0E,10/11/10,10/9/11,Male,41,1,,,,CarSafe
+ID_0C6NVMA,2/25/10,2/24/11,Female,56,1,JEEP,,Hyundai,CarSafe
+ID_0CJO0AT,8/2/10,7/8/11,Female,29,1,,,,Car Classic
+ID_0CM4BI3,10/26/10,10/25/11,Male,36,1,Saloon,,Honda,CarSafe
+ID_0CW58L7,3/26/10,3/25/11,Female,56,1,JEEP,Black,Nissan,Car Classic
+ID_0D03EM0,3/2/10,3/1/11,Female,44,1,Saloon,Ash,TOYOTA,Car Classic
+ID_0D2UBKM,8/6/10,8/5/11,Male,34,1,Saloon,Red,TOYOTA,Car Classic
+ID_0D57898,8/20/10,2/17/11,Male,55,3,,,,Car Classic
+ID_0DB63CB,7/2/10,7/1/11,Female,26,1,JEEP,Black,Honda,Car Classic
+ID_0DGZCRK,12/10/10,12/9/11,,38,1,Saloon,,Volkswagen,CarSafe
+ID_0DLE3E9,1/30/10,1/29/11,Male,20,1,Saloon,,Kia,CarSafe
+ID_0DQURZJ,11/12/10,11/11/11,Male,49,1,,,,CarSafe
+ID_0E0GIOO,7/24/10,1/15/11,Female,38,1,JEEP,Wine,TOYOTA,Car Classic
+ID_0E461H1,5/16/10,5/14/11,Male,42,1,Saloon,Black,TOYOTA,Car Classic
+ID_0E4K0GF,8/7/10,8/6/11,Male,31,1,Saloon,,TOYOTA,CarSafe
+ID_0EARV5X,1/21/10,1/20/11,Male,43,1,Saloon,Green,Honda,Car Classic
+ID_0EHKMTL,9/4/10,9/3/11,Male,50,2,JEEP,Black,TOYOTA,Car Classic
+ID_0EJ4LR3,1/11/10,1/10/11,Male,38,1,,As Attached,Lexus,Car Classic
+ID_0ELAKXI,2/4/10,2/3/11,Male,30,2,Saloon,Black,Honda,Car Classic
+ID_0EM6LSO,3/26/10,3/24/11,Female,65,1,JEEP,Black,TOYOTA,Car Classic
+ID_0EMO48C,2/15/10,2/14/11,,50,1,,White,Mitsubishi,CVTP
+ID_0ENFSCX,8/15/10,8/14/11,Male,20,1,,,TOYOTA,Car Classic
+ID_0EQQYES,8/29/10,8/28/11,Male,35,2,,Silver,TOYOTA,Car Classic
+ID_0ESEOON,8/21/10,8/6/11,Male,20,1,,,Iveco,CVTP
+ID_0ESTG4D,8/9/10,8/8/11,Joint Gender,35,1,,,,CarSafe
+ID_0EYU1TC,3/16/10,3/15/11,Male,36,2,Saloon,Ash,TOYOTA,Car Classic
+ID_0F0ZI7B,10/21/10,10/20/11,Male,70,1,,,TOYOTA,Car Plus
+ID_0F1JIXI,6/3/10,6/2/11,Female,60,1,,Black,Lexus,Car Classic
+ID_0F1PDB1,5/31/10,5/30/11,Male,38,1,Saloon,Grey,TOYOTA,Car Classic
+ID_0F3IJXA,1/16/10,1/15/11,Female,45,1,,,TOYOTA,Car Classic
+ID_0F5MJ5K,12/19/10,11/17/11,Male,37,1,Saloon,Black,Honda,Car Classic
+ID_0F6TNYQ,5/21/10,5/3/11,Male,30,1,,As Attached,Scania,CVTP
+ID_0F7BHGK,2/4/10,2/3/11,Entity,18,1,Saloon,,Hyundai,Customized Motor
+ID_0F7DPHC,12/12/10,12/11/11,Female,35,1,,,,CarSafe
+ID_0FIFLYO,6/28/10,6/26/11,Female,27,1,Saloon,,TOYOTA,Car Classic
+ID_0FP7360,12/9/10,10/22/11,Male,46,1,JEEP,Black,TOYOTA,Car Classic
+ID_0FRE9RN,10/24/10,10/23/11,Male,30,1,,,,CarSafe
+ID_0FYEA7B,7/2/10,6/30/11,Female,32,1,Saloon,,Lexus,CarSafe
+ID_0G2PBAI,11/14/10,11/13/11,Female,38,1,Saloon,,Hyundai,CarSafe
+ID_0G53YNR,5/7/10,5/5/11,Male,47,1,Saloon,,TOYOTA,Car Classic
+ID_0G5JBV3,12/24/10,12/23/11,Female,52,1,Saloon,,TOYOTA,CarSafe
+ID_0G85YVU,6/14/10,6/13/11,Female,60,1,Saloon,,TOYOTA,Car Classic
+ID_0GHLS5X,12/3/10,12/2/11,Male,45,2,,White,BMW,Customized Motor
+ID_0GIIW66,1/26/10,1/25/11,Female,45,1,Saloon,,TOYOTA,CarSafe
+ID_0GJ23TT,10/2/10,9/30/11,Male,39,1,,,,CarSafe
+ID_0GNVQFF,11/14/10,4/14/11,Male,40,2,Saloon,Wine,Pontiac,Car Classic
+ID_0GO0K5A,1/10/10,1/9/11,Male,51,1,Saloon,Red,Hyundai,Car Classic
+ID_0GR2QRL,4/19/10,4/18/11,Male,48,1,,,Lexus,Customized Motor
+ID_0GVDM31,1/11/10,1/10/11,Male,58,3,Saloon,Silver,TOYOTA,Car Classic
+ID_0GVEZFQ,10/23/10,10/22/11,Male,39,2,,,Honda,Car Classic
+ID_0GVFN13,9/13/10,9/12/11,Female,44,1,,,,CarSafe
+ID_0H49SVS,2/25/10,2/24/11,Male,43,1,Saloon,Brown,TOYOTA,Car Classic
+ID_0HK4TFC,6/11/10,3/9/11,Female,36,1,Saloon,,Mercedes,Car Classic
+ID_0HO82AC,7/4/10,7/3/11,Male,53,1,Saloon,,TOYOTA,CarSafe
+ID_0HOD99L,12/12/10,12/11/11,Female,14,1,,,,CarSafe
+ID_0HWAFTI,8/14/10,8/13/11,Male,40,1,,,,CarSafe
+ID_0I6NUTV,2/11/10,1/30/11,Male,44,1,,Red & Blue,Iveco,CVTP
+ID_0I7MKL8,10/17/10,10/16/11,Female,34,1,,,,CarSafe
+ID_0I7WSXN,1/14/10,1/13/11,Male,41,1,Saloon,,TOYOTA,CarSafe
+ID_0IFDCEJ,12/7/10,8/10/11,Female,42,2,,,Mercedes,Car Classic
+ID_0IGLH7L,1/12/10,1/11/11,Male,40,1,Saloon,Gold,TOYOTA,Car Classic
+ID_0IKQ9XJ,7/20/10,7/19/11,Male,43,2,,Blue,TOYOTA,Car Classic
+ID_0ILENCN,5/21/10,5/20/11,Male,55,3,JEEP,Black,TOYOTA,Customized Motor
+ID_0ILP3VL,9/13/10,9/12/11,Male,47,4,Saloon,Black,Nissan,Car Classic
+ID_0INLN8R,6/7/10,6/6/11,Male,37,3,Saloon,,TOYOTA,CarSafe
+ID_0IRFUYB,6/6/10,6/5/11,Female,37,1,JEEP,Black,TOYOTA,Car Classic
+ID_0JHDAXS,12/5/10,12/4/11,Male,31,1,,,,CarSafe
+ID_0JPMW2P,12/23/10,4/21/11,Male,38,1,,,,Car Classic
+ID_0JXGM6N,11/22/10,11/21/11,Male,40,1,,,,CarSafe
+ID_0K1BO9A,9/20/10,9/19/11,Male,62,1,Saloon,,TOYOTA,CarSafe
+ID_0K1VPIE,3/4/10,3/3/11,Male,41,1,Saloon,Blue,TOYOTA,Car Classic
+ID_0K7QW76,4/4/10,4/2/11,Male,32,1,Saloon,,Honda,Car Classic
+ID_0KCF3AO,4/30/10,4/29/11,Male,49,1,JEEP,,TOYOTA,Car Classic
+ID_0KDYXJL,6/28/10,6/27/11,Female,44,1,Saloon,,TOYOTA,CarSafe
+ID_0KED35N,9/12/10,9/11/11,Female,25,1,,,,Car Classic
+ID_0KG1GAY,10/29/10,10/28/11,Male,31,1,,,,Car Classic
+ID_0KN7C3J,3/5/10,3/4/11,Male,61,1,Saloon,,Infiniti,CarSafe
+ID_0KVEKCF,9/9/10,9/8/11,Female,34,1,Saloon,Red,TOYOTA,Car Classic
+ID_0KX531O,11/30/10,11/29/11,Female,40,1,Saloon,Black,TOYOTA,Car Classic
+ID_0KZ4T8I,9/24/10,9/23/11,Male,28,1,,,,CarSafe
+ID_0L2GHKC,8/1/10,7/31/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_0L4IT7F,6/20/10,6/19/11,Male,62,2,JEEP,Black,Honda,Car Classic
+ID_0L92127,3/14/10,3/13/11,Female,43,1,JEEP,Silver,TOYOTA,Car Plus
+ID_0L9531Y,10/7/10,10/6/11,Male,51,1,Saloon,,BMW,Car Classic
+ID_0LQA24Z,11/29/10,11/28/11,Male,53,1,JEEP,,Ford,CarSafe
+ID_0LQJSMC,12/13/10,12/12/11,Male,33,1,Saloon,Gold,Lexus,Car Classic
+ID_0LX75FI,8/9/10,8/8/11,Female,50,1,Saloon,Grey,TOYOTA,Car Classic
+ID_0M2HTZ9,4/4/10,4/3/11,Male,37,1,Saloon,,Lexus,Car Classic
+ID_0M4JBB4,9/13/10,9/12/11,Female,41,1,Saloon,Red,Renault,Car Classic
+ID_0M86A7W,10/25/10,6/19/11,Male,31,1,,,,Car Classic
+ID_0MG4G6P,1/8/10,1/7/11,Male,37,1,Saloon,As Attached,Hyundai,Car Classic
+ID_0MH3UFI,8/6/10,8/5/11,Male,36,1,Saloon,White,TOYOTA,Car Classic
+ID_0MHS52N,5/23/10,5/21/11,Male,51,1,JEEP,,Ford,CarSafe
+ID_0MJ9TSG,3/14/10,3/13/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_0MJUX0Q,4/30/10,4/29/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_0MKSPPQ,3/4/10,3/3/11,Female,43,2,,,Volkswagen,Car Classic
+ID_0MM2LNR,2/13/10,1/13/11,Male,72,2,,,TOYOTA,Car Classic
+ID_0MRR0OX,4/12/10,4/11/11,Male,45,1,Saloon,Black,Honda,CarSafe
+ID_0MSQ5JJ,12/13/10,12/12/11,Male,33,1,Saloon,,Honda,CarSafe
+ID_0N28F78,10/2/10,10/1/11,Male,32,1,,,,CarSafe
+ID_0N2X552,4/15/10,1/3/11,Female,33,1,Saloon,Green,Honda,Car Classic
+ID_0N7V9K3,9/24/10,9/19/11,Male,52,1,,,,Car Classic
+ID_0NGIBX4,5/16/10,5/15/11,Male,42,1,Saloon,,TOYOTA,CarSafe
+ID_0NIL8EF,2/8/10,2/7/11,Male,42,1,Saloon,,TOYOTA,CarSafe
+ID_0NJ07AU,11/7/10,11/6/11,Male,49,2,Saloon,,Hyundai,CarSafe
+ID_0NXMWEE,2/21/10,2/20/11,Male,30,1,Saloon,Silver,TOYOTA,Car Classic
+ID_0O545WK,1/2/10,1/1/11,Female,82,1,Saloon,,Hyundai,CarSafe
+ID_0OBXCP6,3/28/10,3/27/11,Male,57,1,JEEP,,Hyundai,CarSafe
+ID_0OH05TQ,3/20/10,3/19/11,Male,39,1,JEEP,Wine,TOYOTA,Car Classic
+ID_0P861G4,2/4/10,2/3/11,Entity,18,1,,Black,Hyundai,Customized Motor
+ID_0PKTK51,6/29/10,6/28/11,Male,69,1,Saloon,,TOYOTA,CarSafe
+ID_0PL8HXU,12/24/10,3/25/11,Male,41,1,JEEP,Grey,TOYOTA,Car Classic
+ID_0POUGIK,9/23/10,9/22/11,Male,30,1,,,,CarSafe
+ID_0PV6CEI,1/29/10,1/28/11,Female,61,1,JEEP,Black,Ford,Car Classic
+ID_0Q2HBJK,8/30/10,8/29/11,Male,41,1,,,,CarSafe
+ID_0QEKD0C,6/6/10,6/5/11,Male,42,1,Saloon,Black,TOYOTA,Car Classic
+ID_0QL0WDA,1/2/10,1/1/12,Male,51,2,,,,Motor Cycle
+ID_0QMIC3O,3/21/10,3/20/11,Male,63,1,Saloon,,TOYOTA,CarSafe
+ID_0QW3W1U,12/13/10,12/12/11,Male,49,1,Saloon,Black,TOYOTA,Car Classic
+ID_0R1RIW0,6/18/10,6/13/11,Male,52,1,Saloon,Blue,TOYOTA,Car Classic
+ID_0R8HDFR,2/22/10,2/21/11,Male,45,2,Saloon,Green,TOYOTA,Car Classic
+ID_0RB8SME,9/30/10,9/29/11,Male,43,3,,,Nissan,Car Plus
+ID_0RBLV4O,9/13/10,8/5/11,Male,44,1,,,Ford,Customized Motor
+ID_0RD9CCE,11/21/10,11/20/11,Male,39,1,Saloon,,TOYOTA,CarSafe
+ID_0RGWQ7R,2/5/10,2/4/11,Male,40,3,,Grey,TOYOTA,Car Classic
+ID_0RMQHQW,8/30/10,8/29/11,Male,47,1,,,,CarSafe
+ID_0RP78NL,5/13/10,4/10/11,Female,60,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_0RXRAUL,11/28/10,11/27/11,Female,56,1,,,,CarSafe
+ID_0RYVUR0,11/28/10,3/9/11,Male,34,1,,,,Car Classic
+ID_0S4XOMP,11/25/10,11/24/11,Male,46,1,JEEP,,TOYOTA,Car Classic
+ID_0SAC9AZ,12/12/10,12/1/11,Male,39,1,Saloon,Blue,TOYOTA,Car Classic
+ID_0SG1R6L,2/15/10,2/14/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_0SGM7DM,7/5/10,7/4/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_0SGPQUY,9/16/10,9/15/11,Male,72,2,,,,CarSafe
+ID_0SIGHU6,9/17/10,9/16/11,Male,50,2,,,,Car Classic
+ID_0SNXCJ2,8/22/10,8/21/11,Female,28,1,,,,Car Classic
+ID_0SR1AZV,1/18/10,1/17/11,Male,40,1,Saloon,,Ford,CarSafe
+ID_0SSFMYL,7/24/10,7/23/11,Male,61,1,Mini Bus,Wine,TOYOTA,Car Classic
+ID_0STS32D,10/29/10,10/28/11,Male,67,1,JEEP,Red,Kia,Car Classic
+ID_0T0PQNR,12/5/10,12/4/11,Female,40,4,Saloon,Black,Honda,Customized Motor
+ID_0T7ERJ9,4/2/10,4/1/11,Female,36,2,Saloon,,Honda,CarSafe
+ID_0TB0K22,11/6/10,6/26/11,Male,36,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_0TCB8GJ,10/11/10,10/10/11,Female,41,1,Saloon,Black,TOYOTA,Car Classic
+ID_0TII4PQ,12/30/10,3/29/11,Male,30,1,Saloon,Black,Kia,Car Classic
+ID_0TO9PYJ,8/29/10,12/31/10,Entity,20,3,,,,Muuve
+ID_0TUBHL1,1/17/10,1/16/11,Male,52,1,Saloon,,TOYOTA,CarSafe
+ID_0TXAW5G,9/10/10,9/9/11,,31,1,Saloon,Silver,TOYOTA,Car Plus
+ID_0U0OJ4R,12/24/10,12/23/11,Male,40,1,,,,CarSafe
+ID_0U2TXZ7,1/3/10,1/2/11,Male,30,1,Saloon,,Lexus,Car Plus
+ID_0U3WLAG,10/25/10,10/24/11,Male,27,1,,,,CarSafe
+ID_0U4LNUQ,10/30/10,10/29/11,Male,49,1,Saloon,,TOYOTA,Car Classic
+ID_0U6YWUD,5/28/10,5/27/11,Male,61,2,Saloon,As Attached,Kia,Car Classic
+ID_0U7TIAH,9/3/10,9/2/11,Male,40,1,,,,CarSafe
+ID_0UA461R,12/20/10,12/19/11,Male,34,1,,,,CarSafe
+ID_0UFGFKF,11/6/10,2/3/11,Male,45,1,,,,Car Classic
+ID_0UGDAB5,1/31/10,1/30/11,Male,43,3,,Black,Honda,Customized Motor
+ID_0UM7DYC,6/28/10,3/26/11,Male,52,1,JEEP,Black,Lexus,Car Classic
+ID_0UM86EF,6/26/10,6/24/11,Female,64,3,JEEP,Black,TOYOTA,Car Plus
+ID_0UMJ7FD,9/8/10,9/6/11,Male,42,1,,,,Car Classic
+ID_0UNI23V,10/10/10,8/9/11,Male,40,1,Saloon,,Honda,Car Classic
+ID_0UU93OQ,12/9/10,12/8/11,Male,48,1,,,,CVTP
+ID_0UVUQ0H,5/23/10,5/22/11,Male,49,3,JEEP,Black,Lexus,Car Classic
+ID_0UY25Z6,5/16/10,5/15/11,Female,34,1,Saloon,,TOYOTA,CarSafe
+ID_0V08GID,11/8/10,2/6/11,Male,32,4,Saloon,Red,TOYOTA,Car Classic
+ID_0V42RVF,5/28/10,5/27/11,Female,39,1,Mini Bus,,TOYOTA,Car Classic
+ID_0V54ZUS,11/20/10,11/19/11,Male,56,1,,,,CarSafe
+ID_0VFMRPN,1/29/10,1/28/11,Male,32,1,Saloon,Gold,Mercedes,Car Classic
+ID_0VGE0AX,7/8/10,7/7/11,Male,49,1,,As Attached,BMW,Car Classic
+ID_0VI206Q,1/25/10,1/24/11,Male,29,2,Saloon,,Hyundai,CarSafe
+ID_0VLC38E,1/14/10,1/13/11,Male,40,1,Saloon,,Mercedes,Car Classic
+ID_0VVGXYQ,8/15/10,8/14/11,Female,40,1,,,TOYOTA,Car Classic
+ID_0VWCD6Q,5/7/10,5/6/11,Male,50,1,Saloon,,Ford,CarSafe
+ID_0W3PCWB,11/2/10,11/1/11,Female,44,1,JEEP,White,TOYOTA,Car Classic
+ID_0W87WW9,2/11/10,2/10/11,Male,35,1,Saloon,Silver,TOYOTA,Car Classic
+ID_0WEHW04,9/6/10,9/5/11,Male,42,1,,,,Car Classic
+ID_0WS77PQ,3/6/10,3/5/11,Male,49,1,Saloon,,TOYOTA,CarSafe
+ID_0WXKWJL,5/17/10,5/16/11,Male,46,1,Saloon,Silver,TOYOTA,Car Classic
+ID_0WXLOPZ,5/27/10,5/26/11,Female,12,3,,Green,TOYOTA,CVTP
+ID_0X7JTGO,11/4/10,3/15/11,Male,46,4,Saloon,Black,Mercedes,Customized Motor
+ID_0X9FT1B,8/2/10,1/23/11,Female,41,1,Saloon,Black,TOYOTA,Car Classic
+ID_0XFNED2,11/25/10,11/24/11,Male,40,1,,,,CarSafe
+ID_0XM5BHW,9/10/10,9/9/11,Male,40,1,,,,CarSafe
+ID_0XX3E3J,4/10/10,4/9/11,Male,1,1,Saloon,,Mitsubishi,CarSafe
+ID_0Y7FRB6,5/22/10,5/21/11,Female,34,1,JEEP,,Mercedes,Customized Motor
+ID_0Y7RLXD,11/5/10,11/4/11,Male,35,1,JEEP,,TOYOTA,CarSafe
+ID_0Y8AKVQ,5/4/10,5/3/11,Female,45,1,JEEP,Grey,Lexus,Car Classic
+ID_0YNY8IT,1/14/10,1/13/11,Entity,40,4,Saloon,Black,Kia,Car Classic
+ID_0YVNPAI,1/1/10,12/31/10,Joint Gender,44,1,Saloon,,Honda,Car Classic
+ID_0Z2H7L4,8/8/10,3/16/11,Male,45,4,JEEP,,TOYOTA,Car Classic
+ID_0Z8HNUO,1/6/10,1/5/11,Female,52,1,Saloon,,TOYOTA,Car Classic
+ID_0ZD8TH2,4/25/10,4/24/11,Male,36,2,Saloon,Black,BMW,Car Plus
+ID_0ZJ157M,3/12/10,3/11/11,Female,49,1,,,Ford,Car Classic
+ID_0ZLSZ8B,9/3/10,3/5/11,Female,47,1,,,,Car Classic
+ID_106PTHM,8/27/10,8/26/11,Male,43,1,,,,Car Classic
+ID_106UX68,5/25/10,5/24/11,Male,38,1,Saloon,,Honda,CarSafe
+ID_10AR7HG,3/30/10,3/29/11,Male,39,1,Saloon,,TOYOTA,CarSafe
+ID_10DLB7Z,2/20/10,2/19/11,Male,36,1,JEEP,,Mercedes,CarSafe
+ID_10FJB2M,10/23/10,10/22/11,Male,43,2,,As Attached,TOYOTA,Car Classic
+ID_10KNNZ0,5/2/10,5/1/11,Male,49,1,Saloon,,Volvo,CarSafe
+ID_10SVT4O,3/4/10,3/3/11,Female,65,1,Saloon,,TOYOTA,CarSafe
+ID_10US53F,12/17/10,12/16/11,Male,44,1,Saloon,,TOYOTA,CarSafe
+ID_10Z394U,7/3/10,3/2/11,Female,36,1,JEEP,Silver,ACURA,Car Classic
+ID_110V61M,7/5/10,7/2/11,Female,40,1,JEEP,As Attached,ACURA,Car Classic
+ID_1143H6E,3/22/10,3/21/11,Female,35,1,JEEP,Black,TOYOTA,Car Classic
+ID_118RLBY,3/29/10,3/27/11,Male,35,1,Saloon,Silver,TOYOTA,Car Classic
+ID_11AXZ03,5/21/10,5/20/11,Female,33,1,Saloon,,TOYOTA,Car Classic
+ID_11DOH5Z,4/26/10,4/25/11,Male,51,1,Saloon,,Honda,CarSafe
+ID_11QQZG9,6/11/10,6/10/11,Male,28,1,Saloon,Silver,TOYOTA,Car Classic
+ID_11VGQ53,7/19/10,1/16/11,Male,27,1,Saloon,,Honda,Car Classic
+ID_11YFLWR,9/18/10,9/17/11,Male,49,2,,Black,Lexus,Car Plus
+ID_11Z226Z,4/30/10,2/10/11,Female,30,1,Saloon,Gold,TOYOTA,Car Plus
+ID_120TRM5,10/1/10,9/29/11,Male,44,1,JEEP,,Hyundai,CarSafe
+ID_1258IEU,7/25/10,7/24/11,Female,40,1,Saloon,,TOYOTA,CarSafe
+ID_12CMV5K,12/13/10,12/12/11,Female,78,1,,,,Car Classic
+ID_12Q01NN,5/6/10,5/5/11,Male,58,1,Saloon,,Honda,CarSafe
+ID_134PY77,10/18/10,10/17/11,Female,34,1,Saloon,Black,TOYOTA,Car Classic
+ID_1384A54,11/4/10,11/2/11,Male,44,1,,,,CarSafe
+ID_139VZIE,1/12/10,1/9/11,NO GENDER,33,1,Saloon,Black,Honda,Car Classic
+ID_13HMC92,1/25/10,1/24/11,Male,7,1,Saloon,,TOYOTA,Car Classic
+ID_13SJGZZ,10/28/10,10/26/11,Male,59,1,,,,CarSafe
+ID_13UJQCN,1/6/10,1/5/11,Male,36,1,Saloon,,Kia,CarSafe
+ID_13Y6P9H,6/6/10,6/4/11,Male,25,1,Saloon,Silver,Lexus,Car Classic
+ID_148ZEIV,7/2/10,7/1/11,Male,37,1,Saloon,,Mercedes,CarSafe
+ID_14CT2J3,9/27/10,6/13/11,Male,40,1,Saloon,Green,TOYOTA,Car Classic
+ID_14FC7Z8,9/10/10,9/9/11,Female,33,1,,,,Car Classic
+ID_14GYPBQ,3/23/10,3/22/11,Female,52,3,JEEP,Black,TOYOTA,Car Classic
+ID_14K6GCK,4/4/10,4/3/11,,61,1,,Black,TOYOTA,Car Classic
+ID_14MI11L,10/29/10,1/28/11,Male,43,2,,Blue,Mercedes,Car Classic
+ID_14TM3RU,10/10/10,10/9/11,Female,45,1,Saloon,Red,Kia,Car Classic
+ID_14X284U,1/18/10,1/17/11,Female,42,1,Saloon,Blue,TOYOTA,Car Classic
+ID_150XAUY,8/5/10,8/4/11,Male,43,2,JEEP,Black,Mitsubishi,Car Classic
+ID_15715AW,10/22/10,10/21/11,Male,62,1,JEEP,As Attached,Lexus,Car Classic
+ID_159QGM7,4/26/10,1/1/11,Male,48,1,JEEP,,Range Rover,Customized Motor
+ID_15DJ74K,4/2/10,4/1/11,Male,38,1,Saloon,Gold,Hyundai,Car Classic
+ID_15J19NU,8/22/10,8/21/11,Male,45,1,,,,Car Classic
+ID_15JAFV0,2/12/10,2/11/11,Male,12,2,,,Hyundai,Customized Motor
+ID_15MQYR5,1/31/10,1/30/11,Female,36,1,Saloon,Silver,TOYOTA,Car Classic
+ID_15OH215,3/21/10,3/20/11,Male,36,1,Saloon,Black,Honda,Car Classic
+ID_15YOM20,12/5/10,12/4/11,Male,45,1,,,,CarSafe
+ID_16D6BP5,5/2/10,5/1/11,Entity,10,3,Pick Up,As Attached,TOYOTA,CVTP
+ID_16GQC52,8/14/10,8/1/11,NOT STATED,56,1,,,,Car Classic
+ID_16IHA5N,7/12/10,7/10/11,Female,46,1,JEEP,,Mitsubishi,CarSafe
+ID_16S4IOQ,4/24/10,2/18/11,Male,20,2,JEEP,Black,Ford,Car Classic
+ID_16SABII,9/23/10,9/22/11,,81,1,JEEP,Silver,TOYOTA,Car Classic
+ID_16X0NWN,12/5/10,12/31/10,Female,48,2,JEEP,,Range Rover,Customized Motor
+ID_16ZS06J,11/13/10,11/12/11,Male,43,2,,,TOYOTA,Car Classic
+ID_16ZT9EE,5/17/10,5/16/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_171V8DQ,3/29/10,3/28/11,Male,30,1,Saloon,,Hyundai,CarSafe
+ID_178C4R5,7/17/10,7/16/11,Female,52,1,Saloon,Grey,TOYOTA,Car Classic
+ID_17DG12Q,4/24/10,4/23/11,Male,60,1,Saloon,,TOYOTA,CarSafe
+ID_17FI0DZ,8/5/10,8/4/11,Male,30,1,,,,CarSafe
+ID_17L2UEL,5/25/10,5/23/11,Male,41,1,JEEP,,TOYOTA,CarSafe
+ID_17L53L6,5/8/10,5/7/11,Male,32,1,Truck,Blue,Mack,CVTP
+ID_17UJ98G,5/23/10,5/22/11,NOT STATED,30,1,Saloon,,TOYOTA,CarSafe
+ID_17Z0VAK,4/26/10,4/25/11,Male,40,1,JEEP,Blue,TOYOTA,Car Classic
+ID_185X122,11/26/10,11/25/11,Male,40,1,,,,CarSafe
+ID_187AKRK,10/28/10,10/27/11,Joint Gender,33,1,JEEP,White,TOYOTA,Car Classic
+ID_18GQL3N,3/22/10,3/20/11,Male,29,1,Saloon,,TOYOTA,Car Classic
+ID_18GY66Q,5/14/10,5/13/11,Female,44,1,Saloon,Silver,TOYOTA,Car Classic
+ID_18NDG66,5/7/10,5/6/11,Male,68,2,,,Mercedes,Car Classic
+ID_18Q3GJR,12/24/10,12/23/11,Male,45,2,,,,Car Classic
+ID_18YZ6U0,11/15/10,11/14/11,Male,36,1,Saloon,Silver,TOYOTA,Car Classic
+ID_19355UE,3/28/10,3/27/11,,1,1,Motorcycle,,.,Motor Cycle
+ID_19D9H49,9/28/10,9/27/11,Female,40,2,JEEP,Grey,Honda,Car Classic
+ID_19HEGD4,12/23/10,12/22/11,Male,50,1,,,,CarSafe
+ID_19NWP3O,9/13/10,9/12/11,Male,39,1,,,,Car Classic
+ID_19PV13X,12/27/10,12/26/11,Female,42,1,JEEP,Black,TOYOTA,Car Classic
+ID_19QD4WG,10/4/10,1/3/11,Male,36,1,Saloon,,Lexus,Car Classic
+ID_1A4KKOD,6/28/10,6/27/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_1AEALON,4/1/10,3/31/11,Male,40,1,Saloon,Black,TOYOTA,Car Classic
+ID_1AGD0F5,1/9/10,1/8/11,Male,44,1,JEEP,Black,Mitsubishi,Car Classic
+ID_1AX60CH,10/10/10,1/8/11,Female,35,1,,,Ford,Car Classic
+ID_1AYLTNW,3/13/10,3/12/11,Male,60,3,JEEP,Black,Grand Cherokee,Customized Motor
+ID_1B4397P,12/24/10,12/23/11,Male,33,1,,,,CarSafe
+ID_1B5227T,10/21/10,9/16/11,Entity,20,1,,,,CVTP
+ID_1B6Z6XM,12/6/10,12/5/11,Male,37,1,Saloon,Green,TOYOTA,Car Classic
+ID_1B7DUVA,8/21/10,4/5/11,Male,36,1,,,,Car Classic
+ID_1B8HT3N,1/24/10,1/23/11,,39,1,Bus,Green,Ford,CVTP
+ID_1B9ARN8,10/22/10,10/21/11,Male,69,1,,,,CarSafe
+ID_1BHWDTY,4/9/10,4/8/11,Female,40,1,JEEP,White,TOYOTA,Car Classic
+ID_1BJ5TY2,11/14/10,11/13/11,Male,36,1,Saloon,Grey,Honda,Car Classic
+ID_1BL3JVR,5/22/10,5/21/11,Female,34,1,JEEP,,Porsche,Customized Motor
+ID_1BSUBQE,1/11/10,1/10/11,Male,43,3,Saloon,Green,Ford,Car Classic
+ID_1BTE1WF,4/12/10,4/11/11,Male,40,2,JEEP,Black,Honda,Car Classic
+ID_1BTPW2R,10/1/10,9/30/11,Joint Gender,56,2,Saloon,,TOYOTA,CarSafe
+ID_1BVJW3K,9/27/10,9/26/11,Male,60,3,,,,CVTP
+ID_1C6719S,4/29/10,4/28/11,Male,54,2,Mini Bus,Blue,TOYOTA,Customized Motor
+ID_1C8Z1BK,12/22/10,6/21/11,Male,38,1,,,Honda,Car Classic
+ID_1C93XVW,6/17/10,6/16/11,Male,40,1,Saloon,,TOYOTA,Customized Motor
+ID_1CDI8QM,1/21/10,1/20/11,Male,65,4,Saloon,,Peugeot,Car Classic
+ID_1CFQA1M,1/31/10,1/30/11,Male,49,1,Saloon,,TOYOTA,CarSafe
+ID_1CGUTEX,12/12/10,6/10/11,Male,42,1,,,,CarFlex
+ID_1CMZQIT,2/26/10,2/25/11,Male,44,1,Saloon,Wine,TOYOTA,Car Classic
+ID_1COUM0B,1/8/10,1/7/11,Male,45,1,Saloon,Black,Honda,Car Classic
+ID_1CWOBX4,7/4/10,7/3/11,Male,48,1,Saloon,Black,Peugeot,Car Plus
+ID_1CZXZ0W,3/27/10,3/26/11,Male,50,1,Saloon,,Kia,CarSafe
+ID_1D2DQUK,10/21/10,10/20/11,Male,31,1,,,,Car Classic
+ID_1D5LCZF,9/16/10,9/15/11,Male,52,1,JEEP,Black,TOYOTA,Car Classic
+ID_1DBMV3X,7/24/10,7/23/11,Male,41,1,Saloon,,TOYOTA,CarSafe
+ID_1DHMAC1,6/11/10,6/10/11,Male,28,1,Saloon,Silver,TOYOTA,Car Classic
+ID_1DL6D99,4/12/10,4/11/11,Female,31,1,Saloon,Silver,Lexus,Car Classic
+ID_1DLRDKE,10/10/10,4/8/11,Male,23,1,,,,Car Classic
+ID_1DNYS5G,5/7/10,3/9/11,Male,35,1,JEEP,,TOYOTA,Car Classic
+ID_1DODO0F,6/20/10,6/19/11,Male,41,1,JEEP,Grey,Honda,Car Classic
+ID_1DSIC2W,10/12/10,1/12/11,Male,29,1,JEEP,,TOYOTA,CarFlex
+ID_1E1QV0K,3/29/10,3/28/11,Male,20,1,Saloon,,Volkswagen,CarSafe
+ID_1E3VJXP,10/2/10,10/1/11,Male,50,1,,,,CarSafe
+ID_1E722VL,8/7/10,8/6/11,Male,46,1,,Black,TOYOTA,Car Classic
+ID_1EBL0SK,12/13/10,12/11/11,Male,49,1,,,,CarSafe
+ID_1EFPZ7L,11/14/10,11/13/11,Male,21,1,,,,CarSafe
+ID_1EL08Q3,4/26/10,1/1/11,Male,48,1,JEEP,,Land Rover,Customized Motor
+ID_1EOHPSF,6/17/10,6/16/11,Male,39,1,Truck,White,Iveco,CVTP
+ID_1EPDMGM,9/18/10,9/17/11,Male,48,2,Saloon,Silver,TOYOTA,Car Classic
+ID_1EUXGFX,8/16/10,8/15/11,Female,34,4,,,,CarSafe
+ID_1F3Y9PC,2/12/10,2/11/11,Male,35,1,Saloon,,TOYOTA,CarSafe
+ID_1F5DBGC,2/14/10,2/13/11,Female,76,1,Saloon,,Lexus,Car Classic
+ID_1FA0PNH,1/28/10,1/27/11,Male,36,2,Saloon,Silver,TOYOTA,Car Classic
+ID_1FDWX3U,6/24/10,3/25/11,Male,29,1,Saloon,,Honda,Car Classic
+ID_1FFKVE5,2/11/10,2/10/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_1FGUCKI,1/17/10,1/16/11,Female,41,1,Saloon,,Honda,CarSafe
+ID_1FIQZ5S,5/21/10,5/20/11,Male,41,1,JEEP,Silver,Lexus,Car Classic
+ID_1FQ0WH8,10/5/10,10/4/11,Female,34,1,Mini Van,Gold,TOYOTA,Car Classic
+ID_1FV8JL4,8/22/10,7/3/11,Male,50,1,,,,Car Classic
+ID_1G3DEYA,2/26/10,2/25/11,Male,44,1,Saloon,Green,TOYOTA,Car Classic
+ID_1G7G96S,7/4/10,7/3/11,Male,34,2,Saloon,As Attached,TOYOTA,Car Classic
+ID_1GBQ2GH,11/21/10,11/20/11,Male,31,1,,,,Car Classic
+ID_1GGORZ5,11/29/10,5/29/11,,42,1,,,,Car Classic
+ID_1GIZPB6,10/24/10,10/23/11,Male,53,3,,,,CarSafe
+ID_1GNW6SG,5/14/10,5/13/11,Female,40,2,Saloon,,Honda,CarSafe
+ID_1GU3HUF,12/5/10,12/4/11,Male,34,1,,,,Car Classic
+ID_1GU7HBN,5/9/10,5/8/11,Female,34,1,JEEP,Black,Nissan,Car Classic
+ID_1H0QFRZ,3/19/10,3/17/11,Female,33,2,Saloon,,TOYOTA,CarSafe
+ID_1H9RI6N,12/23/10,12/22/11,Male,31,1,,,,CarSafe
+ID_1H9VRFK,4/12/10,4/11/11,Female,44,1,,,Honda,Car Classic
+ID_1HFY09A,6/12/10,6/11/11,Male,32,1,Saloon,Silver,TOYOTA,Car Classic
+ID_1HH0HZD,1/23/10,1/22/11,Male,46,1,Saloon,,Nissan,CarSafe
+ID_1HKYLSG,7/17/10,7/16/11,Male,31,1,Saloon,,TOYOTA,Car Classic
+ID_1HTQLZP,12/9/10,12/8/11,Female,42,1,,,,Car Classic
+ID_1I96PE5,4/1/10,3/31/11,Male,43,1,JEEP,,TOYOTA,Car Classic
+ID_1IB1KVR,8/8/10,2/6/11,Male,40,1,Van,White,TOYOTA,Car Classic
+ID_1IEJMXT,5/31/10,5/29/11,Male,42,1,JEEP,Black,Lexus,Car Classic
+ID_1IEJVA0,7/4/10,7/3/11,Male,30,1,Saloon,White,Lexus,Car Classic
+ID_1IJCAIP,10/16/10,10/15/11,Female,68,1,Saloon,,Mitsubishi,CarSafe
+ID_1IVWKQH,11/19/10,11/17/11,Male,46,1,,,,CarFlex
+ID_1IZCLN4,9/30/10,9/29/11,Male,42,1,,,,CarSafe
+ID_1J0G2LA,5/6/10,5/5/11,Female,32,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_1J3NL3Q,12/23/10,12/21/11,Male,40,1,,,,CarSafe
+ID_1J9II7G,8/30/10,8/29/11,Female,44,1,JEEP,Black,TOYOTA,Car Classic
+ID_1JBQ9IU,4/12/10,4/11/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_1JFT2C1,2/20/10,2/19/11,Male,54,1,Saloon,,TOYOTA,CarSafe
+ID_1JGHYT3,3/7/10,3/6/11,Male,45,1,Saloon,Silver,Hyundai,Car Classic
+ID_1JH2M89,10/9/10,10/8/11,Male,1,1,,,,Car Classic
+ID_1JL7FO6,11/20/10,11/19/11,Female,70,2,Saloon,Black,Hyundai,Car Classic
+ID_1JL8H02,10/9/10,10/8/11,Male,40,1,,,,CarSafe
+ID_1JNAIXM,10/31/10,10/30/11,Male,41,1,Saloon,Black,Honda,Car Classic
+ID_1JQTXUW,8/16/10,8/15/11,Male,24,2,Saloon,,TOYOTA,Car Classic
+ID_1JRMQSP,2/26/10,2/25/11,Male,38,1,Saloon,Green,Volkswagen,Car Plus
+ID_1JZ19QZ,5/21/10,5/20/11,Male,62,1,JEEP,Black,Lexus,Car Classic
+ID_1JZOTCB,3/15/10,3/14/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_1K8RNAK,1/29/10,1/28/11,,1,1,,As Attached,Mack,CVTP
+ID_1KAZMFV,8/30/10,8/29/11,Male,31,2,,,,CarSafe
+ID_1KDHZYW,11/5/10,5/5/11,Male,38,1,,,,Car Classic
+ID_1KFUR1W,11/14/10,11/12/11,Male,37,1,,,,CarSafe
+ID_1KIUOY9,4/15/10,4/13/11,Female,36,1,JEEP,,TOYOTA,Car Classic
+ID_1KTLFHR,1/10/10,1/9/11,Female,43,1,Saloon,,Kia,Car Classic
+ID_1KYNX3Y,6/4/10,6/3/11,Female,39,1,JEEP,,ACURA,CarSafe
+ID_1L0VYMD,10/2/10,10/1/11,Male,43,2,,,,Car Classic
+ID_1L48QQ5,5/8/10,5/7/11,Male,43,1,Saloon,Black,Hyundai,Car Classic
+ID_1L7KXZW,7/22/10,7/21/11,Female,7,1,JEEP,Blue,TOYOTA,Car Classic
+ID_1LAXOLB,9/11/10,9/10/11,Female,40,1,,,,CarSafe
+ID_1LIIX2T,10/25/10,1/24/11,Male,44,1,JEEP,Gold,Ford,Car Classic
+ID_1LLE6WR,12/20/10,12/19/11,Male,51,1,,,,Car Classic
+ID_1LQYVZV,3/18/10,3/17/11,Female,34,1,Saloon,Silver,Hyundai,Car Plus
+ID_1LSSBFI,1/21/10,1/20/11,Male,49,1,Saloon,,TOYOTA,CarSafe
+ID_1LUF1N2,9/25/10,9/24/11,Female,36,1,,,,CarSafe
+ID_1LV1U3E,12/28/10,7/21/11,Male,53,1,Saloon,Black,TOYOTA,Car Classic
+ID_1LV9SZL,7/8/10,7/7/11,Female,35,1,Saloon,,Lexus,CarSafe
+ID_1LXD5W8,1/6/10,1/5/11,Female,61,1,JEEP,Black,Ford,Car Classic
+ID_1LXPRW0,2/15/10,2/14/11,NOT STATED,40,1,Saloon,,TOYOTA,CarSafe
+ID_1M2240M,7/3/10,7/2/11,Male,20,5,Saloon,Green,Mercedes,Car Classic
+ID_1M3EQD8,2/13/10,2/12/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_1M690M1,8/13/10,2/10/11,Female,35,2,JEEP,,TOYOTA,Car Classic
+ID_1M7JXI1,9/19/10,3/19/11,Female,30,1,,,,Car Classic
+ID_1MFMR5T,12/1/10,2/28/11,Male,36,1,,,,CarFlex
+ID_1MGULWD,2/13/10,2/12/11,Male,40,1,Saloon,,Kia,CarSafe
+ID_1MIDZ0K,9/3/10,9/2/11,Male,42,1,JEEP,Black,Ford,Car Classic
+ID_1MQJVJT,1/20/10,1/19/11,Male,29,1,,,TOYOTA,Car Classic
+ID_1MRFOU8,5/24/10,5/23/11,Male,42,1,JEEP,Gold,TOYOTA,Car Classic
+ID_1MUVNPZ,10/7/10,10/6/11,Female,40,1,,,,CarSafe
+ID_1N10J1D,2/25/10,2/24/11,Entity,30,1,JEEP,Black,Hyundai,Car Classic
+ID_1N3IKRL,11/11/10,11/10/11,Male,52,1,Saloon,,TOYOTA,CarSafe
+ID_1N7PY5P,1/25/10,1/6/11,Female,72,3,,,Nissan,Car Classic
+ID_1NB89Q5,2/23/10,1/22/11,Female,39,1,Saloon,Silver,TOYOTA,Car Classic
+ID_1NDD9UN,3/29/10,3/28/11,Male,36,1,Saloon,Gold,TOYOTA,Car Classic
+ID_1NDVDIP,4/11/10,4/10/11,Female,37,1,Saloon,Black,Honda,Car Classic
+ID_1NEBCEH,11/18/10,11/17/11,Male,46,1,Saloon,Blue,Honda,CarFlex
+ID_1NJUN7A,11/29/10,11/28/11,Female,52,1,JEEP,Green,Hyundai,Car Classic
+ID_1NN4SOJ,2/27/10,2/26/11,Female,42,1,Saloon,,TOYOTA,CarSafe
+ID_1NXFIVB,1/24/10,1/23/11,Female,32,1,Saloon,,TOYOTA,CarSafe
+ID_1NYIDHV,3/27/10,3/26/11,Male,2,1,Saloon,,Chevrolet,CarSafe
+ID_1NZA8LE,3/7/10,3/6/11,Male,35,1,Saloon,Green,Honda,Car Classic
+ID_1NZZEZS,1/24/10,12/31/10,Female,52,2,JEEP,Black,Lexus,Car Classic
+ID_1O41TGY,9/11/10,9/10/11,Male,34,1,Saloon,Gold,TOYOTA,Car Classic
+ID_1O8ZIC4,4/26/10,4/25/11,Male,1,1,Saloon,,TOYOTA,Car Classic
+ID_1OHKFBQ,5/16/10,5/15/11,Male,1,1,Saloon,,ACURA,CarSafe
+ID_1OHL7WC,5/30/10,5/28/11,Female,44,1,JEEP,As Attached,TOYOTA,Car Classic
+ID_1OHTCDG,10/2/10,4/1/11,Male,38,2,Saloon,Silver,TOYOTA,Car Classic
+ID_1OR3NCH,4/3/10,4/1/11,Male,41,1,JEEP,As Attached,Lexus,Car Plus
+ID_1OSJDFJ,7/25/10,7/24/11,Entity,57,1,,As Attached,Ford,Car Classic
+ID_1OVST5Q,3/18/10,3/17/11,Male,66,1,JEEP,Silver,TOYOTA,Car Classic
+ID_1P275L5,1/10/10,1/9/11,Male,43,1,Saloon,Red,TOYOTA,Car Classic
+ID_1P6E3W2,8/23/10,8/22/11,Male,60,1,,,,CarSafe
+ID_1P6QRRB,1/10/10,1/9/11,Female,43,1,Saloon,As Attached,Kia,Car Classic
+ID_1PCPUTF,2/2/10,2/1/11,Male,50,1,Saloon,,Lexus,CarSafe
+ID_1PDNURM,5/22/10,5/21/11,Male,28,1,Saloon,Grey,TOYOTA,Car Classic
+ID_1PFS7CD,4/18/10,4/17/11,Male,51,1,Saloon,,Hyundai,CarSafe
+ID_1POD7QJ,11/27/10,11/26/11,Female,46,1,,,,CarSafe
+ID_1PQXLQS,12/13/10,12/12/11,Male,41,1,,,,CarSafe
+ID_1PVGHW0,3/1/10,2/28/11,Male,55,1,Saloon,As Attached,TOYOTA,Car Plus
+ID_1PVQTBH,1/29/10,1/28/11,Male,41,1,Saloon,,Honda,CarSafe
+ID_1PVWP0N,10/30/10,10/27/11,Female,34,1,,,,Car Classic
+ID_1PZ90EM,7/30/10,7/29/11,Male,50,2,Saloon,Ash,TOYOTA,Car Classic
+ID_1Q6MEZ9,8/27/10,2/25/11,Entity,7,1,JEEP,Brown,TOYOTA,Car Classic
+ID_1Q8PQFC,8/16/10,8/15/11,Male,24,2,Saloon,,TOYOTA,Car Classic
+ID_1Q8VCRF,3/22/10,3/21/11,Female,1,1,Saloon,,TOYOTA,CarSafe
+ID_1QD0I3F,11/5/10,11/4/11,Female,32,2,,,,Car Classic
+ID_1QF9UYQ,2/5/10,2/4/11,Entity,10,1,Saloon,,TOYOTA,Car Plus
+ID_1QG14LV,12/23/10,1/4/11,SEX,35,1,,,,Car Classic
+ID_1QJSO86,3/12/10,3/11/11,Female,38,1,JEEP,Blue,Hyundai,Car Classic
+ID_1QLYR8O,5/20/10,3/11/11,Male,20,1,,,Mercedes,Car Classic
+ID_1QR4SVV,2/9/10,2/8/11,Female,43,1,Saloon,Black,Kia,Car Classic
+ID_1QTCJ0C,5/17/10,5/16/11,Female,32,1,Saloon,Gold,TOYOTA,Car Classic
+ID_1R2ROLL,2/5/10,1/13/11,Male,37,1,Saloon,Grey,TOYOTA,Car Classic
+ID_1RAC7L7,7/24/10,7/23/11,Female,32,3,Saloon,Grey,TOYOTA,Car Classic
+ID_1RB4WHU,7/17/10,7/16/11,Male,53,1,Saloon,,TOYOTA,CarSafe
+ID_1RGLW6X,8/1/10,7/31/11,Male,34,1,,,,Car Classic
+ID_1RJ6SJF,5/27/10,5/26/11,Male,37,1,Saloon,,Volkswagen,CarSafe
+ID_1RK81R3,8/1/10,7/31/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_1RMX2RD,2/14/10,2/13/11,Female,33,1,Saloon,,Honda,CarSafe
+ID_1RTP13E,1/28/10,1/27/11,Male,41,1,Saloon,,TOYOTA,CarSafe
+ID_1RUH1HJ,12/13/10,1/4/11,SEX,37,1,,,,Car Classic
+ID_1S1FDMV,7/10/10,7/9/11,Female,41,1,Saloon,,Mazda,CarSafe
+ID_1S28LSA,8/1/10,7/31/11,Male,30,1,Saloon,White,Honda,Car Classic
+ID_1S4YCLV,4/26/10,4/22/11,Male,41,1,JEEP,,Mercedes,Car Classic
+ID_1S74Z5Z,9/12/10,9/11/11,Male,39,1,,,,CarSafe
+ID_1SGRTDR,8/16/10,2/4/11,Male,30,1,,,,Car Classic
+ID_1STIQ3X,5/2/10,5/1/11,Male,47,1,Saloon,,TOYOTA,Car Classic
+ID_1SWO53G,12/23/10,3/22/11,Female,37,1,,,,Car Classic
+ID_1T5IWGX,6/24/10,6/23/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_1TARUFD,8/5/10,2/13/11,Female,37,4,,,Hyundai,Car Classic
+ID_1TBKGRA,8/27/10,8/26/11,Female,37,1,,,,CarSafe
+ID_1TOYZA0,4/25/10,4/12/11,Male,33,1,Saloon,Red,TOYOTA,Car Classic
+ID_1TS8S86,5/17/10,5/16/11,Male,38,1,JEEP,Black,Lexus,Car Classic
+ID_1TSIW3H,5/9/10,5/8/11,Male,44,2,Saloon,As Attached,TOYOTA,Car Classic
+ID_1U2G2FV,5/24/10,5/23/11,Entity,10,3,,,TOYOTA,CVTP
+ID_1U4820X,6/14/10,6/13/11,Male,43,2,JEEP,Black,Mitsubishi,Car Classic
+ID_1U77AQW,3/15/10,3/14/11,Male,39,1,Saloon,Grey,TOYOTA,Car Classic
+ID_1U82COP,8/19/10,2/17/11,Male,46,1,,,,Car Classic
+ID_1UBGVZ0,2/8/10,2/7/11,,56,1,,Silver,Mercedes,Car Plus
+ID_1UCYDEA,2/6/10,2/5/11,Female,41,1,Saloon,,Mitsubishi,CarSafe
+ID_1USOPRM,12/20/10,12/19/11,Male,63,1,JEEP,Black,Nissan,Car Classic
+ID_1UUT46P,6/27/10,6/26/11,Male,34,1,Saloon,Silver,TOYOTA,Car Classic
+ID_1UX8RM7,12/17/10,4/16/11,Female,40,1,,As Attached,Iveco,CVTP
+ID_1VA4CMA,8/20/10,4/27/11,Male,55,3,,,,Car Classic
+ID_1VJM18R,3/25/10,3/24/11,Male,41,3,Saloon,Black,Volkswagen,Car Classic
+ID_1VM7591,11/12/10,11/10/11,Female,20,3,JEEP,Green,Ford,Car Classic
+ID_1VNW15S,11/8/10,11/7/11,Male,3,1,,,,Car Classic
+ID_1VPJG6C,9/16/10,3/17/11,Male,50,2,Saloon,White,TOYOTA,Car Classic
+ID_1VQEJGS,9/5/10,9/4/11,Female,36,2,,,,Car Plus
+ID_1VQHCI5,9/11/10,9/10/11,Male,63,1,,,,CVTP
+ID_1VS3NV0,10/29/10,10/28/11,Male,31,1,,,,Car Classic
+ID_1VUPFFM,8/15/10,8/14/11,Female,31,1,,,,Car Classic
+ID_1W54POM,3/22/10,3/21/11,Male,48,1,Saloon,,Honda,CarSafe
+ID_1WAIX9X,8/8/10,8/7/11,Male,29,1,,,,Car Classic
+ID_1WECVV8,2/27/10,2/26/11,Female,39,1,Saloon,,TOYOTA,Car Classic
+ID_1WNJ0W7,10/8/10,2/24/11,Male,51,4,Saloon,,Honda,Customized Motor
+ID_1WOSE2V,1/30/10,1/29/11,Female,36,1,Saloon,,TOYOTA,CarSafe
+ID_1WP8205,3/28/10,3/25/11,Female,44,1,Saloon,Grey,Nissan,Car Classic
+ID_1WPK52R,12/19/10,11/30/11,Male,44,1,Saloon,,TOYOTA,Car Classic
+ID_1WQCILU,1/8/10,1/7/11,Female,42,2,Saloon,Black,Honda,Car Classic
+ID_1WRRVHH,5/23/10,5/22/11,Male,34,3,Saloon,Wine,TOYOTA,Car Classic
+ID_1WVLUT7,9/30/10,3/25/11,Female,46,1,,,,Car Classic
+ID_1WW2RDU,7/28/10,7/26/11,Entity,7,2,JEEP,,Hyundai,Car Classic
+ID_1WW48MU,2/21/10,2/20/11,Male,38,1,Saloon,,TOYOTA,CarSafe
+ID_1WWO8JV,4/19/10,4/18/11,Male,48,1,,,Honda,Customized Motor
+ID_1WZRBH7,8/29/10,8/28/11,Male,35,1,Saloon,,Lexus,Car Plus
+ID_1X0ZXMR,5/23/10,5/22/11,Female,30,1,Saloon,Silver,Kia,Car Plus
+ID_1XCL75X,11/13/10,11/12/11,Male,66,2,Saloon,,TOYOTA,CarSafe
+ID_1XJWN0I,4/9/10,4/8/11,Female,38,1,Saloon,,Kia,CarSafe
+ID_1XKMAZ8,12/6/10,12/5/11,Male,50,1,Saloon,,Nissan,CarSafe
+ID_1Y42YZB,11/18/10,11/17/11,Male,33,1,Saloon,Blue,TOYOTA,Car Classic
+ID_1Y74YD8,10/28/10,10/27/11,Male,46,1,,,,Car Classic
+ID_1YA8GE7,2/28/10,2/27/11,Male,61,4,,,Mitsubishi,Car Classic
+ID_1YBDW92,7/16/10,7/15/11,Male,29,1,JEEP,Ash,TOYOTA,Car Classic
+ID_1YDQL70,10/11/10,10/10/11,Male,31,1,,,,Car Classic
+ID_1YG0I0O,10/5/10,10/4/11,NOT STATED,40,1,,,,CarSafe
+ID_1YLT3GP,10/23/10,10/22/11,Joint Gender,45,1,,,,CarSafe
+ID_1YP5ZR7,4/10/10,4/9/11,Male,37,1,JEEP,,Honda,CarSafe
+ID_1YSVH9Q,12/9/10,12/8/11,Male,32,1,,,,CarSafe
+ID_1YUR6KS,11/27/10,11/26/11,Male,41,1,,,,CarSafe
+ID_1YVXEJZ,6/1/10,5/31/11,Entity,93,7,Saloon,,TOYOTA,CarSafe
+ID_1YVYDZR,7/17/10,7/16/11,Female,46,2,Saloon,Grey,Honda,Car Classic
+ID_1YY52QG,5/2/10,1/26/11,Female,36,1,JEEP,Silver,Mercedes,Car Classic
+ID_1Z9E2YP,10/21/10,10/19/11,Female,38,1,Saloon,,TOYOTA,Car Classic
+ID_1ZBH12O,3/9/10,3/8/11,Male,50,1,Saloon,,Nissan,CarSafe
+ID_1ZCHF0O,5/6/10,5/5/11,Male,60,1,Saloon,,Kia,CarSafe
+ID_1ZGCETV,12/13/10,12/12/11,Male,46,1,,,,CarSafe
+ID_1ZM6AAT,10/5/10,10/4/11,Female,41,2,Saloon,Black,TOYOTA,Car Classic
+ID_1ZRCPZ1,1/15/10,1/14/11,Female,12,3,Saloon,,Kia,Customized Motor
+ID_1ZVEHPG,5/16/10,5/15/11,Female,37,2,Saloon,Black,TOYOTA,Car Classic
+ID_1ZX8564,8/8/10,8/7/11,Male,50,2,,Gray & Silver,Ford,Car Classic
+ID_20B6BV6,1/16/10,1/15/11,Male,30,2,,As Attached,TOYOTA,CVTP
+ID_20C9H5V,12/23/10,12/22/11,Male,1,1,,,,CarSafe
+ID_20D6UZN,7/25/10,7/21/11,Male,30,1,Saloon,Grey,TOYOTA,Car Classic
+ID_20GFWO2,1/1/10,12/31/10,Joint Gender,44,1,Saloon,As Attached,Honda,Car Classic
+ID_20N6COJ,12/20/10,12/19/11,Female,31,1,,,,Car Classic
+ID_20TDP9Q,2/28/10,2/27/11,Male,58,1,JEEP,,Volkswagen,Car Classic
+ID_20Z3126,6/25/10,6/24/11,Male,61,1,Saloon,,Mitsubishi,CarSafe
+ID_20ZN7OW,8/21/10,4/5/11,Male,36,1,,,,Car Classic
+ID_213L20T,1/9/10,1/8/11,Male,50,1,Saloon,,Hyundai,CarSafe
+ID_216GO93,12/21/10,12/20/11,Male,49,1,,,,CarSafe
+ID_217IWLN,12/21/10,12/20/11,Male,54,1,,,TOYOTA,Car Classic
+ID_21ANRC4,7/23/10,7/22/11,Male,58,1,JEEP,Black,TOYOTA,Car Classic
+ID_21D1IFT,11/20/10,11/19/11,Female,31,1,Saloon,Red,Kia,Car Classic
+ID_21EJ8JM,3/12/10,3/11/11,Joint Gender,20,2,,Black,Kia,Customized Motor
+ID_21J5SIS,5/10/10,5/9/11,Male,56,1,Saloon,,TOYOTA,CarSafe
+ID_21MB4SW,1/30/10,1/29/11,Male,30,1,Saloon,,TOYOTA,Car Classic
+ID_21MVAUR,3/27/10,3/26/11,Male,36,1,Saloon,,TOYOTA,CarSafe
+ID_21NF3KX,1/7/10,1/6/11,Female,32,1,Saloon,Black,TOYOTA,Car Classic
+ID_21TCB94,3/12/10,3/11/11,Female,49,1,,,Ford,Car Classic
+ID_21U1CV6,8/7/10,8/6/11,Male,52,3,,As Attached,TOYOTA,CVTP
+ID_21VW6BV,12/29/10,12/28/11,Male,48,1,JEEP,,TOYOTA,Customized Motor
+ID_220CUVZ,7/26/10,7/25/11,Male,65,1,Saloon,Gold,TOYOTA,Car Classic
+ID_220S94T,4/12/10,4/12/11,Male,45,1,Saloon,,Honda,CarFlex
+ID_221EPVE,10/30/10,10/29/11,Female,31,1,,,,Car Classic
+ID_221X2T3,8/28/10,8/27/11,Female,38,1,Saloon,,TOYOTA,Car Classic
+ID_222Z8TU,10/22/10,10/21/11,Female,31,1,,,,CarSafe
+ID_227P0O1,5/24/10,5/23/11,Male,36,2,Saloon,Gold,Honda,Car Plus
+ID_2282GBA,8/21/10,2/19/11,Female,37,1,Saloon,Black,TOYOTA,Car Plus
+ID_22D90F7,12/11/10,12/10/11,Female,45,2,,,Lexus,Customized Motor
+ID_22EC8HR,11/1/10,2/5/11,Male,39,1,,,,Car Classic
+ID_22EQ15W,8/5/10,8/4/11,Male,41,1,,,,CarSafe
+ID_22HP2UK,11/26/10,11/25/11,NOT STATED,40,1,Saloon,,Lexus,CarSafe
+ID_22JXFJX,8/20/10,8/19/11,Male,50,1,,,Mercedes,Car Classic
+ID_22O3EKD,8/7/10,8/6/11,Male,34,1,Saloon,,BMW,Car Classic
+ID_22OTNSM,7/30/10,7/29/11,Joint Gender,38,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_230107Q,11/21/10,11/20/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_230HBPV,3/15/10,3/14/11,Female,31,1,Saloon,,TOYOTA,CarSafe
+ID_23FKMWA,7/10/10,7/8/11,Male,41,1,Saloon,,Volvo,CarSafe
+ID_23MRYXW,6/7/10,6/6/11,Female,45,1,Saloon,,TOYOTA,CarSafe
+ID_23PC8LI,10/18/10,10/17/11,Male,59,1,,,,Car Classic
+ID_23Q910Q,5/31/10,5/30/11,Male,45,1,Saloon,,TOYOTA,CarSafe
+ID_23X554C,12/20/10,12/19/11,Male,40,1,JEEP,Green,Mercedes,Car Classic
+ID_245SX2H,4/25/10,4/24/11,Female,36,1,Saloon,,Honda,CarSafe
+ID_2473BZA,7/3/10,7/2/11,Male,30,1,Saloon,Black,Mercedes,CarSafe
+ID_247PH1W,6/1/10,5/31/11,Entity,93,7,Truck,,Man,CVTP
+ID_2484F7U,10/19/10,4/18/41,Male,36,1,Saloon,,TOYOTA,CarFlex
+ID_2496Y9X,7/4/10,7/3/11,Male,56,1,JEEP,Black,Jeep,Car Classic
+ID_24BNDUP,7/12/10,7/11/11,Male,35,1,Saloon,Black,TOYOTA,Car Classic
+ID_24L7FGF,12/19/10,6/18/11,Joint Gender,33,1,Saloon,Grey,TOYOTA,Car Classic
+ID_24LKIDN,3/21/10,3/20/11,Male,42,2,JEEP,Silver,Lexus,Car Classic
+ID_24NYVKG,5/27/10,5/26/11,Female,45,1,JEEP,As Attached,Kia,Car Classic
+ID_24O7SS5,11/13/10,11/12/11,Male,35,1,,,,CarSafe
+ID_24U6XP5,1/9/10,1/8/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_24ZTR9A,11/26/10,11/25/11,Male,29,1,,,,Car Classic
+ID_250YIF0,12/17/10,12/16/11,Male,35,1,,,,CarSafe
+ID_2529E17,3/15/10,3/14/11,Female,39,1,JEEP,Ash,Lexus,Car Classic
+ID_2564IU4,8/5/10,4/2/11,Male,26,1,,,,Car Plus
+ID_259XHKT,5/30/10,5/29/11,Male,57,1,JEEP,Black,Ford,Car Classic
+ID_25C7X3A,11/19/10,11/18/11,Female,51,2,JEEP,,Lexus,Car Classic
+ID_25CHSGU,1/8/10,1/7/11,Female,42,1,JEEP,Black,Honda,Car Classic
+ID_25KENJ2,7/4/10,1/6/11,Male,44,1,,,,Car Classic
+ID_25TO8OX,2/28/10,2/27/11,Female,29,1,Saloon,Black,TOYOTA,Car Classic
+ID_25TUDUF,6/18/10,6/17/11,Male,42,1,Saloon,Silver,TOYOTA,Car Classic
+ID_2652VPJ,6/14/10,6/13/11,NO GENDER,26,1,Saloon,Black,Mercedes,Car Classic
+ID_268YYWJ,10/14/10,4/25/11,Male,40,1,JEEP,Black,Lexus,Car Classic
+ID_26G7UUU,2/27/10,2/26/11,Male,56,4,,,TOYOTA,Car Classic
+ID_26J60IE,9/17/10,9/16/11,Male,38,1,Saloon,,TOYOTA,Car Classic
+ID_26L5VPV,5/16/10,5/15/11,Male,33,1,Saloon,,Mercedes,CarSafe
+ID_26RG0RP,2/10/10,2/9/11,Joint Gender,20,1,Saloon,,TOYOTA,Car Classic
+ID_26SZHKE,6/23/10,6/22/11,Female,37,1,Saloon,White,TOYOTA,Car Classic
+ID_26UFQRI,4/3/10,4/2/11,Male,54,1,Pick Up,,TOYOTA,Car Classic
+ID_270JJLL,2/6/10,2/5/11,Male,47,1,Saloon,Gold,TOYOTA,Car Classic
+ID_273AUR7,12/20/10,12/19/11,Male,50,1,,,,CarSafe
+ID_274J32T,7/3/10,4/7/11,Male,43,1,JEEP,Black,Mercedes,Car Classic
+ID_275IHVT,7/30/10,7/29/11,Male,40,1,Saloon,,Pontiac,CarSafe
+ID_275YYCT,5/28/10,5/27/11,Female,34,1,Saloon,,TOYOTA,CarSafe
+ID_27FGHM6,11/7/10,11/6/11,Female,22,1,,,,Car Classic
+ID_27HBJHL,2/7/10,2/6/11,Female,42,1,Saloon,,TOYOTA,Car Plus
+ID_27HH31D,7/31/10,7/30/11,Male,31,1,Saloon,Wine,Honda,Car Classic
+ID_27INN50,4/4/10,4/3/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_27N59W9,5/8/10,5/7/11,Female,39,1,Saloon,,TOYOTA,Car Classic
+ID_27SJAPW,7/5/10,7/4/11,Male,57,2,JEEP,Black,TOYOTA,Car Classic
+ID_27TXJNQ,6/28/10,6/27/11,Female,46,1,JEEP,Silver,Range Rover,Customized Motor
+ID_284CGBB,2/26/10,2/25/11,Entity,10,3,JEEP,Black,Honda,Car Plus
+ID_28HM2WQ,4/11/10,4/10/11,,76,1,JEEP,,Mercedes,Customized Motor
+ID_28I651U,1/30/10,1/29/11,Male,27,1,Saloon,,Kia,CarSafe
+ID_28L91KT,3/27/10,3/26/11,Male,48,1,,,Lexus,Customized Motor
+ID_28MEXRG,2/19/10,2/18/11,Female,41,1,Saloon,Green,TOYOTA,Car Classic
+ID_28VH6AT,5/16/10,5/15/11,Male,32,1,Saloon,,TOYOTA,CarSafe
+ID_290FHQS,5/23/10,5/22/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_293XN3G,2/26/10,2/25/11,Female,35,2,Saloon,,Honda,CarSafe
+ID_294AR5W,12/14/10,12/13/11,Male,47,1,Saloon,,Nissan,CarSafe
+ID_295JX9V,11/25/10,11/24/11,Female,1,1,,,,CarSafe
+ID_298FD5Q,9/20/10,9/19/11,Male,49,1,,,,Car Classic
+ID_29A33DB,4/16/10,4/15/11,Male,59,2,Pick Up > 3 Tons,Silver,Honda,Customized Motor
+ID_29CPSZQ,3/1/10,3/1/11,Male,37,1,Saloon,Grey,Honda,Car Classic
+ID_29KVP8L,11/28/10,11/27/11,Female,41,1,,,,Car Classic
+ID_29UJFZE,4/26/10,4/25/11,Male,43,1,Saloon,,Honda,CarSafe
+ID_2AK3YJ3,7/12/10,7/11/11,Male,36,2,JEEP,,Mercedes,Car Classic
+ID_2AMSVDM,1/1/10,12/31/10,Male,20,1,Saloon,,TOYOTA,Car Classic
+ID_2APCKQN,6/17/10,6/16/11,Male,58,1,Saloon,Grey,TOYOTA,Car Classic
+ID_2APSL2N,4/8/10,4/7/11,Male,39,1,Saloon,,Honda,CarSafe
+ID_2AWV271,2/18/10,2/17/11,Male,46,1,Saloon,,Kia,CarSafe
+ID_2B10EU2,2/21/10,2/20/11,Male,50,1,Saloon,,Honda,CarSafe
+ID_2B4NVBZ,1/15/10,1/14/11,,12,3,Saloon,,Kia,Customized Motor
+ID_2BEK8QW,4/25/10,3/9/11,Male,31,2,Saloon,Red,TOYOTA,Car Classic
+ID_2BJMJPZ,1/27/10,1/26/11,Male,37,1,,Black,Ford,Car Classic
+ID_2BLSBO8,3/27/10,3/25/11,Female,77,1,Saloon,Black,Honda,Car Classic
+ID_2BNVSBI,11/6/10,3/4/11,Male,12,2,,Black,Lexus,Customized Motor
+ID_2BYCR2Z,10/19/10,10/18/11,Male,32,1,Saloon,Silver,TOYOTA,Car Classic
+ID_2C0P0AU,9/16/10,5/22/11,Male,46,2,,,Mercedes,Customized Motor
+ID_2C1G6X9,2/27/10,2/26/11,Male,50,1,Saloon,,Kia,CarSafe
+ID_2C1KUB8,9/24/10,9/22/11,Male,53,1,,,,CarFlex
+ID_2C6293R,4/15/10,4/14/11,Male,41,1,Saloon,Blue,TOYOTA,Car Classic
+ID_2C775KM,5/26/10,5/25/11,Male,19,1,Saloon,Grey,TOYOTA,CarSafe
+ID_2C7J8P1,8/1/10,7/31/11,Male,36,1,Saloon,,TOYOTA,CarSafe
+ID_2C7YUAU,7/1/10,6/30/11,Female,51,4,JEEP,Black,Honda,Car Classic
+ID_2CFW65E,5/23/10,5/22/11,Female,79,1,JEEP,Black,TOYOTA,Car Classic
+ID_2CLTGI7,3/7/10,3/6/11,Male,68,1,Saloon,,TOYOTA,CarSafe
+ID_2CMVZRH,2/9/10,2/8/11,Female,45,1,Saloon,,TOYOTA,CarFlex
+ID_2CR4BW9,4/26/10,4/25/11,Male,38,2,Saloon,Black,Mercedes,Car Plus
+ID_2CX3KX2,11/12/10,11/11/11,Female,45,1,,,,Car Classic
+ID_2D2T6FA,10/31/10,10/30/11,Male,45,1,JEEP,,TOYOTA,Car Classic
+ID_2D5660G,3/5/10,3/4/11,Male,50,1,Saloon,,Infiniti,CarSafe
+ID_2D59DJ5,3/13/10,3/12/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_2DAPOM1,5/21/10,5/20/11,Male,61,1,Mini Bus,,Ford,CarSafe
+ID_2DCHILX,4/12/10,4/11/11,Male,33,2,Saloon,Black,TOYOTA,Car Classic
+ID_2DCJG5Y,12/9/10,12/8/11,Female,40,1,Saloon,Ash,Hyundai,Car Classic
+ID_2DF1Y6K,7/19/10,7/18/11,Female,51,1,Saloon,,TOYOTA,CarSafe
+ID_2DIW77G,5/30/10,5/29/11,Male,80,1,,As Attached,TOYOTA,Car Classic
+ID_2DL1VCD,4/6/10,4/5/11,Male,36,1,Saloon,Silver,TOYOTA,Car Classic
+ID_2DLO8BB,3/7/10,3/6/11,Male,38,1,Saloon,Black,Audi,Car Classic
+ID_2DTQ22D,8/20/10,2/18/11,Male,40,1,,,,Car Classic
+ID_2DXWUFO,9/23/10,9/22/11,Female,32,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_2EBS770,7/28/10,7/27/11,Male,40,2,Saloon,White,Mercedes,Car Plus
+ID_2EDP72K,11/1/10,10/31/11,Male,41,1,,,,CarSafe
+ID_2EEABVW,10/21/10,10/20/11,Female,76,1,,,,Car Classic
+ID_2EEXT9I,11/27/10,11/26/11,Male,30,1,,,,CarSafe
+ID_2ELF7ON,1/9/10,1/8/11,Male,57,1,Saloon,,TOYOTA,CarSafe
+ID_2EOW8OM,1/23/10,1/22/11,NOT STATED,35,1,Saloon,Green,TOYOTA,Car Classic
+ID_2EULIGC,1/29/10,1/28/11,Female,50,1,Saloon,,TOYOTA,CarSafe
+ID_2EY6C5L,3/12/10,3/10/11,Male,42,1,Saloon,Wine,Honda,Car Classic
+ID_2FCKHW9,10/25/10,7/27/11,Male,37,1,Saloon,Green,TOYOTA,Car Classic
+ID_2FES1X4,4/27/10,4/26/11,Male,37,2,Saloon,,Lexus,CarSafe
+ID_2FLHPHO,5/6/10,5/5/11,Female,68,1,JEEP,Silver,Hyundai,Car Classic
+ID_2FP05DI,6/18/10,6/17/11,NOT STATED,31,1,Saloon,,Volkswagen,CarSafe
+ID_2FQ5FIY,10/2/10,10/1/11,Female,62,1,,,,CarSafe
+ID_2FQNIOS,12/12/10,6/11/11,Female,33,1,,,,Car Classic
+ID_2FSH3ZL,4/9/10,4/4/11,Female,30,1,Saloon,Green,Honda,Car Classic
+ID_2FVQ9ZF,2/5/10,2/4/11,Male,30,1,Saloon,White,TOYOTA,Car Classic
+ID_2G3EKVV,10/22/10,12/31/10,,38,1,,Black,Audi,Customized Motor
+ID_2G4R4G7,2/4/10,2/3/11,Male,30,2,Saloon,Black,Honda,Car Classic
+ID_2GEONJS,1/29/10,1/28/11,Male,40,1,Saloon,,Honda,Car Classic
+ID_2GEVJUU,1/30/10,1/29/11,Male,40,2,,,Honda,Car Classic
+ID_2GHGBPT,3/25/10,3/24/11,Female,40,1,Saloon,,TOYOTA,CarSafe
+ID_2GK0PV3,11/8/10,11/7/11,Male,44,1,Saloon,Black,TOYOTA,Car Classic
+ID_2GPGNHH,7/12/10,7/11/11,Male,34,1,Saloon,Red,TOYOTA,Car Classic
+ID_2GPSPBI,9/24/10,9/23/11,Male,1,2,,,,Car Classic
+ID_2GZPV2U,3/29/10,3/28/11,Joint Gender,45,1,JEEP,Black,Honda,Car Classic
+ID_2H00MXY,2/14/10,2/13/11,Female,41,1,Saloon,,Hyundai,Car Classic
+ID_2H05IGQ,1/15/10,1/14/11,Male,68,1,Saloon,,Hyundai,CarSafe
+ID_2H2M0RX,10/15/10,7/10/11,Female,45,1,JEEP,Blue,Mercedes,Car Classic
+ID_2H55IJT,6/25/10,6/24/11,Male,43,2,JEEP,Black,Lexus,Car Classic
+ID_2H5MGUY,2/7/10,2/6/11,Male,41,1,Saloon,,Suzuki,CarSafe
+ID_2H7TT8K,1/8/10,1/7/11,NOT STATED,40,1,Saloon,,TOYOTA,CarSafe
+ID_2H9ZD9D,11/2/10,11/1/11,Male,36,1,Saloon,,TOYOTA,CarSafe
+ID_2HASJN3,7/6/10,7/5/11,Female,38,1,Saloon,Green,Hyundai,Car Classic
+ID_2HHS23N,10/21/10,10/20/11,Male,50,1,Saloon,,Honda,CarSafe
+ID_2HJAGTZ,12/20/10,12/19/11,Male,58,1,Saloon,,TOYOTA,CarSafe
+ID_2HQ06E4,11/7/10,11/6/11,Male,43,2,Saloon,Black,TOYOTA,Car Classic
+ID_2HTCFLG,9/24/10,9/23/11,Joint Gender,73,1,JEEP,Black,Honda,Car Classic
+ID_2HTJMUX,4/10/10,4/9/11,Female,34,1,Saloon,Ash,TOYOTA,Car Classic
+ID_2I4727E,3/7/10,3/6/11,Male,56,2,Saloon,,TOYOTA,Car Classic
+ID_2ILL58B,6/21/10,6/20/11,Female,70,2,Saloon,,TOYOTA,Car Classic
+ID_2IMEOEN,6/6/10,6/5/11,Male,42,1,Saloon,Grey,TOYOTA,Car Classic
+ID_2IN8QOA,9/4/10,9/3/11,Female,36,1,JEEP,Grey,TOYOTA,Car Classic
+ID_2INUI1S,2/27/10,2/26/11,Male,46,2,Mini Bus,Gold,TOYOTA,Car Classic
+ID_2IOQAKR,2/21/10,2/20/11,Male,51,1,JEEP,Black,TOYOTA,Car Classic
+ID_2IORD25,12/24/10,12/23/11,,64,1,,,,Car Classic
+ID_2IQMA29,3/20/10,3/19/11,Male,34,1,,Ash,Lexus,Car Classic
+ID_2IRJIXX,3/5/10,3/4/11,Male,39,1,,White,TOYOTA,Car Plus
+ID_2ITZL8T,1/3/10,1/2/11,Male,47,1,Saloon,,Honda,Car Classic
+ID_2IUE8SM,1/29/10,1/28/11,Male,38,1,,,TOYOTA,Car Classic
+ID_2J2VJVU,3/11/10,3/10/11,Entity,40,2,,,Mercedes,Car Classic
+ID_2J3N61I,10/10/10,10/9/11,Female,66,1,,,,Car Classic
+ID_2J5WCH3,8/15/10,8/14/11,Male,48,1,,,,CarSafe
+ID_2JAO5K2,10/29/10,1/28/11,Male,43,2,Saloon,,MINI COOPER,Car Classic
+ID_2JCPR87,11/6/10,8/6/11,Male,52,3,Saloon,As Attached,TOYOTA,Car Classic
+ID_2JJE5FZ,12/17/10,7/25/11,Female,72,1,,,,Car Classic
+ID_2JKAUIG,2/20/10,2/19/11,Male,45,4,JEEP,Black,Honda,Car Classic
+ID_2JN7UY0,12/5/10,12/4/11,Male,31,1,,,,Car Classic
+ID_2KCLMOC,7/23/10,7/22/11,Male,1,1,Saloon,,Honda,CarSafe
+ID_2KCTY8U,12/4/10,12/3/11,,50,1,,,,Car Classic
+ID_2KFSMVL,11/13/10,2/12/11,Female,62,1,,,,Car Plus
+ID_2KJPXBO,11/22/10,11/21/11,Female,52,1,Saloon,Blue,Honda,Car Classic
+ID_2KK9O9J,11/12/10,11/11/11,Male,50,1,Saloon,,Volkswagen,CarSafe
+ID_2KNC3PL,8/20/10,8/19/11,Male,41,1,Saloon,,Lexus,CarSafe
+ID_2KQCTTN,11/13/10,11/12/11,Male,37,1,,,,Car Classic
+ID_2KQPVJS,2/4/10,2/3/11,Male,61,1,Saloon,,Chevrolet,CarSafe
+ID_2KTNMSF,3/22/10,3/21/11,Female,30,1,Saloon,,TOYOTA,CarSafe
+ID_2KYYOEE,5/20/10,5/13/11,Male,44,1,JEEP,Black,TOYOTA,Car Classic
+ID_2KYZF0B,5/31/10,5/30/11,Male,35,1,Saloon,Silver,TOYOTA,Car Classic
+ID_2KZDTKH,1/14/10,1/13/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_2L0H9US,5/23/10,5/22/11,Male,34,2,JEEP,Black,TOYOTA,Car Classic
+ID_2L0MCGY,4/29/10,4/28/11,Male,54,2,,,Mercedes,Customized Motor
+ID_2LDU1GQ,2/15/10,2/14/11,Joint Gender,47,1,Saloon,Black,TOYOTA,Car Classic
+ID_2LHEZPD,5/10/10,5/9/11,Male,35,1,Truck,Orange,Mercedes,CVTP
+ID_2LJ6U4O,1/1/10,12/31/10,Entity,20,3,,,,Muuve
+ID_2LNPTE7,2/6/10,2/5/11,Female,40,1,Saloon,,Nissan,CarSafe
+ID_2LXV0TM,8/22/10,8/21/11,Male,33,1,,,,CarSafe
+ID_2LZ9BSN,8/27/10,8/26/11,Male,40,2,,,,Car Classic
+ID_2M9KI2P,6/17/10,6/16/11,Entity,9,1,Saloon,Blue,TOYOTA,Car Classic
+ID_2M9S06X,8/8/10,8/7/11,NOT STATED,40,3,,,,CVTP
+ID_2MMLOXY,8/16/10,8/15/11,Male,57,1,,,,Car Classic
+ID_2MUI8KZ,9/20/10,9/18/11,Female,37,1,,,,Car Classic
+ID_2N317ZT,8/28/10,8/27/11,Male,66,3,Saloon,Black,TOYOTA,Car Classic
+ID_2N8DMW5,9/14/10,9/13/11,Male,43,1,Saloon,Grey,TOYOTA,Car Plus
+ID_2NNS6XB,6/24/10,6/23/11,Male,54,1,Saloon,Black,Mercedes,Car Classic
+ID_2NQ7P3I,9/2/10,8/31/11,Male,47,1,,,,CarSafe
+ID_2O6JAS9,10/29/10,10/28/11,Female,68,1,,,,CarSafe
+ID_2OGGPLM,10/25/10,10/24/11,Female,31,1,,White,Mercedes,Car Classic
+ID_2OJZDXE,5/24/10,5/23/11,Male,20,1,,White,TOYOTA,CVTP
+ID_2OOJZCU,1/6/10,1/5/11,Female,66,1,Saloon,,Mercedes,CarSafe
+ID_2OOYRY6,4/10/10,4/9/11,Male,42,1,Saloon,,Mazda,CarSafe
+ID_2OP3GQM,11/18/10,5/17/11,Male,34,1,,,,CVTP
+ID_2OPJN9F,11/26/10,11/25/11,Male,66,2,JEEP,Black,TOYOTA,Car Classic
+ID_2OQOG3W,7/4/10,7/3/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_2OSVIZE,11/12/10,11/11/11,Female,63,2,,,,Car Classic
+ID_2OVCLF7,8/21/10,8/20/11,Male,40,1,,,,CarSafe
+ID_2P2NKHL,7/3/10,7/2/11,Male,47,1,Saloon,,Hyundai,CarSafe
+ID_2PAL95C,9/16/10,9/15/11,Female,39,3,,,Ford,Car Classic
+ID_2POQK63,7/31/10,7/30/11,Male,12,2,JEEP,Black,Lexus,Customized Motor
+ID_2PRT9Z3,11/18/10,11/17/11,Female,50,1,,,,Car Classic
+ID_2PT77AZ,3/21/10,3/20/11,Male,6,1,Saloon,,Nissan,CarSafe
+ID_2PVDXGL,9/26/10,9/25/11,Male,1,1,,,,CarSafe
+ID_2PWO6GT,1/16/10,1/6/11,Male,33,1,Saloon,,Honda,Car Classic
+ID_2PZP7J7,9/23/10,9/22/11,Male,40,1,,,,CarSafe
+ID_2Q25625,10/29/10,9/2/11,Male,41,1,,,TOYOTA,Car Classic
+ID_2Q5AQ73,8/9/10,8/8/11,Female,41,1,,,,CarSafe
+ID_2Q89TS0,12/10/10,12/9/11,Male,31,1,,,,CarSafe
+ID_2QBY97M,9/4/10,3/3/11,Male,39,1,,,,Car Classic
+ID_2QDXTNV,6/27/10,6/26/11,Male,50,1,Saloon,,Kia,CarSafe
+ID_2QGBV8J,7/29/10,7/28/11,Male,26,1,Saloon,Silver,TOYOTA,Car Classic
+ID_2QNVI28,2/27/10,2/26/11,Male,33,1,Saloon,Silver,TOYOTA,Car Classic
+ID_2QSOUCZ,4/4/10,4/3/11,Female,28,1,Saloon,Silver,TOYOTA,Car Classic
+ID_2QWZR3N,11/14/10,2/13/11,Male,44,1,,,TOYOTA,Car Classic
+ID_2R5BVSI,10/2/10,10/1/11,Female,28,1,Saloon,,TOYOTA,Car Classic
+ID_2R8VSMY,9/9/10,3/8/11,Male,37,1,,,,Car Classic
+ID_2RILWSN,7/9/10,2/21/11,NO GENDER,25,1,Truck,Green,Iveco,CVTP
+ID_2RJOHLV,11/22/10,11/21/11,Female,58,2,JEEP,Black,TOYOTA,Car Classic
+ID_2RMVS6O,8/16/10,8/15/11,Female,26,1,,,,Car Classic
+ID_2RNC8KB,3/6/10,3/4/11,Male,32,1,CAMRY CAR HIRE,,TOYOTA,Car Classic
+ID_2RNP05M,10/29/10,10/28/11,Male,56,1,,,,CarSafe
+ID_2RTY3Q1,1/7/10,1/6/11,Male,35,1,JEEP,Silver,Lexus,Car Classic
+ID_2RW1A3J,8/21/10,8/20/11,Male,53,1,,,,Car Classic
+ID_2S28MB7,7/30/10,7/29/11,Male,54,1,JEEP,Blue,Nissan,Car Classic
+ID_2S32R1Z,12/5/10,12/4/11,Female,40,4,Saloon,Black,Mercedes,Customized Motor
+ID_2S5N0LC,10/7/10,10/6/11,Female,41,1,,,,CarSafe
+ID_2S7HVQO,3/12/10,3/11/11,NOT STATED,40,1,Saloon,,TOYOTA,CarSafe
+ID_2S825FA,5/30/10,5/29/11,Male,32,1,Saloon,Red,TOYOTA,Car Plus
+ID_2SDEO5E,4/15/10,4/14/11,Male,41,1,Saloon,Blue,TOYOTA,Car Classic
+ID_2SDWXIZ,7/10/10,7/9/11,Female,81,2,Saloon,Silver,TOYOTA,Car Classic
+ID_2SJOEF6,3/23/10,3/22/11,Male,71,1,Saloon,Silver,TOYOTA,Car Classic
+ID_2SSN4XW,4/30/10,4/29/11,Female,40,1,Saloon,Black,TOYOTA,Car Classic
+ID_2SVHNS2,7/16/10,7/15/11,Male,28,2,Saloon,Black,TOYOTA,Car Plus
+ID_2SWIGKH,3/4/07,8/3/37,Male,37,1,Saloon,Gold,TOYOTA,CarSafe
+ID_2T69QU2,5/11/10,5/10/11,Female,61,1,Saloon,Green,TOYOTA,Car Classic
+ID_2T84WM4,4/25/10,4/24/11,Female,51,1,Saloon,,Volkswagen,CarSafe
+ID_2THCWKR,10/7/10,10/6/11,Female,55,2,,,,CVTP
+ID_2TN8JI2,3/27/10,3/26/11,Female,29,1,Saloon,Blue,TOYOTA,Car Classic
+ID_2TQ3X1L,11/9/10,11/8/11,Male,60,1,Saloon,,Volkswagen,CarSafe
+ID_2TQS6E8,7/25/10,7/15/11,Male,48,2,Truck,Blue,Mack,CVTP
+ID_2TUMDU3,5/9/10,1/4/11,Female,43,1,JEEP,,KA,Car Classic
+ID_2U0MQHT,11/25/10,11/24/11,Female,39,1,,,,Car Classic
+ID_2U37VYI,4/29/10,4/28/11,Male,38,1,Saloon,Grey,Lexus,Car Classic
+ID_2U8EVS0,2/26/10,2/25/11,Male,76,1,Saloon,,As Attached,Car Classic
+ID_2UEJ07E,1/3/10,1/2/11,Male,60,1,JEEP,,Honda,CarSafe
+ID_2UL93JY,8/5/10,8/4/11,Female,35,2,JEEP,,Honda,Car Classic
+ID_2UM7AAZ,1/11/10,1/10/11,Female,20,2,,,Hyundai,Customized Motor
+ID_2UO5495,8/20/10,8/19/11,Female,41,1,,,,CarSafe
+ID_2UQQB28,12/29/10,12/28/11,Male,48,1,JEEP,Black,Range Rover,Customized Motor
+ID_2UR0A1V,3/21/10,3/20/11,Female,37,1,Saloon,Black,TOYOTA,Car Classic
+ID_2URBTZC,8/7/10,8/6/11,Female,40,1,,,,Car Classic
+ID_2V68SBR,4/9/10,4/8/11,Male,67,2,,,TOYOTA,Car Classic
+ID_2VBE17W,5/6/10,2/5/11,Male,35,1,Saloon,Ash,TOYOTA,Car Classic
+ID_2VFX3VT,2/18/10,2/15/11,Male,36,1,JEEP,Grey,Honda,Car Classic
+ID_2VJIKV9,12/3/10,11/3/11,Male,42,1,,Ash,Mercedes,Car Classic
+ID_2VKC7RK,6/20/10,1/11/11,Male,33,1,Saloon,Ash,TOYOTA,Car Classic
+ID_2VRM30S,1/18/10,1/17/11,Female,56,1,Saloon,Black,Mercedes,Car Classic
+ID_2VROVUF,12/23/10,12/22/11,Male,46,1,,,,Car Classic
+ID_2VWXL27,11/7/10,11/6/11,Female,31,1,,,,Car Classic
+ID_2VXQBD4,2/13/10,2/12/11,Female,27,1,Saloon,Black,Hyundai,Car Classic
+ID_2VYJTZX,11/13/10,11/12/11,Male,39,1,,,,Car Plus
+ID_2W1XNO1,7/28/10,1/28/11,Male,44,1,Saloon,,TOYOTA,CarFlex
+ID_2W63715,7/28/10,7/27/11,Male,40,1,Saloon,,TOYOTA,Car Classic
+ID_2W7AX2D,2/10/10,2/9/11,Joint Gender,64,2,Saloon,Black,Honda,Car Classic
+ID_2WF9N6C,6/19/10,6/18/11,Female,60,1,Saloon,Ash,TOYOTA,Car Classic
+ID_2WJ3Y1G,10/17/10,1/17/11,Male,37,1,JEEP,Green,Honda,Car Classic
+ID_2WTAKFA,2/1/10,1/31/11,Male,54,1,,Silver,TOYOTA,Customized Motor
+ID_2WUTLHH,4/23/10,4/22/11,Female,45,1,,,Hyundai,Car Classic
+ID_2WW429E,3/1/10,3/1/11,Male,50,1,Saloon,As Attached,TOYOTA,CarSafe
+ID_2WX8Q03,12/22/10,12/21/11,Male,42,1,,,BMW,Car Classic
+ID_2X7JKYX,2/19/10,2/18/11,Male,44,1,,Black,Ford,Customized Motor
+ID_2XEI2MW,7/2/10,7/1/11,Male,36,1,Saloon,,Honda,CarSafe
+ID_2XFN565,11/25/10,11/23/11,Male,34,1,,,,Car Classic
+ID_2XN676R,11/7/10,11/6/11,Female,35,1,,,,CarSafe
+ID_2XSRQKE,2/27/10,2/26/11,Male,40,1,Saloon,Silver,Mercedes,Car Classic
+ID_2XWOISY,12/30/10,6/29/11,Male,36,1,JEEP,Blue,Lexus,Car Classic
+ID_2YA259R,3/21/10,3/20/11,Female,39,1,Saloon,Ash,TOYOTA,Car Classic
+ID_2YKGBYO,6/13/10,6/12/11,Male,55,1,Truck,White,Mack,CVTP
+ID_2YSVETD,11/29/10,11/28/11,Male,3,1,,,,CarSafe
+ID_2YSXI7D,2/23/10,2/22/11,Male,51,5,JEEP,,TOYOTA,Customized Motor
+ID_2YTU9TO,4/8/10,4/1/11,Male,28,1,JEEP,As Attached,TOYOTA,Car Classic
+ID_2YWYL3B,8/29/10,8/27/11,Male,40,1,,,,CarSafe
+ID_2YZH90S,9/10/10,3/22/11,Male,71,1,Saloon,Silver,TOYOTA,Car Classic
+ID_2Z0MRCL,10/14/10,8/22/11,Male,78,2,JEEP,Black,Hyundai,Car Classic
+ID_2Z2H3HF,2/11/10,2/10/11,Female,54,3,Saloon,,TOYOTA,Car Classic
+ID_2Z39K8Z,7/25/10,5/29/11,Female,36,1,Saloon,Black,TOYOTA,Car Classic
+ID_2ZCMCUQ,2/25/10,2/24/11,Joint Gender,54,1,Mini Van,Green,TOYOTA,Car Classic
+ID_2ZOTNS0,12/17/10,12/16/11,Joint Gender,50,1,Saloon,,TOYOTA,CarSafe
+ID_2ZTP6B8,4/16/10,4/15/11,Male,44,1,,,TOYOTA,Car Classic
+ID_2ZYQMTM,12/17/10,3/23/11,Male,39,2,Saloon,Silver,TOYOTA,Car Classic
+ID_302HU8H,4/30/10,4/28/11,Male,36,2,Saloon,,Hyundai,Car Classic
+ID_303ZUGS,2/22/10,2/21/11,Male,29,1,Saloon,,TOYOTA,Car Classic
+ID_30PIV30,10/15/10,10/14/11,Male,40,1,,,,CarSafe
+ID_30QC56U,8/23/10,7/31/11,Female,26,1,Saloon,Brown,Peugeot,Car Classic
+ID_30TJR1G,1/22/10,1/21/11,Male,36,2,Saloon,,Mercedes,Car Classic
+ID_30VL90F,1/17/10,1/16/11,Male,42,1,,As Attached,Range Rover,Car Classic
+ID_30WCDP0,11/7/10,11/6/11,Male,39,2,,,,Car Classic
+ID_30ZGQ37,12/3/10,12/2/11,Male,45,2,,Black,Honda,Customized Motor
+ID_30ZJPKM,5/27/10,5/26/11,Male,37,1,Saloon,White,Mercedes,Car Classic
+ID_310BZUA,6/20/10,6/19/11,Male,46,1,Saloon,,TOYOTA,CarSafe
+ID_31488PQ,11/2/10,11/1/11,Male,51,1,Saloon,,TOYOTA,CarSafe
+ID_314CQGD,4/8/10,4/7/11,Male,45,1,Saloon,Black,Hyundai,Car Plus
+ID_3150CQE,10/29/10,10/28/11,Male,46,2,JEEP,,Honda,Car Plus
+ID_319RMWL,1/27/10,1/26/11,Male,37,1,,Black,Ford,Car Classic
+ID_31APEIR,8/16/10,8/15/11,Male,50,1,,,,CarSafe
+ID_31C21H5,1/8/10,1/7/11,Male,40,1,Saloon,Black,TOYOTA,Car Classic
+ID_31J9NWA,8/22/10,8/21/11,Male,42,1,Saloon,,Honda,CarSafe
+ID_31JMWZX,10/23/10,10/21/11,Female,61,1,,,,CarFlex
+ID_31LHO0S,1/1/10,12/31/10,Female,53,1,JEEP,,TOYOTA,CarSafe
+ID_31NINF3,5/8/10,5/6/11,Male,38,1,Saloon,,TOYOTA,Car Plus
+ID_31SWJ90,1/2/10,1/1/11,Male,45,1,Saloon,,Honda,CarSafe
+ID_31UJKJ8,1/12/10,1/11/11,Male,48,1,Saloon,,Mazda,CarSafe
+ID_31X1PLN,9/10/10,9/9/11,Male,20,1,,Black,Mercedes,Car Classic
+ID_31ZUBVK,4/3/10,4/2/11,Male,64,2,Saloon,Green,TOYOTA,Car Classic
+ID_320Z5ZI,2/13/10,2/12/11,Male,66,1,JEEP,Silver,Chevrolet,Car Classic
+ID_324WHS2,1/14/10,1/13/11,Entity,40,4,Saloon,Black,Nissan,Car Classic
+ID_326OWE4,4/1/10,3/31/11,Female,39,1,Saloon,Black,Mercedes,Car Classic
+ID_32E8YTG,7/11/10,7/10/11,Male,48,1,,Silver,Ford,Car Classic
+ID_32EW08Y,9/13/10,9/12/11,Male,38,1,Saloon,Silver,TOYOTA,Car Classic
+ID_32LIHR0,10/30/10,10/29/11,Male,37,1,,,,CarSafe
+ID_32PDVP0,9/6/10,8/8/11,Male,53,1,,,,Car Classic
+ID_32RJKC5,6/6/10,6/5/11,Male,42,1,Saloon,Grey,TOYOTA,Car Classic
+ID_32SOUPO,10/30/10,10/29/11,,36,1,,,,Car Classic
+ID_337B3HY,6/17/10,2/22/11,Male,51,1,,,TOYOTA,Car Classic
+ID_33AEF9Y,12/23/10,12/22/11,Male,31,1,,,,CarSafe
+ID_33GXJWV,8/2/10,8/1/11,Male,38,2,Saloon,Blue,TOYOTA,Car Classic
+ID_33IUFG2,2/20/10,2/19/11,Male,11,5,JEEP,Blue,Hyundai,Car Classic
+ID_33V3WAW,7/30/10,2/9/11,Female,49,2,,,,Car Classic
+ID_344ACXW,8/14/10,8/13/11,NO GENDER,20,3,,As Attached,TOYOTA,Car Classic
+ID_34LJY8A,7/24/10,7/23/11,Female,42,1,Saloon,Silver,TOYOTA,Car Classic
+ID_34RET1K,2/8/10,2/7/11,Male,50,1,Saloon,,Honda,CarSafe
+ID_34SRW1V,4/30/10,4/29/11,Female,40,1,Saloon,,Volkswagen,CarSafe
+ID_356E7TX,7/10/10,5/5/11,NOT STATED,6,1,JEEP,,Mercedes,Car Classic
+ID_356YCO1,4/16/10,4/15/11,Male,34,1,Saloon,Black,Mercedes,Car Classic
+ID_35A9ILX,5/12/10,5/11/11,Male,39,1,Saloon,,TOYOTA,Car Classic
+ID_35AGYRW,3/22/10,3/21/11,Male,38,1,Saloon,,Honda,CarSafe
+ID_35TJ0X9,11/19/10,11/18/11,Male,31,1,,,,CarSafe
+ID_35TLTQM,7/2/10,7/1/11,Male,45,1,Saloon,,TOYOTA,CarSafe
+ID_35TQ1DV,8/22/10,8/20/11,Female,50,1,Saloon,,Ford,Car Classic
+ID_3639SJR,4/10/10,4/9/11,Female,65,1,Saloon,,Kia,CarSafe
+ID_365SU1U,7/17/10,7/16/11,Male,68,1,Saloon,,Peugeot,CarSafe
+ID_368T4CI,3/14/10,3/13/11,Male,53,1,Saloon,,Hyundai,CarSafe
+ID_3699IFV,1/19/10,1/18/11,Joint Gender,35,1,,Silver,Lexus,Car Plus
+ID_36CH990,9/27/10,6/13/11,Male,40,1,Saloon,Green,TOYOTA,Car Classic
+ID_36CIRQQ,9/12/10,3/5/11,Male,3,1,,,,Car Classic
+ID_36E26TX,5/14/10,5/13/11,Male,41,1,JEEP,Gold,TOYOTA,Car Classic
+ID_36G94DU,2/1/10,1/31/11,Female,50,1,Saloon,,TOYOTA,CarSafe
+ID_36JTS1Y,9/25/10,9/24/11,Male,46,1,,,,Car Plus
+ID_36JUDKQ,12/23/10,12/22/11,Male,51,1,,,,CarSafe
+ID_36S5PTX,1/8/10,1/7/11,Male,35,1,Saloon,,TOYOTA,CarSafe
+ID_36SBM1Z,8/8/10,8/7/11,Male,1,1,,,,CarSafe
+ID_36T8DQH,11/27/10,11/26/11,Male,46,2,Saloon,,TOYOTA,CarSafe
+ID_371GD85,5/30/10,5/29/11,Joint Gender,51,1,Saloon,,TOYOTA,CarSafe
+ID_375AYTY,3/27/10,3/26/11,Female,1,1,Saloon,,TOYOTA,CarSafe
+ID_37HJ4IX,8/28/10,2/25/11,Female,38,2,,,,Car Classic
+ID_37J3MSO,1/7/10,1/6/11,Female,50,1,Saloon,Black,Hyundai,CarSafe
+ID_37M7HOS,8/15/10,8/14/11,Male,32,3,,,,Car Classic
+ID_37NA0J6,4/6/10,4/5/11,Male,46,1,,,BMW,Car Plus
+ID_37XNT1O,6/2/10,6/1/11,Female,30,2,Saloon,,TOYOTA,Car Plus
+ID_381Q0R2,2/28/10,2/27/11,Male,55,1,,,Mercedes,Car Classic
+ID_382U9F1,12/9/10,12/8/11,Female,37,1,JEEP,Gold,ACURA,Car Classic
+ID_38391DV,5/22/10,5/21/11,Female,52,1,JEEP,Black,Lexus,Car Classic
+ID_383HP7I,12/28/10,12/27/11,Male,51,1,,Grey,TOYOTA,Car Classic
+ID_384TB8T,6/7/10,6/6/11,Female,41,1,Saloon,,TOYOTA,CarSafe
+ID_38AMIMN,4/9/10,4/9/11,Female,44,1,Saloon,,Kia,CarFlex
+ID_38DWCYD,5/21/10,5/20/11,Female,38,1,Bus,,TOYOTA,CVTP
+ID_38H0HW4,10/23/10,10/22/11,Female,2,1,,,,CarSafe
+ID_38I1V3C,6/24/10,6/23/11,Female,36,2,JEEP,,Mercedes,CarSafe
+ID_38PFYH3,10/3/10,10/2/11,Female,42,2,JEEP,Black,Kia,Car Classic
+ID_38YAP12,3/1/10,2/28/11,Female,65,1,Saloon,Grey,TOYOTA,Car Classic
+ID_399QBCG,12/17/10,12/16/11,Male,20,1,Saloon,,Honda,CarSafe
+ID_39CEXJN,6/6/10,6/5/11,Male,40,1,Saloon,,Range Rover,CarSafe
+ID_39L9D4B,2/20/10,2/19/11,Female,67,1,Saloon,Black,Kia,Car Classic
+ID_39M0YB8,12/17/10,12/16/11,Joint Gender,56,1,JEEP,Black,Mitsubishi,Car Classic
+ID_39OYFAB,12/6/10,6/5/11,Female,37,1,,,Lexus,Car Classic
+ID_39R912D,11/1/10,2/11/11,Male,38,2,JEEP,White,TOYOTA,Car Classic
+ID_39VNR0V,4/4/10,4/3/11,Female,53,1,Saloon,,Honda,Car Classic
+ID_3A7NA8X,2/27/10,2/26/11,Female,37,1,Saloon,,TOYOTA,CarSafe
+ID_3AH9RIM,11/25/10,11/24/11,Male,2,1,,,,CarSafe
+ID_3AQHWXK,10/22/10,1/20/11,Female,38,1,Saloon,Green,TOYOTA,Car Classic
+ID_3ATXOKJ,5/16/10,5/15/11,Male,33,1,Saloon,,TOYOTA,Car Classic
+ID_3AURTYI,10/9/10,10/8/11,Female,35,1,,,,CarSafe
+ID_3B28ESW,9/10/10,9/9/11,Female,7,2,,,,CarSafe
+ID_3B2RVTC,1/19/10,1/18/11,Male,39,2,Saloon,Dark Grey,TOYOTA,Car Classic
+ID_3B30FGI,8/27/10,8/26/11,Male,43,1,,,,Car Classic
+ID_3B8TZTE,4/24/10,4/23/11,Male,39,1,Saloon,,BMW,CarSafe
+ID_3BA7JWX,2/28/10,2/27/11,Male,49,2,Saloon,,Innson,CarSafe
+ID_3BDM8BR,6/3/10,5/25/11,Female,40,1,Saloon,Silver,TOYOTA,Car Classic
+ID_3BNEQM8,11/9/10,5/9/11,Male,49,1,Saloon,,Kia,CarFlex
+ID_3BNUEOV,6/28/10,6/27/11,Female,45,1,Saloon,,TOYOTA,CarSafe
+ID_3BUZWFU,2/26/10,2/25/11,Female,37,1,Mini Bus,Blue,TOYOTA,Car Classic
+ID_3BYX20J,5/15/10,5/10/11,Male,52,1,,Black,TOYOTA,Car Classic
+ID_3C5RC8G,8/5/10,8/4/11,Male,43,1,,,,CarSafe
+ID_3C5ZQCS,6/8/10,6/6/11,Male,31,1,Saloon,,TOYOTA,CarSafe
+ID_3C66A0I,4/10/10,4/9/11,Female,65,1,Saloon,,Kia,CarSafe
+ID_3C86Y5A,1/28/10,1/27/11,Male,72,1,JEEP,,Mercedes,Car Plus
+ID_3CALJVY,7/30/10,1/8/11,Male,51,1,,,,Car Classic
+ID_3CBPDG6,6/27/10,6/26/11,Female,64,1,JEEP,Blue,Lexus,Car Classic
+ID_3CDFUDZ,3/20/10,3/19/11,Male,47,3,JEEP,,Range Rover,Car Classic
+ID_3CDLDN2,5/26/10,5/25/11,Male,19,1,Saloon,,Mercedes,CarSafe
+ID_3CEZFWC,7/29/10,7/27/11,Male,41,1,JEEP,,TOYOTA,CarSafe
+ID_3CQ5JD6,7/26/10,7/7/11,Female,53,3,JEEP,Green,TOYOTA,Car Classic
+ID_3CTHQLS,4/3/10,4/2/11,Male,38,1,Saloon,,TOYOTA,CarSafe
+ID_3D77L7G,8/16/10,8/15/11,Male,49,1,,,,Car Classic
+ID_3D85LGZ,7/17/10,7/16/11,Female,35,1,JEEP,As Attached,Honda,CarSafe
+ID_3DB4063,11/15/10,11/19/11,Male,31,1,Saloon,Black,TOYOTA,Car Classic
+ID_3DNX4D1,2/25/10,2/24/11,Male,36,1,Saloon,,TOYOTA,CarSafe
+ID_3DPTGGE,4/29/10,4/28/11,NOT STATED,30,1,Saloon,,TOYOTA,CarSafe
+ID_3DSHSQ9,1/8/10,1/7/11,NOT STATED,40,1,Saloon,,Honda,CarSafe
+ID_3DXUI5W,4/19/10,4/18/11,Male,48,1,,,Honda,Customized Motor
+ID_3E1OXQN,9/6/10,9/5/11,Female,31,1,,,,CarSafe
+ID_3E1ZEBX,2/14/10,2/13/11,Male,50,1,Saloon,,Hyundai,CarSafe
+ID_3E3J6WG,7/5/10,7/4/11,Female,40,1,Saloon,,TOYOTA,CarSafe
+ID_3E3ZWDH,9/27/10,9/26/11,Male,40,1,,,,CarSafe
+ID_3E4EUH4,10/10/10,1/4/11,SEX,40,1,,,,Car Classic
+ID_3E7YJKC,1/30/10,1/29/11,Female,50,1,Saloon,,TOYOTA,CarSafe
+ID_3EA7JOY,11/22/10,11/21/11,Male,30,1,,,,CarSafe
+ID_3EAO8TH,11/8/10,11/7/11,Male,31,2,,,,CVTP
+ID_3EE7KL9,9/26/10,9/25/11,Male,33,1,,,,CarSafe
+ID_3EE8QMD,8/8/10,8/7/11,Male,41,1,,,,Car Classic
+ID_3EJAV7O,8/30/10,8/29/11,Female,66,3,Mini Bus,Red,TOYOTA,Car Classic
+ID_3EKXTLZ,6/20/10,6/19/11,Female,20,1,Saloon,,Kia,CarSafe
+ID_3ELWOKU,9/9/10,9/8/11,Male,37,1,,,,Car Classic
+ID_3ETGJF6,8/16/10,8/15/11,Female,72,1,JEEP,,Honda,Car Classic
+ID_3EYOSN5,11/19/10,8/3/11,Male,46,1,,,,Car Classic
+ID_3FBAA6M,10/25/10,10/23/11,Female,35,1,JEEP,Grey,TOYOTA,Car Classic
+ID_3FBOAXG,7/28/10,7/27/11,Male,40,1,JEEP,Gold,Honda,Car Classic
+ID_3FFXJ00,8/22/10,5/1/11,Male,32,1,,,,Car Classic
+ID_3FHENZC,6/7/10,6/6/11,Female,57,1,JEEP,Black,Nissan,Car Classic
+ID_3FJRT90,10/24/10,10/23/11,Female,49,1,JEEP,Black,TOYOTA,Car Classic
+ID_3FLLRMW,7/3/10,7/2/11,Female,38,1,Saloon,,Mitsubishi,CarSafe
+ID_3FVPFVH,6/20/10,6/19/11,Male,34,1,JEEP,,TOYOTA,Car Classic
+ID_3FXOLNI,4/11/10,4/10/11,Male,39,1,,,TOYOTA,Car Classic
+ID_3G22WX8,11/20/10,11/19/11,Female,30,1,,,,Car Classic
+ID_3GDXLWQ,12/12/10,12/11/11,Female,35,1,,,,CarSafe
+ID_3GG5STJ,3/15/10,3/14/11,Male,53,1,Saloon,,TOYOTA,Car Classic
+ID_3GOLFKW,6/21/10,6/20/11,Male,27,2,Saloon,Gold,TOYOTA,Car Plus
+ID_3GPUZC0,7/23/10,5/10/11,Male,37,2,Saloon,Gold,TOYOTA,Car Classic
+ID_3GQ9YVH,5/30/10,5/29/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_3GRJZBP,10/28/10,10/27/11,Male,42,2,JEEP,,Range Rover,Customized Motor
+ID_3GW8XQY,7/3/10,7/2/11,Male,30,1,Saloon,,TOYOTA,CarSafe
+ID_3GZ6LJS,9/20/10,9/19/11,NOT STATED,52,1,Saloon,Silver,TOYOTA,Car Classic
+ID_3H2CS18,2/20/10,2/19/11,Male,51,1,Saloon,,Ford,CarSafe
+ID_3H5FSTB,3/25/10,3/21/11,Male,58,1,Saloon,Silver,TOYOTA,Car Classic
+ID_3H6N86Q,10/10/10,10/9/11,Male,50,1,,,,CarSafe
+ID_3H70FBK,4/12/10,4/11/11,Male,32,1,Saloon,,Honda,CarSafe
+ID_3HEAEP5,6/28/10,6/27/11,Female,45,1,Saloon,,TOYOTA,CarSafe
+ID_3HLJPFM,11/8/10,11/7/11,Female,27,1,,,,Car Classic
+ID_3HUQKJN,8/1/10,7/30/11,Male,34,1,Saloon,,Ford,CarSafe
+ID_3HUYATP,9/11/10,9/10/11,Female,34,1,,,,Car Classic
+ID_3I1TWTF,5/22/10,5/21/11,Male,32,1,Saloon,Red,TOYOTA,Car Classic
+ID_3IA7W2X,6/13/10,6/12/11,Male,38,1,Saloon,,TOYOTA,Car Classic
+ID_3IANC18,6/24/10,6/23/11,Male,50,1,,,TOYOTA,Car Classic
+ID_3IB1A83,6/21/10,6/20/11,Male,40,1,Saloon,Ash,TOYOTA,Car Classic
+ID_3IBWKZW,8/11/10,8/10/11,Male,39,1,Saloon,Black,Honda,Car Classic
+ID_3IBWXZE,10/18/10,1/17/11,Male,45,1,,,TOYOTA,Car Classic
+ID_3IHUGBO,8/14/10,8/13/11,Male,42,1,,,,CarSafe
+ID_3IQ8DV8,11/8/10,11/7/11,Male,38,1,,,,CarSafe
+ID_3IVNP0Q,9/27/10,9/26/11,Male,37,1,,,,CarSafe
+ID_3IXIRYS,3/1/10,2/28/11,Male,37,1,Saloon,White,TOYOTA,Car Plus
+ID_3IXQLYB,4/18/10,4/17/11,Female,39,1,Saloon,,TOYOTA,CarSafe
+ID_3J3LPY5,6/20/10,6/19/11,Male,38,2,Saloon,,TOYOTA,CarSafe
+ID_3J3OCMK,11/21/10,11/20/11,Male,60,1,,,,CarSafe
+ID_3JDCU6D,11/27/10,11/26/11,Male,39,1,,,,Car Classic
+ID_3JDU2UR,8/19/10,8/18/11,Female,53,1,JEEP,Black,Ford,Car Classic
+ID_3JFO32U,2/22/10,2/21/11,Female,37,2,Saloon,,TOYOTA,Car Plus
+ID_3JQNI2S,9/25/10,9/24/11,Male,35,1,,,,Car Classic
+ID_3JWD0YS,1/11/10,1/10/11,Male,38,1,Saloon,Black,Honda,Car Classic
+ID_3K48P75,4/20/10,4/19/11,Female,31,1,Saloon,Ash,TOYOTA,Car Plus
+ID_3K7PPH0,9/17/10,9/16/11,Female,34,2,,,,Car Classic
+ID_3K8N4Q5,3/1/10,3/1/11,Female,49,1,Saloon,,TOYOTA,CarSafe
+ID_3KBEPMA,8/23/10,4/6/11,Entity,42,1,,,Iveco,CVTP
+ID_3KCGTFV,7/9/10,7/8/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_3KEOPZN,10/24/10,10/23/11,Male,48,2,Saloon,Blue,TOYOTA,Car Classic
+ID_3KHGBJW,12/12/10,12/11/11,Male,42,1,Saloon,Black,Volkswagen,Car Classic
+ID_3KNKLA3,11/16/10,11/15/11,Female,37,1,Saloon,Silver,Ford,Customized Motor
+ID_3KR36PL,11/7/10,11/6/11,Male,43,1,JEEP,Black,Volkswagen,Car Classic
+ID_3L20TUW,10/2/10,10/1/11,Male,34,1,,,,Car Classic
+ID_3L4V1U7,4/26/10,4/25/11,Male,29,1,Saloon,,TOYOTA,CarSafe
+ID_3L5O75Z,2/16/10,2/15/11,Female,64,2,JEEP,Brown,Ford,Car Plus
+ID_3L7OAIY,1/3/10,1/2/11,Joint Gender,50,1,Saloon,,Nissan,CarSafe
+ID_3L9QAPC,9/10/10,3/22/11,Male,71,1,Saloon,Silver,TOYOTA,Car Classic
+ID_3LCJUS2,2/4/10,2/3/11,Female,25,1,Saloon,Grey,TOYOTA,Car Classic
+ID_3LERA4V,11/18/10,11/17/11,Female,35,1,,,,Car Classic
+ID_3LHZZHH,10/10/10,4/8/11,Male,27,1,,,,Car Classic
+ID_3LLJLFS,5/30/10,4/18/11,Female,32,2,,Black,TOYOTA,Car Classic
+ID_3LP42GM,1/21/10,1/20/11,Male,43,2,JEEP,White,TOYOTA,Car Plus
+ID_3M03QFB,8/29/10,8/28/11,Male,38,2,,,Nissan,CVTP
+ID_3M3S8TO,7/23/10,7/22/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_3M8CWDK,4/17/10,4/16/11,Male,63,1,Saloon,,Volkswagen,CarSafe
+ID_3MADNH1,4/24/10,4/23/11,Female,31,1,Saloon,Silver,TOYOTA,Car Classic
+ID_3MAHM2K,6/3/10,6/2/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_3MFL866,7/18/10,6/29/11,Female,44,1,JEEP,As Attached,TOYOTA,Car Classic
+ID_3MJ5FIU,12/21/10,12/20/11,Male,50,1,Saloon,,Kia,CarSafe
+ID_3MKXZH0,6/4/10,6/3/11,Male,30,1,Saloon,Black,Mercedes,CarSafe
+ID_3MSM0EV,9/25/10,9/24/11,Male,35,1,,,,Car Classic
+ID_3MVPRL7,1/5/10,1/4/11,Female,44,2,JEEP,Black,Ford,Car Classic
+ID_3MZZ1AR,8/7/10,8/6/11,Male,45,1,,,,CarSafe
+ID_3N19UCL,9/18/10,9/17/11,Male,36,1,,,,CarSafe
+ID_3N6ASMT,11/15/10,11/14/11,Male,32,1,Saloon,White,Nissan,Car Classic
+ID_3N9JP4C,9/26/10,9/25/11,Male,34,2,Saloon,,Lexus,Car Classic
+ID_3NQQRZ3,8/5/10,8/4/11,Male,53,1,,,,Car Classic
+ID_3NZO26X,8/21/10,8/20/11,Male,40,1,,,,Car Classic
+ID_3O18UIG,3/29/10,3/28/11,Male,34,1,Saloon,Red,Kia,Car Classic
+ID_3OBK5QL,1/25/10,1/24/11,Male,33,1,Saloon,,TOYOTA,CarSafe
+ID_3OCHJB1,7/31/10,7/30/11,Male,48,2,Saloon,,Mercedes,CarSafe
+ID_3OCZBVT,12/6/10,12/5/11,Female,66,2,Saloon,Black,TOYOTA,Car Classic
+ID_3OE8XA8,10/1/10,9/30/11,Male,35,1,Saloon,,TOYOTA,CarSafe
+ID_3OEQCH8,12/10/10,12/9/11,Male,44,2,Saloon,Black,TOYOTA,Car Classic
+ID_3OFREOZ,3/11/10,3/10/11,Entity,40,2,JEEP,,Mercedes,Car Classic
+ID_3OIUB5H,5/7/10,5/6/11,Male,78,2,JEEP,As Attached,TOYOTA,Car Classic
+ID_3OLCU92,3/6/10,3/5/11,Male,49,1,Saloon,,TOYOTA,CarSafe
+ID_3OMR03Y,8/7/10,8/6/11,Female,35,1,Saloon,Black,Mercedes,Car Classic
+ID_3OOFTZ8,9/20/10,9/19/11,Male,37,1,JEEP,Gold,TOYOTA,Car Classic
+ID_3OZH03R,10/15/10,10/14/11,Male,48,1,JEEP,Black,TOYOTA,Car Classic
+ID_3P2YGIB,9/16/10,9/15/11,Male,40,1,,,,Car Classic
+ID_3P3M1XE,2/27/10,1/17/11,Male,41,1,Saloon,Silver,TOYOTA,Car Classic
+ID_3P6WW9C,11/12/10,11/11/11,Male,45,2,,,,Car Classic
+ID_3P7NG3H,11/13/10,11/12/11,Male,47,1,,,,CarSafe
+ID_3P8LCUQ,7/2/10,7/1/11,Male,73,1,Saloon,Black,TOYOTA,Car Classic
+ID_3P8WLFG,6/14/10,6/13/11,Male,45,3,Saloon,Black,TOYOTA,Car Classic
+ID_3PAX1Y7,7/25/10,7/24/11,Male,33,1,,,TOYOTA,Car Classic
+ID_3PCM7Z5,11/30/10,11/29/11,Female,68,1,Saloon,Black,TOYOTA,Car Classic
+ID_3PG3GXB,2/26/10,2/25/11,Entity,10,3,,,Ford,CVTP
+ID_3PGWCYV,12/13/10,12/5/11,Male,41,1,JEEP,,Volvo,Car Classic
+ID_3PJ35XD,10/4/10,10/3/11,Female,61,1,,,,CarSafe
+ID_3PNEKIA,10/11/10,10/10/11,Male,40,1,JEEP,,Nissan,CarSafe
+ID_3POLFSE,11/2/10,6/1/11,Male,40,1,Saloon,Black,Honda,Car Classic
+ID_3PTTNI6,10/23/10,10/22/11,Male,46,2,Saloon,,TOYOTA,CarSafe
+ID_3PYS7BK,9/16/10,9/15/11,Male,43,1,,,,Car Classic
+ID_3PYT4YM,7/2/10,7/1/11,Female,51,1,Saloon,,TOYOTA,CarSafe
+ID_3Q2KI7U,4/5/10,4/4/11,Male,33,1,Saloon,,Volkswagen,CarSafe
+ID_3Q3KARL,4/29/10,4/28/11,Male,32,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_3Q3P46U,4/11/10,4/10/11,,72,1,,White,BMW,Customized Motor
+ID_3Q6DOA6,10/24/10,10/23/11,Female,39,1,,,,Car Classic
+ID_3Q6N5E5,10/7/10,10/6/11,Female,41,1,Saloon,Black,TOYOTA,Car Classic
+ID_3Q9QVK6,3/12/10,3/11/11,Male,34,1,JEEP,Black,Honda,Car Classic
+ID_3QDF8JO,4/29/10,4/28/11,Male,31,1,Saloon,Black,TOYOTA,Car Classic
+ID_3QK5HOW,7/28/10,7/27/11,Female,72,2,Saloon,,TOYOTA,Car Classic
+ID_3QPRD8W,6/7/10,6/6/11,Male,20,2,,,TOYOTA,Car Classic
+ID_3QT4IKL,10/10/10,10/9/11,Male,41,1,,,TOYOTA,Car Classic
+ID_3R0KKTS,12/16/10,6/14/11,Female,27,1,,,,Car Plus
+ID_3R0WO0L,2/13/10,2/12/11,Male,42,1,Saloon,,BMW,CarSafe
+ID_3R17D1Q,4/17/10,4/16/11,Female,49,1,JEEP,,TOYOTA,Car Classic
+ID_3R83R1V,3/22/10,3/21/11,Female,43,3,JEEP,Black,Honda,Car Classic
+ID_3R95NID,12/12/10,12/11/11,Male,59,1,Saloon,White,TOYOTA,Car Classic
+ID_3R9CRHX,1/31/10,1/30/11,Female,3,1,Saloon,,Volkswagen,CarSafe
+ID_3R9JTCP,12/23/10,12/22/11,Female,51,1,,,,CarSafe
+ID_3RADK7P,5/23/10,5/22/11,Male,34,2,JEEP,Black,TOYOTA,Car Classic
+ID_3RB4SVU,4/3/10,4/2/11,Male,35,1,Saloon,,Honda,CarSafe
+ID_3RDNJYY,7/22/10,7/21/11,Male,33,1,Saloon,Silver,TOYOTA,Car Classic
+ID_3RKXSRC,12/11/10,12/10/11,Male,43,1,Saloon,Black,Honda,Car Classic
+ID_3S0YVIE,4/15/10,4/13/11,Male,27,1,Saloon,,TOYOTA,Car Classic
+ID_3S4BYC0,9/10/10,9/9/11,Male,48,2,,,,Car Classic
+ID_3S5WX4B,6/26/10,6/25/11,Female,31,1,Saloon,Grey,TOYOTA,Car Classic
+ID_3S86LZR,8/7/10,9/2/11,Male,37,3,,,,Car Classic
+ID_3S876YA,5/27/10,5/26/11,Female,50,1,Saloon,,Mazda,CarSafe
+ID_3SA6ZP7,12/27/10,4/19/11,Male,43,1,Saloon,Grey,TOYOTA,Car Classic
+ID_3SE763H,9/3/10,9/2/11,Male,37,4,Saloon,Blue,TOYOTA,Car Classic
+ID_3SH5D78,6/27/10,6/26/11,Female,40,1,Saloon,,BMW,CarSafe
+ID_3SI8R6G,11/15/10,9/22/11,Female,33,1,,,,Car Classic
+ID_3SIUOWK,1/1/10,12/31/10,Female,27,1,Saloon,,TOYOTA,CarSafe
+ID_3SR01YI,5/23/10,5/21/11,Female,45,1,JEEP,Black,TOYOTA,Car Classic
+ID_3T0T7MQ,10/13/10,10/12/11,Female,33,1,JEEP,Grey,Lexus,Car Classic
+ID_3T1NMVF,3/10/10,3/9/11,Male,50,1,Saloon,,Honda,CarSafe
+ID_3THA8PW,11/13/10,11/12/11,Female,38,1,Saloon,Blue,TOYOTA,Car Classic
+ID_3TIDH76,1/17/10,1/16/11,Male,62,1,,As Attached,TOYOTA,Car Classic
+ID_3TIQIWB,2/25/10,2/24/11,Female,28,1,JEEP,Silver,Lexus,Car Classic
+ID_3TIWUIB,7/26/10,7/25/11,Male,44,1,Saloon,,TOYOTA,Car Classic
+ID_3TP4UEE,7/15/10,1/12/11,Male,41,1,JEEP,,Mercedes,Car Classic
+ID_3U3FMCY,6/11/10,6/10/11,Female,40,1,Saloon,,Nissan,CarSafe
+ID_3U5N5DZ,11/25/10,11/24/11,Male,46,1,JEEP,Red,ACURA,Car Classic
+ID_3UKVSGM,8/30/10,8/29/11,Female,30,1,,,,Car Classic
+ID_3UVSEFO,11/22/10,11/21/11,Female,40,2,,,,Car Plus
+ID_3UWWHG9,8/16/10,2/14/11,Male,32,1,,,,Car Classic
+ID_3V2FLJX,11/6/10,11/4/11,Female,38,1,,,,CarSafe
+ID_3V8E6LH,10/21/10,10/20/11,Male,41,1,Saloon,Black,TOYOTA,Car Classic
+ID_3V944T3,2/27/10,2/26/11,Male,33,2,JEEP,White,Lexus,Car Classic
+ID_3VBEI53,12/19/10,12/18/11,Male,72,1,,,,Car Classic
+ID_3VCDIXC,3/29/10,3/28/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_3VCPLG0,10/26/10,10/25/11,Male,50,1,Saloon,,Lexus,CarSafe
+ID_3VIPBBD,5/6/10,5/5/11,Male,29,1,Saloon,,TOYOTA,CarSafe
+ID_3VN09YP,3/12/10,3/11/11,Joint Gender,20,2,,,Kia,Customized Motor
+ID_3VT75NV,10/5/10,1/4/11,Male,33,1,Saloon,,TOYOTA,Car Classic
+ID_3VWBOTL,4/10/10,4/9/11,Male,41,1,Saloon,Wine,TOYOTA,Car Classic
+ID_3VZ77M5,10/22/10,10/19/11,Male,39,4,,,,Car Classic
+ID_3W0SU5D,8/1/10,7/31/11,Male,61,1,Mini Bus,Brown,TOYOTA,Car Classic
+ID_3W3MVBQ,5/13/10,5/12/11,Male,42,1,Saloon,Silver,TOYOTA,Car Classic
+ID_3W5SBCW,12/21/10,12/19/11,Male,53,1,,,,CarSafe
+ID_3W7DCX5,7/22/10,7/21/11,Male,20,1,,Black,TOYOTA,Car Classic
+ID_3W9IK1K,4/16/10,4/15/11,Female,38,1,Saloon,,TOYOTA,CarSafe
+ID_3WCZUB0,7/16/10,7/14/11,Male,38,1,JEEP,White,Ford,Car Classic
+ID_3WDR2F8,2/6/10,2/5/11,Female,32,1,Saloon,Grey,TOYOTA,Car Classic
+ID_3WL5VXS,2/2/10,2/1/11,Male,68,1,Saloon,,TOYOTA,CarSafe
+ID_3WMLCV6,6/13/10,6/12/11,Male,29,1,Saloon,Black,TOYOTA,Car Classic
+ID_3WNBN7X,9/25/10,9/24/11,Female,34,1,Saloon,Black,Honda,Car Classic
+ID_3WPAQ7G,4/10/10,4/9/11,Female,37,2,Saloon,Black,TOYOTA,Car Classic
+ID_3WT8YOV,4/29/10,4/28/11,Female,33,1,Saloon,Black,TOYOTA,Car Classic
+ID_3WWYL7A,1/11/10,1/10/11,Male,31,1,Saloon,,TOYOTA,CarSafe
+ID_3X6DKSK,9/17/10,9/16/11,Male,40,1,Mini Bus,Black,TOYOTA,Car Classic
+ID_3X9FBFY,10/3/10,8/1/11,Female,41,1,JEEP,Black,TOYOTA,Car Classic
+ID_3XA6QAG,3/27/10,3/26/11,NO GENDER,36,1,Saloon,Gold,TOYOTA,Car Classic
+ID_3XF7HO7,10/16/10,10/15/11,Male,46,1,,,,Car Classic
+ID_3XFBD8O,4/15/10,4/14/11,Male,41,1,Saloon,,Honda,CarSafe
+ID_3XGE1JN,1/31/10,1/30/11,Female,48,1,JEEP,Black,Hyundai,Car Classic
+ID_3XMQYMR,1/31/10,1/30/11,Male,49,1,Saloon,As Attached,TOYOTA,CarSafe
+ID_3XN16VO,9/3/10,9/2/11,Male,42,1,JEEP,Black,Ford,Car Classic
+ID_3XO3M7I,1/11/10,1/10/11,Male,34,1,JEEP,Green,TOYOTA,Car Classic
+ID_3XQVO0O,12/13/10,1/4/11,SEX,37,1,,,,Car Classic
+ID_3XYY0Q0,5/16/10,5/15/11,Female,51,1,Saloon,,TOYOTA,CarSafe
+ID_3XZA75I,7/15/10,7/14/11,Male,37,1,Saloon,Silver,TOYOTA,Car Classic
+ID_3XZQP33,2/15/10,2/14/11,Male,41,2,Saloon,Wine,TOYOTA,Car Classic
+ID_3Y5J2BI,6/20/10,6/19/11,Male,56,1,Saloon,,Mercedes,CarSafe
+ID_3YEOKK7,3/22/10,3/21/11,Male,41,1,Saloon,,BMW,CarSafe
+ID_3YFHHHD,12/4/10,7/4/11,Female,62,1,,,,Car Classic
+ID_3YH56KG,4/10/10,4/9/11,Female,54,2,Saloon,Gold,Honda,Car Classic
+ID_3YJX8LG,12/27/10,6/26/11,Male,36,1,JEEP,Silver,Lexus,Car Classic
+ID_3YO2BSH,6/29/10,6/27/11,Male,48,1,,,TOYOTA,Car Classic
+ID_3YW7I4D,1/22/10,1/21/11,Male,89,1,Saloon,Blue,TOYOTA,Car Classic
+ID_3YWT8BH,8/22/10,8/21/11,Male,56,1,Saloon,Gold,TOYOTA,Car Classic
+ID_3Z3O4YT,3/15/10,3/14/11,Female,36,1,JEEP,Black,ACURA,Car Classic
+ID_3ZIIQ8C,8/29/10,8/28/11,Male,37,1,,,,CarSafe
+ID_3ZJOVEZ,11/28/10,11/6/11,Male,66,2,JEEP,Black,TOYOTA,Car Classic
+ID_3ZMR4D9,4/28/10,4/27/11,Male,52,3,Saloon,As Attached,Mercedes,Car Classic
+ID_3ZN2QFP,8/2/10,8/1/11,Male,30,1,Saloon,,TOYOTA,CarSafe
+ID_3ZQ50X4,3/19/10,3/18/11,Male,43,3,JEEP,As Attached,TOYOTA,Car Classic
+ID_3ZTKZXL,8/21/10,8/20/11,Female,2,1,,,,CarSafe
+ID_401TCKE,4/17/10,4/15/11,Male,59,2,JEEP,Black,Nissan,Customized Motor
+ID_409LS87,1/9/10,1/8/11,Male,50,1,Saloon,,Honda,CarSafe
+ID_40C8RJM,11/13/10,11/12/11,Female,33,1,,,,CarSafe
+ID_40F33M8,5/21/10,5/20/11,Male,38,1,Saloon,,TOYOTA,Car Classic
+ID_40J3FBK,4/15/10,4/14/11,Male,34,1,JEEP,Red,Lexus,Car Classic
+ID_40KE1PA,12/24/10,12/23/11,Female,43,1,Saloon,,TOYOTA,CarSafe
+ID_40MVJAK,9/30/10,1/31/11,Male,29,1,Saloon,,TOYOTA,Car Classic
+ID_40W77IB,1/24/10,1/23/11,Male,36,1,Saloon,,Honda,Car Plus
+ID_413UNNU,10/28/10,1/4/11,SEX,39,1,,,,Car Classic
+ID_4197EUD,7/5/10,7/4/11,Male,36,1,Saloon,Blue,TOYOTA,Car Classic
+ID_41QHYND,4/5/10,4/4/11,Female,44,2,JEEP,As Attached,TOYOTA,Car Classic
+ID_41VSN9A,4/10/10,4/9/11,Female,34,1,Saloon,Black,TOYOTA,Car Classic
+ID_41WZ37Y,2/26/10,2/25/11,Female,37,1,,,TOYOTA,Car Classic
+ID_41ZK269,3/8/10,3/7/11,Male,41,2,Saloon,,Honda,CarSafe
+ID_422I5VP,10/30/10,9/8/11,Male,65,1,,,,Car Classic
+ID_42DKLHP,5/8/10,5/7/11,Male,46,1,Saloon,,TOYOTA,Car Classic
+ID_42F3G0Q,2/26/10,2/25/11,Female,37,1,,Black,TOYOTA,Car Classic
+ID_42NOCDG,12/21/10,6/20/11,Female,74,1,Saloon,Ash,TOYOTA,Car Classic
+ID_42SKWS6,4/9/10,4/8/11,Female,32,1,,,TOYOTA,Car Classic
+ID_43AT7YQ,3/6/10,3/5/11,Female,59,1,Saloon,Black,TOYOTA,Car Classic
+ID_43H5NPU,2/5/10,2/4/11,NOT STATED,43,1,Saloon,,Range Rover,CarSafe
+ID_43I8JB9,11/13/10,11/11/11,Male,38,1,,,,Car Plus
+ID_43MTJ6D,11/20/10,11/19/11,Female,50,1,,,,CarSafe
+ID_43OL5UT,8/23/10,8/22/11,Male,30,1,,,,CarSafe
+ID_43X7SGT,12/5/10,11/27/11,Entity,52,1,JEEP,Blue,TOYOTA,Car Classic
+ID_43ZJJ1B,8/7/10,8/6/11,Male,26,1,Saloon,Silver,TOYOTA,Car Classic
+ID_443S9IY,3/21/10,3/20/11,Male,1,1,Saloon,Silver,TOYOTA,Car Classic
+ID_445B3CY,12/11/10,12/10/11,Female,55,2,,,,Car Classic
+ID_447WLUV,1/8/10,1/7/11,Female,48,1,Saloon,,Mitsubishi,CarSafe
+ID_448AUF2,1/1/10,5/31/11,Entity,93,7,,,Honda,CarSafe
+ID_449DGTN,1/10/10,1/9/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_44BI4O5,9/13/10,8/5/11,Male,44,1,,Blue,TOYOTA,Customized Motor
+ID_44CGYFE,5/17/10,5/16/11,Male,34,2,JEEP,Black,Lexus,Car Classic
+ID_44D1S8F,5/21/10,5/20/11,Male,38,1,Saloon,,TOYOTA,CarSafe
+ID_44DFSVE,4/17/10,4/15/11,Male,33,1,Saloon,,TOYOTA,CarSafe
+ID_44DYJ4U,7/31/10,7/30/11,Female,56,1,Saloon,Black,Nissan,Car Classic
+ID_44J4LY6,12/18/10,12/17/11,Male,20,1,,,,CarSafe
+ID_44UVZ6H,7/26/10,7/25/11,Male,55,1,Saloon,Ash,TOYOTA,Car Classic
+ID_453VIJN,9/4/10,9/3/11,Male,56,1,,,Lexus,Car Classic
+ID_455Q7T1,7/24/10,7/23/11,Female,44,1,JEEP,Black,Honda,Car Classic
+ID_456QYQ6,8/22/10,8/21/11,Female,37,1,,,,Car Classic
+ID_456W8V1,10/23/10,10/22/11,Female,32,1,,,,Car Classic
+ID_45EY454,10/21/10,9/30/11,Entity,30,10,,,Isuzu,CVTP
+ID_45FHUOR,1/29/10,1/28/11,Male,53,3,JEEP,Black,Mitsubishi,Car Classic
+ID_45G7003,1/17/10,1/16/11,Male,52,1,Saloon,,TOYOTA,CarSafe
+ID_45J02GS,4/23/10,4/22/11,Joint Gender,56,1,Saloon,Black,TOYOTA,Car Classic
+ID_45NJSM8,7/16/10,7/15/11,Female,42,1,Saloon,Blue,TOYOTA,Car Classic
+ID_45PVV2J,8/20/10,8/19/11,Female,56,1,,,,Car Classic
+ID_45RKQBI,6/5/10,5/26/11,Female,56,3,JEEP,Green,Range Rover,Customized Motor
+ID_45W0LED,11/19/10,11/18/11,Joint Gender,1,1,,,,CarSafe
+ID_4679U3Z,12/23/10,12/22/11,Male,45,1,JEEP,,Hyundai,CarSafe
+ID_46A9E6J,7/24/10,7/23/11,Female,48,1,Saloon,,TOYOTA,CarSafe
+ID_46JI953,8/29/10,3/1/11,Female,29,1,Saloon,,TOYOTA,CarFlex
+ID_46JIH3Y,4/29/10,4/28/11,Female,49,1,Saloon,Black,TOYOTA,Car Classic
+ID_46KR49L,12/24/10,12/23/11,Male,37,1,Saloon,Black,TOYOTA,Car Classic
+ID_46KXQVP,3/27/10,3/26/11,Female,32,1,JEEP,Black,TOYOTA,Car Classic
+ID_46SV3OY,3/13/10,3/12/11,Male,60,3,Saloon,Black,BMW,Customized Motor
+ID_4735B2N,10/31/10,3/1/11,Female,38,3,JEEP,Black,TOYOTA,Car Classic
+ID_475GNNB,8/14/10,8/13/11,Male,41,1,,,,CarSafe
+ID_479P88Q,6/17/10,6/11/11,Entity,9,1,JEEP,Blue,TOYOTA,Car Classic
+ID_47BH6G3,7/19/10,7/18/11,Male,38,1,Saloon,White,Honda,Car Classic
+ID_47IR6HF,5/15/10,5/14/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_47JRP55,11/6/10,11/2/11,Female,38,1,,,,Car Classic
+ID_47KSXTW,7/16/10,7/15/11,Male,75,1,JEEP,,Honda,Car Classic
+ID_4832BCY,8/29/10,8/28/11,Male,35,1,,,,CarSafe
+ID_4833K0H,1/2/10,1/1/11,Male,64,1,Saloon,Silver,Hyundai,Car Classic
+ID_483YQSJ,10/28/10,4/26/11,Male,40,1,,,,Car Classic
+ID_4876MFD,6/11/10,6/10/11,Male,1,1,Saloon,Black,TOYOTA,Car Classic
+ID_48C5YEJ,1/24/10,1/23/11,Male,48,1,Saloon,,TOYOTA,CarSafe
+ID_48DC2T5,9/11/10,9/10/11,Male,1,1,,,,CarSafe
+ID_48PM1IS,4/26/10,4/25/11,Male,35,1,JEEP,Gold,TOYOTA,Car Classic
+ID_48QDTS5,6/21/10,6/2/11,Female,35,1,,,TOYOTA,Car Classic
+ID_48THNIJ,2/26/10,2/25/11,Male,27,1,Saloon,Blue,Honda,Car Classic
+ID_49792OL,10/1/10,9/30/11,Male,47,1,Saloon,,TOYOTA,CarSafe
+ID_499G83R,12/17/10,12/16/11,Male,39,1,,,,CarSafe
+ID_49CZH8U,10/22/10,10/21/11,Male,46,1,Saloon,Black,Ford,Car Classic
+ID_49PBBSK,11/29/10,11/28/11,Female,60,1,Saloon,,Kia,Car Classic
+ID_49UXBG7,9/10/10,9/9/11,Female,53,1,Saloon,Grey,TOYOTA,Car Classic
+ID_49VBSUV,8/1/10,7/31/11,Male,1,1,Saloon,,Volkswagen,CarSafe
+ID_49WTKX7,12/11/10,6/10/11,Male,34,2,,,,Car Classic
+ID_4A7YFGT,7/29/10,7/28/11,Male,30,1,Saloon,Black,Kia,Car Classic
+ID_4AOHL9E,4/5/10,4/4/11,Male,30,1,Saloon,,TOYOTA,CarSafe
+ID_4ARYKCE,4/12/10,4/12/11,Male,45,1,Saloon,Black,Honda,CarFlex
+ID_4ASR6QO,6/22/10,6/20/11,Male,62,1,JEEP,,BMW,CarSafe
+ID_4ATCY2P,12/16/10,12/15/11,Male,46,2,,,,Car Classic
+ID_4ATFB7Z,1/18/10,1/17/11,Male,42,1,,,Honda,Car Classic
+ID_4BA1CZM,8/22/10,8/21/11,Male,61,1,,,,CarSafe
+ID_4BC5CCI,1/21/10,1/5/11,,20,3,JEEP,,Lexus,Customized Motor
+ID_4BCU0Z9,8/19/10,8/18/11,Male,1,1,,,,CarSafe
+ID_4BKYR2D,3/13/10,3/12/11,Male,72,1,Saloon,Green,Nissan,Customized Motor
+ID_4BLHWYA,11/20/10,11/19/11,Male,45,1,Saloon,,TOYOTA,Car Plus
+ID_4BMTC9M,5/31/10,5/30/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_4BOLTMD,4/10/10,4/9/11,Male,48,1,JEEP,Gold,TOYOTA,Car Classic
+ID_4BOWTNC,1/4/10,1/3/11,Female,27,1,Saloon,Silver,TOYOTA,Car Classic
+ID_4BPSQ4V,10/3/10,10/1/11,Male,45,4,Saloon,,TOYOTA,Car Classic
+ID_4BWNTW0,1/24/10,1/23/11,Male,48,1,,,Iveco,CVTP
+ID_4BYX3TG,12/12/10,12/11/11,Male,1,1,,,,CarSafe
+ID_4C57BEN,1/29/10,1/28/11,Male,2,1,Saloon,,Nissan,CarSafe
+ID_4C8U555,11/15/10,11/4/11,Female,29,1,,,,Car Classic
+ID_4CA4RH2,8/7/10,8/6/11,Male,32,1,,,,CarSafe
+ID_4CAONPQ,12/13/10,12/5/11,Male,41,1,JEEP,,Volvo,Car Classic
+ID_4CGFG61,10/30/10,10/29/11,Male,47,1,,,,CarSafe
+ID_4CISUH2,10/3/10,10/2/11,Male,52,1,,,,Car Classic
+ID_4CM5WTQ,4/6/10,4/5/11,NOT STATED,39,1,Saloon,,Honda,CarSafe
+ID_4CMF9MH,2/1/10,1/31/11,Male,45,1,Saloon,,Peugeot,Car Classic
+ID_4CTPYA8,11/23/10,11/22/11,Female,58,2,Saloon,Grey,TOYOTA,Car Classic
+ID_4CVF9UG,3/28/10,3/27/11,Male,41,1,Saloon,Grey,Lexus,Car Classic
+ID_4CZIUD5,9/16/10,9/15/11,Female,60,1,Saloon,,TOYOTA,Car Classic
+ID_4D2G74S,12/18/10,12/17/11,Male,6,2,,Red,TOYOTA,Car Classic
+ID_4D2IB2X,4/30/10,4/29/11,Male,40,1,,,TOYOTA,CarSafe
+ID_4D70UOM,2/12/10,2/10/11,Male,35,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_4D7M5MD,11/17/10,5/16/11,Male,29,1,Saloon,,TOYOTA,Car Classic
+ID_4D8UKK9,2/22/10,2/21/11,Male,33,1,Saloon,,Kia,CarSafe
+ID_4DEAW41,9/13/10,9/12/11,Male,37,1,Saloon,Grey,TOYOTA,Car Classic
+ID_4DH1OWA,7/11/10,6/11/11,Male,36,1,Saloon,Blue,Honda,Car Classic
+ID_4DKHSNH,4/4/10,4/3/11,Male,31,1,JEEP,Grey,Mercedes,Car Plus
+ID_4DU1FAF,9/3/10,9/2/11,Male,31,1,Saloon,Gold,TOYOTA,Car Classic
+ID_4DUWTFU,10/21/10,10/20/11,Female,39,1,,,,CarSafe
+ID_4DYK7ZD,8/19/10,8/18/11,Entity,10,3,Saloon,,TOYOTA,Car Plus
+ID_4E259D1,12/1/10,3/1/11,Male,39,2,JEEP,,Lexus,CarFlex
+ID_4E49YY7,9/23/10,9/22/11,Female,32,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_4EENDY0,7/3/10,7/2/11,Male,30,1,Saloon,,Mercedes,CarSafe
+ID_4EKZPSF,2/4/10,2/3/11,Female,64,1,JEEP,Blue,Honda,Car Classic
+ID_4EP1B0P,2/27/10,2/26/11,Male,63,1,,As Attached,Mercedes,Car Classic
+ID_4EPTASV,9/30/10,9/29/11,Male,30,1,,,,CarSafe
+ID_4ERS9OB,5/3/10,5/2/11,Female,46,3,Saloon,Black,TOYOTA,Car Classic
+ID_4EVS0FB,11/20/10,11/19/11,Female,32,1,,,,Car Plus
+ID_4EY7ZDN,12/10/10,12/9/11,Female,30,1,,,,CarSafe
+ID_4F4UK9M,10/31/10,10/30/11,Male,45,2,JEEP,,Mercedes,Car Classic
+ID_4F7417A,5/17/10,4/27/11,Entity,42,1,,White,Iveco,CVTP
+ID_4FI5V2F,1/28/10,1/27/11,Male,52,2,Saloon,,TOYOTA,CarSafe
+ID_4FOAA2N,4/4/10,4/3/11,Female,40,5,,,Hyundai,Car Classic
+ID_4FRGKPF,1/25/10,1/24/11,Male,61,1,Saloon,,TOYOTA,CarSafe
+ID_4FS3VHM,10/31/10,10/30/11,Female,32,1,Saloon,Silver,Hyundai,Car Classic
+ID_4FSZG5Y,10/30/10,10/29/11,Male,46,2,Saloon,Silver,TOYOTA,Car Classic
+ID_4FZ3VAP,4/1/10,3/31/11,Female,34,1,Saloon,Black,TOYOTA,Car Classic
+ID_4G39ES2,6/21/10,6/20/11,Female,40,1,JEEP,Green,Hyundai,Car Classic
+ID_4GA712V,10/24/10,10/23/11,Male,59,1,,,,CarSafe
+ID_4GF1JCJ,2/1/10,1/31/11,Male,2,1,Saloon,Ash,TOYOTA,Car Classic
+ID_4GJE81M,8/6/10,8/5/11,Joint Gender,12,2,,,TOYOTA,Car Classic
+ID_4GL7LE3,7/30/10,7/27/11,Male,36,1,JEEP,White,Lexus,Car Classic
+ID_4GM9P9W,11/30/10,11/29/11,Female,41,1,Saloon,Black,Kia,Car Classic
+ID_4GMT4D1,2/18/10,1/14/11,Male,40,1,Saloon,Black,TOYOTA,Car Classic
+ID_4GR12OW,8/26/10,8/25/11,NO GENDER,20,3,Saloon,,Renault,Car Classic
+ID_4H1UWQW,12/9/10,12/8/11,Female,39,1,,,,Car Classic
+ID_4H2V6EP,3/14/10,3/13/11,Male,41,1,Saloon,,TOYOTA,CarSafe
+ID_4H7L0MM,10/21/10,10/20/11,Male,40,1,Saloon,Black,TOYOTA,Car Classic
+ID_4HKOCZQ,11/19/10,5/18/11,Male,41,1,,,,Car Classic
+ID_4I5NTGN,9/6/10,9/5/11,Female,49,1,,,,CarSafe
+ID_4I9AG8Z,11/20/10,5/20/11,Male,44,1,,,,Car Classic
+ID_4I9DHBE,2/11/10,2/10/11,Female,35,1,Saloon,Black,TOYOTA,Car Classic
+ID_4IMU7JU,4/13/10,4/12/11,Female,40,1,Saloon,Grey,TOYOTA,Car Classic
+ID_4IP3WQY,5/22/10,5/22/11,Male,36,2,JEEP,,BMW,CarFlex
+ID_4IV0HO9,10/30/10,4/28/11,Male,36,1,Saloon,Wine,Lexus,Car Plus
+ID_4IVQ2AU,11/15/10,11/14/11,Male,60,1,,,,CarSafe
+ID_4J1VZ3Y,3/30/10,3/29/11,Female,29,1,Saloon,Silver,TOYOTA,Car Plus
+ID_4J45KN3,2/11/10,2/10/11,Male,35,1,Saloon,Silver,TOYOTA,Car Classic
+ID_4J69ACL,8/20/10,8/19/11,Female,41,1,,,,CarSafe
+ID_4JBE8ZR,6/17/10,6/16/11,Male,64,1,Saloon,Black,TOYOTA,Car Classic
+ID_4JCN3L7,5/31/10,5/30/11,Female,53,1,Saloon,Black,Honda,Car Classic
+ID_4JIZAJW,4/4/10,4/2/11,Male,63,1,,White,Mack,CVTP
+ID_4JJ1QSY,11/5/10,5/2/11,Female,41,1,,,,CarFlex
+ID_4JK17EW,12/13/10,12/12/11,Male,30,1,,,,Car Classic
+ID_4JKPSXL,1/21/10,1/20/11,Female,35,1,Saloon,Gold,TOYOTA,Car Classic
+ID_4JOBWT8,11/19/10,6/6/11,Male,27,1,,,,CVTP
+ID_4JQAWML,11/22/10,11/21/11,Female,38,1,,,,Car Classic
+ID_4JR3J4O,7/31/10,7/30/11,Female,34,1,Saloon,Black,TOYOTA,Car Classic
+ID_4JSBCAA,8/30/10,8/28/11,Male,45,3,JEEP,,Lexus,Car Classic
+ID_4JXPURX,6/18/10,6/17/11,Female,38,1,Saloon,,Ford,CarSafe
+ID_4JYJ27H,2/26/10,2/13/11,Male,39,1,,Blue,Iveco,CVTP
+ID_4JZ1D5W,7/29/10,7/28/11,Male,42,1,JEEP,Silver,Mitsubishi,Car Classic
+ID_4K3L1UG,9/26/10,9/25/11,Male,27,1,,,,Car Classic
+ID_4K5WKIN,1/1/10,12/31/10,Male,33,1,Saloon,Black,Mercedes,Car Classic
+ID_4KA6VAZ,2/20/10,2/19/11,Male,46,1,JEEP,Black,ACURA,Car Classic
+ID_4KDYIVH,2/2/10,2/1/11,Male,69,3,Saloon,Black,Honda,CarSafe
+ID_4KL27S0,10/29/10,10/28/11,Male,34,1,,,,Car Classic
+ID_4KNAJCJ,4/9/10,4/8/11,Male,1,1,Saloon,Grey,TOYOTA,Car Classic
+ID_4KNMWPE,7/24/10,7/23/11,Male,39,1,JEEP,As Attached,TOYOTA,Car Classic
+ID_4KPM6HT,9/20/10,9/19/11,Male,1,1,,,,CarSafe
+ID_4KQE94K,7/25/10,7/24/11,Male,6,2,,As Attached,Porsche,Car Classic
+ID_4KSNWQY,4/24/10,3/27/11,NO GENDER,25,1,Truck,As Attached,Iveco,CVTP
+ID_4KTC4T6,4/11/10,4/10/11,,72,1,,Black,Honda,Customized Motor
+ID_4KZ4SBF,5/8/10,5/5/11,Female,45,2,Saloon,Black,Skoda,Car Classic
+ID_4L2041V,8/19/10,1/23/11,Female,39,2,JEEP,,TOYOTA,Car Plus
+ID_4L2M86Y,4/12/10,4/11/11,Female,33,1,Saloon,Black,TOYOTA,Car Classic
+ID_4LBJSIZ,6/24/10,6/23/11,Male,44,1,Saloon,Grey,TOYOTA,Car Classic
+ID_4LIUCKO,12/10/10,12/9/11,Male,32,1,JEEP,Black,TOYOTA,Car Classic
+ID_4LO115I,6/3/10,6/2/11,Male,47,1,Saloon,Ash,Jaguar,Car Classic
+ID_4M21TLY,2/28/10,2/27/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_4M4EKVF,10/10/10,4/9/11,Male,42,1,JEEP,White,Lexus,Car Classic
+ID_4M5RMDB,10/23/10,10/22/11,Female,49,1,Saloon,Black,Lexus,Car Classic
+ID_4M89G9Y,6/18/10,6/17/11,Female,44,1,Saloon,,Hyundai,CarSafe
+ID_4M8QYZ3,2/1/10,1/31/11,Male,84,1,Saloon,Black,TOYOTA,Car Classic
+ID_4MCYXJ0,3/12/10,3/11/11,Female,42,2,Saloon,Black,TOYOTA,Car Classic
+ID_4MEEE1D,8/6/10,8/5/11,Male,21,1,,,,Car Classic
+ID_4MO0YNJ,12/13/10,12/12/11,Male,42,1,,,,CarSafe
+ID_4MQNP4G,7/12/10,7/10/11,Male,45,2,Saloon,Green,TOYOTA,Car Classic
+ID_4MT6IU4,11/25/10,11/23/11,Male,49,1,,,,CarSafe
+ID_4MTWO2P,3/22/10,3/21/11,Male,31,1,Saloon,,Nissan,CarSafe
+ID_4MVG3NP,10/19/10,10/18/11,Male,36,2,,,,Car Classic
+ID_4MVUK1J,6/1/10,5/31/11,Male,60,1,Saloon,Ash,TOYOTA,Car Classic
+ID_4MYWNJO,1/7/10,1/6/11,Male,50,1,Saloon,,Mercedes,CarSafe
+ID_4N1WDRG,10/7/10,3/6/11,Male,36,1,Saloon,,TOYOTA,Car Plus
+ID_4N792YQ,12/3/10,6/2/11,Male,33,2,Saloon,,TOYOTA,Car Classic
+ID_4N7B57N,1/19/10,1/18/11,Female,40,1,JEEP,Red,TOYOTA,Car Classic
+ID_4ND7TSF,10/4/10,10/3/11,Male,46,3,,Blue,Honda,Car Plus
+ID_4ND8TM8,3/22/10,3/21/11,Male,70,1,JEEP,,TOYOTA,Car Classic
+ID_4NDBMB4,2/26/10,2/25/11,Male,70,2,Saloon,Grey,TOYOTA,Car Classic
+ID_4NI46KF,12/29/10,12/28/11,Male,48,1,Saloon,,TOYOTA,Customized Motor
+ID_4NQTOFE,8/15/10,2/12/11,Female,33,1,,,,Car Classic
+ID_4NSZYFC,6/21/10,6/20/11,Male,37,2,Saloon,Silver,TOYOTA,Car Classic
+ID_4NVHRKJ,4/6/10,4/5/11,Male,37,1,Saloon,,Chrysler,CarSafe
+ID_4NWT14D,3/8/10,3/7/11,Entity,20,1,Saloon,Black,TOYOTA,Car Classic
+ID_4NYTCCY,1/14/10,1/13/11,Male,35,2,Saloon,,TOYOTA,Car Classic
+ID_4NYWDE9,10/14/10,10/13/11,Female,53,1,,,,Car Classic
+ID_4O0IMX5,7/23/10,7/22/11,Joint Gender,50,1,Saloon,,TOYOTA,CarSafe
+ID_4O1N9WW,11/24/10,11/23/11,Male,48,3,Saloon,,TOYOTA,Car Classic
+ID_4OESUFK,9/4/10,9/3/11,Joint Gender,42,1,,,,CarSafe
+ID_4OFCO0N,1/7/10,1/6/11,Male,47,1,JEEP,Brown,TOYOTA,Car Classic
+ID_4ONEBZO,7/5/10,7/4/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_4OPBJ6T,1/23/10,1/22/11,Male,20,2,Saloon,Silver,TOYOTA,Customized Motor
+ID_4OVDP9C,1/10/10,1/9/11,Female,37,1,Saloon,,TOYOTA,CarSafe
+ID_4OXQ607,12/23/10,12/22/11,,2,1,,,,Car Classic
+ID_4P12LV0,8/9/10,8/8/11,Female,40,1,Saloon,Silver,Kia,Car Classic
+ID_4PBB0XF,8/29/10,8/28/11,Male,40,1,Saloon,Grey,TOYOTA,Car Classic
+ID_4PFVM1J,5/20/10,5/19/11,Female,38,1,Saloon,,TOYOTA,CarSafe
+ID_4PKGYFF,5/21/10,5/20/11,Female,60,1,Saloon,Red,TOYOTA,Car Classic
+ID_4PQV41C,1/4/10,1/3/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_4PRBBVN,8/7/10,8/6/11,Female,45,1,,,,CarSafe
+ID_4PVS09F,1/8/10,1/7/11,Male,43,1,Saloon,Black,Lexus,Car Plus
+ID_4PYTNUO,11/18/10,5/17/11,Male,40,1,,,,Car Classic
+ID_4Q14WYF,12/20/10,12/18/11,Male,62,1,JEEP,Black,Jeep,Car Classic
+ID_4Q6U9ZE,7/26/10,7/25/11,Male,30,1,Saloon,,Honda,CarSafe
+ID_4Q9OXA3,3/20/10,3/19/11,Female,38,1,JEEP,,Ford,Car Classic
+ID_4QCHNSL,3/12/10,3/11/11,Male,31,1,Saloon,,Skoda,CarSafe
+ID_4QCSRGW,9/2/10,9/1/11,Male,50,1,,,,CarSafe
+ID_4QSFBX9,9/16/10,9/15/11,Female,39,3,,,Ford,Car Classic
+ID_4QX0AKC,3/28/10,3/27/11,Female,69,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_4R1HGWD,10/7/10,10/6/11,Male,40,1,,,,CarSafe
+ID_4R59XTA,6/22/10,6/21/11,Female,60,2,JEEP,Gold,TOYOTA,Car Classic
+ID_4R7ZNWW,11/22/10,11/20/11,Female,44,1,,,,CarSafe
+ID_4RFMO23,12/2/10,12/1/11,Male,37,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_4RH306G,4/29/10,4/28/11,Male,50,1,Saloon,,Honda,CarSafe
+ID_4RL3I16,9/24/10,9/23/11,Male,46,1,,,,CarSafe
+ID_4RMAZ9Y,1/29/10,1/28/11,Male,34,1,,As Attached,TOYOTA,Car Classic
+ID_4RMLNE8,10/10/10,10/9/11,Male,50,1,Saloon,Black,TOYOTA,Car Classic
+ID_4RNVFPV,2/10/10,2/9/11,Joint Gender,64,2,,,Honda,Car Classic
+ID_4RT856R,1/14/10,1/13/11,Male,44,3,JEEP,Black,Hyundai,Car Classic
+ID_4RYPCCX,2/6/10,2/5/11,Male,36,1,JEEP,Black,TOYOTA,Car Classic
+ID_4S0IOTE,1/24/10,1/23/11,Male,49,1,Saloon,Silver,TOYOTA,Car Classic
+ID_4S16Z9A,10/4/10,1/27/11,Male,42,2,Saloon,,TOYOTA,Car Classic
+ID_4S1VB1L,3/25/10,3/24/11,Male,38,1,Saloon,Black,TOYOTA,Car Classic
+ID_4S7HJK8,8/16/10,8/15/11,Male,45,2,Saloon,,Dodge,CarSafe
+ID_4SAUIR3,8/24/10,8/23/11,Male,44,1,,Black,Land Rover,Car Classic
+ID_4SFX37T,3/20/10,3/19/11,Male,48,2,Wagon,,Peugeot,Car Classic
+ID_4SOBI5D,5/21/10,5/20/11,Male,36,1,Saloon,Black,Honda,Car Classic
+ID_4SRT81J,11/6/10,8/6/11,Male,52,3,Saloon,Black,TOYOTA,Car Classic
+ID_4SS7EPT,12/11/10,12/10/11,Male,37,1,,,,CarSafe
+ID_4T7Y23H,11/30/10,5/30/11,Female,28,1,JEEP,,TOYOTA,CarFlex
+ID_4T92ECM,3/27/10,3/26/11,Female,49,1,,Grey,TOYOTA,Car Classic
+ID_4TB713K,9/25/10,9/24/11,Female,31,2,,,,Car Plus
+ID_4TKS9WF,3/28/10,3/27/11,Female,56,3,JEEP,Black,Mitsubishi,Customized Motor
+ID_4TPHV6K,9/3/10,9/2/11,Male,45,2,JEEP,Black,Land Rover,Customized Motor
+ID_4TXXN9D,9/3/10,1/14/11,Male,52,1,,,,Car Classic
+ID_4TYCXLV,9/19/10,9/18/11,Female,28,1,Saloon,Silver,TOYOTA,Car Classic
+ID_4TZOTX3,6/10/10,6/9/11,Male,39,2,Saloon,Red,Honda,Car Classic
+ID_4U0PSDP,12/9/10,12/7/11,Male,45,1,,,,CarSafe
+ID_4U23OF8,12/5/10,12/4/11,Female,19,1,,,,CarSafe
+ID_4U5LNB6,1/5/10,1/4/11,Female,37,1,Saloon,,TOYOTA,CarSafe
+ID_4U5WCL3,3/21/10,3/3/11,Female,36,1,Saloon,Silver,TOYOTA,Car Classic
+ID_4U77288,1/3/10,1/2/11,Male,35,1,Saloon,White,TOYOTA,Car Classic
+ID_4UN2CWH,8/24/10,8/22/11,Male,32,1,Saloon,Black,TOYOTA,Car Classic
+ID_4UNYYBW,6/20/10,6/19/11,Joint Gender,61,1,Saloon,,Hummer,CarSafe
+ID_4UOAKZ4,5/28/10,5/26/11,Female,42,1,JEEP,,Ford,CarSafe
+ID_4V0FMX9,12/23/10,12/22/11,Entity,60,2,,,Ford,CVTP
+ID_4V66R12,1/21/10,1/5/11,,20,3,JEEP,,Land Rover,Customized Motor
+ID_4VA3HWV,2/18/10,2/17/11,Male,37,1,Saloon,Blue,Honda,Car Classic
+ID_4VAZSZN,12/24/10,12/23/11,Female,60,3,JEEP,Black,Mercedes,Car Classic
+ID_4VB47QF,12/24/10,12/23/11,Male,50,1,,,,CarSafe
+ID_4VCE2M5,11/21/10,10/4/11,Male,40,1,,,,Car Classic
+ID_4VD5QE8,6/18/10,6/17/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_4VM1GX1,5/14/10,5/13/11,Male,37,1,Saloon,Silver,TOYOTA,Car Classic
+ID_4VOEQPT,11/6/10,11/5/11,Female,40,1,,,,CarSafe
+ID_4VPHMUS,4/15/10,2/21/11,Male,44,1,JEEP,Black,Mercedes,Car Classic
+ID_4VU2JTY,4/16/10,4/15/11,NOT STATED,10,1,Saloon,Ash,TOYOTA,Car Classic
+ID_4VVRRXB,8/10/10,8/9/11,Male,48,1,JEEP,Ash,TOYOTA,Car Classic
+ID_4W1XG0W,2/4/10,2/3/11,Male,31,1,Saloon,,Honda,CarSafe
+ID_4W2J2NJ,11/19/10,11/18/11,Male,40,2,Saloon,,TOYOTA,Car Classic
+ID_4W6OY1O,1/25/10,1/24/11,Female,45,1,Saloon,,Lexus,CarSafe
+ID_4WDGCUH,7/3/10,7/2/11,Male,33,1,Saloon,,TOYOTA,CarSafe
+ID_4WL1ZTN,9/4/10,9/3/11,Male,50,2,Saloon,Black,TOYOTA,Car Classic
+ID_4WOCN4I,4/6/10,4/5/11,Male,75,3,JEEP,Black,TOYOTA,Car Classic
+ID_4WPAHP8,1/21/10,1/20/11,Male,39,1,Saloon,Grey,Honda,Car Classic
+ID_4WPKOV2,8/29/10,8/28/11,Male,44,1,JEEP,Black,TOYOTA,Car Classic
+ID_4WU328S,6/23/10,6/3/11,Male,69,1,Saloon,,TOYOTA,Car Classic
+ID_4WY80QH,6/13/10,6/12/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_4WZJZM2,2/1/10,1/31/11,Female,46,1,Saloon,,TOYOTA,CarSafe
+ID_4X10I3N,5/3/10,5/2/11,Female,43,1,Saloon,Grey,TOYOTA,Car Classic
+ID_4X2RHDF,12/2/10,12/1/11,Female,16,1,,,,CarSafe
+ID_4X54V1V,2/12/10,2/11/11,Male,42,1,Saloon,,TOYOTA,CarSafe
+ID_4X566E0,6/2/10,6/1/11,Female,30,2,Saloon,As Attached,TOYOTA,Car Plus
+ID_4X9S17X,3/14/10,3/13/11,Female,68,1,Saloon,Blue,TOYOTA,Car Plus
+ID_4XQY4UK,7/25/10,7/23/11,Male,27,1,Saloon,,Kia,CarSafe
+ID_4XW2MAI,12/3/10,12/2/11,Male,45,2,Saloon,Silver,Kia,Customized Motor
+ID_4YJXNEV,1/25/10,1/24/11,NO GENDER,42,1,Saloon,,TOYOTA,CarSafe
+ID_4YTGYRO,10/8/10,2/24/11,Male,51,4,Saloon,,BMW,Customized Motor
+ID_4YVWGZZ,8/23/10,8/22/11,Female,63,1,,,TOYOTA,Car Classic
+ID_4YXPRDH,11/20/10,11/19/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_4Z0XRZ8,7/31/10,7/30/11,Female,43,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_4Z83OCW,7/24/10,7/23/11,Female,38,1,Saloon,,Peugeot,CarSafe
+ID_4ZF5JL2,10/4/10,1/3/11,Male,36,1,Saloon,,Lexus,Car Classic
+ID_4ZOBNZI,4/10/10,4/9/11,Male,38,2,Saloon,Black,TOYOTA,Car Plus
+ID_4ZOPVAA,10/28/10,10/27/11,Female,42,1,JEEP,Grey,TOYOTA,Car Classic
+ID_4ZOWQHY,3/21/10,3/20/11,Male,41,1,Saloon,Ash,Mercedes,Car Classic
+ID_4ZY1I66,12/6/10,12/5/11,NOT STATED,40,1,,,,CarSafe
+ID_500MC6F,7/26/10,7/25/11,Female,38,1,Saloon,Black,Nissan,Car Classic
+ID_506TDTN,10/14/10,4/13/11,Male,36,1,JEEP,,Lexus,Car Classic
+ID_5097LR3,1/11/10,1/10/11,Male,38,2,,,TOYOTA,Car Classic
+ID_50ECL34,7/18/10,1/15/11,Male,33,1,Saloon,Gold,TOYOTA,Car Classic
+ID_50EPBEY,12/4/10,12/3/11,Male,76,1,JEEP,Black,TOYOTA,Car Classic
+ID_50JO1FP,3/22/10,3/21/11,Male,39,1,Saloon,Black,TOYOTA,Car Classic
+ID_50NJR6I,7/1/10,2/27/11,Male,37,2,Saloon,As Attached,TOYOTA,Car Classic
+ID_516TQBV,9/26/10,9/25/11,Male,62,1,,,,Car Classic
+ID_51BHIBF,12/12/10,5/23/11,Male,33,1,,,,Car Classic
+ID_51CKZR3,6/13/10,6/12/11,Male,55,1,Truck,White,Mack,CVTP
+ID_51DQNPK,4/2/10,4/1/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_51KP2QY,12/5/10,12/4/11,Male,42,1,Saloon,,Honda,CarSafe
+ID_51W34KB,8/7/10,8/6/11,Male,46,1,,,,CarSafe
+ID_521XNN4,1/31/10,1/30/11,Male,46,3,Saloon,As Attached,Hyundai,Car Classic
+ID_526O40I,8/23/10,8/22/11,Female,53,1,Saloon,,Kia,CarSafe
+ID_527NETN,5/14/10,5/13/11,Male,90,1,JEEP,White,Mercedes,Car Classic
+ID_52FFP45,4/18/10,4/17/11,NO GENDER,39,3,,As Attached,,CVTP
+ID_52G4FAR,2/9/10,2/8/11,Male,68,1,,As Attached,TOYOTA,Car Classic
+ID_52LH8X9,9/9/10,9/8/11,Female,36,1,,,,CarSafe
+ID_52RHSXC,7/29/10,7/28/11,Female,55,1,JEEP,Red,TOYOTA,Car Classic
+ID_52RJ202,12/16/10,4/17/11,Male,62,1,,,,Car Classic
+ID_52RUAWX,9/9/10,3/8/11,Male,34,1,,,,Car Classic
+ID_535BBKY,10/11/10,12/31/10,Male,48,1,Saloon,,TOYOTA,Customized Motor
+ID_536080P,1/28/10,1/28/11,Male,39,1,Saloon,,TOYOTA,Car Classic
+ID_53AFCZY,4/12/10,4/11/11,Male,38,1,JEEP,,Honda,CarFlex
+ID_53AVLOO,1/7/10,1/6/11,Female,28,1,,Silver,TOYOTA,Car Plus
+ID_53EFAM2,12/20/10,12/19/11,Male,58,1,,,,CarSafe
+ID_53F1ZR8,8/15/10,4/27/11,Male,32,1,Saloon,Black,TOYOTA,Car Classic
+ID_53F5RK0,10/31/10,10/30/11,NOT STATED,45,1,,,,CarSafe
+ID_53GNV5F,4/24/10,4/23/11,Female,34,1,Saloon,Green,Kia,Car Plus
+ID_53HK6Y1,3/15/10,3/14/11,Male,50,1,Saloon,,Mitsubishi,CarSafe
+ID_53HSMOU,5/31/10,5/30/11,Male,41,1,Saloon,,TOYOTA,CarSafe
+ID_53J4K6G,6/21/10,6/20/11,Female,1,1,JEEP,Grey,TOYOTA,Car Classic
+ID_53N0FIR,8/14/10,8/13/11,NO GENDER,20,3,JEEP,Black,TOYOTA,Car Classic
+ID_53NI6FG,8/19/10,8/18/11,Entity,10,3,Saloon,,TOYOTA,Car Plus
+ID_53RPCAT,2/28/10,2/27/11,Female,50,1,Saloon,,Honda,CarSafe
+ID_53T7PEG,12/28/10,12/26/11,Male,33,1,,,,CarSafe
+ID_53U1WLI,7/25/10,7/24/11,Male,38,1,Saloon,Silver,TOYOTA,Car Classic
+ID_548C6G5,10/31/10,10/30/11,Male,38,1,,,,CarSafe
+ID_54NCE9P,9/7/10,9/6/11,Female,42,1,Saloon,,Kia,CarSafe
+ID_54QKCAP,1/3/10,1/2/11,Female,35,1,Saloon,,Kia,CarSafe
+ID_54R6Q4Y,10/8/10,2/24/11,Male,51,4,Saloon,Black,Honda,Customized Motor
+ID_54RUHXP,7/4/10,7/3/11,Female,39,1,JEEP,Black,TOYOTA,Car Classic
+ID_54TCN5U,12/12/10,12/11/11,Male,40,1,,,,CarSafe
+ID_54W4MPS,8/6/10,8/5/11,Male,39,1,Truck,White & Red,Iveco,CVTP
+ID_54WC0UF,9/27/10,9/26/11,Male,42,1,JEEP,Black,Land Rover,Car Classic
+ID_54XLG9F,4/27/10,4/12/11,Male,67,1,Saloon,,Mercedes,Car Classic
+ID_551IJBS,10/15/10,10/14/11,Male,16,1,,,,CarSafe
+ID_5540VE2,3/15/10,3/14/11,NOT STATED,40,1,Saloon,,Hyundai,CarSafe
+ID_554GKPF,3/21/10,3/20/11,Male,47,1,Saloon,,Hyundai,CarSafe
+ID_558GA6B,1/30/10,1/29/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_559R0P9,4/4/10,4/3/11,Female,57,1,Saloon,,As Attached,CarSafe
+ID_55B1P0I,5/3/10,5/2/11,Joint Gender,40,1,Saloon,,Nissan,CarSafe
+ID_55C69R4,5/8/10,2/7/11,Male,43,1,Saloon,Black,Hyundai,Car Classic
+ID_55IGESZ,5/24/10,5/23/11,Entity,10,3,Pick Up,As Attached,Ford,CVTP
+ID_55T4OKG,6/25/10,6/24/11,Male,41,1,Saloon,,Nissan,CarSafe
+ID_560BBCZ,2/26/10,2/25/11,Male,42,1,Saloon,Gold,Lexus,Car Classic
+ID_561RQJ7,5/21/10,5/20/11,Male,67,2,JEEP,,Range Rover,Car Classic
+ID_56B12YY,3/15/10,3/14/11,Male,41,1,Saloon,Green,TOYOTA,Car Classic
+ID_56CON5O,4/15/10,4/14/11,Male,59,1,Saloon,Red,Hyundai,Car Classic
+ID_56E1D6K,4/15/10,4/14/11,Joint Gender,38,1,JEEP,Black,ACURA,Car Classic
+ID_56HEL1M,6/28/10,6/27/11,Male,48,1,Saloon,Black,TOYOTA,Car Classic
+ID_56IDQ8J,8/1/10,7/31/11,Female,56,1,Saloon,,TOYOTA,CarSafe
+ID_56ML3TA,3/4/10,3/3/11,Female,46,1,Saloon,Black,TOYOTA,Car Classic
+ID_56N4UBL,8/29/10,8/28/11,Male,35,1,,,,Car Classic
+ID_56OL5RN,5/14/10,2/27/11,Male,48,1,Saloon,,TOYOTA,Car Classic
+ID_56R688K,2/21/10,2/20/11,Female,39,1,JEEP,,Honda,CarSafe
+ID_578UGQX,12/11/10,12/10/11,Male,9,1,,,,CarSafe
+ID_579QMGQ,6/2/10,6/1/11,Female,30,2,Saloon,,TOYOTA,Car Plus
+ID_57C893M,1/24/10,1/23/11,Male,48,1,JEEP,,Range Rover,Customized Motor
+ID_57FIXKF,6/14/10,6/13/11,Male,19,1,Saloon,,TOYOTA,CarSafe
+ID_57RT6AG,8/1/10,7/31/11,Male,35,1,,,,Car Classic
+ID_57RV3O0,11/21/10,11/20/11,Male,32,2,Saloon,,Honda,Car Classic
+ID_57RVQJ0,7/9/10,7/8/11,Male,29,1,Saloon,Ash,TOYOTA,Car Plus
+ID_57W317T,1/24/10,1/23/11,Male,34,1,Saloon,,TOYOTA,CarSafe
+ID_57X3NQ6,8/9/10,8/8/11,Male,41,1,,,,CarSafe
+ID_57XF861,4/16/10,4/15/11,Male,66,1,Saloon,,TOYOTA,Customized Motor
+ID_587IIAA,9/26/10,1/6/11,Male,39,3,Saloon,,Hyundai,Car Classic
+ID_58Q9BF0,12/19/10,12/18/11,Female,60,3,JEEP,Black,TOYOTA,Car Classic
+ID_58RFEA5,6/6/10,6/5/11,Female,38,1,Saloon,Silver,TOYOTA,Car Classic
+ID_58VNUAQ,8/8/10,8/7/11,Male,52,1,,,,CarSafe
+ID_58YDLAD,8/28/10,8/27/11,Male,52,1,,,,CarSafe
+ID_59K1RBU,4/4/10,4/3/11,Female,40,1,JEEP,Silver,Mercedes,Car Classic
+ID_59OTS1F,8/2/10,8/1/11,Male,34,1,,,,Car Classic
+ID_59QAP09,4/18/10,4/17/11,Male,31,1,Saloon,,Mercedes,CarSafe
+ID_59R3NK1,3/27/10,3/26/11,Male,31,2,Saloon,Black,Kia,Car Classic
+ID_59YE4MS,11/28/10,11/23/11,Male,70,1,Saloon,Red,TOYOTA,Car Classic
+ID_5A8827S,9/10/10,9/9/11,NOT STATED,2,1,JEEP,Grey,TOYOTA,Car Classic
+ID_5A8BUGA,12/30/10,12/29/11,Female,34,1,,,,Car Classic
+ID_5AD420S,8/7/10,8/6/11,NOT STATED,38,1,,,,Car Classic
+ID_5AK33I2,9/16/10,9/15/11,Female,29,1,JEEP,,TOYOTA,Car Classic
+ID_5AKMPYZ,7/6/10,1/4/11,Male,46,1,Saloon,Black,TOYOTA,Car Classic
+ID_5AKS48S,6/21/10,6/20/11,Male,1,1,Saloon,,Hyundai,CarSafe
+ID_5AOPUGP,7/24/10,7/23/11,Female,43,1,Saloon,,Hyundai,CarSafe
+ID_5ASACV1,5/8/10,5/7/11,Female,31,1,Saloon,,TOYOTA,CarSafe
+ID_5ATVCDM,11/20/10,2/21/11,Female,29,1,Saloon,Black,TOYOTA,Car Classic
+ID_5AZ1EQH,5/7/10,5/5/11,Male,46,1,Saloon,,Honda,Car Classic
+ID_5B129ZH,2/28/10,2/27/11,Male,34,1,Saloon,,Mazda,CarSafe
+ID_5BD0VXQ,8/15/10,8/14/11,Male,33,1,,As Attached,Iveco,CVTP
+ID_5BGQH8D,2/11/10,2/10/11,Male,30,1,Saloon,,Nissan,CarSafe
+ID_5BJ0UY3,9/19/10,9/18/11,Female,70,1,,,,Car Classic
+ID_5BXWWNH,10/31/10,10/16/11,Male,35,1,JEEP,Brown,GMC,Car Classic
+ID_5C0PEF6,8/3/10,8/2/11,Male,39,1,JEEP,Black,ACURA,Car Classic
+ID_5C1WP6J,10/11/10,10/9/11,Male,34,1,,,TOYOTA,Car Classic
+ID_5C4615O,8/29/10,8/11/11,Female,32,1,Saloon,,TOYOTA,Car Classic
+ID_5C4SVH8,1/11/10,1/10/11,Male,40,1,Saloon,Silver,TOYOTA,Car Plus
+ID_5C5FX67,10/31/10,3/1/11,Female,38,3,,,TOYOTA,Car Classic
+ID_5CA7QK6,12/20/10,3/22/11,Female,44,1,JEEP,Black,Mercedes,Car Classic
+ID_5CBFB4T,12/13/10,12/12/11,Male,54,2,,,,CarSafe
+ID_5CMCDZ0,5/15/10,5/14/11,Male,68,1,JEEP,Black,TOYOTA,Car Classic
+ID_5CNQFZ6,4/6/10,4/5/11,Female,28,1,Saloon,Red,TOYOTA,Car Classic
+ID_5CPEXR9,1/30/10,1/29/11,Male,34,1,Saloon,Silver,Pontiac,Car Classic
+ID_5CSMUB8,11/13/10,11/11/11,Male,38,1,,,,CarSafe
+ID_5CX4VEW,3/13/10,2/27/11,Female,38,1,JEEP,Blue,Honda,Car Classic
+ID_5D169KP,11/20/10,9/17/11,Male,38,1,,,,Car Classic
+ID_5D1E2HD,4/30/10,4/29/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_5D1KHB1,7/5/10,7/4/11,Male,71,1,Saloon,,Honda,CarSafe
+ID_5DA2T0Q,8/6/10,8/5/11,Male,28,1,,,,CarSafe
+ID_5DCZUBA,8/29/10,12/31/10,Entity,20,3,,,,Muuve
+ID_5DDNJVL,12/23/10,2/21/11,Male,20,4,JEEP,Black,Honda,Customized Motor
+ID_5DIV4K7,1/10/10,1/9/11,Male,80,1,Saloon,Silver,TOYOTA,Car Classic
+ID_5DJRYMB,1/11/10,1/10/11,Female,26,1,Saloon,Red,TOYOTA,Car Classic
+ID_5DTB24B,8/30/10,8/29/11,Male,35,1,Mini Van,Silver,TOYOTA,Car Classic
+ID_5DVTXZW,12/18/10,12/17/11,Female,42,1,,,,Car Classic
+ID_5DWNU4U,11/19/10,11/18/11,Male,2,1,Saloon,,TOYOTA,CarSafe
+ID_5E2S9P0,2/18/10,2/17/11,Male,60,1,Saloon,,TOYOTA,CarSafe
+ID_5EBN6LY,9/27/10,9/26/11,Male,52,1,Saloon,,TOYOTA,Car Classic
+ID_5EDDW07,1/7/10,1/6/11,Female,50,2,,,TOYOTA,Car Classic
+ID_5EF22D4,7/8/10,4/7/11,Male,38,1,Saloon,Black,TOYOTA,Car Classic
+ID_5EI6RFC,7/31/10,7/30/11,Male,36,2,Saloon,,Honda,CarSafe
+ID_5EK6FH0,7/15/10,7/14/11,NOT STATED,44,1,Saloon,Black,TOYOTA,Car Classic
+ID_5ESFRBH,4/29/10,4/28/11,,20,1,,,TOYOTA,Car Classic
+ID_5EVPUVK,7/8/10,1/6/11,Female,64,1,Saloon,Grey,TOYOTA,Car Classic
+ID_5EWFZ69,4/12/10,4/11/11,Male,41,1,Saloon,,Hyundai,CarSafe
+ID_5FB0YN5,11/19/10,11/18/11,Male,35,1,,,,CarSafe
+ID_5FCYV5S,5/9/10,5/7/11,Male,41,1,JEEP,,Nissan,CarSafe
+ID_5FFERIM,1/22/10,1/21/11,Female,57,2,JEEP,Green,Hyundai,Car Plus
+ID_5FOM571,2/11/10,2/10/11,Male,40,1,Saloon,,Hyundai,CarSafe
+ID_5FR1NAP,2/7/10,2/6/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_5FV8WS2,8/14/10,8/12/11,Male,38,1,,,,CarSafe
+ID_5G0JLDW,11/1/10,10/31/11,Female,42,1,Saloon,Red,TOYOTA,Car Classic
+ID_5GAFH4O,12/16/10,7/2/11,Male,32,1,,,,Car Classic
+ID_5GFBJUA,5/6/10,5/5/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_5GHYAQR,9/16/10,9/15/11,Female,45,1,,Silver,Lexus,Customized Motor
+ID_5GMNMD7,2/20/10,2/19/11,Male,41,1,Saloon,Grey,TOYOTA,Car Classic
+ID_5GNQB7R,5/6/10,5/5/11,Female,42,1,Saloon,Black,Kia,Customized Motor
+ID_5GOCJVB,1/9/10,1/8/11,Female,55,1,Saloon,,TOYOTA,CarSafe
+ID_5GR3EL2,8/30/10,8/29/11,Female,2,1,Saloon,,TOYOTA,CarSafe
+ID_5GX79Z9,7/1/10,6/30/11,Female,31,1,JEEP,Blue,TOYOTA,Car Classic
+ID_5GXU1GZ,4/6/10,4/5/11,Male,40,1,,,Nissan,CarSafe
+ID_5H2RR6Y,6/22/10,6/20/11,Male,62,1,JEEP,,BMW,CarSafe
+ID_5H4YKR6,4/15/10,4/14/11,Male,73,1,JEEP,Black,TOYOTA,Car Classic
+ID_5H6MECP,12/31/10,12/30/11,Female,48,1,,,,CarSafe
+ID_5HC5EHH,5/31/10,5/30/11,Female,33,1,Saloon,Red,TOYOTA,Car Classic
+ID_5HCU70M,1/3/10,1/2/11,Male,34,1,Saloon,Grey,TOYOTA,Car Classic
+ID_5HIM4SL,2/7/10,2/6/11,Male,38,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_5HJYXYY,12/26/10,6/24/11,Female,28,1,,,,Car Classic
+ID_5HQADIR,7/4/10,7/3/11,Male,34,2,Saloon,As Attached,TOYOTA,Car Classic
+ID_5HR3V60,8/22/10,8/21/11,Male,35,1,Saloon,Ash,TOYOTA,Car Classic
+ID_5HULS89,5/14/10,5/13/11,Female,1,1,Saloon,,Honda,CarSafe
+ID_5HZ30NN,2/19/10,2/18/11,Male,33,1,Saloon,,Lexus,CarSafe
+ID_5HZ90WN,3/12/10,3/11/11,Male,43,1,Saloon,Grey,Honda,Car Classic
+ID_5HZXZ2K,9/23/10,3/23/11,Male,49,1,,,,Car Classic
+ID_5I0YJJ8,10/4/10,10/3/11,Male,40,1,,,,Car Classic
+ID_5I7QF0L,5/31/10,5/30/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_5ID1ZY8,5/4/10,4/13/11,Female,36,1,Saloon,Red,TOYOTA,Car Classic
+ID_5IJV66K,9/13/10,9/12/11,Female,35,1,,,,CarSafe
+ID_5ILFNUE,5/8/10,5/7/11,Female,34,1,Saloon,Black,Honda,Car Classic
+ID_5ISZ3QV,1/4/10,1/3/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_5IT4Q8S,4/5/10,4/4/11,Male,40,1,Saloon,,Mazda,CarSafe
+ID_5IVQZP1,1/16/10,1/15/11,Male,44,1,,,TOYOTA,Car Classic
+ID_5J08H9H,12/30/10,12/29/11,Female,50,1,,,,CarSafe
+ID_5JH2RXZ,12/3/10,7/22/11,Female,44,1,JEEP,Black,Mercedes,Car Classic
+ID_5JM1NJ4,9/9/10,9/8/11,Male,37,1,Saloon,,TOYOTA,Car Classic
+ID_5JM6ORT,11/2/10,10/31/11,Male,36,1,,,,CarFlex
+ID_5JMIOFT,1/18/10,1/17/11,Male,46,1,JEEP,Green,Kia,Car Classic
+ID_5JQEXIU,4/30/10,4/29/11,Male,35,1,Saloon,Gold,Lexus,Car Classic
+ID_5JUKV8L,1/29/10,1/28/11,Female,42,1,Saloon,Brown,Kia,Car Classic
+ID_5K2NT8S,10/4/10,1/4/11,SEX,33,1,,,,Car Classic
+ID_5K9PFZT,11/21/10,11/20/11,Male,72,1,Saloon,Black,Honda,Car Classic
+ID_5KG4XDO,10/22/10,10/21/11,Male,38,1,,,,CarSafe
+ID_5KHROV2,9/23/10,9/21/11,Male,50,1,,,,CarSafe
+ID_5KNNHJ8,6/6/10,6/5/11,Male,34,1,Saloon,Silver,TOYOTA,Car Classic
+ID_5KR37UE,1/16/10,1/15/11,Female,59,1,Saloon,,TOYOTA,CarSafe
+ID_5KSMK8H,4/4/10,4/3/11,Male,32,1,Saloon,Grey,TOYOTA,Car Classic
+ID_5KT56U5,3/21/10,3/3/11,Female,36,1,Saloon,Silver,TOYOTA,Car Classic
+ID_5L0VRZ5,6/13/10,6/12/11,Male,35,1,Saloon,Black,TOYOTA,Car Classic
+ID_5L8WVTT,5/31/10,5/30/11,Male,35,1,Saloon,Grey,TOYOTA,Car Classic
+ID_5LBPD6P,5/25/10,5/24/11,Male,30,1,Saloon,Wine,Honda,Car Classic
+ID_5LCI5L5,7/9/10,7/8/11,Female,38,1,Saloon,,TOYOTA,CarSafe
+ID_5LCTZZE,10/26/10,10/25/11,Female,36,1,,,,Car Classic
+ID_5LL04MN,7/2/10,7/1/11,Male,40,1,JEEP,Grey,Lexus,Car Classic
+ID_5LLYCT2,2/11/10,2/10/11,Male,57,2,JEEP,,TOYOTA,Car Plus
+ID_5LUIPYW,6/1/10,5/31/11,Male,31,1,Saloon,Blue,TOYOTA,Car Classic
+ID_5LUPQNL,3/25/10,3/24/11,Male,51,1,Saloon,,Mercedes,CarSafe
+ID_5LWE5EL,11/22/10,11/21/11,Male,65,1,JEEP,Black,Hyundai,Car Classic
+ID_5M0NAGU,5/28/10,5/27/11,Male,46,1,Saloon,,Honda,CarSafe
+ID_5M45PHC,9/28/10,9/27/11,Female,44,1,Saloon,Black,TOYOTA,Car Classic
+ID_5M55Z1N,8/14/10,8/13/11,Male,41,1,,,,CarSafe
+ID_5M6JIT8,9/27/10,3/26/11,Male,40,2,,,,Customized Motor
+ID_5M9TN0T,7/2/10,7/1/11,Male,28,1,Saloon,,TOYOTA,CarSafe
+ID_5MBH1YR,7/2/10,7/1/11,Female,34,2,JEEP,Blue,TOYOTA,Car Classic
+ID_5MMWRSY,1/31/10,1/30/11,Male,43,3,JEEP,Black,TOYOTA,Customized Motor
+ID_5MZ9O0R,1/18/10,1/17/11,Male,51,1,,Blue,TOYOTA,Car Classic
+ID_5N7ZNJH,7/19/10,7/18/11,NOT STATED,60,1,Saloon,Black,Audi,Customized Motor
+ID_5NAUUJW,3/13/10,3/12/11,Male,41,2,JEEP,Silver,Lexus,Car Classic
+ID_5NBOOZY,4/16/10,4/15/11,Male,35,1,Saloon,,Honda,CarSafe
+ID_5NC4XDI,8/16/10,8/15/11,Male,61,1,Saloon,,Honda,CarSafe
+ID_5NF93W8,5/10/10,5/9/11,Male,52,1,Saloon,,TOYOTA,CarSafe
+ID_5NG87RW,1/17/10,1/16/11,Female,1,1,Saloon,,TOYOTA,CarSafe
+ID_5NGZF0J,3/7/10,3/6/11,Female,38,1,Saloon,,Volkswagen,CarSafe
+ID_5NTG1KS,10/29/10,10/28/11,Male,27,1,Saloon,Black,TOYOTA,Car Classic
+ID_5OFE7QA,12/13/10,12/12/11,Female,40,1,JEEP,,Honda,CarSafe
+ID_5OFTBUD,6/24/10,6/23/11,Male,34,1,Saloon,Silver,TOYOTA,Car Classic
+ID_5OW09PF,11/6/10,8/6/11,Male,52,3,,As Attached,Audi,Car Classic
+ID_5OX5AHW,2/18/10,2/17/11,Female,55,1,JEEP,Grey,Lexus,Car Classic
+ID_5P1R5NQ,12/20/10,12/19/11,Female,46,1,,,,CarSafe
+ID_5P5JK6I,1/2/10,1/1/11,Female,1,1,Saloon,,Hyundai,CarSafe
+ID_5P92XZI,5/21/10,5/20/11,Female,63,2,,As Attached,Ford,Car Classic
+ID_5PBNDWT,9/6/10,9/5/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_5PIOQVZ,2/8/10,2/7/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_5PJUZGE,11/8/10,2/6/11,Male,36,1,JEEP,White,TOYOTA,Car Classic
+ID_5PK7YVR,1/9/10,1/8/11,Female,54,2,,,Range Rover,Car Classic
+ID_5PMJ4JA,4/5/10,4/4/11,Female,46,1,Saloon,,TOYOTA,Car Classic
+ID_5PX2I5E,2/6/10,2/5/11,Female,57,1,Saloon,,TOYOTA,Car Classic
+ID_5PXYWOK,1/31/10,1/30/11,Female,69,3,,Black,Honda,Customized Motor
+ID_5PYUYA6,2/7/10,2/6/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_5Q5YZJ5,3/5/10,3/3/11,Male,36,1,Saloon,,TOYOTA,Car Classic
+ID_5Q9SALE,1/30/10,1/29/11,Male,50,1,Saloon,As Attached,Honda,CarSafe
+ID_5QA6WXK,1/10/10,1/9/11,Male,63,1,JEEP,,TOYOTA,Car Classic
+ID_5QCITWQ,1/25/10,1/24/11,Male,82,1,Saloon,,TOYOTA,CarSafe
+ID_5QKH3BY,12/18/10,12/18/11,Male,54,1,JEEP,,Lexus,Car Classic
+ID_5QMSHKM,3/18/10,3/17/11,Female,29,1,Saloon,Silver,TOYOTA,Car Classic
+ID_5QMY19C,8/5/10,8/4/11,Male,50,1,JEEP,Grey,TOYOTA,Car Classic
+ID_5QOS8QE,11/11/10,11/10/11,Male,52,1,JEEP,,Lexus,CarSafe
+ID_5QTYVGA,2/22/10,2/21/11,Female,24,1,Saloon,,Peugeot,Car Classic
+ID_5QW5K9N,5/6/10,4/8/11,Male,34,2,Saloon,,Honda,Car Classic
+ID_5R1RLY9,4/16/10,4/15/11,Male,33,1,Saloon,,TOYOTA,CarSafe
+ID_5R78XBZ,2/9/10,2/8/11,Male,63,1,JEEP,Black,TOYOTA,Car Classic
+ID_5RC828L,3/6/10,3/4/11,Female,45,1,JEEP,Silver,TOYOTA,Car Classic
+ID_5RE5ZGN,7/19/10,7/18/11,Male,43,2,JEEP,Blue,TOYOTA,Car Classic
+ID_5RL2QII,4/4/10,4/3/11,Male,55,1,Saloon,Black,Hyundai,Car Classic
+ID_5RM6LIQ,9/25/10,9/24/11,Male,24,1,Saloon,Black,TOYOTA,Car Plus
+ID_5RMID9Y,11/20/10,5/5/11,Female,54,1,,,,Car Classic
+ID_5S2PS49,8/20/10,8/19/11,,56,1,,,,Car Classic
+ID_5S49J44,11/20/10,11/19/11,Male,32,1,,,,CarSafe
+ID_5S4H5DO,11/15/10,11/14/11,NOT STATED,21,1,Saloon,,Lexus,CarSafe
+ID_5S6ED9B,7/12/10,7/11/11,Male,35,1,JEEP,Light Green,Lexus,Car Classic
+ID_5SBOJX6,7/29/10,7/25/11,Male,39,1,Saloon,Gold,TOYOTA,Car Classic
+ID_5SCSAXU,3/12/10,3/11/11,Male,45,1,Saloon,,TOYOTA,CarSafe
+ID_5SIYCO5,3/6/10,3/4/11,Male,12,2,,,Hyundai,Customized Motor
+ID_5SNLSV6,4/3/10,4/2/11,Female,69,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_5SP3FT1,6/12/10,6/11/11,Male,46,2,JEEP,Silver,Honda,Car Classic
+ID_5STOZBX,12/21/10,12/20/11,Male,50,1,Saloon,,Kia,CarSafe
+ID_5SXA1I4,11/6/10,3/4/11,Male,12,2,JEEP,Black,Lexus,Customized Motor
+ID_5SY9RQJ,2/19/10,2/18/11,Male,58,1,Saloon,,TOYOTA,CarSafe
+ID_5T061ZW,12/26/10,12/24/11,Male,39,1,,,,CarSafe
+ID_5T12HFA,10/3/10,10/1/11,Male,41,1,,,,CarSafe
+ID_5T5V4UV,6/27/10,6/26/11,Female,30,1,JEEP,Black,TOYOTA,Car Classic
+ID_5TDHE1W,11/19/10,5/21/11,Male,44,2,,,,Car Classic
+ID_5TFMWEY,3/20/10,3/19/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_5TPZM23,6/27/10,6/26/11,,22,1,,As Attached,TOYOTA,Car Classic
+ID_5TWYRVJ,12/13/10,12/12/11,Male,50,1,,,,CarSafe
+ID_5U94229,1/4/10,1/3/11,Male,41,1,Saloon,Silver,TOYOTA,Car Classic
+ID_5UEC91R,1/23/10,1/22/11,Female,46,2,Saloon,Grey,TOYOTA,Car Classic
+ID_5UHIWG7,8/26/10,8/25/11,Male,50,2,,,,Car Classic
+ID_5UOIVTT,3/8/10,3/7/11,Male,53,1,Saloon,,TOYOTA,CarSafe
+ID_5US03NE,12/12/10,12/11/11,Female,45,1,,,,CarSafe
+ID_5USOR8N,5/28/10,5/27/11,Female,39,1,Bus,Dark Gray,TOYOTA,Car Classic
+ID_5UWNAJ9,6/13/10,6/12/11,Male,44,2,Saloon,Black,TOYOTA,Car Classic
+ID_5V5ANSE,5/10/10,5/9/11,Male,37,1,Saloon,Silver,TOYOTA,Car Classic
+ID_5V8ZB4D,9/25/10,9/24/11,Female,39,1,JEEP,Grey,Hyundai,Car Classic
+ID_5VAPLV0,7/9/10,7/8/11,Female,52,2,JEEP,,TOYOTA,Car Classic
+ID_5VASDCH,10/15/10,10/9/11,Female,31,2,JEEP,Black,Honda,Car Plus
+ID_5VBLFPG,4/6/10,4/5/11,Female,50,1,Saloon,,TOYOTA,CarSafe
+ID_5VGO1HB,1/24/10,1/23/11,Female,64,2,JEEP,,BMW,Car Plus
+ID_5VJI1G9,10/17/10,10/16/11,Male,30,1,Saloon,,Mercedes,Car Classic
+ID_5VNXACZ,5/16/10,5/15/11,Male,65,1,JEEP,B.Silver,TOYOTA,Car Plus
+ID_5VO971Y,10/30/10,10/29/11,Female,36,2,Saloon,Black,Kia,Car Classic
+ID_5VPN8WK,1/30/10,1/29/11,Male,41,2,Saloon,Silver,Lexus,Car Classic
+ID_5W5RJ44,1/29/10,1/28/11,Male,56,1,Bus,,TOYOTA,CVTP
+ID_5W6OLBL,8/7/10,8/6/11,Male,52,3,Bus,,TOYOTA,CVTP
+ID_5WC8SJD,9/28/10,9/27/11,Entity,20,1,Saloon,Grey,Skoda,Car Classic
+ID_5WK599N,4/18/10,4/17/11,Male,36,1,Saloon,,Lexus,CarSafe
+ID_5WKAA5O,9/4/10,9/2/11,Male,20,1,,Black,Range Rover,Car Classic
+ID_5WWQMWL,12/30/10,12/29/11,Female,30,1,,,,Car Classic
+ID_5X0ECIE,2/12/10,2/11/11,Male,40,1,Saloon,Blue,TOYOTA,Car Classic
+ID_5X26HPT,2/26/10,2/25/11,Male,76,1,Saloon,,Nissan,Car Classic
+ID_5X7FSVY,12/17/10,12/16/11,Female,40,2,,,,Car Classic
+ID_5X93TAP,2/21/10,2/21/11,Female,40,1,Saloon,Grey,Honda,Car Classic
+ID_5X991I0,10/29/10,10/28/11,NOT STATED,20,1,Saloon,,Ford,CarSafe
+ID_5XJRJXN,2/7/10,2/6/11,Female,44,1,Saloon,,TOYOTA,Car Classic
+ID_5XKJE29,4/30/10,4/29/11,Male,1,1,Saloon,,Mazda,CarSafe
+ID_5XKX2YT,12/23/10,3/22/11,Male,19,2,,,,Car Plus
+ID_5XL8KFQ,4/18/10,4/17/11,Male,42,1,Saloon,,Hyundai,CarSafe
+ID_5XM8MNN,1/31/10,1/25/11,Female,33,1,Saloon,Blue,TOYOTA,Car Classic
+ID_5XNK07U,2/28/10,2/21/11,Male,41,2,Saloon,Black,Honda,Car Classic
+ID_5XX9ATR,3/12/10,3/11/11,Male,12,4,Truck,White,Mitsubishi,CVTP
+ID_5Y04DY7,3/10/10,3/8/11,Female,6,1,Saloon,Black,TOYOTA,Car Classic
+ID_5Y32UE9,4/12/10,4/11/11,Male,43,2,Saloon,,TOYOTA,Car Classic
+ID_5Y80ZOG,4/17/10,4/16/11,Male,49,2,Saloon,White,TOYOTA,Car Classic
+ID_5YACX12,7/2/10,7/1/11,Female,40,2,JEEP,Black,Ford,Car Plus
+ID_5YB0N5I,5/1/10,4/30/11,Male,35,1,Saloon,,TOYOTA,CarSafe
+ID_5YBKMVE,3/14/10,3/13/11,Female,53,1,Saloon,Black,Honda,Car Classic
+ID_5YCRBD7,10/28/10,10/27/11,Male,30,1,,,,CarSafe
+ID_5YHCDJI,2/19/10,2/18/11,Female,28,2,Saloon,,Hyundai,Car Plus
+ID_5YJB5IU,9/5/10,6/30/11,Male,37,2,JEEP,Black,Honda,Car Classic
+ID_5YL1T0P,10/31/10,10/30/11,Male,31,1,,,Honda,Car Classic
+ID_5YN6IFL,11/9/10,12/31/10,,38,2,JEEP,,TOYOTA,Customized Motor
+ID_5YNZM8F,9/26/10,9/25/11,Male,40,3,,,Mercedes,Car Classic
+ID_5YP60FC,7/12/10,7/11/11,NOT STATED,36,1,Saloon,,TOYOTA,CarSafe
+ID_5Z1HGJO,5/8/10,5/7/11,Male,50,1,Saloon,,TOYOTA,CarFlex
+ID_5Z4V0BW,8/29/10,8/28/11,Female,49,1,,,,CarSafe
+ID_5Z6QGXY,5/21/10,5/20/11,Female,55,1,JEEP,Black,ACURA,Car Classic
+ID_5ZAHKF1,7/30/10,7/29/11,Joint Gender,38,1,Saloon,,TOYOTA,Car Classic
+ID_5ZI6273,12/17/10,12/16/11,Female,49,1,Saloon,,Skoda,CarSafe
+ID_5ZKLDSN,4/10/10,4/9/11,Male,33,1,Saloon,,TOYOTA,CarSafe
+ID_5ZLPV5I,11/20/10,10/28/11,Male,41,1,,,,Car Classic
+ID_5ZTV1BU,8/30/10,8/29/11,Male,65,1,,,Kia,Car Classic
+ID_5ZU1S46,7/2/10,12/31/10,Male,54,1,JEEP,Black,Nissan,Customized Motor
+ID_5ZVG9KT,3/7/10,3/6/11,Male,40,2,JEEP,Black,TOYOTA,Car Classic
+ID_5ZXYME5,1/9/10,1/8/11,Male,36,1,Saloon,Brown,TOYOTA,Car Classic
+ID_600RVK1,9/24/10,9/23/11,Male,38,1,Saloon,,TOYOTA,CarSafe
+ID_602ZL89,8/29/10,4/10/11,Male,42,1,Saloon,Grey,TOYOTA,Car Classic
+ID_604G4JU,5/2/10,5/1/11,Female,45,1,Saloon,,Mercedes,CarSafe
+ID_60F0WZ6,4/27/10,4/26/11,Male,35,2,,,TOYOTA,Car Classic
+ID_60GTYO1,12/7/10,12/6/11,Female,33,1,Saloon,Black,TOYOTA,Car Classic
+ID_60GZLHW,10/11/10,10/10/11,Female,41,1,,,,CarSafe
+ID_60HOAUL,12/17/10,9/22/11,Female,33,1,Saloon,,TOYOTA,Car Classic
+ID_60I0MR9,10/2/10,4/1/11,Female,60,1,,Black,Honda,Car Classic
+ID_60KDBRH,4/15/10,4/14/11,Female,34,1,Saloon,Grey,TOYOTA,Car Classic
+ID_60KMFX7,7/28/10,7/27/11,Male,37,1,Saloon,,Honda,CarSafe
+ID_60L6SE2,6/28/10,6/27/11,Entity,8,2,Saloon,Black,Hyundai,Car Classic
+ID_60L79WP,4/4/10,4/3/11,Male,38,1,Saloon,Black,TOYOTA,Car Classic
+ID_60LELIA,2/8/10,2/7/11,Male,42,1,JEEP,,TOYOTA,CarSafe
+ID_60NJ100,6/18/10,6/17/11,Male,29,1,Saloon,Grey,Lexus,Car Classic
+ID_60WH5Q6,11/8/10,11/7/11,Male,74,1,,,,CarSafe
+ID_613B2ID,10/9/10,10/8/11,Male,32,1,JEEP,,Lexus,Car Classic
+ID_614A3TK,11/23/10,5/22/11,Female,40,2,,,,Car Classic
+ID_6157HEN,7/29/10,7/28/11,Female,36,1,Saloon,,Kia,CarSafe
+ID_616C8HH,2/26/10,2/25/11,,38,1,,,TOYOTA,Car Classic
+ID_6188F05,11/22/10,11/21/11,Male,40,1,JEEP,Black,Honda,Car Classic
+ID_61CYCPZ,11/5/10,2/9/11,Male,37,1,,,,Car Classic
+ID_61LPVSY,7/26/10,7/25/11,Female,32,1,Saloon,,TOYOTA,CarSafe
+ID_61VTP3X,7/2/10,7/1/11,Female,34,2,JEEP,Black,TOYOTA,Car Classic
+ID_626AOJR,1/8/10,1/7/11,Female,38,2,JEEP,Black,TOYOTA,Car Classic
+ID_62C8AB2,6/20/10,6/19/11,Male,45,2,JEEP,Brown,TOYOTA,Car Classic
+ID_62DGTRF,4/3/10,4/2/11,Male,50,1,Saloon,,Honda,CarSafe
+ID_62LBOWI,12/31/10,12/30/11,Male,44,1,,,,Car Classic
+ID_62NQ23O,4/25/10,4/24/11,Female,62,1,Saloon,Wine,Mazda,Car Plus
+ID_62NW04O,11/12/10,2/10/11,Male,33,1,,,,Car Classic
+ID_62SHOYU,2/5/10,2/4/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_62X9GBQ,12/23/10,12/22/11,Male,36,1,,,,CarSafe
+ID_632RK6W,7/30/10,7/29/11,Female,45,4,,White,Ford,CVTP
+ID_636I1C6,10/3/10,6/12/11,Male,35,3,Saloon,Green,Honda,Car Classic
+ID_638ZU08,4/4/10,3/19/11,Male,26,1,Saloon,Red,TOYOTA,Car Classic
+ID_63C4CLI,6/21/10,6/20/11,Female,40,2,JEEP,Black,Hyundai,Car Classic
+ID_63HLZ84,2/7/10,2/6/11,Male,34,1,Saloon,Black,TOYOTA,Car Classic
+ID_63IZ6R6,1/25/10,1/24/11,NOT STATED,40,1,Saloon,,Honda,CarSafe
+ID_63MHSH7,1/28/10,1/27/11,Male,50,1,JEEP,Black,Infiniti,Car Classic
+ID_63OJLBJ,3/4/10,3/3/11,Joint Gender,33,1,Saloon,Black,Hyundai,Car Classic
+ID_63R8298,1/23/10,1/22/11,Male,35,1,Saloon,Red,TOYOTA,Car Classic
+ID_63SYCTG,4/9/10,4/8/11,Male,67,2,,,TOYOTA,Car Classic
+ID_63U4960,9/12/10,9/11/11,Entity,8,1,,As Attached,Hyundai,Car Plus
+ID_640Z1Y8,2/9/10,2/8/11,Male,40,1,Saloon,,Hyundai,CarSafe
+ID_641JVTZ,7/11/10,7/10/11,Male,54,1,Saloon,Green,Lexus,Car Classic
+ID_6429JJG,1/4/10,1/3/11,Female,42,1,Saloon,Red,TOYOTA,Car Classic
+ID_64376DG,11/4/10,11/3/11,Male,25,1,Saloon,,Honda,Car Classic
+ID_6461UMF,3/15/10,3/14/11,Entity,50,1,Saloon,,Nissan,CarSafe
+ID_646XA5G,10/11/10,10/10/11,Female,42,1,,As Attached,Lexus,Car Classic
+ID_649JDR4,7/23/10,7/22/11,Male,36,1,Saloon,Purple,BMW,Car Plus
+ID_64MWZ3U,5/28/10,5/27/11,Joint Gender,40,1,JEEP,Black,Lexus,Car Classic
+ID_64QNWWV,5/18/10,5/16/11,Female,40,1,Saloon,Blue,TOYOTA,Car Classic
+ID_653F4VX,1/24/10,1/23/11,Male,45,2,Saloon,Black,Nissan,Car Plus
+ID_6572RF8,9/13/10,9/12/11,Male,2,1,,,,CarSafe
+ID_65A0VE7,5/24/10,5/23/11,Female,55,1,,As Attached,Lexus,Car Classic
+ID_65BZ4XC,3/26/10,3/25/11,Male,45,1,Saloon,,TOYOTA,CarSafe
+ID_65JG9RZ,3/6/10,3/4/11,Male,36,1,Saloon,,TOYOTA,Car Classic
+ID_65P80P6,11/18/10,11/17/11,Male,46,1,,,,CarSafe
+ID_65VKVEA,9/1/10,8/30/11,Female,31,1,Saloon,,TOYOTA,Car Classic
+ID_65VVKWM,5/8/10,5/7/11,Female,57,1,JEEP,Black,Land Rover.,Car Classic
+ID_65WBCLK,4/12/10,4/10/11,Female,36,1,Saloon,,TOYOTA,Car Classic
+ID_6601RG1,12/17/10,12/16/11,Male,39,1,Van,Ash,TOYOTA,Car Classic
+ID_6673XOG,10/24/10,10/23/11,Female,41,1,,,,CarFlex
+ID_66BO7U7,2/25/10,2/24/11,Male,51,4,,Black,Range Rover,Customized Motor
+ID_66FZT15,4/30/10,4/29/11,Male,71,1,Saloon,,Peugeot,CarSafe
+ID_66G59WM,12/5/10,12/4/11,Male,41,1,,,,Car Classic
+ID_66MNBAW,2/27/10,2/26/11,Female,39,2,JEEP,,Mercedes,Car Classic
+ID_66OU17E,10/24/10,10/23/11,Male,36,1,,,,CarSafe
+ID_66U2UOI,7/18/10,7/17/11,Male,42,1,Saloon,,TOYOTA,CarSafe
+ID_66X6JH5,7/9/10,7/8/11,Female,29,1,Saloon,,TOYOTA,CarSafe
+ID_66YUKKM,9/27/10,9/26/11,Male,33,1,Saloon,,Honda,Car Classic
+ID_67027TB,6/30/10,6/15/11,Male,38,1,Saloon,Grey,Mitsubishi,Car Classic
+ID_679J9GV,12/30/10,12/29/11,Entity,48,1,,As Attached,Iveco,CVTP
+ID_67EFHDL,4/29/10,4/28/11,Female,41,1,Saloon,,TOYOTA,Car Classic
+ID_67LWOMS,3/4/10,3/3/11,Male,41,1,Saloon,Blue,Hyundai,Car Classic
+ID_67N2FUW,8/17/10,8/15/11,Male,38,1,,,,CarSafe
+ID_67TD56Z,1/21/10,1/20/11,Male,35,1,Saloon,,TOYOTA,CarSafe
+ID_67WGX0X,11/14/10,11/13/11,Male,55,4,,,,CarSafe
+ID_67XG789,6/25/10,6/24/11,Female,29,1,Saloon,,TOYOTA,Car Plus
+ID_686A5XM,10/18/10,1/17/11,Male,41,1,JEEP,,TOYOTA,Car Classic
+ID_6876STT,12/24/10,12/23/11,Female,57,1,JEEP,Black,Ford,Car Classic
+ID_68LINXE,6/24/10,6/22/11,Female,36,1,Saloon,,TOYOTA,CarSafe
+ID_68MB5N8,11/27/10,11/11/11,Male,25,1,,,,Car Classic
+ID_68UR4YA,9/14/10,9/13/11,Male,45,1,JEEP,Ash,TOYOTA,Car Classic
+ID_68YAO6I,11/22/10,11/21/11,Male,41,1,,,,CarSafe
+ID_694CW3G,4/17/10,4/16/11,Male,54,1,Saloon,,Subaru,CarSafe
+ID_699SRVB,10/15/10,10/14/11,Male,36,2,,,,Car Classic
+ID_69HE3AK,8/7/10,5/7/11,Female,38,1,JEEP,Wine,Honda,Car Plus
+ID_69HMVYP,1/7/10,1/7/11,Joint Gender,39,1,JEEP,Grey,Lexus,CarFlex
+ID_69L7GV4,4/12/10,4/11/11,Female,31,1,,,Honda,Car Classic
+ID_69VW34B,10/2/10,4/1/11,Male,40,1,Saloon,Grey,Honda,Car Classic
+ID_6A0TU8D,4/25/10,4/24/11,Male,38,1,Saloon,Grey,TOYOTA,Car Classic
+ID_6ABT32L,9/24/10,9/23/11,Male,45,1,JEEP,,Mitsubishi,CarSafe
+ID_6AK4W4I,11/14/10,11/13/11,Male,39,2,Saloon,Silver,Kia,Car Classic
+ID_6APW477,9/9/10,9/8/11,Female,40,1,,,,CVTP
+ID_6AS6Q92,10/25/10,10/24/11,Male,20,1,,,,CarSafe
+ID_6AWAU44,2/28/10,2/27/11,Female,29,1,Saloon,Blue,TOYOTA,Car Classic
+ID_6AYESWT,12/11/10,12/10/11,Male,52,1,Saloon,Black,Kia,Car Classic
+ID_6B1ZQPT,3/9/10,3/7/11,Male,53,1,Saloon,Grey,TOYOTA,Car Classic
+ID_6B20VXB,6/14/10,6/13/11,,35,1,Saloon,Silver,TOYOTA,Car Classic
+ID_6B6P1HW,3/5/10,3/4/11,Male,1,1,Saloon,,Kia,CarSafe
+ID_6B9BL2C,10/29/10,9/2/11,Male,41,1,,As Attached,TOYOTA,Car Classic
+ID_6BFXQO9,9/19/10,9/18/11,Male,49,1,,,,CarSafe
+ID_6BGJ3Y1,8/1/10,7/30/11,Male,31,1,Saloon,,TOYOTA,Car Classic
+ID_6BJ06GD,12/8/10,12/7/11,Male,38,1,,,,Car Classic
+ID_6BJMPUY,2/26/09,6/25/16,Male,37,1,Saloon,Black,TOYOTA,Car Classic
+ID_6BKZ1VU,9/26/10,1/25/11,Female,37,1,Saloon,Blue,TOYOTA,Car Classic
+ID_6BNIRSR,2/14/10,2/13/11,Female,71,1,JEEP,Grey,TOYOTA,Car Classic
+ID_6BQCSO7,12/30/10,12/29/11,Male,38,1,,,,Car Classic
+ID_6BZSWCL,3/14/10,3/12/11,Male,64,1,Saloon,Black,Mercedes,Car Plus
+ID_6C1BJ3D,2/26/10,2/25/11,Female,37,1,Mini Van,Black,TOYOTA,Car Classic
+ID_6C31J7O,11/29/10,11/28/11,Female,42,3,Saloon,,Kia,Car Classic
+ID_6C399IK,11/13/10,11/12/11,Male,40,1,,,,CarSafe
+ID_6C5FQNG,3/7/10,3/6/11,Male,38,1,,Blue,.,Motor Cycle
+ID_6C5OTWT,7/9/10,1/14/11,Male,33,1,Saloon,Gold,TOYOTA,Car Classic
+ID_6CFBBOH,9/20/10,9/19/11,Male,41,1,Saloon,,Nissan,CarSafe
+ID_6CGDXD7,7/23/10,7/22/11,Male,20,1,,,TOYOTA,Car Classic
+ID_6CN75KA,3/28/10,3/27/11,Male,41,1,Saloon,,Honda,CarSafe
+ID_6CNJC7B,3/9/10,3/8/11,Male,42,1,Saloon,,Volkswagen,CarSafe
+ID_6CNP8XE,4/2/10,4/1/11,Female,28,1,Saloon,Brown,Pontiac,Car Plus
+ID_6CXA9U6,9/12/10,9/11/11,Male,64,1,JEEP,Dark Gray,TOYOTA,Car Classic
+ID_6D03AEC,11/27/10,11/26/11,Male,27,1,,,,Car Classic
+ID_6D76FF3,4/8/10,3/11/11,Female,35,1,JEEP,,Honda,Car Classic
+ID_6DB1M7S,8/2/10,8/1/11,Entity,18,1,,Black,Hyundai,Customized Motor
+ID_6DLR73G,12/12/10,12/11/11,Male,40,1,,,,CarSafe
+ID_6DN92LY,11/26/10,11/10/11,Female,45,2,,,,Car Classic
+ID_6DQDF57,10/4/10,10/3/11,,61,1,,,,Car Classic
+ID_6DSDRP1,12/13/10,1/4/11,SEX,33,1,,,,Car Classic
+ID_6DZBUEF,8/6/10,8/5/11,Joint Gender,12,2,,,TOYOTA,Car Classic
+ID_6E3BSG8,10/15/10,10/14/11,Female,34,1,,,,Car Classic
+ID_6E5EJVI,1/20/10,1/19/11,Male,46,1,JEEP,,BMW,CarSafe
+ID_6E7P4HI,10/21/10,10/19/11,Female,38,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_6ECN3Z8,1/15/10,1/14/11,,12,3,,Grey,Hyundai,Customized Motor
+ID_6EFQPR8,2/1/10,1/31/11,Male,37,2,Saloon,,Nissan,CarSafe
+ID_6EM7BN7,2/2/10,2/1/11,Female,38,1,Saloon,Black,TOYOTA,Car Classic
+ID_6EMNDG7,4/5/10,4/4/11,NOT STATED,45,1,Saloon,,Nissan,CarSafe
+ID_6ETPC71,3/4/10,3/3/11,Entity,5,1,Truck,Blue,Iveco,CVTP
+ID_6F0FUYA,11/24/10,11/23/11,Male,31,1,,,,Car Classic
+ID_6F0RLLJ,12/18/10,12/17/11,Male,38,2,,,,Car Classic
+ID_6F3SKE5,7/30/10,7/29/11,Male,40,1,Saloon,Red,TOYOTA,Car Classic
+ID_6F69Y63,5/27/10,2/24/11,Male,35,1,JEEP,Black,TOYOTA,Car Classic
+ID_6FKAC84,8/23/10,8/28/11,Female,31,1,,,,Car Plus
+ID_6FL1ZMC,3/9/10,3/8/11,Male,47,2,Saloon,,Kia,Car Plus
+ID_6FN406T,8/19/10,8/18/11,Male,69,1,Saloon,Silver,Honda,Car Classic
+ID_6FN4BGY,8/19/10,8/18/11,Male,42,1,,,,CarSafe
+ID_6G05QVX,8/16/10,4/15/11,Female,49,1,JEEP,,TOYOTA,Car Classic
+ID_6G6V19V,9/30/10,9/29/11,Female,1,1,,,,CarSafe
+ID_6G6X8TA,7/9/10,7/8/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_6G901AK,2/27/10,2/26/11,Male,61,1,Saloon,,TOYOTA,CarSafe
+ID_6GDCBWH,10/22/10,10/21/11,Male,39,1,,,,CarSafe
+ID_6GFM9KM,12/12/10,12/11/11,Male,20,1,Saloon,,TOYOTA,CarSafe
+ID_6GH8SSO,3/4/10,3/3/11,Male,36,1,Saloon,,Kia,CarSafe
+ID_6GO5GX2,6/6/10,6/5/11,Male,41,1,,Blue,Mack,CVTP
+ID_6GP50C5,3/19/10,3/18/11,Female,44,1,Saloon,,Honda,CarSafe
+ID_6GTOO14,10/30/10,1/4/11,SEX,32,1,,,,Car Classic
+ID_6H3M45U,5/27/10,5/26/11,Female,58,1,Saloon,,TOYOTA,CarSafe
+ID_6HAVVLH,12/10/10,6/9/11,Female,39,1,,,,Car Classic
+ID_6HGPMYU,10/24/10,10/23/11,Female,1,1,,,,CarSafe
+ID_6HO4Y9E,7/29/10,6/4/11,Female,59,2,JEEP,Black,Hyundai,Car Classic
+ID_6HXYEM5,2/22/10,2/21/11,Male,31,1,Saloon,Grey,Lexus,Car Plus
+ID_6HZ5YTU,4/18/10,4/17/11,Female,77,1,Saloon,Ash,TOYOTA,Car Classic
+ID_6I04XX5,2/8/10,2/7/11,Female,50,2,JEEP,Black,Lexus,Customized Motor
+ID_6I33UPZ,9/13/10,9/12/11,Male,35,1,,,,CarSafe
+ID_6I79U0R,8/19/10,8/18/11,Male,50,2,Saloon,Black,TOYOTA,Car Classic
+ID_6IALR2Z,10/4/10,10/3/11,Male,74,1,,,,Car Classic
+ID_6IBV5U6,12/23/10,11/24/11,Female,37,1,,,Lexus,Car Classic
+ID_6IC6IOE,1/29/10,1/28/11,Male,35,1,Saloon,,Kia,CarSafe
+ID_6ICPY35,2/12/10,2/10/11,Male,35,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_6IVPGMY,5/22/10,5/21/11,Female,34,1,JEEP,,TOYOTA,Customized Motor
+ID_6J0W3WO,5/27/10,5/26/11,Female,60,1,JEEP,Gold,Honda,Car Classic
+ID_6J5U29P,3/26/10,3/25/11,Female,32,1,Saloon,Red,TOYOTA,Car Classic
+ID_6J9MVQN,10/11/10,10/10/11,Male,34,1,,,,Car Classic
+ID_6JM0000,9/16/10,3/15/11,Female,2,1,Saloon,Red,TOYOTA,Car Classic
+ID_6JPES4D,11/27/10,11/26/11,Male,53,1,JEEP,Black,TOYOTA,Car Classic
+ID_6JR6B20,1/23/10,1/22/11,Female,34,1,JEEP,,TOYOTA,CarSafe
+ID_6JU8PJR,3/12/10,3/10/11,Male,45,1,Saloon,,TOYOTA,Car Classic
+ID_6JUNMLS,3/27/10,3/26/11,Male,48,1,,,TOYOTA,Customized Motor
+ID_6JWVT9Y,12/19/10,6/18/11,Male,33,1,,,,Car Classic
+ID_6K02AYN,2/18/10,2/17/11,Male,39,1,Saloon,,TOYOTA,CarSafe
+ID_6K0OL6Y,1/28/10,1/27/11,Male,37,1,Saloon,,TOYOTA,CarSafe
+ID_6K3ENOM,6/6/10,6/5/11,Male,65,4,,As Attached,Mercedes,Muuve
+ID_6K4VID7,11/21/10,11/20/11,,35,1,,As Attached,TOYOTA,Car Classic
+ID_6KCUFNQ,10/23/10,10/22/11,Male,63,1,,,,CarSafe
+ID_6KDXB15,4/26/10,4/25/11,Male,56,1,,Blue,Iveco,CVTP
+ID_6KH5WVH,3/1/10,2/28/11,Male,76,2,JEEP,Black,TOYOTA,Customized Motor
+ID_6KJ3F6U,1/18/10,1/17/11,Male,65,1,Saloon,Black,TOYOTA,Car Classic
+ID_6KLEBAH,4/11/10,4/10/11,Male,55,1,Saloon,,Honda,CarSafe
+ID_6KNNURN,9/16/10,9/15/11,Female,35,1,,,,Car Classic
+ID_6KNTXTK,1/16/10,1/15/11,Male,34,2,Saloon,,TOYOTA,Car Plus
+ID_6KRULZH,3/26/10,3/25/11,Male,52,1,Saloon,Black,TOYOTA,Car Classic
+ID_6KS3OWD,5/22/10,5/11/11,Male,61,4,Saloon,Grey,TOYOTA,Car Classic
+ID_6KUYN84,6/7/10,6/6/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_6KZOZP4,10/2/10,10/1/11,Male,46,1,,,,CarSafe
+ID_6L1NXHD,9/5/10,9/4/11,,7,1,,,,Car Classic
+ID_6L2ZVXP,3/29/10,3/28/11,Female,45,1,JEEP,Green,TOYOTA,Car Classic
+ID_6L7AZ61,6/20/10,6/19/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_6L7MEWY,9/25/10,9/24/11,Male,45,2,,,Kia,Car Classic
+ID_6L7Y222,9/30/10,3/29/11,Male,34,1,,,,Car Classic
+ID_6L9DJCF,12/17/10,12/16/11,Male,65,1,,As Attached,Mercedes,Car Classic
+ID_6LBLOTX,6/4/10,6/3/11,Male,30,1,Saloon,,Mercedes,CarSafe
+ID_6LE8PSN,9/2/10,9/1/11,NOT STATED,40,1,,,,CarSafe
+ID_6LFSANT,2/4/10,2/3/11,Male,38,1,Saloon,,BMW,CarSafe
+ID_6M1F1M6,1/17/10,1/16/11,Female,29,1,JEEP,Blue,TOYOTA,Car Classic
+ID_6M8R90M,8/16/10,8/15/11,Female,33,1,,,,Car Classic
+ID_6M9IP1H,6/27/10,6/26/11,Female,35,1,Saloon,Grey,Mercedes,Car Classic
+ID_6MBX9OY,2/27/10,2/26/11,Female,36,1,JEEP,Black,Ford,Car Classic
+ID_6MCANTD,2/1/10,1/31/11,Male,37,2,Saloon,,TOYOTA,CarSafe
+ID_6MGYIU6,10/30/10,10/29/11,Female,66,1,Saloon,Ash,TOYOTA,Car Classic
+ID_6MKWXHS,9/25/10,6/28/11,Male,64,2,,As Attached,Volkswagen,Car Classic
+ID_6MLSPUG,1/30/10,1/29/11,Female,59,2,Saloon,Green,Pontiac,Car Classic
+ID_6MRNO1C,2/13/10,2/12/11,Male,37,1,Saloon,Silver,TOYOTA,Car Classic
+ID_6MSPHUC,7/15/10,7/14/11,Male,47,1,Saloon,,TOYOTA,CarSafe
+ID_6MVDWFS,2/28/10,2/27/11,Female,71,1,Saloon,,Lexus,Car Classic
+ID_6N2O8DC,10/7/10,7/4/11,Male,38,1,Saloon,Red,TOYOTA,Car Classic
+ID_6N51QTW,7/26/10,7/25/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_6N9TJ9F,8/27/10,8/26/11,Male,33,1,,,,CarSafe
+ID_6NDKBGA,4/25/10,4/24/11,Male,32,2,Saloon,As Attached,Lexus,Car Plus
+ID_6NMYGD5,11/12/10,10/6/11,Male,50,2,JEEP,Black,TOYOTA,Car Classic
+ID_6NP5YNB,2/15/10,2/14/11,Female,73,3,JEEP,Black,TOYOTA,Car Classic
+ID_6NRJQY4,6/27/10,6/26/11,Male,40,4,Saloon,,TOYOTA,CarSafe
+ID_6NRO2VK,4/4/10,4/3/11,Female,34,1,Saloon,Grey,TOYOTA,Car Classic
+ID_6NXNWO3,8/7/10,8/6/11,Male,39,1,,,,Car Classic
+ID_6NXP5RR,11/20/10,11/19/11,Female,46,1,,,,CarSafe
+ID_6O5CAII,4/16/10,4/15/11,Male,33,2,JEEP,White,Lexus,CarSafe
+ID_6O64RFL,3/4/10,3/3/11,Male,47,1,Saloon,Black,Honda,CarSafe
+ID_6O8LOZY,11/15/10,8/14/11,Female,41,2,,,,Customized Motor
+ID_6ODZ8MQ,9/24/10,9/23/11,Male,1,1,,,,CarSafe
+ID_6OGO2U6,7/2/10,12/31/10,Male,54,1,Saloon,Silver,TOYOTA,Customized Motor
+ID_6OHN8C8,5/2/10,5/1/11,Male,50,1,JEEP,,Ford,CarSafe
+ID_6OMTF4T,5/23/10,5/22/11,Male,44,1,,,Mercedes,Car Classic
+ID_6OPHX5T,12/3/10,12/2/11,Male,45,2,JEEP,Black,Land Rover,Customized Motor
+ID_6OQX8ZV,2/13/10,2/12/11,Female,72,1,Saloon,,Nissan,CarSafe
+ID_6OS27XB,11/25/10,11/24/11,Male,51,2,,,,Car Classic
+ID_6OSDLXZ,4/9/10,4/7/11,Male,57,1,JEEP,,Nissan,CarSafe
+ID_6OXXURR,12/23/10,12/22/11,Male,10,1,,,,CarSafe
+ID_6P7DEGV,2/20/10,2/19/11,Male,39,2,Wagon,Gold,TOYOTA,Car Classic
+ID_6PC2Q4D,3/6/10,3/5/11,Male,20,1,Saloon,,TOYOTA,CarSafe
+ID_6PFD1T1,5/27/10,5/26/11,Female,60,1,Saloon,,Mercedes,Car Classic
+ID_6PGD39I,12/20/10,12/19/11,Male,36,1,,,,Car Classic
+ID_6PL4XJ2,4/25/10,4/24/11,Female,62,1,JEEP,Silver,Ford,Car Classic
+ID_6PM0MIH,1/22/10,1/21/11,Female,40,1,JEEP,Grey,TOYOTA,Car Classic
+ID_6PN1UNJ,9/19/10,9/18/11,Female,36,1,,,,CarSafe
+ID_6PVG10P,7/27/10,7/26/11,Male,50,1,Saloon,,Hyundai,CarSafe
+ID_6PW8L52,3/13/10,3/12/11,Male,51,1,Saloon,,TOYOTA,CarSafe
+ID_6PXRBFP,3/12/10,3/10/11,Male,36,1,JEEP,Green,TOYOTA,Car Plus
+ID_6PYU4A3,10/31/10,10/30/11,Male,47,2,,,Mercedes,Car Classic
+ID_6PZ19VM,12/2/10,12/1/11,Female,32,1,,,,Car Classic
+ID_6PZRRII,6/3/10,6/2/11,Male,33,1,Saloon,,TOYOTA,CarSafe
+ID_6Q0N9QU,4/25/10,4/24/11,Male,35,1,Saloon,Black,TOYOTA,Car Classic
+ID_6Q23BJO,11/28/10,11/27/11,Female,20,1,JEEP,Black,Lexus,Car Classic
+ID_6Q6BWR5,12/24/10,12/23/11,Male,35,1,,,,CarSafe
+ID_6Q6E7QP,7/15/10,7/14/11,Male,61,1,Saloon,,Honda,CarSafe
+ID_6Q71NVZ,1/17/10,1/6/11,Male,36,2,Saloon,,TOYOTA,Car Classic
+ID_6Q9TXF8,8/22/10,8/21/11,Female,26,1,,,,Car Classic
+ID_6QBL5IR,11/5/10,11/4/11,Male,40,1,,,,CarSafe
+ID_6QI137H,4/16/10,4/15/11,Female,40,1,Saloon,,Peugeot,CarSafe
+ID_6QITM97,6/1/10,5/31/11,Entity,93,7,Saloon,White,Honda,CarSafe
+ID_6QM7KFX,8/20/10,8/18/11,Male,39,1,,,,CarSafe
+ID_6QNLL4L,3/12/10,3/11/11,Female,35,1,Mini Bus,Grey,TOYOTA,Car Classic
+ID_6QPU7F9,8/29/10,8/28/11,Female,34,1,Saloon,,Honda,Car Classic
+ID_6QTQXLJ,4/18/10,4/17/11,Female,36,1,JEEP,Grey,Volvo,Car Classic
+ID_6QWAOT6,5/17/10,5/16/11,,50,1,Saloon,Black,Hyundai,Car Classic
+ID_6R0ACNA,5/10/10,5/9/11,Joint Gender,56,1,JEEP,Ash,Hyundai,Car Classic
+ID_6RBVO0O,7/9/10,7/8/11,Male,41,1,Saloon,,TOYOTA,Car Classic
+ID_6REAF09,11/26/10,11/25/11,Male,58,1,,,,Car Classic
+ID_6ROU9K8,11/6/10,6/26/11,Male,36,1,Saloon,,TOYOTA,Car Classic
+ID_6RPEO6N,4/30/10,4/29/11,Male,39,3,Saloon,Black,Volkswagen,Car Classic
+ID_6RY53D7,1/30/10,1/29/11,Female,34,1,Saloon,Ash,Honda,Car Classic
+ID_6RZHUBX,7/31/10,2/14/11,Male,44,1,,,,Car Classic
+ID_6S0YW7R,7/10/10,7/7/11,Male,60,1,JEEP,Black,TOYOTA,Car Classic
+ID_6S35KHP,11/1/10,10/31/11,Male,62,1,,,,CarSafe
+ID_6S3P4I3,12/17/10,4/24/11,Male,40,1,,,Lexus,Car Classic
+ID_6S5WP7L,3/26/10,3/25/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_6S6V4IV,2/1/10,1/31/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_6S72YVO,7/5/10,6/19/11,Male,29,1,Saloon,Green,TOYOTA,Car Classic
+ID_6S775KL,9/11/10,9/10/11,Male,40,1,,,,CarSafe
+ID_6SHGRRA,5/30/10,5/29/11,Female,39,1,Saloon,,Honda,CarSafe
+ID_6SKJGNE,10/29/10,10/28/11,Female,47,1,,,,CarSafe
+ID_6SSP9J2,11/7/10,11/6/11,Male,40,1,,,,CarSafe
+ID_6SYN6B4,1/24/10,1/23/11,Female,36,1,JEEP,Black,Hyundai,Car Classic
+ID_6T2W553,3/11/10,3/10/11,Male,54,2,Saloon,As Attached,Mercedes,Customized Motor
+ID_6T57WXV,11/4/10,11/3/11,Male,49,1,,,,CarSafe
+ID_6T6EYUD,10/1/10,9/30/11,Entity,30,10,,,Mitsubishi,CarSafe
+ID_6T88BRP,11/6/10,5/6/11,Female,39,1,Saloon,Silver,Lexus,Car Classic
+ID_6TBDXHI,10/29/10,10/28/11,Male,37,1,,,,Car Classic
+ID_6TH7AJI,2/21/10,2/20/11,Female,31,1,Saloon,Grey,TOYOTA,Car Classic
+ID_6THX1Q3,10/23/10,10/22/11,Male,78,2,Saloon,,TOYOTA,Car Classic
+ID_6TJTZ7J,3/20/10,3/19/11,Female,40,1,Saloon,,TOYOTA,CarSafe
+ID_6TN5R96,10/21/10,10/20/11,Male,45,1,JEEP,Red,Lexus,Car Classic
+ID_6TPT10M,10/11/10,10/10/11,Female,52,1,,,,CarSafe
+ID_6TQDKC4,12/30/10,12/29/11,Female,46,1,,,,CarSafe
+ID_6U0EA2W,3/1/10,2/28/11,Male,49,1,JEEP,Black,TOYOTA,Car Classic
+ID_6U9E672,11/20/10,5/19/11,Male,38,1,,,,CVTP
+ID_6UC4W5O,5/2/10,5/1/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_6UDCQC4,1/3/10,1/2/11,Male,35,1,Saloon,Silver,TOYOTA,Car Classic
+ID_6UDEWVH,10/16/10,10/15/11,Female,70,3,,,,CarSafe
+ID_6UFOEOL,1/8/10,1/7/11,Female,37,1,JEEP,Ash,TOYOTA,Car Classic
+ID_6UJV651,10/29/10,10/28/11,Male,56,1,,,,CarSafe
+ID_6ULLZ1Z,5/9/10,5/8/11,Male,41,1,Mini Bus,Green,TOYOTA,Car Classic
+ID_6URBPZJ,4/5/10,4/4/11,Male,47,3,Saloon,Grey,TOYOTA,Car Classic
+ID_6UXMWAV,9/16/10,9/15/11,Male,41,1,,,,CarSafe
+ID_6V3QUNC,10/4/10,1/4/11,Male,35,1,,,,Car Classic
+ID_6V5ADS6,3/18/10,3/17/11,Female,59,2,JEEP,Black,TOYOTA,Car Classic
+ID_6V7CPHE,6/3/10,3/20/11,Male,33,1,JEEP,Black,Range Rover,Car Classic
+ID_6VF7X53,3/25/10,3/24/11,Male,32,1,Saloon,,TOYOTA,Car Classic
+ID_6VKAKXC,10/31/10,10/29/11,Male,30,1,,,,Car Classic
+ID_6VLWW4D,10/10/10,4/9/11,Female,3,1,Saloon,Red,TOYOTA,Car Classic
+ID_6VOMRVY,1/3/10,1/2/11,Male,50,1,JEEP,,Ford,CarSafe
+ID_6VV02PH,12/19/10,12/18/11,Male,53,1,,,,CarSafe
+ID_6VV16RB,3/4/10,3/2/11,Female,39,1,Saloon,Blue,TOYOTA,Car Classic
+ID_6W1ANEF,11/14/10,11/13/11,Female,31,1,,,,Car Classic
+ID_6WBMDCR,8/21/10,8/20/11,Female,48,2,JEEP,,Hyundai,Car Classic
+ID_6WEBVIM,2/16/10,2/15/11,Male,45,1,Saloon,Black,Honda,Car Plus
+ID_6WHDPO5,1/18/10,1/17/11,Male,45,1,Saloon,,TOYOTA,CarSafe
+ID_6WRBFZT,5/22/10,5/21/11,Female,45,2,JEEP,Black,Honda,CarSafe
+ID_6WSNKNT,7/4/10,7/3/11,Female,50,2,Saloon,,TOYOTA,CarSafe
+ID_6WX40HU,9/10/10,9/9/11,Male,40,1,,,,CarSafe
+ID_6WZ7DPB,4/6/10,4/6/11,Male,44,1,Saloon,,TOYOTA,CarFlex
+ID_6X4VH6Y,7/1/10,6/30/11,Female,13,4,JEEP,Silver,Kia,Car Classic
+ID_6X7R92I,4/1/10,3/31/11,Female,30,1,Saloon,Blue,TOYOTA,Car Classic
+ID_6XC5X1H,7/25/10,7/24/11,Male,35,1,,Black,Mercedes,Car Classic
+ID_6XGE3HA,11/21/10,11/20/11,Male,35,1,,,,CarSafe
+ID_6XH1BSI,2/18/10,2/17/11,Male,52,4,Saloon,,TOYOTA,Customized Motor
+ID_6XLJA5Z,12/17/10,12/16/11,Female,36,1,,,,CarSafe
+ID_6XLXZDG,8/2/10,8/1/11,Female,50,1,Saloon,,Hyundai,CarSafe
+ID_6XM0ERG,12/13/10,12/12/11,Female,57,1,Saloon,,Suzuki,CarSafe
+ID_6XXZ8HD,4/17/10,4/15/11,Male,42,2,JEEP,,Ford,CarSafe
+ID_6XZ2TO7,3/1/10,3/1/11,Male,55,1,Saloon,,TOYOTA,CarSafe
+ID_6Y3QPN0,8/23/10,8/22/11,Male,32,1,,,,Car Classic
+ID_6Y3S6SF,4/26/10,4/25/11,Male,40,1,JEEP,Black,Lexus,Car Classic
+ID_6Y5A60I,10/31/10,10/30/11,Male,37,1,,,,Car Classic
+ID_6Y5YHE9,8/16/10,8/15/11,Male,41,1,,,,CarSafe
+ID_6Y9N3OT,5/2/10,5/1/11,Male,35,1,Saloon,,Honda,CarSafe
+ID_6YA6IPD,11/8/10,11/7/11,Female,65,1,,,,CarSafe
+ID_6YGWHQH,3/12/10,2/21/11,Male,62,3,JEEP,Black,Volkswagen,Car Classic
+ID_6YLGWIY,1/21/10,1/20/11,Male,45,1,Saloon,,TOYOTA,CarSafe
+ID_6YLPY5S,8/20/10,8/19/11,Entity,10,3,JEEP,Black,Honda,Car Plus
+ID_6YPJBHP,8/8/10,12/31/10,Male,52,4,JEEP,Black,Mercedes,Customized Motor
+ID_6YZL6GT,10/30/10,10/29/11,Female,76,1,Saloon,Gold,TOYOTA,Car Classic
+ID_6Z72NOE,10/23/10,10/22/11,Female,45,1,,,,Car Classic
+ID_6Z7CQE2,4/24/10,4/23/11,Female,34,1,,,TOYOTA,Car Classic
+ID_6Z7I8U8,8/1/10,7/30/11,Female,60,1,,,TOYOTA,Car Classic
+ID_6Z8J43T,4/29/10,4/11/11,Female,49,1,Saloon,Brown,TOYOTA,Car Classic
+ID_6ZFN1SB,2/8/10,2/7/11,Male,30,1,Saloon,,Volkswagen,CarSafe
+ID_6ZFPVR8,1/9/10,1/8/11,Male,60,1,Saloon,,TOYOTA,CarSafe
+ID_6ZHKDP4,1/17/10,1/16/11,Female,34,1,,,TOYOTA,Car Classic
+ID_6ZKRON0,12/5/10,12/31/10,Female,48,2,JEEP,Black,Audi,Customized Motor
+ID_6ZL6MNY,11/7/10,11/6/11,Female,1,1,,,,CarSafe
+ID_6ZTDEMW,4/25/10,4/24/11,Female,31,2,Saloon,,TOYOTA,CarSafe
+ID_6ZTVALI,2/4/10,2/4/11,Male,37,1,Saloon,,Honda,CarFlex
+ID_6ZVHMJY,8/5/10,8/4/11,Male,73,1,,,,CarSafe
+ID_6ZXVJJZ,8/7/10,8/6/11,Male,31,1,,,,Car Classic
+ID_6ZZS7SP,9/2/10,9/1/11,Male,50,1,,,,CarSafe
+ID_7039TQK,1/2/10,1/1/11,Female,32,1,JEEP,Silver,Hyundai,Car Classic
+ID_707IAYA,4/22/10,4/20/11,Male,37,2,Saloon,,Lexus,Car Classic
+ID_709I77Y,11/8/10,11/7/11,NOT STATED,37,1,Shape Of Vehicle Chasis,White,Mercedes,Car Classic
+ID_70AHYVE,5/11/10,4/29/11,Male,7,1,Saloon,Dark Gray,Kia,Car Classic
+ID_70AZZ24,8/15/10,8/14/11,Male,52,1,,,,CarSafe
+ID_70CGJZ9,4/28/10,4/25/11,Female,45,1,JEEP,Black,Ford,Car Classic
+ID_70FP54N,1/30/10,1/29/11,Female,45,1,,,Nissan,Car Classic
+ID_70FZB68,4/5/10,1/2/11,Female,39,2,JEEP,Black,Honda,Car Classic
+ID_70O1XV0,9/9/10,4/2/11,Male,31,1,,,,Car Classic
+ID_70X4O55,4/3/10,4/2/11,Male,28,1,Saloon,Black,TOYOTA,Car Classic
+ID_712ZHFZ,9/30/10,9/29/11,Male,50,2,,,,Car Classic
+ID_718KNIM,12/14/10,6/14/11,Male,65,1,Saloon,,TOYOTA,CarFlex
+ID_71II4TR,4/1/10,3/31/11,Male,37,2,Saloon,Black,Hyundai,Car Classic
+ID_71KCX5E,12/9/10,3/8/11,Joint Gender,33,1,Saloon,Red,TOYOTA,Car Classic
+ID_71LGB1K,5/6/10,5/5/11,Male,45,2,JEEP,Green,TOYOTA,Car Classic
+ID_71P2NQ4,9/9/10,9/8/11,Female,51,2,JEEP,Grey,Mercedes,Car Classic
+ID_71R2RC4,9/26/10,1/6/11,Male,39,3,Saloon,Black,Hyundai,Car Classic
+ID_71V3GHS,11/4/10,11/3/11,Male,36,1,Saloon,Silver,Honda,Car Classic
+ID_71W2U83,2/1/10,1/31/11,Male,46,1,Saloon,Blue,TOYOTA,Car Classic
+ID_71W9F9S,10/7/10,4/6/11,NOT STATED,36,1,,,,Car Classic
+ID_720ZRAP,3/8/10,3/7/11,Female,35,1,JEEP,White,Mercedes,Car Classic
+ID_722K58V,1/11/10,1/10/11,Male,65,1,Saloon,,TOYOTA,CarSafe
+ID_7233GK8,8/12/10,8/11/11,Male,35,1,Saloon,Black,TOYOTA,Car Classic
+ID_727ZF5H,9/26/10,4/7/11,Female,48,1,JEEP,Black,TOYOTA,Car Classic
+ID_728DN4O,2/26/10,2/25/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_72BK7BS,8/7/10,8/6/11,Male,38,2,,,,CarSafe
+ID_72CG7E2,7/23/10,7/22/11,Joint Gender,37,1,Saloon,,Mercedes,CarSafe
+ID_72F10GK,3/6/10,3/5/11,Male,48,1,,,TOYOTA,Car Classic
+ID_72N9CM3,7/3/10,7/2/11,Female,39,1,Saloon,,Volkswagen,CarSafe
+ID_735JBE1,8/8/10,4/29/11,Entity,20,2,Truck,As Attached,DAF,CVTP
+ID_73DK1ZH,11/9/10,12/31/10,,38,2,JEEP,,Mercedes,Customized Motor
+ID_73H7T0B,7/6/10,7/4/11,Male,31,1,Saloon,,Hyundai,CarSafe
+ID_73KMN17,11/14/10,2/13/11,Male,40,1,Saloon,,Volkswagen,Car Plus
+ID_73MDTTS,1/7/10,1/6/11,Female,39,1,Saloon,,TOYOTA,Car Classic
+ID_73WJVBI,7/29/10,7/28/11,Male,50,2,JEEP,Black,ACURA,Car Classic
+ID_746HY1D,11/20/10,11/19/11,Male,45,1,Saloon,,TOYOTA,Car Plus
+ID_748NPL9,2/8/10,2/7/11,,56,1,,Silver,Mercedes,Car Plus
+ID_74BEJTF,3/5/10,3/4/11,Joint Gender,50,1,Saloon,,TOYOTA,CarSafe
+ID_74BLEW6,1/24/10,1/23/11,Female,47,1,Saloon,Gold,TOYOTA,Customized Motor
+ID_74CZJNG,2/25/10,2/24/11,Male,39,1,Saloon,Brown,Mercedes,Car Classic
+ID_74E5Y8M,2/28/10,2/14/11,Male,58,1,Saloon,Grey,Lexus,Car Classic
+ID_74KSYH0,7/10/10,7/9/11,Male,37,1,JEEP,,TOYOTA,CarSafe
+ID_74SCWP2,9/11/10,3/10/11,Female,59,1,,,,Car Classic
+ID_74VPBSS,5/23/10,5/22/11,Male,34,3,Saloon,Wine,TOYOTA,Car Classic
+ID_75HWTEJ,3/28/10,3/27/11,Male,86,1,Saloon,,TOYOTA,Car Classic
+ID_75KCD72,8/7/10,8/6/11,Female,31,1,,,,CarSafe
+ID_75KUIG7,3/25/10,3/24/11,Female,41,1,Saloon,,TOYOTA,CarSafe
+ID_75W4UUU,1/9/10,1/8/11,Male,34,1,Saloon,,Lexus,CarSafe
+ID_75ZNT4H,1/10/10,1/9/11,Male,47,1,JEEP,,TOYOTA,CarSafe
+ID_765HYCV,7/6/10,7/5/11,Male,41,1,Saloon,,Kia,Car Classic
+ID_76D8Q3U,2/22/10,2/21/11,Male,30,1,Saloon,,Mercedes,CarFlex
+ID_76FQAR8,5/15/10,5/10/11,Male,52,1,JEEP,Black,TOYOTA,Car Classic
+ID_76HLB3D,8/11/10,8/10/11,Female,67,2,,,TOYOTA,Car Classic
+ID_76J9RWD,8/20/10,8/19/11,Male,33,1,,,,CarSafe
+ID_76KMC54,6/17/10,6/16/11,Male,61,1,Truck,Red & Yellow,Iveco,CVTP
+ID_76LAM30,9/25/10,9/24/11,Male,43,1,Saloon,Grey,Mercedes,Car Classic
+ID_76P8CLR,2/5/10,2/5/11,Male,36,2,Saloon,,Volkswagen,CarFlex
+ID_76TUUV4,5/9/10,5/8/11,Female,44,1,Truck,Black,Dodge,CVTP
+ID_76VSFB9,7/2/10,7/1/11,Male,25,1,Saloon,Silver,TOYOTA,Car Classic
+ID_76XJV4R,11/27/10,1/4/11,SEX,42,1,,,,Car Classic
+ID_76XSGU5,4/11/10,4/10/11,Male,35,1,Saloon,,Mercedes,CarSafe
+ID_776I1IF,6/21/10,6/20/11,Male,50,1,Saloon,,Mercedes,CarSafe
+ID_77ELZBB,12/2/10,12/1/11,Male,40,1,,,,CarSafe
+ID_77FD6JK,12/20/10,5/9/11,Joint Gender,1,1,,,,Car Classic
+ID_77LA3M2,4/12/10,4/11/11,Male,68,1,JEEP,Black,TOYOTA,Car Classic
+ID_77NGZP1,7/8/10,4/27/11,,36,1,JEEP,White,TOYOTA,Car Classic
+ID_77X6PLD,3/7/10,3/6/11,Female,72,1,Saloon,Grey,TOYOTA,Car Classic
+ID_77XY7G1,8/30/10,8/29/11,Male,76,3,Saloon,Black,TOYOTA,Car Classic
+ID_77YJF7A,1/25/10,1/24/11,Male,7,1,Saloon,Grey,TOYOTA,Car Classic
+ID_77YVSR5,4/30/10,4/29/11,Male,42,1,Saloon,,Honda,CarSafe
+ID_77ZZEPC,9/28/10,9/27/11,Male,46,1,Saloon,Black,TOYOTA,Car Classic
+ID_780KJ7A,7/8/10,7/7/11,Female,36,1,Saloon,,Mitsubishi,CarSafe
+ID_785JWUU,5/17/10,5/16/11,Female,30,1,,,TOYOTA,CVTP
+ID_7889LC2,8/20/10,8/19/11,,20,2,,As Attached,TOYOTA,Car Classic
+ID_78CY8JG,10/11/10,10/10/11,Male,30,1,,As Attached,TOYOTA,Car Classic
+ID_78K53BO,9/4/10,9/3/11,Female,55,1,,,,CarSafe
+ID_78KVZZA,7/9/10,7/8/11,Male,30,1,Saloon,,Peugeot,CarSafe
+ID_78PE2FH,7/5/10,7/3/11,Female,35,1,Saloon,,TOYOTA,CarSafe
+ID_78PYKBD,3/14/10,3/13/11,Male,30,1,Saloon,Silver,TOYOTA,Car Classic
+ID_78T5B0Y,10/9/10,10/8/11,Male,39,1,,,,CarSafe
+ID_78UEUXV,10/22/10,10/21/11,Male,51,1,,,,CarSafe
+ID_78W9F8A,7/30/10,7/29/11,Male,42,1,JEEP,,Lexus,Car Classic
+ID_78Y77UM,3/19/10,3/18/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_793Z9GP,7/5/10,7/4/11,Male,32,1,Saloon,,Kia,CarSafe
+ID_796MV0U,10/30/10,6/5/11,Male,34,1,,,,Car Classic
+ID_79CNA3S,7/31/10,7/30/11,Male,52,1,JEEP,Green,Lexus,Car Classic
+ID_79FKSZT,12/21/10,12/6/11,Female,35,2,Saloon,Red,TOYOTA,Car Classic
+ID_79H1N5T,5/21/10,5/20/11,Female,37,1,Saloon,,TOYOTA,CarSafe
+ID_79IDEW9,7/22/10,7/21/11,Male,53,1,,,,Car Classic
+ID_79IFW8I,5/18/10,5/17/11,Joint Gender,35,1,Saloon,,TOYOTA,CarSafe
+ID_79NUKV1,10/18/10,4/20/11,Male,38,1,Saloon,Ash,TOYOTA,Car Classic
+ID_79QHZUU,7/5/10,7/4/11,Female,41,1,JEEP,Black,TOYOTA,Car Classic
+ID_79TLCGU,8/22/10,8/21/11,Male,38,1,,,,CarSafe
+ID_7A1IKCD,10/1/10,3/31/11,Entity,20,3,Bus,White,TOYOTA,Customized Motor
+ID_7A9DFL7,4/29/10,4/28/11,Joint Gender,41,1,JEEP,Grey,Volvo,Car Classic
+ID_7ACU0Z1,1/18/10,1/17/11,Male,39,1,Saloon,Grey,TOYOTA,Car Classic
+ID_7AHR1OB,2/6/10,2/5/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_7AJ86WZ,7/10/10,2/18/11,Male,36,1,Saloon,Grey,TOYOTA,Car Plus
+ID_7AR0OF5,4/16/10,4/15/11,Male,59,2,Saloon,Black,Kia,Customized Motor
+ID_7ARD89E,2/19/10,2/18/11,Male,62,1,,Black,TOYOTA,Car Classic
+ID_7AWXARE,10/9/10,10/8/11,Male,42,1,Saloon,,Volkswagen,CarSafe
+ID_7AZYOPF,1/5/10,1/4/11,Male,45,1,Saloon,,ACURA,CarSafe
+ID_7B40S3Y,11/14/10,11/13/11,NOT STATED,20,1,,,,CarSafe
+ID_7B47YWC,10/4/10,10/3/11,Male,1,1,,,,CarSafe
+ID_7B5940Q,4/15/10,4/15/11,Female,35,1,JEEP,,TOYOTA,CarFlex
+ID_7B5I6W1,3/25/10,3/23/11,Male,44,1,,,Honda,Car Classic
+ID_7B61E9M,1/30/10,1/29/11,Female,42,1,Saloon,Black,Kia,Car Classic
+ID_7BBVL4H,6/27/10,6/26/11,NOT STATED,15,1,Saloon,,Volvo,CarSafe
+ID_7BEASBV,11/19/10,11/17/11,Male,29,1,,,,CarSafe
+ID_7BG2EX9,6/21/10,6/20/11,Male,32,1,Saloon,Ash,TOYOTA,Car Plus
+ID_7BJ6D2Y,2/17/10,2/16/11,Male,35,1,Saloon,As Attached,Hyundai,Car Classic
+ID_7BK5NE3,9/30/10,9/29/11,Male,42,1,Saloon,,Nissan,CarSafe
+ID_7BMS9LU,9/13/10,9/12/11,Female,56,1,,,TOYOTA,Car Classic
+ID_7BNYY1N,12/23/10,2/21/11,Male,20,4,JEEP,,Land Rover,Customized Motor
+ID_7BPDL3W,11/25/10,8/5/11,Female,28,1,,,,Car Classic
+ID_7BSHWRD,7/31/10,7/30/11,Male,12,2,,,Mercedes,Customized Motor
+ID_7C108XS,9/20/10,1/15/11,Female,30,1,Sedan,White,Mercedes,Car Classic
+ID_7C778BW,8/9/10,8/8/11,Male,40,1,,,,Car Classic
+ID_7CDVXFH,5/2/10,5/1/11,Entity,10,3,Pick Up,,TOYOTA,CVTP
+ID_7CINOMR,6/24/10,6/23/11,Joint Gender,50,1,Saloon,,TOYOTA,CarSafe
+ID_7CJ8EKI,6/13/10,6/12/11,Female,38,1,Mini Bus,,Ford,CarSafe
+ID_7CKU4U6,12/23/10,12/21/11,Male,74,1,,,,CarSafe
+ID_7CWJGP8,4/12/10,4/11/11,Male,46,1,Saloon,,Honda,CarSafe
+ID_7CWLVD2,8/11/10,8/10/11,Joint Gender,49,1,Saloon,,TOYOTA,CarSafe
+ID_7CZ1GMX,2/12/10,2/11/11,Male,63,1,Saloon,Black,TOYOTA,Car Classic
+ID_7D0M7YC,8/3/10,8/2/11,Male,29,2,JEEP,Silver,TOYOTA,Car Classic
+ID_7D1KH4C,11/28/10,3/28/11,Male,30,1,,,,Car Classic
+ID_7D9H5PI,3/29/10,3/28/11,Male,40,1,Saloon,Black,TOYOTA,Car Classic
+ID_7DDJF10,2/1/10,1/31/11,Female,35,1,Saloon,Red,Kia,Car Classic
+ID_7DNHVU5,11/8/10,11/7/11,Male,33,1,,,,Car Classic
+ID_7DOV9SI,7/30/10,7/29/11,Male,47,3,Saloon,Black,Honda,Car Classic
+ID_7DPB5AE,2/28/10,2/27/11,Male,49,1,Saloon,,Volvo,CarSafe
+ID_7DQ7O2D,7/1/10,6/30/11,Female,36,1,JEEP,Black,Ford,Car Classic
+ID_7DU9MQK,9/3/10,9/1/11,Male,45,2,,,,CarSafe
+ID_7DWII3P,12/12/10,12/11/11,Male,39,3,JEEP,Red,TOYOTA,Car Classic
+ID_7DWREY8,9/13/10,9/11/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_7DYYXXV,7/1/10,6/30/11,Female,56,3,JEEP,Green,Range Rover,Customized Motor
+ID_7E18V8R,9/19/10,9/18/11,Male,50,1,JEEP,,TOYOTA,Car Classic
+ID_7E1UA3S,10/19/10,6/9/11,Male,28,1,Saloon,Wine,TOYOTA,Car Classic
+ID_7E3N9HR,2/1/10,1/31/11,Male,54,1,Saloon,Silver,TOYOTA,Customized Motor
+ID_7E3RMOJ,5/14/10,5/13/11,Male,42,1,Saloon,,TOYOTA,CarSafe
+ID_7E4T0P6,9/9/10,9/8/11,Male,40,1,,,,CarSafe
+ID_7E7OC90,7/24/10,4/26/11,Male,50,1,JEEP,Black,TOYOTA,Car Classic
+ID_7E7XAYJ,3/7/10,3/6/11,Male,41,1,Saloon,,Honda,CarSafe
+ID_7E84FVU,3/15/10,1/2/11,Female,32,1,Saloon,As Attached,Lexus,Car Classic
+ID_7E8DVAA,12/4/10,12/3/11,Male,43,2,Saloon,,Lexus,CarSafe
+ID_7EAZFXU,6/24/10,6/23/11,Male,58,1,Saloon,,TOYOTA,CarSafe
+ID_7EJS2VP,6/6/10,6/5/11,Male,39,1,Saloon,Grey,Kia,Car Plus
+ID_7EOHTV3,4/16/10,4/15/11,Male,54,1,Saloon,Ash,Lexus,Car Classic
+ID_7EQAGEM,2/16/10,2/16/11,Female,36,1,JEEP,,TOYOTA,CarFlex
+ID_7ERE6R1,2/26/10,2/24/11,Female,37,2,JEEP,,Hyundai,Car Classic
+ID_7EZ6WUN,7/17/10,7/16/11,Female,40,1,Saloon,,TOYOTA,CarSafe
+ID_7F7OX3H,11/8/10,11/7/11,Male,53,1,,,,CarSafe
+ID_7FFQ9NO,2/13/10,2/13/11,Male,33,1,Saloon,,Mercedes,Car Classic
+ID_7FIT5U0,1/7/10,1/6/11,Male,52,1,Saloon,,TOYOTA,CarSafe
+ID_7FL5H60,8/7/10,5/15/11,Male,35,1,Saloon,White,Lexus,Car Classic
+ID_7FL6D3R,5/30/10,5/23/11,Male,44,2,,,Lexus,Car Classic
+ID_7FLDXL4,10/4/10,4/3/11,Male,43,1,Saloon,Blue,TOYOTA,Car Classic
+ID_7FM1B77,1/31/10,1/30/11,Male,40,1,Saloon,,Kia,CarSafe
+ID_7FPYI9Q,12/9/10,12/8/11,Male,28,1,Saloon,,TOYOTA,Car Classic
+ID_7FR2BNC,3/10/10,3/9/11,Female,59,1,JEEP,Silver,Mercedes,Car Classic
+ID_7FV8EPS,10/29/10,10/28/11,Male,30,1,,,,CarSafe
+ID_7G538FN,5/1/10,4/29/11,Female,28,1,Saloon,,Dodge,Car Classic
+ID_7GAM2DL,9/16/10,9/15/11,Male,35,1,,,,Car Classic
+ID_7GCR3H5,7/29/10,7/28/11,Male,42,1,Saloon,,Hyundai,CarSafe
+ID_7GH09DH,10/29/10,1/28/11,Male,43,2,,Silver,.,Car Classic
+ID_7GLXSJG,1/16/10,1/15/11,Male,49,1,Saloon,,TOYOTA,CarSafe
+ID_7GZ72NO,5/6/10,5/5/11,Male,49,2,Saloon,Black,Hyundai,Car Plus
+ID_7H2IY8B,4/29/10,4/28/11,Female,49,1,Saloon,Black,TOYOTA,Car Classic
+ID_7H3M3ZY,12/16/10,12/15/11,Male,55,1,Saloon,Black,Volkswagen,Car Classic
+ID_7H8HA95,4/23/10,4/22/11,Male,5,1,Saloon,Black,As Attached,Car Classic
+ID_7HHHY1G,7/5/10,1/2/11,Male,68,1,Saloon,White,TOYOTA,Car Classic
+ID_7HNEUVB,1/11/10,1/10/11,Male,52,2,Saloon,,Lexus,CarSafe
+ID_7HPSJFR,6/25/10,6/24/11,Male,35,1,Saloon,Blue,TOYOTA,Car Classic
+ID_7HYGW1U,8/29/10,8/28/11,Female,27,1,Saloon,Ash,TOYOTA,Car Classic
+ID_7I0BSP0,2/15/10,1/29/11,Male,31,1,Saloon,Silver,TOYOTA,Car Classic
+ID_7I1DZAL,4/9/10,4/8/11,Male,31,1,,As Attached,Honda,Car Classic
+ID_7I2N1R6,10/8/10,10/7/11,Female,66,1,,,,Car Classic
+ID_7IA7891,9/25/10,9/24/11,Female,37,1,,,,Car Classic
+ID_7IAIQNU,5/28/10,5/27/11,Joint Gender,40,1,,,Mercedes,Car Classic
+ID_7ICR4PX,3/6/10,2/27/11,Male,28,3,Saloon,Silver,TOYOTA,Car Classic
+ID_7IJBB1W,4/2/10,1/6/11,Female,39,2,Saloon,,Volkswagen,Car Classic
+ID_7IN8E0J,2/8/10,2/7/11,Male,42,1,Saloon,Black,TOYOTA,Car Plus
+ID_7IPGPHF,7/12/10,7/11/11,Male,50,1,JEEP,Wine,Mazda,Car Classic
+ID_7IS1MQT,3/29/10,3/28/11,Male,54,1,Saloon,,Skoda,CarSafe
+ID_7ISB6QL,1/8/10,1/7/11,,36,1,Truck,Yellow,Iveco,CVTP
+ID_7ITS55S,2/22/10,2/21/11,Male,64,2,,As Attached,TOYOTA,CVTP
+ID_7IV36JQ,1/10/10,1/9/11,Male,80,1,Saloon,Silver,TOYOTA,Car Classic
+ID_7J0PS0S,7/12/10,7/11/11,Male,46,1,JEEP,,Lexus,CarSafe
+ID_7J7QX3W,6/10/10,6/9/11,Female,20,3,JEEP,Black,TOYOTA,Car Classic
+ID_7J87ZCE,1/24/10,1/23/11,Male,67,1,Saloon,,Lexus,CarSafe
+ID_7J8P1KZ,2/26/10,2/25/11,Female,36,1,JEEP,Black,TOYOTA,Car Classic
+ID_7JF0A8E,6/13/10,6/12/11,Female,40,1,Saloon,,TOYOTA,CarSafe
+ID_7JJS5Y7,7/31/10,7/30/11,Male,35,1,Saloon,Silver,Honda,Car Plus
+ID_7JPIE4H,6/21/10,3/28/11,Female,38,1,JEEP,Black,Honda,Car Classic
+ID_7JT6ZHC,2/6/10,2/5/11,Male,41,1,Saloon,,Volkswagen,CarSafe
+ID_7JZTQGA,1/10/10,1/9/11,Male,32,1,Saloon,,Honda,Car Classic
+ID_7K0DFGD,1/14/10,1/13/11,Male,43,1,Saloon,Silver,Hyundai,Car Classic
+ID_7K5EUHQ,4/15/10,4/14/11,Male,41,1,Saloon,,TOYOTA,CarSafe
+ID_7KAKFSG,2/4/10,2/3/11,Male,60,1,Saloon,,TOYOTA,CarSafe
+ID_7KGL1W7,6/24/10,6/23/11,Female,45,1,Saloon,,Lexus,CarSafe
+ID_7KIPMJZ,7/22/10,7/21/11,Male,24,2,Saloon,Blue,TOYOTA,Car Plus
+ID_7KO5S16,10/9/10,1/8/11,Male,36,1,Saloon,,Honda,Car Plus
+ID_7KPK2JF,2/27/10,2/26/11,Male,60,1,Saloon,Black,Hyundai,Car Classic
+ID_7L7LTRV,5/23/10,5/22/11,Male,33,1,JEEP,Green,Lexus,Car Classic
+ID_7L9SS9R,7/31/10,7/30/11,Female,42,1,Saloon,Grey,TOYOTA,Car Classic
+ID_7LAFY25,1/29/10,1/28/11,Male,35,1,Saloon,Black,Honda,Car Classic
+ID_7LEZKKM,4/25/10,3/9/11,Male,31,2,Saloon,Red,TOYOTA,Car Classic
+ID_7LIQF9F,5/24/10,5/24/11,Male,40,1,JEEP,,Mazda,CarFlex
+ID_7LMQNA7,11/19/10,11/18/11,Male,54,1,,,,Car Classic
+ID_7LN7P41,9/2/10,9/1/11,Male,32,1,Saloon,Ash,TOYOTA,Car Classic
+ID_7LNT11Z,6/21/10,6/20/11,Female,43,1,Saloon,Silver,TOYOTA,Car Classic
+ID_7LRHNFC,3/26/10,3/25/11,Male,44,1,Saloon,,TOYOTA,CarSafe
+ID_7LRPSDW,11/22/10,11/21/11,Male,57,1,,,,Car Classic
+ID_7LTKKWC,4/19/10,4/17/11,Female,40,2,JEEP,Grey,TOYOTA,Car Classic
+ID_7LVE9MP,10/18/10,10/17/11,Male,52,3,Saloon,Green,TOYOTA,Car Classic
+ID_7M230TA,11/27/10,11/26/11,Joint Gender,40,1,,,,CarSafe
+ID_7M2X1Y6,7/4/10,7/3/11,Male,36,1,Saloon,,TOYOTA,CarSafe
+ID_7M5GGRZ,11/8/10,2/6/11,Male,38,1,Saloon,Silver,Lexus,Car Classic
+ID_7M76WFN,2/19/10,1/27/11,Male,69,1,Saloon,Black,TOYOTA,Car Classic
+ID_7MGXS2V,6/25/10,6/24/11,Male,55,2,Saloon,,TOYOTA,CarSafe
+ID_7MM7GK2,10/18/10,10/17/11,Male,61,1,,,,Car Classic
+ID_7MN1MCB,9/16/10,9/15/11,Male,34,1,,,,CarSafe
+ID_7MOO3RL,5/24/10,5/23/11,Female,44,2,,Black,TOYOTA,Car Classic
+ID_7MW0N5H,11/25/10,11/24/11,Joint Gender,31,2,JEEP,Blue,TOYOTA,Car Classic
+ID_7N5C2L4,3/21/10,3/20/11,Male,41,1,Saloon,Silver,Mercedes,Car Classic
+ID_7NHSORT,8/15/10,8/13/11,Male,48,1,,,,Car Classic
+ID_7NI35YH,11/12/10,11/11/11,Male,38,1,,,,Car Classic
+ID_7NSE01Y,5/7/10,3/28/11,Male,35,1,Saloon,,TOYOTA,Car Classic
+ID_7NVKTQ8,12/2/10,11/28/11,Joint Gender,37,2,Saloon,Blue,Hyundai,Car Classic
+ID_7NW47G3,10/31/10,10/30/11,Female,31,1,JEEP,,TOYOTA,Customized Motor
+ID_7NWFL34,8/30/10,8/29/11,Male,33,1,Saloon,,TOYOTA,CarSafe
+ID_7NXYMNL,9/21/10,9/20/11,Male,38,1,Saloon,,TOYOTA,CarSafe
+ID_7NYT8WY,7/4/10,7/3/11,Male,36,2,Saloon,Black,TOYOTA,Car Classic
+ID_7O1OKWW,7/17/10,7/16/11,Female,26,1,Saloon,Black,TOYOTA,Car Classic
+ID_7O3FT61,12/30/10,12/29/11,Male,45,1,Saloon,,Honda,CarSafe
+ID_7O4017U,1/9/10,1/1/11,Female,62,1,Saloon,Gold,TOYOTA,Car Classic
+ID_7O5K14M,9/13/10,9/12/11,Female,38,1,,,,CarSafe
+ID_7OETKST,2/20/10,2/19/11,Male,47,1,Saloon,Ash,TOYOTA,Car Classic
+ID_7OW6KPQ,9/9/10,9/8/11,Female,51,2,JEEP,Grey,Mercedes,Car Classic
+ID_7OW71FQ,2/28/10,2/27/11,Male,61,4,JEEP,Black,Mitsubishi,Car Classic
+ID_7P15A7A,5/14/10,5/13/11,Male,46,1,JEEP,Wine,Lexus,Car Classic
+ID_7P1J6DI,7/9/10,7/8/11,Female,38,1,Saloon,,BMW,CarSafe
+ID_7P43KFZ,6/26/10,6/25/11,Male,44,2,JEEP,Black,TOYOTA,Car Classic
+ID_7PFFZVH,3/13/10,3/5/11,Female,29,1,,Grey,TOYOTA,Car Classic
+ID_7PT2MCY,5/23/10,5/22/11,Male,54,2,,,Ford,CVTP
+ID_7PZQOJG,4/9/10,4/8/11,Male,30,1,Bus,Blue,Suzuki,CVTP
+ID_7Q1OJGU,8/29/10,12/31/10,Entity,20,3,,As Attached,,Muuve
+ID_7Q44XPE,12/1/10,11/29/11,Male,41,1,,,,CarSafe
+ID_7Q6NG8Z,12/27/10,3/26/11,Male,38,1,,,,Car Classic
+ID_7Q7X0WR,10/17/10,10/16/11,Male,52,1,,Black,Honda,Car Classic
+ID_7QAYKDN,9/30/10,9/29/11,Male,49,2,,,GAC,Car Classic
+ID_7QBZJYB,4/16/10,4/15/11,NOT STATED,10,1,Saloon,Blue,TOYOTA,Car Classic
+ID_7QCVCUS,1/15/10,1/14/11,Male,67,3,Saloon,,TOYOTA,CarSafe
+ID_7QEK1HE,1/18/10,1/17/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_7QLL056,5/30/10,5/23/11,Male,44,2,Truck,,Lexus,Car Classic
+ID_7QN473Z,2/5/10,2/4/11,Male,52,1,Saloon,,TOYOTA,Car Classic
+ID_7QNAA5I,10/16/10,7/5/11,Joint Gender,32,1,Saloon,Blue,TOYOTA,Car Classic
+ID_7QSAKB8,11/16/10,11/14/11,Male,34,1,,Black,TOYOTA,Car Classic
+ID_7QV86JI,2/5/10,2/4/11,Male,50,1,Saloon,,Hyundai,CarSafe
+ID_7R2P5JE,7/25/10,7/24/11,Joint Gender,53,2,JEEP,Black,Lexus,Car Classic
+ID_7R3IW8G,10/22/10,10/21/11,Female,36,1,Saloon,White,ACURA,Car Classic
+ID_7RADDE3,4/2/10,4/1/11,Joint Gender,64,1,JEEP,Black,TOYOTA,Car Classic
+ID_7RDO8SS,7/26/10,7/25/11,Male,1,1,Saloon,,Grand Cherokee,CarSafe
+ID_7REW7PA,5/24/10,5/23/11,Female,76,2,Saloon,Red,TOYOTA,Car Classic
+ID_7RLO10C,5/18/10,5/17/11,Female,1,1,Saloon,,Honda,CarSafe
+ID_7RMYNUS,8/26/10,8/25/11,Male,26,1,,,,CarSafe
+ID_7RODZLT,12/20/10,12/19/11,Male,42,1,,,,CarSafe
+ID_7RR9EI8,1/31/10,1/30/11,Female,69,3,Saloon,White,Honda,Customized Motor
+ID_7S0QH7E,2/25/10,2/24/11,Female,38,1,Saloon,Black,TOYOTA,Car Classic
+ID_7S15CCL,6/21/10,6/20/11,Male,39,1,Saloon,Gold,TOYOTA,Car Classic
+ID_7S92WEF,3/6/10,3/5/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_7SDHDVF,1/4/10,1/3/11,Female,39,1,Saloon,,Honda,CarSafe
+ID_7SF94G7,11/5/10,11/4/11,Male,50,1,Saloon,,Mazda,CarSafe
+ID_7SGCKXA,12/24/10,12/23/11,Female,31,1,Saloon,Red,TOYOTA,Car Classic
+ID_7SM0VLE,6/18/10,6/16/11,Female,34,1,Saloon,,Skoda,CarSafe
+ID_7SN6XFE,3/12/10,3/11/11,Male,41,1,Saloon,,TOYOTA,Car Classic
+ID_7SPRDAP,6/1/10,5/31/11,Entity,93,7,,,.,CVTP
+ID_7SQAY6P,8/26/10,8/25/11,Male,59,1,,,,Car Classic
+ID_7SSORJ5,2/8/10,2/7/11,Female,50,2,Saloon,Grey,TOYOTA,Customized Motor
+ID_7SV1UZS,3/21/10,3/20/11,Male,54,2,,,Land Rover,Car Classic
+ID_7SW2CJV,10/25/10,10/24/11,Male,41,1,Saloon,,Volvo,CarSafe
+ID_7T1S4MX,12/19/10,12/18/11,Male,39,1,JEEP,Grey,Lexus,Car Classic
+ID_7T6VUSP,11/6/10,11/5/11,Male,50,1,,,,CarSafe
+ID_7T9KADI,12/30/10,12/29/11,Female,60,1,,,,Car Classic
+ID_7T9ZJOM,10/28/10,1/26/11,Female,30,1,,,,Car Classic
+ID_7TIRVUZ,4/11/10,4/10/11,Male,50,2,Saloon,Black,TOYOTA,Car Classic
+ID_7TIZJT8,3/19/10,3/18/11,Male,52,1,JEEP,Black,TOYOTA,Car Classic
+ID_7TS61R8,4/17/10,4/15/11,Male,59,2,Saloon,Black,Kia,Customized Motor
+ID_7TSI8ZB,12/23/10,12/22/11,Male,41,1,,,,CarSafe
+ID_7TU7SGC,1/17/10,1/16/11,Female,36,1,JEEP,,TOYOTA,Car Classic
+ID_7TXX6QE,12/17/10,12/16/11,Male,34,1,Saloon,Blue,TOYOTA,Car Classic
+ID_7U4WPLA,11/9/10,11/8/11,Male,37,1,Saloon,Black,TOYOTA,Car Classic
+ID_7U9HNZY,4/24/10,4/23/11,Female,5,1,JEEP,Green,Nissan,Car Classic
+ID_7UDN2JE,1/4/10,1/3/11,Male,41,3,Saloon,,Honda,Car Classic
+ID_7UHEXAA,8/7/10,8/6/11,Male,46,1,,Black,TOYOTA,Car Classic
+ID_7UHL06U,7/12/10,7/10/11,Male,45,2,JEEP,Black,Lexus,Car Classic
+ID_7UL2L12,8/7/10,8/6/11,Female,30,1,,,,CarSafe
+ID_7UP79WD,6/7/10,6/6/11,Female,48,2,,,Ford,Car Classic
+ID_7UQ2ZMD,11/14/10,11/13/11,Male,48,2,Saloon,Black,TOYOTA,Car Classic
+ID_7UQTFEF,9/3/10,9/2/11,Female,1,1,,,,CarSafe
+ID_7UZX1UJ,2/6/10,2/5/11,Female,1,1,Saloon,,Nissan,CarSafe
+ID_7V31W3I,1/23/10,1/22/11,Male,41,2,Saloon,Black,Mercedes,Car Classic
+ID_7V86VCC,3/27/10,3/26/11,Female,41,1,Saloon,,TOYOTA,CarSafe
+ID_7VHCJYN,7/8/10,7/7/11,Male,46,1,Saloon,,Lexus,CarSafe
+ID_7VI6LNW,4/25/10,4/24/11,Male,56,1,JEEP,Black,Ford,Car Classic
+ID_7VKOZM8,12/11/10,12/10/11,Female,73,1,,,,Car Classic
+ID_7VOYSIZ,7/28/10,1/28/11,Male,44,1,Saloon,As Attached,TOYOTA,CarFlex
+ID_7VPZVA9,11/21/10,11/20/11,Female,36,1,,,,Car Classic
+ID_7VQ3JJ4,9/6/10,9/5/11,Male,45,1,,,,Car Classic
+ID_7VR374G,2/20/10,2/19/11,Male,29,1,Saloon,Blue,TOYOTA,Car Classic
+ID_7W2XAL5,7/2/10,7/1/11,Male,35,1,Saloon,Ash,TOYOTA,Car Classic
+ID_7WCVP6L,10/31/10,10/30/11,Female,38,1,Saloon,,TOYOTA,Car Classic
+ID_7WF722R,6/5/10,6/3/11,Male,47,1,JEEP,,Chevrolet,CarSafe
+ID_7WK4DRM,7/26/10,7/25/11,Male,44,1,Saloon,,TOYOTA,Car Classic
+ID_7WMD1XZ,10/14/10,7/30/11,Male,37,1,,Red,Iveco,CVTP
+ID_7WMJRRR,6/19/10,6/18/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_7WMMBXC,1/13/10,1/12/11,Female,38,1,Saloon,Brown,Hyundai,Car Classic
+ID_7WSMTLN,11/13/10,11/12/11,Female,31,1,,,,CarSafe
+ID_7X0IJC5,6/7/10,6/6/11,Male,20,2,Saloon,As Attached,TOYOTA,Car Classic
+ID_7X6Z43U,1/30/10,1/29/11,Female,42,1,Saloon,Black,Kia,Car Classic
+ID_7XCL6MY,8/8/10,8/7/11,Male,50,2,,,Ford,Car Classic
+ID_7XCXE63,6/21/10,6/19/11,Female,37,2,Saloon,,Ford,CarSafe
+ID_7XEBTAB,12/27/10,12/26/11,Male,38,2,,,,Car Classic
+ID_7XJEICB,1/23/10,1/22/11,Male,53,1,JEEP,Grey,Mercedes,Customized Motor
+ID_7XJQPPQ,12/2/10,12/1/11,Female,27,1,,,,Car Classic
+ID_7XT9VIG,6/1/10,5/31/11,Female,37,1,JEEP,Green,TOYOTA,Car Classic
+ID_7XVQHSQ,2/8/10,2/7/11,Female,66,1,JEEP,White,Ford,Car Classic
+ID_7XZH9PB,4/2/10,4/1/11,Male,35,1,Saloon,Black,TOYOTA,Car Classic
+ID_7Y14HYG,4/11/10,4/10/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_7Y5U8LO,9/11/10,9/10/11,Female,40,1,,,,CarSafe
+ID_7YCI531,4/13/10,4/12/11,Female,62,1,,,.,Car Classic
+ID_7YH1APB,11/13/10,5/1/11,Female,38,1,Saloon,,TOYOTA,Car Classic
+ID_7YJTHAS,7/11/10,7/9/11,Male,51,1,JEEP,,Lexus,CarSafe
+ID_7YSEDVP,5/9/10,5/8/11,Male,44,2,Saloon,As Attached,TOYOTA,Car Classic
+ID_7YSUF2K,2/7/10,2/6/11,Male,40,1,JEEP,,TOYOTA,Car Classic
+ID_7YT5M46,12/5/10,12/4/11,Female,54,1,Saloon,Black,TOYOTA,Car Plus
+ID_7YYXVF0,5/30/10,5/29/11,Male,57,1,,Black,Ford,Car Classic
+ID_7Z2IH6T,1/30/10,1/29/11,Female,45,1,Saloon,Black,Nissan,Car Classic
+ID_7Z57CIX,7/16/10,7/15/11,NOT STATED,20,2,Saloon,Green,Hyundai,Car Classic
+ID_7ZBYK6O,7/30/10,7/29/11,Joint Gender,35,3,JEEP,,TOYOTA,Car Classic
+ID_7ZCQDGR,5/17/10,5/16/11,Female,39,2,JEEP,Green,Hyundai,Car Classic
+ID_7ZF13M8,3/26/10,3/25/11,Male,35,1,Saloon,Silver,TOYOTA,Car Classic
+ID_7ZKRUJ5,12/23/10,2/21/11,Male,20,4,,,Mercedes,Customized Motor
+ID_7ZO0VR7,6/29/10,6/27/11,Male,48,1,,,TOYOTA,Car Classic
+ID_7ZOQYNB,6/25/10,1/9/11,Male,40,1,Bus,,TOYOTA,Car Classic
+ID_7ZQ1ZCV,7/24/10,7/23/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_7ZV79MO,4/17/10,4/16/11,Female,44,1,Saloon,,Honda,CarSafe
+ID_7ZZB1TE,12/27/10,12/25/11,Female,34,1,,,,CarSafe
+ID_7ZZUPPM,9/9/10,9/8/11,Male,34,1,,,,Car Classic
+ID_800E9J9,12/23/10,12/21/11,Female,44,1,Saloon,,Volkswagen,Car Classic
+ID_80776UG,4/15/10,4/14/11,Male,56,1,Saloon,Grey,TOYOTA,Car Classic
+ID_80CP3B8,8/24/10,8/22/11,Male,34,2,,,,CarSafe
+ID_80J8SWI,7/1/10,6/30/11,Male,53,1,Saloon,Black,TOYOTA,Car Classic
+ID_80JTV9U,4/15/10,4/14/11,Male,39,1,Saloon,,Nissan,CarSafe
+ID_80KEGN8,2/8/10,2/7/11,Female,50,2,JEEP,,Land Rover,Customized Motor
+ID_80QYMNJ,9/19/10,9/18/11,Female,32,2,,,,Car Classic
+ID_80RRK1O,6/29/10,6/28/11,Male,42,1,,,Honda,Car Classic
+ID_80XZT6A,9/10/10,3/14/11,Male,45,2,JEEP,Grey,GMC,Car Classic
+ID_818UPA4,10/15/10,10/14/11,Female,41,1,Saloon,,TOYOTA,CarSafe
+ID_81CKL85,3/26/10,3/24/11,Female,49,1,Saloon,Blue,TOYOTA,Car Classic
+ID_81F1TKM,3/13/10,3/12/11,Male,43,1,JEEP,Black,Volvo,Car Classic
+ID_81HMRT8,6/11/10,6/10/11,Male,40,1,Saloon,Blue,TOYOTA,Car Classic
+ID_81KFG6O,10/10/10,10/9/11,Male,39,1,Saloon,Black,TOYOTA,Car Classic
+ID_81WPGW2,6/25/10,6/24/11,Male,58,1,Saloon,,Jeep,CarSafe
+ID_81Z4AXR,5/30/10,5/29/11,Female,50,1,,,TOYOTA,Car Classic
+ID_81ZQNBC,8/29/10,8/28/11,Male,25,1,Saloon,,Hyundai,Car Classic
+ID_8204R9L,4/24/10,4/23/11,Female,34,1,Saloon,Black,TOYOTA,Car Classic
+ID_8222LJE,8/2/10,8/1/11,Female,40,1,,,,Car Classic
+ID_824HBAG,9/4/10,9/3/11,Female,69,2,Saloon,Black,Kia,Car Classic
+ID_8252KF1,8/30/10,8/29/11,Male,41,1,,Black,Lexus,Car Classic
+ID_826TPL2,7/25/10,1/24/11,Female,38,1,JEEP,,TOYOTA,CarFlex
+ID_826YX8T,9/7/10,6/18/11,Female,35,1,Saloon,Black,Honda,Car Classic
+ID_82D8N28,11/25/10,2/23/11,Female,40,1,,Silver,Mercedes,Car Classic
+ID_82G0CGH,1/16/10,1/15/11,Male,38,2,Saloon,,TOYOTA,CarFlex
+ID_82NLX34,8/6/10,8/5/11,Male,61,1,,,,CarSafe
+ID_82PN786,6/28/10,6/27/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_82S0XN4,5/15/10,5/14/11,Male,46,3,JEEP,Black,TOYOTA,Car Classic
+ID_833W1M8,4/29/10,4/28/11,Male,54,2,Saloon,As Attached,Mercedes,Customized Motor
+ID_8366BE3,6/18/10,6/17/11,Male,41,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_83D998D,10/19/10,4/18/11,Male,32,1,,As Attached,TOYOTA,Car Classic
+ID_83IY7A2,3/7/10,3/6/11,Female,75,2,JEEP,Green,Mercedes,Car Classic
+ID_83WZOYX,5/13/10,5/12/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_83ZSQX7,10/18/10,1/13/11,Female,32,1,Saloon,,Honda,Car Classic
+ID_843LDD3,2/7/10,2/6/11,Female,51,1,Saloon,,Mercedes,CarSafe
+ID_8459AIM,5/20/10,5/19/11,Female,35,1,Saloon,Ash,TOYOTA,Car Classic
+ID_84F8BG7,3/22/10,3/21/11,Male,39,1,Saloon,,Kia,CarSafe
+ID_84LHO0Q,3/19/10,3/18/11,Female,31,2,,Black,.,Motor Cycle
+ID_84S9L2W,6/26/10,6/25/11,Male,57,1,JEEP,Black,Lexus,Car Classic
+ID_84XB406,3/25/10,3/24/11,Male,74,1,JEEP,Black,TOYOTA,Car Classic
+ID_84XTQMD,9/9/10,9/8/11,Male,38,1,,,,Car Classic
+ID_85ASXKU,5/15/10,1/13/11,Male,48,1,,,Lexus,Car Classic
+ID_85C2GO5,1/19/10,1/18/11,Female,12,2,,,TOYOTA,Car Classic
+ID_85CO5I5,1/14/10,1/13/11,Female,34,1,Saloon,,Nissan,CarSafe
+ID_85EW9Q6,11/5/10,11/4/11,Male,71,1,JEEP,Black,Mercedes,Car Classic
+ID_85K4DNC,5/17/10,5/16/11,Female,53,1,Saloon,,Hyundai,CarSafe
+ID_85L65CX,10/11/10,4/10/11,Male,26,1,,,,Car Classic
+ID_85P2ABI,12/31/10,12/30/11,Male,66,1,Saloon,,TOYOTA,CarSafe
+ID_85U125K,6/17/10,6/16/11,Female,37,1,Saloon,Wine,ACURA,Car Classic
+ID_860STD4,3/8/10,3/7/11,Male,28,2,Saloon,Grey,TOYOTA,Car Classic
+ID_8610M8M,10/24/10,10/22/11,Female,32,1,Saloon,,TOYOTA,Car Classic
+ID_862RHN4,1/22/10,1/21/11,Male,41,1,Saloon,,TOYOTA,Car Classic
+ID_865ZZK9,7/22/10,7/21/11,Male,41,1,Saloon,,TOYOTA,CarFlex
+ID_869FHC3,9/20/10,9/19/11,Female,35,1,,,,Car Classic
+ID_86F8W1E,10/31/10,10/30/11,Male,44,2,Saloon,,Jaguar,Car Classic
+ID_86JNA7D,6/6/10,6/5/11,Male,48,1,Saloon,,Volkswagen,CarSafe
+ID_86OFXQ4,10/10/10,10/9/11,Male,46,1,,,,CarSafe
+ID_86Q5BLN,6/18/10,6/17/11,Female,44,1,JEEP,Grey,ACURA,Car Classic
+ID_86R14YJ,6/1/10,5/31/11,Entity,93,7,Truck,,Mercedes,CVTP
+ID_86RUPGP,9/30/10,4/1/11,Female,42,2,Saloon,Black,TOYOTA,Car Classic
+ID_86X13SC,7/25/10,7/24/11,Male,48,2,Saloon,Black,TOYOTA,Car Classic
+ID_86Y6K4L,5/2/10,2/7/11,NOT STATED,41,1,Saloon,Blue,TOYOTA,Car Classic
+ID_870DVJT,8/14/10,8/13/11,Male,45,1,,,,CarSafe
+ID_870UPFD,1/29/10,1/28/11,Male,34,1,Saloon,Grey,TOYOTA,Car Classic
+ID_87AYCFR,8/15/10,8/14/11,NOT STATED,37,1,,,,Car Classic
+ID_87BAPQ7,7/12/10,7/11/11,Joint Gender,43,1,,,,Car Classic
+ID_87IZGFP,5/30/10,5/28/11,Female,44,1,JEEP,,TOYOTA,Car Classic
+ID_87KC3JH,8/9/10,8/8/11,Female,37,1,Saloon,Black,TOYOTA,Car Classic
+ID_883EUA0,6/26/10,6/25/11,Female,35,1,Saloon,Silver,TOYOTA,Car Classic
+ID_886YTYK,3/14/10,3/13/11,Female,37,2,Saloon,Gold,TOYOTA,Car Classic
+ID_88ARZ4J,9/26/10,9/25/11,Female,27,1,,,,Car Classic
+ID_88LZAT9,4/18/10,2/18/11,Male,43,1,Saloon,Blue,TOYOTA,Car Classic
+ID_88M8B0N,1/17/10,1/16/11,Male,62,1,,,TOYOTA,Car Classic
+ID_88NBMYU,9/27/10,9/26/11,Female,50,1,Saloon,,Honda,CarSafe
+ID_88Q48CN,7/22/10,7/21/11,Male,75,1,JEEP,Grey,Lexus,Car Classic
+ID_88UYZBL,6/10/10,3/31/11,Male,34,1,Saloon,Blue,TOYOTA,Car Classic
+ID_894LFPQ,9/9/10,8/25/11,Male,53,1,,,,Car Classic
+ID_895H57A,11/14/10,11/13/11,Male,30,1,Saloon,Grey,TOYOTA,Car Classic
+ID_89GOBKK,9/17/10,9/15/11,Female,30,1,,,,CarFlex
+ID_89PIKFP,9/6/10,9/5/11,Female,50,1,Saloon,,TOYOTA,CarSafe
+ID_89U7RMZ,7/3/10,7/2/11,Female,40,1,Saloon,Black,TOYOTA,Car Plus
+ID_89ZV81H,2/20/10,2/19/11,Male,56,1,Saloon,,Mercedes,CarSafe
+ID_8A6LK1B,5/2/10,5/1/11,Female,70,1,Saloon,,TOYOTA,Car Classic
+ID_8AE7XSR,4/25/10,4/24/11,Female,39,1,JEEP,Green,Ford,Car Classic
+ID_8AJSZBK,4/8/10,4/7/11,Male,20,2,JEEP,Black,TOYOTA,Car Classic
+ID_8ANTZHM,10/31/10,10/30/11,Female,31,1,JEEP,,Range Rover,Customized Motor
+ID_8APIKX3,3/11/10,3/10/11,Male,54,2,,,TOYOTA,Customized Motor
+ID_8ASKDR8,9/12/10,9/11/11,,23,2,,,,Motor Cycle
+ID_8ASU7IX,8/29/10,8/28/11,Male,37,1,Saloon,,Honda,Car Classic
+ID_8B7RCA5,6/13/10,6/12/11,Male,55,1,Truck,,Mack,CVTP
+ID_8BQNXPW,7/24/10,1/23/11,Female,41,1,Saloon,,Honda,Car Classic
+ID_8BSRJE0,5/2/10,5/1/11,Male,33,1,Saloon,,Honda,Car Classic
+ID_8BZUTOL,10/24/10,10/23/11,Male,48,2,Saloon,Gold,TOYOTA,Car Classic
+ID_8C7V7SI,1/11/10,1/10/11,Female,38,1,Saloon,,TOYOTA,CarSafe
+ID_8C8K4HF,2/19/10,2/18/11,Female,44,1,JEEP,Red,Hyundai,Car Classic
+ID_8CK0QJ8,8/6/10,8/5/11,Male,38,1,,,,CarSafe
+ID_8CLFKXK,1/14/10,1/13/11,Male,51,1,Saloon,Brown,TOYOTA,Car Classic
+ID_8CMPRYW,1/1/10,12/31/10,Male,51,3,JEEP,Black,TOYOTA,Customized Motor
+ID_8CODHHS,2/11/10,2/10/11,Male,31,1,Saloon,,TOYOTA,CarSafe
+ID_8COUUVJ,3/6/10,3/4/11,Male,46,1,,As Attached,Honda,Car Classic
+ID_8CP81AH,11/1/10,10/30/11,Male,36,2,,,,CarSafe
+ID_8CP9Q3F,12/27/10,12/26/11,Joint Gender,40,1,,,,CarSafe
+ID_8D3XM09,9/23/10,9/22/11,Male,43,1,,,,CarSafe
+ID_8D4VPQD,9/14/10,9/13/11,Male,41,3,Saloon,,TOYOTA,Car Classic
+ID_8D79352,9/26/10,9/25/11,,43,1,,,,Car Classic
+ID_8DCLY9J,2/13/10,2/12/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_8DLRZCB,1/8/10,1/8/11,Male,37,1,JEEP,Gold,Lexus,Car Classic
+ID_8DM9CP2,11/19/10,11/18/11,Male,41,1,,,,CarSafe
+ID_8E49KFK,2/3/10,2/2/11,Female,39,1,JEEP,,Nissan,CarSafe
+ID_8E9VVSQ,10/16/10,10/15/11,Male,40,1,,,,CarSafe
+ID_8EE2HIV,1/20/10,1/19/11,Male,57,1,Saloon,Black,TOYOTA,CarSafe
+ID_8EJ2HSL,11/25/10,11/24/11,Male,50,2,,,,Car Classic
+ID_8EK3KEB,5/10/10,5/9/11,Female,34,1,Saloon,Grey,TOYOTA,Car Classic
+ID_8EKE9Z4,3/27/10,3/26/11,Female,41,1,Saloon,,TOYOTA,CarSafe
+ID_8EL68EA,6/17/10,6/16/11,Male,37,1,Saloon,,Volvo,CarSafe
+ID_8EOPHQY,7/10/10,7/9/11,Male,53,1,Saloon,Black,TOYOTA,Car Classic
+ID_8EPCJFU,2/21/10,2/20/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_8EQBK6I,9/9/10,4/29/11,Male,45,2,Saloon,Black,TOYOTA,Car Classic
+ID_8FCB72T,6/13/10,6/12/11,Male,34,1,Saloon,As Attached,Audi,Car Classic
+ID_8FGID9P,9/2/10,9/1/11,Male,30,1,,,,CarSafe
+ID_8FHZVKQ,4/26/10,4/25/11,Female,61,2,Saloon,,TOYOTA,CarSafe
+ID_8FIFHQ0,1/25/10,1/24/11,Male,37,2,JEEP,Brown,TOYOTA,Car Classic
+ID_8FK4ZXV,11/13/10,9/21/11,Male,50,2,,,,Car Classic
+ID_8FKOGS3,7/31/10,7/30/11,Male,84,2,Saloon,Black,TOYOTA,Car Classic
+ID_8FLB1VE,3/19/10,3/18/11,Male,35,1,Bus,,Fiat,CVTP
+ID_8FNVR9O,5/22/10,5/21/11,Female,29,1,JEEP,Black,TOYOTA,Car Classic
+ID_8FPFZ8Y,6/25/10,6/24/11,Female,54,1,Saloon,Silver,TOYOTA,Car Classic
+ID_8FUXDFP,4/18/10,4/17/11,NO GENDER,39,3,,,,Muuve
+ID_8FWTQ1N,9/30/10,9/29/11,Male,37,1,,,,Car Classic
+ID_8G09KCM,6/7/10,6/6/11,Male,34,1,Saloon,Black,TOYOTA,Car Classic
+ID_8G0S3PD,5/23/10,5/22/11,Male,53,1,Saloon,Black,TOYOTA,Car Classic
+ID_8G6XZZJ,2/13/10,2/12/11,Female,1,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_8GAKU1Z,11/26/10,11/25/11,Male,41,1,,,,CarSafe
+ID_8GBHSC0,4/30/10,4/29/11,Male,43,2,JEEP,Green,Mercedes,Car Classic
+ID_8GTNSPB,7/31/10,7/30/11,Male,12,2,JEEP,,Honda,Customized Motor
+ID_8GWMRI6,9/27/10,9/26/11,Female,46,1,JEEP,,TOYOTA,Car Classic
+ID_8H74USN,7/4/10,7/3/11,,20,1,Truck,Blue,Mercedes,CVTP
+ID_8HMOHJH,4/11/10,3/10/11,Male,28,1,,Silver,TOYOTA,Car Classic
+ID_8HOK6HZ,9/16/10,4/21/11,Male,43,1,,,,Car Classic
+ID_8HX3JLJ,4/10/10,3/28/11,Male,31,1,Saloon,Blue,TOYOTA,Car Classic
+ID_8I4FXNW,4/30/10,3/1/11,Male,37,1,Saloon,,TOYOTA,Car Classic
+ID_8I8USAY,12/10/10,12/2/11,Male,43,2,Saloon,Black,Peugeot,Car Classic
+ID_8IIIHRC,9/11/10,9/10/11,Male,37,1,,,,Car Classic
+ID_8INR6DB,3/14/10,3/13/11,NOT STATED,51,1,Saloon,,TOYOTA,CarSafe
+ID_8IRHGTT,1/11/10,1/10/11,Male,44,2,Saloon,,Hyundai,Car Classic
+ID_8IS3A1U,1/27/10,1/26/11,Male,51,1,Saloon,,Kia,Car Classic
+ID_8IZRGSG,11/16/10,11/15/11,Male,33,1,Saloon,,TOYOTA,Car Classic
+ID_8J23WN1,9/4/10,9/3/11,Female,50,1,Saloon,Silver,Hyundai,Car Classic
+ID_8J3HU94,3/24/10,3/23/11,Female,34,1,JEEP,Black,Hyundai,Car Plus
+ID_8JCFFH9,4/5/10,4/4/11,Male,40,1,Saloon,Black,TOYOTA,Car Plus
+ID_8JQG0U5,2/5/10,2/4/11,Male,34,1,JEEP,Black,Ford,Car Classic
+ID_8JSQB8W,2/1/10,1/31/11,NOT STATED,45,1,Bus,,Volvo,CVTP
+ID_8JUWEQS,11/21/10,11/20/11,Male,31,1,,,,Car Classic
+ID_8JVMNL5,5/3/10,1/3/11,Male,58,1,Saloon,Blue,TOYOTA,Car Classic
+ID_8K1P1EV,4/24/10,4/23/11,Male,43,2,Saloon,As Attached,TOYOTA,Car Classic
+ID_8K2J1RS,11/27/10,11/26/11,Male,39,1,,,,Car Plus
+ID_8K3XJ81,4/10/10,4/9/11,Male,39,1,Saloon,,Opel,CarSafe
+ID_8K547F5,6/23/10,6/22/11,Male,50,6,Saloon,Black,Hyundai,Customized Motor
+ID_8KA4D0E,1/11/10,1/10/11,Male,43,1,Shape Of Vehicle Chasis,Black,TOYOTA,Car Classic
+ID_8KACGSR,8/29/10,8/28/11,Male,32,1,Saloon,,TOYOTA,CarSafe
+ID_8KBIIXA,7/18/10,7/17/11,Female,36,1,,,TOYOTA,Car Classic
+ID_8KGBRBL,1/21/10,1/5/11,,20,3,JEEP,As Attached,Lexus,Customized Motor
+ID_8KK42Q7,1/29/10,1/28/11,Female,50,1,Saloon,,TOYOTA,CarSafe
+ID_8KLBXZ5,7/5/10,7/4/11,Male,36,1,Saloon,Blue,TOYOTA,Car Classic
+ID_8KLHL7U,12/11/10,5/23/11,Male,35,1,Saloon,,TOYOTA,Car Classic
+ID_8KN65HY,11/4/10,3/15/11,Male,46,4,Saloon,Black,Honda,Customized Motor
+ID_8KO0NEY,2/18/10,2/17/11,Male,32,2,Saloon,,Mercedes,Car Classic
+ID_8KPR8H0,9/12/10,9/11/11,Male,41,1,,,,CarSafe
+ID_8KS4YIN,10/25/10,10/24/11,Female,44,1,,Grey,TOYOTA,Car Classic
+ID_8L06SZ9,5/3/10,4/4/11,Male,52,1,,,Mack,CVTP
+ID_8L1TK1G,6/24/10,6/23/11,Male,44,1,JEEP,,TOYOTA,Car Classic
+ID_8LBVH4H,2/18/10,2/17/11,Male,33,1,Saloon,As Attached,Honda,Car Classic
+ID_8LCL6XC,12/20/10,12/19/11,Female,37,1,Saloon,Black,Honda,Car Classic
+ID_8LH63YA,1/21/10,1/20/11,Male,41,2,Saloon,,Honda,Car Classic
+ID_8LR0YKQ,1/1/10,12/31/10,NOT STATED,50,1,Saloon,,TOYOTA,CarSafe
+ID_8LYQ9Y5,8/28/10,2/25/11,Female,36,1,Saloon,Gold,TOYOTA,Car Classic
+ID_8M0PZF5,1/22/10,1/21/11,NOT STATED,44,2,Saloon,Black,TOYOTA,Car Classic
+ID_8M3G2A1,1/16/10,1/15/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_8M5LV6R,12/9/10,12/8/11,Male,48,2,,,,CarSafe
+ID_8M69SRX,3/7/10,3/2/11,Male,46,1,Saloon,Silver,TOYOTA,Car Classic
+ID_8MC3W1M,2/15/10,2/14/11,Male,35,1,Saloon,Blue,TOYOTA,Car Classic
+ID_8MCI3WG,12/10/10,12/9/11,Male,42,1,Saloon,Red,TOYOTA,Car Classic
+ID_8MGCAJB,8/15/10,8/14/11,Male,1,1,,,,CarSafe
+ID_8MNXRC6,12/31/10,12/16/11,Male,36,1,Saloon,Silver,Kia,Car Classic
+ID_8MRFLFT,8/28/10,8/26/11,Female,48,1,,,,CarSafe
+ID_8MRM9M0,4/18/10,4/17/11,Male,32,4,Saloon,,TOYOTA,CarSafe
+ID_8MUZRYW,7/5/10,7/4/11,Male,42,1,Saloon,,TOYOTA,Car Classic
+ID_8MW0W78,12/13/10,12/12/11,Female,40,1,,,,CarSafe
+ID_8MWF97N,2/5/10,2/4/11,Female,75,1,JEEP,Silver,TOYOTA,Car Classic
+ID_8N12S00,10/25/10,1/22/11,NOT STATED,27,2,,,,CarFlex
+ID_8N1XV8X,10/19/10,10/3/11,Male,45,1,Saloon,Silver,Hyundai,Car Classic
+ID_8N35CR1,4/11/10,3/10/11,Male,28,1,,Silver,TOYOTA,Car Classic
+ID_8N8A8BA,1/30/10,1/29/11,Female,50,1,,,TOYOTA,CarSafe
+ID_8N8UPU7,4/3/10,4/1/11,Male,41,1,JEEP,,Lexus,Car Plus
+ID_8NBQ9TU,12/2/10,12/1/11,Male,46,1,,,,CarSafe
+ID_8NCK8VL,10/14/10,4/11/11,Male,36,1,Saloon,Wine,TOYOTA,Car Classic
+ID_8NDT33F,4/10/10,4/9/11,Female,34,1,Saloon,Ash,TOYOTA,Car Classic
+ID_8NFONPM,10/19/10,1/18/11,Male,36,1,JEEP,Green,TOYOTA,Car Classic
+ID_8NKEH20,8/3/10,8/2/11,Female,36,2,Saloon,Black,TOYOTA,Car Classic
+ID_8NKXGUO,12/5/10,12/4/11,,41,1,,,,Car Classic
+ID_8NM25ED,5/3/10,5/2/11,Male,57,1,Saloon,Grey,TOYOTA,Car Classic
+ID_8NYBEFF,5/23/10,5/6/11,Female,44,1,Saloon,Red,TOYOTA,Car Classic
+ID_8NZPT90,8/21/10,8/20/11,Male,42,1,,,,CarSafe
+ID_8O0RZIL,7/26/10,7/25/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_8O1AGLQ,9/27/10,9/26/11,Female,51,3,Saloon,,TOYOTA,Car Classic
+ID_8O5PP14,7/25/10,7/24/11,Male,40,1,Saloon,Ash,TOYOTA,Car Classic
+ID_8ODN1D7,12/2/10,12/1/11,Male,30,1,,,,CarSafe
+ID_8ODNWAO,1/1/10,12/31/10,Entity,20,3,,As Attached,,Muuve
+ID_8OGAXVK,9/26/10,9/12/11,Male,30,1,Saloon,Silver,TOYOTA,Car Classic
+ID_8OGG4ON,10/14/10,10/13/11,Male,66,1,,,,CarSafe
+ID_8OHIMV4,7/19/10,7/18/11,Female,35,2,Saloon,Black,TOYOTA,Car Classic
+ID_8ONPZY8,10/31/10,10/30/11,Female,45,3,,,,Car Classic
+ID_8OR24A8,3/1/10,2/12/11,Female,40,2,JEEP,,ACURA,Car Classic
+ID_8OTNBK3,1/11/10,1/7/11,Male,44,1,,Red,Land Rover,Car Classic
+ID_8OYHXR3,8/29/10,8/28/11,Female,42,1,,,,Car Classic
+ID_8OYKWLM,8/8/10,8/7/11,Male,36,1,,,,CarSafe
+ID_8P2UGYO,12/31/10,12/30/11,Male,20,1,,,,CarSafe
+ID_8P7BZLN,1/8/10,1/7/11,Male,20,1,Saloon,,Lexus,CarSafe
+ID_8P9IML9,3/1/10,3/1/11,Male,42,1,Saloon,,TOYOTA,CarSafe
+ID_8PDYR2F,7/25/10,7/24/11,Female,52,1,JEEP,Red,Range Rover,Car Classic
+ID_8PFMFRZ,7/18/10,7/17/11,Female,36,1,Saloon,Black,TOYOTA,Car Classic
+ID_8PKK5LZ,3/15/10,3/14/11,Male,39,1,JEEP,Gold,Lexus,Car Classic
+ID_8PQZNNV,8/5/10,8/3/11,Male,46,3,JEEP,Black,Range Rover,Car Classic
+ID_8PSZW1A,7/1/10,2/3/11,Male,28,1,Saloon,Green,Kia,Car Classic
+ID_8PXMQ9S,12/23/10,12/22/11,Male,40,1,,,,CarSafe
+ID_8Q2HO3L,2/16/10,2/15/11,Male,50,1,Saloon,,Nissan,CarSafe
+ID_8Q2MALN,11/4/10,11/3/11,Male,52,1,,,,Car Classic
+ID_8QCL9XQ,5/21/10,5/26/11,Male,40,1,Saloon,White,Mercedes,Car Classic
+ID_8QJP9GY,7/25/10,7/24/11,Female,31,1,JEEP,As Attached,Hyundai,Car Classic
+ID_8QL5ZK8,10/28/10,10/26/11,Male,59,1,,,,CarSafe
+ID_8QWAFLH,11/5/10,11/4/11,NOT STATED,6,1,,,,Car Classic
+ID_8QWYG7J,10/30/10,10/28/11,Female,64,1,JEEP,,Lexus,Car Classic
+ID_8R0YTHU,9/9/10,4/29/11,Male,45,2,Shape Of Vehicle Chasis,Blue,Mercedes,Car Classic
+ID_8R6HY2Y,10/16/10,10/15/11,Female,36,1,,,,Car Classic
+ID_8R7XBSK,8/1/10,7/31/11,Male,49,1,Saloon,,TOYOTA,CarSafe
+ID_8R89BRN,6/14/10,6/13/11,Female,39,1,Saloon,Blue,Honda,Car Classic
+ID_8R9DSOO,7/22/10,7/17/11,Male,34,1,Saloon,White,TOYOTA,Car Classic
+ID_8RCFHCI,1/16/10,1/15/11,Male,49,1,Saloon,,TOYOTA,CarSafe
+ID_8RS19AU,11/1/10,5/11/11,Male,33,2,,,,Car Classic
+ID_8RS8QMD,3/25/10,3/23/11,Male,44,1,Saloon,Black,Honda,Car Classic
+ID_8RWJ3RR,10/31/10,10/30/11,Male,41,1,Saloon,,Honda,Car Classic
+ID_8RYTMSJ,6/11/10,2/22/11,Joint Gender,38,1,,,Lexus,Car Classic
+ID_8S3FYLC,9/14/10,9/12/11,Male,45,1,,,,CarSafe
+ID_8SAC70U,5/21/10,5/20/11,Male,36,1,Saloon,Black,Honda,Car Classic
+ID_8SBIZUT,4/27/10,4/12/11,Male,34,1,Saloon,Grey,TOYOTA,Car Classic
+ID_8SBNGBS,7/5/10,7/4/11,Male,68,1,Saloon,,Peugeot,CarSafe
+ID_8SHAWT8,8/19/10,8/16/11,Male,38,1,,,,Car Classic
+ID_8SIFGEF,1/21/10,1/20/11,Joint Gender,73,1,Saloon,White,TOYOTA,Car Classic
+ID_8SJ5TBV,10/31/10,10/30/11,Male,51,4,,,Range Rover,Car Classic
+ID_8SXXDKP,3/4/10,3/2/11,Male,56,1,JEEP,Black,Honda,Car Classic
+ID_8SZIJ2I,5/21/10,5/20/11,Female,36,1,Saloon,,Honda,CarSafe
+ID_8T0JBXM,10/23/10,10/22/11,Female,32,1,,,,CarSafe
+ID_8T1IXLU,4/30/10,4/28/11,Male,36,2,Saloon,,Hyundai,Car Classic
+ID_8T2HPD7,6/6/10,6/5/11,Female,38,1,Saloon,Silver,TOYOTA,Car Classic
+ID_8T4AN71,4/17/10,4/16/11,Entity,34,2,Saloon,White,Kia,Car Classic
+ID_8T5HOFH,2/28/10,2/28/11,Female,37,1,,White,Ford,CVTP
+ID_8T7EEFU,12/19/10,12/18/11,Entity,20,1,,,Ford,Car Plus
+ID_8TBTGR0,4/2/10,4/1/11,Male,55,1,Saloon,,TOYOTA,CarSafe
+ID_8TI40H8,3/12/10,3/11/11,Male,1,1,Saloon,,Lexus,CarSafe
+ID_8TMU89V,5/6/10,5/5/11,Male,1,1,Saloon,,TOYOTA,CarSafe
+ID_8TPO8TN,8/2/10,8/1/11,Female,40,1,Saloon,,TOYOTA,CarSafe
+ID_8TQVTBO,3/2/10,3/1/11,Male,54,1,JEEP,Black,TOYOTA,Car Classic
+ID_8TZBSAN,11/7/10,11/6/11,Male,47,3,JEEP,,TOYOTA,Car Classic
+ID_8U3XAIT,8/30/10,8/28/11,Male,45,3,JEEP,As Attached,Lexus,Car Classic
+ID_8UAW1N2,4/17/10,4/16/11,Female,38,1,JEEP,,Pontiac,Car Classic
+ID_8UBZLDM,1/7/10,1/6/11,Male,20,1,Saloon,,TOYOTA,CarSafe
+ID_8UFC1S7,6/19/10,6/17/11,Male,42,1,JEEP,,ACURA,CarSafe
+ID_8UJJQ18,1/17/10,1/16/11,Male,51,2,JEEP,Black,TOYOTA,Car Classic
+ID_8UPDF2V,4/27/10,4/26/11,Male,67,2,Saloon,,TOYOTA,Car Classic
+ID_8UQ7E0K,11/3/10,11/2/11,Female,45,2,JEEP,,TOYOTA,Car Classic
+ID_8UREJW2,2/14/10,2/13/11,,27,1,,Brown,TOYOTA,Car Classic
+ID_8V9WEMR,10/28/10,10/27/11,Male,44,1,,,,CarSafe
+ID_8VB0OYS,11/19/10,11/18/11,Female,1,2,,,,CarSafe
+ID_8VE9IQF,2/9/10,2/8/11,Male,68,1,,,TOYOTA,Car Classic
+ID_8VGEXHV,11/8/10,11/7/11,Female,35,1,,,,Car Classic
+ID_8VH4GWS,2/15/10,12/31/10,Entity,20,3,,,,CVTP
+ID_8VIXLM4,1/20/10,1/19/11,Male,57,1,Saloon,,TOYOTA,CarSafe
+ID_8VLIK66,3/27/10,3/26/11,Male,36,1,Saloon,Grey,TOYOTA,Car Classic
+ID_8VNTR1A,12/27/10,12/26/11,Joint Gender,45,1,,,,CarSafe
+ID_8VPMPEJ,7/25/10,7/24/11,Female,31,1,,As Attached,Hyundai,Car Classic
+ID_8W1UHCI,7/26/10,7/25/11,Male,40,1,Saloon,Blue,TOYOTA,Car Classic
+ID_8W484FG,6/28/10,6/27/11,Entity,8,2,Saloon,Black,Hyundai,Car Classic
+ID_8W6IETA,5/8/10,5/7/11,Female,55,1,Saloon,Black,Lexus,Car Classic
+ID_8W8D58A,2/14/10,2/10/11,Female,6,1,JEEP,Black,TOYOTA,Car Classic
+ID_8W9YVO5,2/22/10,2/21/11,Male,31,1,Saloon,Grey,Lexus,Car Plus
+ID_8WB0Z9V,9/17/10,9/16/11,Female,66,1,JEEP,Black,Range Rover,Customized Motor
+ID_8WDRTFV,1/29/10,1/28/11,Entity,33,1,JEEP,Black,Ford,Car Classic
+ID_8WGWVWM,5/28/10,5/27/11,Male,46,3,JEEP,,ACURA,Car Plus
+ID_8WHV7CI,3/29/10,3/28/11,Male,36,1,Saloon,Grey,TOYOTA,Car Classic
+ID_8WKLKXU,5/30/10,5/29/11,Male,45,1,Saloon,,Nissan,CarSafe
+ID_8WOL77Y,6/11/10,3/9/11,Female,33,1,Saloon,,Mercedes,Car Classic
+ID_8WV3GXH,1/30/10,1/29/11,Female,53,1,JEEP,Black,Lexus,Car Classic
+ID_8WYWO0A,1/24/10,1/23/11,Male,43,1,Saloon,,TOYOTA,CarSafe
+ID_8X5G0F5,3/4/10,3/3/11,NOT STATED,40,1,Saloon,,TOYOTA,CarSafe
+ID_8XR0WII,1/24/10,1/23/11,Female,46,1,Saloon,,Peugeot,CarSafe
+ID_8XSRD2X,3/8/10,3/6/11,Female,20,3,JEEP,,TOYOTA,Customized Motor
+ID_8XWIYLF,2/8/10,2/5/11,Male,35,1,JEEP,Black,Lexus,Car Classic
+ID_8XYQACH,5/3/10,5/2/11,Male,43,1,Saloon,,Honda,CarSafe
+ID_8Y21O2N,4/12/10,4/11/11,Female,33,1,,,TOYOTA,Car Classic
+ID_8Y46RI7,6/12/10,6/10/11,Female,35,1,JEEP,,Ford,CarSafe
+ID_8Y59EYT,11/27/10,11/26/11,Male,54,1,JEEP,Red,TOYOTA,Car Classic
+ID_8Y8RC6B,4/8/10,4/6/11,Male,30,1,Saloon,,TOYOTA,Car Plus
+ID_8YGZKPI,2/22/10,2/21/11,NOT STATED,29,1,Saloon,,Ford,CarSafe
+ID_8YHV0PR,7/24/10,4/22/11,Male,35,1,Saloon,Blue,TOYOTA,Car Classic
+ID_8YIKMNA,9/25/10,9/24/11,Male,33,1,,,,CarSafe
+ID_8YKO5TA,12/19/10,12/18/11,Male,51,1,,,,CarSafe
+ID_8YKRWXU,3/12/10,3/11/11,Female,49,1,JEEP,,Ford,Car Classic
+ID_8YN6M13,3/7/10,3/6/11,Male,37,1,Saloon,,TOYOTA,CarSafe
+ID_8YSCI3U,2/12/10,1/23/11,Male,41,1,Saloon,Black,TOYOTA,Car Classic
+ID_8YURAC5,4/15/10,4/14/11,Female,37,1,Saloon,Black,Mercedes,Car Classic
+ID_8Z1FRPJ,8/15/10,8/14/11,Male,42,1,JEEP,Blue,TOYOTA,Car Classic
+ID_8Z2OZWK,1/24/10,1/23/11,Female,40,1,Saloon,,Lexus,CarSafe
+ID_8Z7UWQK,12/11/10,12/10/11,Male,41,1,,,,CarSafe
+ID_8ZAANL5,8/13/10,7/29/11,Male,42,1,Truck,Yellow,Iveco,CVTP
+ID_8ZGNO8D,4/6/10,4/5/11,Male,40,1,,,TOYOTA,CarSafe
+ID_8ZHI215,3/29/10,3/9/11,Male,35,1,Saloon,,Lexus,Car Classic
+ID_8ZP5XXE,5/27/10,5/26/11,Male,44,2,Saloon,,TOYOTA,CarSafe
+ID_8ZR0L5W,1/10/10,1/9/11,Female,43,1,Saloon,,Kia,Car Classic
+ID_8ZXG3ZA,4/4/10,4/3/11,Female,42,1,Saloon,Black,Volvo,Car Classic
+ID_8ZZI13J,4/17/10,4/16/11,Male,50,1,,Silver,TOYOTA,Car Classic
+ID_9017D18,8/27/10,8/26/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_904ZKB9,6/20/10,6/18/11,Female,58,1,Saloon,,TOYOTA,CarSafe
+ID_906OLD6,6/26/10,6/25/11,Female,37,1,Saloon,,Nissan,CarSafe
+ID_90B5T1C,5/3/10,5/2/11,Male,38,1,Saloon,Blue,TOYOTA,Car Classic
+ID_90CA0M8,8/5/10,8/4/11,Male,12,2,JEEP,White,Lexus,Car Classic
+ID_90G45CQ,2/21/10,2/20/11,Male,30,1,Saloon,Silver,TOYOTA,Car Classic
+ID_90KPA2B,12/28/10,12/27/11,Male,71,2,Saloon,,TOYOTA,CarSafe
+ID_90L95UY,7/4/10,7/3/11,Male,55,1,Saloon,,Nissan,CarSafe
+ID_90PH3EE,8/28/10,8/27/11,Male,36,1,Saloon,Silver,TOYOTA,Car Classic
+ID_90PJI5T,7/30/10,7/29/11,Male,47,1,Saloon,,Hyundai,CarSafe
+ID_90RSRYJ,7/9/10,7/8/11,Male,21,1,Saloon,,TOYOTA,CarSafe
+ID_90UZRNP,11/8/10,11/6/11,Male,52,3,,,TOYOTA,CVTP
+ID_90VXWYJ,10/17/10,10/16/11,Female,30,1,Saloon,Black,Kia,Car Classic
+ID_90X8T4G,4/5/10,4/4/11,Female,41,2,JEEP,Grey,TOYOTA,Car Classic
+ID_913PARN,11/14/10,11/13/11,Male,30,1,,,,CarSafe
+ID_915PKDO,9/20/10,9/19/11,Male,41,1,,,,Car Classic
+ID_916PMNW,7/31/10,7/30/11,Male,12,2,,Black,TOYOTA,Customized Motor
+ID_916T81B,9/13/10,6/29/11,Male,39,3,Saloon,,TOYOTA,Car Classic
+ID_919NGBZ,8/16/10,8/15/11,Male,46,1,,,,Car Classic
+ID_91PMGXU,8/27/10,8/25/11,Female,31,1,JEEP,Silver,Nissan,Car Classic
+ID_91SQYM4,4/5/10,4/4/11,Female,40,1,Saloon,,TOYOTA,CarSafe
+ID_91UZM49,9/9/10,5/18/11,Male,36,1,Saloon,Wine,TOYOTA,Car Classic
+ID_91WIK4H,4/27/10,4/25/11,Male,30,1,Saloon,,Honda,CarSafe
+ID_921KAMA,4/27/10,4/26/11,Male,62,3,,,TOYOTA,CVTP
+ID_922H5C2,7/12/10,7/10/11,Male,36,1,Saloon,,TOYOTA,CarSafe
+ID_924W4TM,8/10/10,8/9/11,Female,46,1,Saloon,,TOYOTA,CarSafe
+ID_92691ZV,6/25/10,6/24/11,Male,38,1,Saloon,Grey,TOYOTA,Car Classic
+ID_92D1DS1,6/29/10,6/28/11,Male,35,1,Saloon,Black,Honda,Car Classic
+ID_92E047F,6/21/10,6/20/11,Male,41,1,Saloon,,TOYOTA,CarSafe
+ID_92F6RVP,12/7/10,12/6/11,Female,33,1,Saloon,Black,TOYOTA,Car Classic
+ID_92IW4CE,2/20/10,2/19/11,Male,1,1,Saloon,,Honda,CarSafe
+ID_92J8CGL,11/8/10,11/7/11,Male,40,1,,,,CarSafe
+ID_92LKDFP,9/26/10,9/1/11,Male,42,1,JEEP,Orange,TOYOTA,Car Classic
+ID_92NQ0EE,2/15/10,2/14/11,Male,41,1,Saloon,,TOYOTA,CarSafe
+ID_92V8849,2/18/10,2/17/11,Male,49,1,JEEP,Black,Land Rover,Car Classic
+ID_92VFXVS,1/23/10,1/22/11,Male,32,1,Saloon,,TOYOTA,Car Classic
+ID_92WZ1L3,11/21/10,11/20/11,Male,53,1,Saloon,,TOYOTA,CarSafe
+ID_92ZE0GM,1/4/10,1/3/11,Joint Gender,42,1,Saloon,,Kia,CarSafe
+ID_930J7K8,9/4/10,9/3/11,Female,54,1,JEEP,,Hyundai,CarSafe
+ID_93BVKPZ,8/21/10,8/20/11,Female,50,2,JEEP,,Lexus,Customized Motor
+ID_93C2L3T,1/15/10,1/14/11,Female,32,1,Saloon,Black,Hyundai,Car Classic
+ID_93PH97S,4/24/10,4/23/11,Male,43,2,,,TOYOTA,Car Classic
+ID_93UB7LI,1/7/10,1/6/11,Male,46,1,Saloon,,TOYOTA,CarSafe
+ID_93W2SR6,3/15/10,3/6/11,Male,27,2,Saloon,Black,Lexus,Car Classic
+ID_93XUPM5,11/28/10,11/27/11,Male,42,1,,,,CarSafe
+ID_9433J5G,11/18/10,11/17/11,Male,49,2,,Black,TOYOTA,Car Classic
+ID_94465YV,1/2/10,1/1/11,Female,34,1,Saloon,,TOYOTA,Car Classic
+ID_9451W4P,11/5/10,5/4/11,Male,27,1,,,,Car Classic
+ID_946WUKG,7/1/10,2/27/11,Male,37,2,Saloon,,TOYOTA,Car Classic
+ID_947A7JL,2/12/10,2/11/11,Male,32,1,Saloon,As Attached,TOYOTA,Car Classic
+ID_94BUCGC,8/26/10,8/25/11,Male,35,1,,Black,Honda,Car Classic
+ID_94II5Y4,6/21/10,3/28/11,Female,38,1,JEEP,Black,Honda,Car Classic
+ID_94MZ8I4,2/15/10,2/14/11,Male,40,1,Saloon,,Honda,CarSafe
+ID_94R96E8,10/2/10,3/15/11,Male,69,1,,,,Car Classic
+ID_94RVPE9,11/26/10,7/30/11,Male,27,1,,,,Car Classic
+ID_94UAPDL,6/13/10,3/15/11,Male,34,1,Saloon,Black,Honda,Car Classic
+ID_94ZEH05,11/7/10,11/6/11,Male,59,2,,Black,Ford,Car Classic
+ID_954O8WQ,10/4/10,10/3/11,Male,40,1,,,,CarSafe
+ID_95C9BTO,6/28/10,6/27/11,Male,55,3,JEEP,Black,Kia,Car Classic
+ID_95EB4F5,7/6/10,7/5/11,Male,31,1,Saloon,,TOYOTA,CarFlex
+ID_95FIJ5I,6/1/10,5/31/11,Entity,93,7,,As Attached,Honda,CarSafe
+ID_95OZ1H7,6/27/10,6/26/11,Male,66,1,Saloon,,TOYOTA,CarSafe
+ID_95QISIE,8/9/10,8/8/11,Male,33,1,,,,CarSafe
+ID_95WN3ZP,3/28/10,3/27/11,Male,42,1,,White,Iveco,CVTP
+ID_9627CPP,9/11/10,9/10/11,Female,30,1,Saloon,Red,Hyundai,Car Classic
+ID_9629C49,8/23/10,8/22/11,Female,40,1,,,,CarSafe
+ID_964HV59,7/5/10,7/4/11,Male,41,1,JEEP,Grey,Mercedes,Car Classic
+ID_96ARJXT,8/8/10,8/7/11,NOT STATED,40,1,,,,CarSafe
+ID_96CGILI,5/8/10,4/11/11,Female,40,1,Saloon,Black,Honda,Car Classic
+ID_96DP70R,11/1/10,10/31/11,Female,40,2,,,,Car Classic
+ID_96KANVR,1/14/10,1/13/11,Male,51,1,Saloon,,TOYOTA,CarSafe
+ID_96KPTZE,5/9/10,5/8/11,Male,41,1,Sedan,Green,TOYOTA,Car Classic
+ID_96L87ZB,1/30/10,1/29/11,Male,39,1,Saloon,Silver,TOYOTA,Car Classic
+ID_96MK7PE,7/17/10,7/16/11,Male,31,1,Saloon,,TOYOTA,Car Classic
+ID_96O1PL6,4/1/10,3/31/11,Male,1,1,Saloon,,Honda,Car Classic
+ID_96QKMDD,11/7/10,11/6/11,,43,2,,,,CarSafe
+ID_972XB8M,5/14/10,5/13/11,Male,42,1,Saloon,Black,TOYOTA,CarSafe
+ID_97AT1UY,4/23/10,4/22/11,Male,36,1,Saloon,,TOYOTA,CarSafe
+ID_97BZ4QY,7/26/10,7/25/11,Female,29,2,Saloon,Wine,TOYOTA,Car Classic
+ID_97EI8VR,2/18/10,2/17/11,Male,45,1,Saloon,,TOYOTA,CarSafe
+ID_97FLGQM,8/16/10,8/15/11,Female,58,1,,,,CarSafe
+ID_97GX3WK,7/22/10,7/21/11,Male,48,1,Saloon,Black,TOYOTA,Car Classic
+ID_98491RS,8/20/10,8/19/11,Female,40,1,Saloon,Grey,TOYOTA,Car Classic
+ID_984IYYR,7/31/10,7/30/11,Male,52,1,JEEP,Black,TOYOTA,Car Classic
+ID_98I9C0Z,7/25/10,7/24/11,Male,38,1,Saloon,Blue,TOYOTA,Car Classic
+ID_98JIGGY,9/10/10,8/31/11,Male,41,1,JEEP,As Attached,Lexus,Car Classic
+ID_98M1Y9A,10/9/10,10/8/11,Male,35,1,Saloon,Black,TOYOTA,Car Classic
+ID_98RNL29,2/18/10,1/14/11,Male,40,1,,,TOYOTA,Car Classic
+ID_98WAE61,11/3/10,7/8/11,Female,28,1,,,,Car Classic
+ID_9953065,5/16/10,5/15/11,Male,56,3,JEEP,Black,Mercedes,Car Classic
+ID_999I4GF,6/26/10,12/31/10,Female,27,1,Saloon,Black,Honda,Car Classic
+ID_99DGCS8,9/30/10,9/29/11,Male,31,1,,,,CarSafe
+ID_99FZMWY,8/20/10,8/19/11,Female,39,1,JEEP,Black,Lexus,Car Classic
+ID_99ILYYW,2/26/10,2/13/11,Male,39,1,,Red & White,Iveco,CVTP
+ID_99KCW93,3/13/10,3/11/11,Male,41,1,JEEP,,TOYOTA,CarSafe
+ID_99L00AY,2/8/10,2/7/11,Female,50,2,JEEP,Grey,Mercedes,Customized Motor
+ID_99NNNT4,11/6/10,3/4/11,Male,12,2,JEEP,,Mercedes,Customized Motor
+ID_99P0K7X,1/25/10,1/13/11,Female,72,3,JEEP,,Infiniti,Car Classic
+ID_99PGM6U,2/1/10,1/31/11,Male,52,2,,Black,TOYOTA,CVTP
+ID_99ROAWM,11/29/10,11/28/11,Male,42,1,Saloon,,TOYOTA,CarSafe
+ID_99STT40,7/5/10,7/4/11,Male,37,3,Saloon,,Kia,CarSafe
+ID_99TRQAA,11/8/10,11/7/11,Male,42,1,,Red,Iveco,CVTP
+ID_99UWDA3,5/9/10,5/8/11,Male,42,2,JEEP,Black,Lexus,Car Classic
+ID_9A3MFS5,4/9/10,4/8/11,Male,44,1,Saloon,Silver,TOYOTA,Car Classic
+ID_9A5PC81,1/6/10,1/5/11,Male,35,1,Saloon,,TOYOTA,CarSafe
+ID_9A9M18U,2/7/10,2/6/11,Male,57,1,Saloon,Red,TOYOTA,Car Classic
+ID_9ACYZ2O,1/25/10,1/24/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_9ADVXBN,11/28/10,11/27/11,Male,60,1,,,,CarSafe
+ID_9AGZ2IO,10/10/10,4/9/11,Female,3,1,Saloon,Red,TOYOTA,Car Classic
+ID_9AH3X7O,11/7/10,11/6/11,Male,39,2,Saloon,Grey,TOYOTA,Car Classic
+ID_9ASKDJY,8/2/10,8/1/11,Female,30,1,Saloon,,TOYOTA,CarSafe
+ID_9AX3LYW,9/18/10,1/9/11,Male,66,1,JEEP,,Nissan,Car Classic
+ID_9AZGOJL,2/19/10,2/18/11,Male,32,1,Saloon,Red,TOYOTA,Car Classic
+ID_9B2NPNG,4/19/10,4/17/11,Male,35,1,Saloon,,TOYOTA,CarSafe
+ID_9B4MQJY,3/11/10,3/10/11,Female,46,1,,Blue,Mercedes,CVTP
+ID_9BE9IIE,4/15/10,4/14/11,Joint Gender,63,1,Saloon,Green,Honda,Car Classic
+ID_9BGYNPD,2/12/10,2/11/11,NO GENDER,20,2,,Black,Mercedes,Car Classic
+ID_9BIZHAO,4/10/10,4/9/11,Male,32,1,,Black,Lexus,Car Classic
+ID_9BLHBAO,1/24/10,1/18/11,Male,31,1,Saloon,Black,Honda,Car Classic
+ID_9BQKMV4,3/22/10,3/21/11,Male,50,1,Saloon,,TOYOTA,CarSafe
+ID_9C3UJ1H,5/30/10,5/29/11,Male,40,1,Saloon,,Volvo,CarSafe
+ID_9C4DCO5,4/4/10,4/3/11,NOT STATED,39,1,Saloon,,TOYOTA,CarSafe
+ID_9C8Q1FA,7/31/10,7/30/11,Male,40,1,Saloon,,Mercedes,CarSafe
+ID_9CI2G17,7/11/10,7/10/11,Male,36,1,Saloon,,Honda,CarSafe
+ID_9CIC6Y0,12/13/10,12/12/11,Male,45,1,,,,Car Classic
+ID_9CM50C2,9/24/10,9/23/11,Male,40,1,Saloon,Black,TOYOTA,Car Plus
+ID_9CQ58YI,12/17/10,12/16/11,Female,48,1,,,,CarSafe
+ID_9CRE6H3,10/28/10,10/27/11,Female,30,1,,,,CarSafe
+ID_9CTK9M0,1/24/10,1/23/11,Male,52,4,JEEP,Black,Audi,Customized Motor
+ID_9CVQ0PI,2/27/10,2/26/11,Male,41,1,Saloon,,Honda,CarSafe
+ID_9CZVVD2,1/11/10,1/10/11,Male,43,1,Shape Of Vehicle Chasis,Black,TOYOTA,Car Classic
+ID_9D1CFLJ,6/13/10,6/12/11,Male,33,1,Saloon,Blue,TOYOTA,Car Classic
+ID_9D22ZHY,8/23/10,8/22/11,Male,34,1,,,,Car Classic
+ID_9D25Y1M,6/14/10,6/13/11,Male,1,1,Saloon,Green,TOYOTA,Car Classic
+ID_9DC55M4,12/14/10,12/11/11,Male,83,1,JEEP,Silver,TOYOTA,Car Classic
+ID_9DCXI9C,8/23/10,2/13/11,Male,32,1,,,,Car Classic
+ID_9DMT13N,3/5/10,3/4/11,Male,56,1,,As Attached,Iveco,CVTP
+ID_9DPVBPO,8/21/10,8/20/11,Female,50,2,JEEP,As Attached,Lexus,Customized Motor
+ID_9DTS1ZD,10/16/10,10/15/11,Male,74,1,,,TOYOTA,Car Classic
+ID_9DTT5A4,3/15/10,3/14/11,Female,50,1,Saloon,,Chevrolet,CarSafe
+ID_9EBFL9O,9/9/10,5/18/11,Male,36,1,Saloon,Wine,TOYOTA,Car Classic
+ID_9ECL19E,1/3/10,1/2/11,Male,50,2,,As Attached,Ford,CVTP
+ID_9ED2YDU,5/22/10,2/20/11,Male,33,1,Saloon,,TOYOTA,Car Classic
+ID_9EGDRGL,10/29/10,10/28/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_9EGU5PZ,10/30/10,10/29/11,Male,50,1,,,,CarSafe
+ID_9EHCOAG,12/27/10,12/26/11,Male,41,1,,,,Car Classic
+ID_9EI1ROC,5/4/10,5/3/11,Male,38,2,JEEP,,TOYOTA,Car Classic
+ID_9EJRZ47,3/8/10,3/7/11,Male,41,1,Saloon,,Honda,CarSafe
+ID_9EM0WNU,6/29/10,6/27/11,Male,40,3,Saloon,Black,TOYOTA,Car Classic
+ID_9ERQDPJ,8/29/10,8/28/11,Male,47,2,JEEP,Black,Lexus,Car Plus
+ID_9EYZPNG,6/27/10,6/26/11,Male,56,1,Saloon,,TOYOTA,CarSafe
+ID_9F0HI3G,3/13/10,3/12/11,Female,32,1,Saloon,,TOYOTA,CarSafe
+ID_9F8ZCC0,2/14/10,2/13/11,Male,76,1,Saloon,,TOYOTA,Car Classic
+ID_9F96ISP,8/3/10,8/2/11,Female,37,1,JEEP,,TOYOTA,Car Classic
+ID_9F9NW0X,6/25/10,2/22/11,Male,53,1,Saloon,Gold,TOYOTA,Car Classic
+ID_9FEH38G,10/6/10,6/10/11,Male,36,2,Saloon,,TOYOTA,Car Classic
+ID_9FG5B1D,5/31/10,4/30/11,Female,39,1,Saloon,Black,TOYOTA,Car Classic
+ID_9FHTSQY,7/3/10,7/2/11,Female,65,2,Saloon,Black,TOYOTA,Car Classic
+ID_9FK6ALS,4/11/10,4/10/11,,76,1,Saloon,Black,Honda,Customized Motor
+ID_9FLUIL7,5/21/10,5/6/11,Male,34,1,Saloon,Black,TOYOTA,Car Classic
+ID_9FR83BZ,12/6/10,3/3/11,Entity,5,1,Truck,Blue,Iveco,CVTP
+ID_9FRDB91,6/25/10,6/24/11,Male,29,1,Saloon,,Honda,CarSafe
+ID_9FXCZ1S,5/27/10,5/25/11,Male,42,1,Saloon,,Honda,CarSafe
+ID_9FZO3F8,6/6/10,6/5/11,Male,61,1,Saloon,,TOYOTA,CarSafe
+ID_9G3HK59,4/3/10,4/2/11,Male,28,1,Saloon,White,TOYOTA,Car Classic
+ID_9G6SWT9,8/7/10,8/6/11,Male,30,1,Saloon,Grey,TOYOTA,Car Classic
+ID_9G8UM2K,12/21/10,12/15/11,Female,36,1,Saloon,White,TOYOTA,Car Classic
+ID_9GGGOKO,7/4/10,7/3/11,Female,34,1,Saloon,,TOYOTA,Car Classic
+ID_9GM88B8,11/5/10,11/4/11,Female,30,1,Saloon,White,TOYOTA,Car Classic
+ID_9GMXXLT,1/7/10,1/6/11,Male,46,1,,Black,Honda,Car Classic
+ID_9GSBWVA,5/13/10,5/12/11,Male,36,1,Saloon,,Volkswagen,CarSafe
+ID_9GZY9GU,4/25/10,4/24/11,Entity,20,5,,,Mercedes,CVTP
+ID_9H0KJZI,7/15/10,5/8/11,Female,32,2,Saloon,Gold,TOYOTA,Car Plus
+ID_9H6K1JV,7/8/10,7/7/11,Male,8,1,Saloon,Silver,TOYOTA,Car Classic
+ID_9H8B1WH,11/26/10,11/25/11,Female,45,1,Saloon,White,TOYOTA,Car Classic
+ID_9HAEC8B,2/19/10,2/18/11,Female,38,1,JEEP,Black,Lexus,Car Classic
+ID_9HAS86X,10/16/10,10/15/11,Male,44,4,,As Attached,Lexus,Car Classic
+ID_9HIP2WR,10/17/10,4/15/11,Male,23,1,,,,Car Classic
+ID_9HL0FJT,5/13/10,5/12/11,Female,1,1,Saloon,,Honda,CarSafe
+ID_9HU6Q1M,11/7/10,11/6/11,Male,45,1,,,TOYOTA,Car Classic
+ID_9I2ABHV,2/26/10,2/25/11,Male,33,1,Saloon,White,TOYOTA,Car Classic
+ID_9I6DMX5,4/9/10,4/8/11,Female,40,1,Saloon,,TOYOTA,Car Classic
+ID_9ICB4CJ,8/8/10,8/7/11,Male,42,1,JEEP,,TOYOTA,Car Classic
+ID_9ILQLKO,8/28/10,8/27/11,Male,61,1,JEEP,Black,TOYOTA,Car Classic
+ID_9IN774P,10/22/10,10/21/11,Female,20,3,JEEP,,TOYOTA,Customized Motor
+ID_9ISSASO,4/10/10,4/9/11,Male,70,1,Saloon,Blue,TOYOTA,Car Classic
+ID_9ITYGJ7,7/27/10,7/26/11,Male,42,1,Saloon,,Nissan,CarSafe
+ID_9J1EFGO,8/7/10,8/6/11,Male,52,3,,,TOYOTA,CVTP
+ID_9J1XIOF,12/17/10,12/16/11,Female,34,1,,,,Car Classic
+ID_9J4H9C3,1/18/10,1/17/11,Male,57,1,Saloon,,TOYOTA,CarSafe
+ID_9JDQOS8,4/24/10,4/23/11,Male,44,1,Mini Bus,Red,TOYOTA,Car Classic
+ID_9JFPR0S,6/4/10,6/2/11,Male,45,1,Saloon,,TOYOTA,CarSafe
+ID_9JII2N0,9/8/10,8/26/11,Male,35,1,Saloon,Black,TOYOTA,Car Classic
+ID_9JM961F,11/2/10,11/1/11,Female,43,1,JEEP,Red,Mazda,Car Classic
+ID_9JOV8NQ,7/11/10,7/11/11,Male,30,1,Saloon,,TOYOTA,CarFlex
+ID_9JSW7N9,6/24/10,6/23/11,Male,1,1,Saloon,,Ford,CarSafe
+ID_9K1VAJL,3/29/10,3/28/11,Male,54,1,Saloon,Black,TOYOTA,Car Classic
+ID_9K28V33,4/30/10,4/29/11,Male,1,1,Saloon,,Mercedes,CarSafe
+ID_9K4LEJQ,5/22/10,3/10/11,Male,31,1,Saloon,Grey,TOYOTA,Car Classic
+ID_9K693O3,6/27/10,2/12/11,Male,36,1,JEEP,Silver,Lexus,Car Classic
+ID_9K8TGVA,12/13/10,12/12/11,Male,40,1,,,,CarSafe
+ID_9KB1K0J,9/24/10,9/23/11,Female,40,1,,,,CarSafe
+ID_9KE158M,3/22/10,3/21/11,Female,44,1,,White,.,Car Classic
+ID_9KFBVRJ,1/28/10,1/27/11,Male,50,1,Saloon,,Honda,CarSafe
+ID_9KL4VGI,10/10/10,4/8/11,Male,23,1,,,,Car Classic
+ID_9KL5T6D,11/14/10,11/13/11,Male,1,1,,,,CarSafe
+ID_9KLZYU8,5/14/10,1/14/11,Female,41,1,Saloon,Wine,Honda,Car Classic
+ID_9KPQSAA,7/16/10,7/15/11,Female,37,1,Saloon,,Honda,CarSafe
+ID_9KUQE24,8/5/10,8/4/11,Male,50,1,JEEP,Grey,Jeep,Car Classic
+ID_9KVUR0Z,2/1/10,1/31/11,Male,54,1,Saloon,,TOYOTA,Customized Motor
+ID_9KXKSRD,2/6/10,2/5/11,Female,40,1,Saloon,,Honda,CarSafe
+ID_9L2XJGP,8/19/10,8/18/11,Male,45,1,,,,Car Classic
+ID_9L69PS2,9/12/10,9/11/11,Male,3,1,,,,Car Classic
+ID_9LBKFC8,12/6/10,3/8/11,Male,49,2,JEEP,As Attached,TOYOTA,Car Classic
+ID_9LFGBVI,4/4/10,4/3/11,Male,30,1,Saloon,Black,TOYOTA,Car Classic
+ID_9LHAMSH,12/12/10,12/11/11,Male,53,2,,Black,Range Rover,Customized Motor
+ID_9LMC049,2/20/10,2/19/11,Male,48,3,Saloon,Red,TOYOTA,Car Classic
+ID_9LR68PG,2/22/10,2/21/11,Female,1,1,Saloon,,Mercedes,CarSafe
+ID_9M19IIQ,7/2/10,7/1/11,Male,70,1,Saloon,,Mercedes,CarSafe
+ID_9M5D39Y,11/7/10,2/6/11,Male,49,3,JEEP,Black,TOYOTA,Car Classic
+ID_9MBR2XT,2/21/10,2/20/11,Male,60,1,Saloon,,Mercedes,CarSafe
+ID_9MBTHWK,3/12/10,3/11/11,Male,34,1,JEEP,Black,Honda,Car Classic
+ID_9MCRSFI,4/2/10,4/1/11,Male,30,1,Saloon,Black,TOYOTA,Car Classic
+ID_9ME6RTW,12/5/10,12/4/11,Male,35,1,,,,CarSafe
+ID_9MKUSR5,5/24/10,5/23/11,Male,47,1,Saloon,Black,TOYOTA,Car Classic
+ID_9MOH1RK,3/21/10,3/20/11,Male,35,1,Saloon,Ash,TOYOTA,Car Classic
+ID_9MP1E5A,2/28/10,2/27/11,Female,39,1,Saloon,,Hyundai,CarSafe
+ID_9N369Z9,3/1/10,2/28/11,Female,65,1,Saloon,Grey,TOYOTA,Car Classic
+ID_9N5BT18,6/7/10,6/6/11,Male,36,1,Saloon,,Volkswagen,CarSafe
+ID_9N799O6,12/12/10,12/11/11,Female,73,1,,,,Car Classic
+ID_9NJI2PF,12/18/10,12/17/11,Male,45,2,,,,Car Classic
+ID_9NNADK6,9/3/10,9/2/11,Male,37,1,,,,CarSafe
+ID_9NTXWCF,5/31/10,5/30/11,Male,60,4,Saloon,Black,Audi,Customized Motor
+ID_9O3NO2H,11/7/10,11/6/11,Male,60,1,,,,CarSafe
+ID_9O5FY83,12/16/10,12/15/11,Male,56,1,Truck,,Iveco,CVTP
+ID_9O7ZWQY,7/22/10,7/21/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_9O97L2X,10/31/10,10/30/11,Male,51,1,JEEP,Red,TOYOTA,Car Classic
+ID_9OJCQSE,8/28/10,8/27/11,Male,42,1,,,,CarSafe
+ID_9OJR1EC,1/7/10,1/6/11,Female,35,1,Saloon,Black,Honda,Car Classic
+ID_9OKUI8D,7/5/10,7/4/11,Male,40,1,Saloon,,TOYOTA,CarSafe
+ID_9OMIFR7,4/30/10,3/1/11,Male,37,1,Saloon,,TOYOTA,Car Classic

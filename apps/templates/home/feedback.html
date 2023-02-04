@@ -1,0 +1,461 @@
+{% extends "layouts/base.html" %} {% block title %} Customer Feedback {%
+endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %} {% block content %}
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-25"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:" style="font-weight: 200"
+                      >Customer Feedback</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5 style="font-weight: 600">
+                      Asfalis: Customer Feedback Forms
+                    </h5>
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="card col-sm-6 p-0">
+                        <div class="card-block">
+                          <div class="card-body">
+                            <h5 class="card-title">
+                              <b>Policyholders Feedback Form</b>
+                            </h5>
+                            <form
+                              action="#"
+                              method="POST"
+                              enctype="multipart/form-data">
+                              <div class="col-sm-12 p-0 mb-5">
+                                <label
+                                  for="formFile"
+                                  class="form-label"
+                                  style="
+                                    text-transform: uppercase;
+                                    text-decoration: underline;
+                                  "
+                                  >For the customer feedback form, kindly go to
+                                  this link:</label
+                                >
+                              </div>
+                              <div class="col-sm-6 p-0">
+                                {% if error %}
+                                <p style="color: red">{{ error }}</p>
+
+                                {% endif %} {% if success %}
+                                <p style="color: green">{{ success }}</p>
+
+                                {% endif %} {% if allErrors %}
+                                <p style="color: red">{{ allErrors }}</p>
+
+                                {% endif %}
+                              </div>
+
+                              <div class="col-sm-12 p-0">
+                                <h3 class="f-w-600 f-16">
+                                  https://asfalis-feedback.herokuapp.com/
+                                </h3>
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-sm-4">
+                        <div class="card yearly-sales">
+                          <div class="card-block">
+                            <h6 class="mb-4">Total Feedback Responses</h6>
+                            <div class="row d-flex align-items-center">
+                              <div class="col-12">
+                                {% if fbCount: %}
+                                <h3
+                                  class="f-w-300 d-flex align-items-center m-b-0">
+                                  <i
+                                    class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                  {{fbCount}}
+                                </h3>
+                                {% else: %}
+                                <h3
+                                  class="f-w-100 f-16 d-flex align-items-center m-b-0">
+                                  <i
+                                    class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                  No responses from the feedback form...
+                                </h3>
+                                {% endif %}
+                              </div>
+                              <div class="col-12 text-right">
+                                <p class="m-b-0">As of {{ date }}</p>
+                              </div>
+                            </div>
+                            <div class="progress m-t-30" style="height: 7px">
+                              <div
+                                id="progress-bar"
+                                class="progress-bar progress-c-theme"
+                                role="progressbar"
+                                aria-valuenow="{{ fbCount }}"
+                                aria-valuemin="0"
+                                aria-valuemax="100">
+                                <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                                <script>
+                                  $("#progress-bar").css(
+                                    "width",
+                                    "{{fbCount}}%"
+                                  );
+                                </script>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5 style="font-weight: 600">
+                      Customer Feedback Questions Management
+                    </h5>
+                  </div>
+                  <div class="container pt-3">
+                    {% with messages=get_flashed_messages(with_categories=true)
+                    %} {% if messages %} {% for category,message in messages %}
+                    <div class="alert alert-{{category}}">{{message}}</div>
+                    {% endfor %} {% endif %} {% endwith %}
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-sm-12 my-4">
+                        <div class="table-responsive">
+                          <table id="feedbackQues" class="table table-hover">
+                            <thead>
+                              <tr>
+                                <th scope="col">Question No.</th>
+                                <th scope="col">Question</th>
+                                <th scope="col">Category</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Operations</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {% for details in datas %}
+                              <tr>
+                                <td>{{ details.id}}</td>
+                                <td>{{ details.question}}</td>
+                                <td>{{ details.category }}</td>
+                                <td id="status" class="status">
+                                  {{ details.status }}
+                                </td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.edit_fbquestion",uid=details.id)}}'
+                                    type="button"
+                                    class="btn btn-sm mx-1 f-w-600"
+                                    style="background: #f4f2dc; color: #265138"
+                                    >Update
+                                  </a>
+                                </td>
+                              </tr>
+                              {% endfor %}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5 style="font-weight: 600">Subscriptions Management</h5>
+                  </div>
+                  <div class="container pt-3">
+                    {% with messages=get_flashed_messages(with_categories=true)
+                    %} {% if messages %} {% for category,message in messages %}
+                    <div class="alert alert-{{category}}">{{message}}</div>
+                    {% endfor %} {% endif %} {% endwith %}
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <hr />
+                        <h3 class="f-w-600 f-24">
+                          Previous Product Subscriptions
+                        </h3>
+                        <hr />
+                        <p class="text-left">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addProduct"
+                            class="btn btn-success"
+                            style="width: 150px; height: 50px">
+                            <div data-toggle="tooltip" title="Add">
+                              Add Product
+                              <i class="feather icon-plus-circle"></i>
+                            </div>
+                          </button>
+                        </p>
+
+                        <div class="table-responsive">
+                          <table id="products" class="table table-hover">
+                            <thead>
+                              <th>Product No.</th>
+                              <th>Product Name</th>
+                              <th>Operations</th>
+                            </thead>
+                            <tbody>
+                              {% for row in products %}
+                              <tr>
+                                <td>{{row.id}}</td>
+                                <td>{{row.product}}</td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.delete_product",uid=row.id)}}'
+                                    class="btn btn-danger"
+                                    onclick='return confirm("Are You Sure")'
+                                    >Delete</a
+                                  >
+                                </td>
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <hr />
+                        <h3 class="f-w-600 f-24">Churning/Retention Factors</h3>
+                        <hr />
+                        <p class="text-left">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addReason"
+                            class="btn btn-success"
+                            style="width: 180px; height: 50px">
+                            <div data-toggle="tooltip" title="Add">
+                              Add Reason
+                              <i class="feather icon-plus-circle"></i>
+                            </div>
+                          </button>
+                        </p>
+
+                        <div class="table-responsive">
+                          <table id="reasons" class="table table-hover">
+                            <thead>
+                              <th>Reason No.</th>
+                              <th>Reason</th>
+                              <th>Operations</th>
+                            </thead>
+                            <tbody>
+                              {% for row in reasons %}
+                              <tr>
+                                <td>{{row.id}}</td>
+                                <td>{{row.reasons}}</td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.delete_reason",uid=row.id)}}'
+                                    class="btn btn-danger"
+                                    onclick='return confirm("Are You Sure")'
+                                    >Delete</a
+                                  >
+                                </td>
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- [ Main Content ] end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="addProduct" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title f-w-600">
+          <img
+            src="./static/assets/images/logo-green.png"
+            style="width: 50px; height: 50px" />&nbsp;&nbsp;&nbsp;Add Product
+        </h5>
+
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-sm-6 p-0">
+          {% if error %}
+          <p style="color: red">{{ error }}</p>
+
+          {% endif %} {% if success %}
+          <p style="color: green">{{ success }}</p>
+
+          {% endif %} {% if allErrors %}
+          <p style="color: red">{{ allErrors }}</p>
+
+          {% endif %}
+        </div>
+        <form
+          class="edit-profile m-b30"
+          method="POST"
+          action='{{url_for("home_blueprint.add_product")}}'
+          enctype="multipart/form-data">
+          <div class="modal-dialog modal-xl"></div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="form-group">
+                <label>Product Subscription</label>
+                <input
+                  type="text"
+                  name="product"
+                  required
+                  class="form-control"
+                  placeholder="Enter Product Subscription Name..." />
+              </div>
+            </div>
+          </div>
+          <input type="submit" value="SUBMIT" class="btn btn-success f-w-500" />
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn red outline radius-xl"
+          data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="addReason" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title f-w-600">
+          <img
+            src="./static/assets/images/logo-green.png"
+            style="width: 50px; height: 50px" />&nbsp;&nbsp;&nbsp;Add
+          Churn/Retention Reason
+        </h5>
+
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="col-sm-6 p-0">
+          {% if error %}
+          <p style="color: red">{{ error }}</p>
+
+          {% endif %} {% if success %}
+          <p style="color: green">{{ success }}</p>
+
+          {% endif %} {% if allErrors %}
+          <p style="color: red">{{ allErrors }}</p>
+
+          {% endif %}
+        </div>
+        <form
+          class="edit-profile m-b30"
+          method="POST"
+          action='{{url_for("home_blueprint.add_reason")}}'
+          enctype="multipart/form-data">
+          <div class="modal-dialog modal-xl"></div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="form-group">
+                <label>Factors/Reasons</label>
+                <input
+                  type="text"
+                  name="reason"
+                  required
+                  class="form-control"
+                  placeholder="Enter Product Subscription Name..." />
+              </div>
+            </div>
+          </div>
+          <input type="submit" value="SUBMIT" class="btn btn-success f-w-500" />
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button
+          type="button"
+          class="btn red outline radius-xl"
+          data-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<script>
+  var activeStyle = {
+    color: "#265138",
+    fontWeight: "600",
+  };
+
+  var inactiveStyle = {
+    color: "red",
+    fontWeight: "600",
+  };
+  $(document).ready(function () {
+    $("#feedbackQues td.status:contains('Active')").css(activeStyle);
+    $("#feedbackQues td.status:contains('Hidden')").css(inactiveStyle);
+  });
+</script>
+{% endblock javascripts %}

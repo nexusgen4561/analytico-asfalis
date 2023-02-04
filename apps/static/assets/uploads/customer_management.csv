@@ -1,0 +1,227 @@
+Client Number,Gender,Civil Status,Age,Source of Funds,Date Issue,Policy Start,Policy End,Policy Category,Policy Type,Vehicle Use,Vehicle Make,Vehicle Type,Vehicle Model Year,Vehicle Age,Vehicle Color,Vehicle Transmission,Vehicle Fuel,Premium
+ID00181,Male,Single,31,Salary,12/29/21,1/5/22,1/5/23,CTPL,Premium,Private,Hyundai,Sedan,2016,5,Black,Automatic,Gasoline,447.01
+ID00026,Female,Single,32,Salary,12/27/21,1/3/22,1/3/23,Comprehensive,Premium,Private,Honda,Sedan,2015,6,Blue,Automatic,Gasoline,447.01
+ID00015,Male,Single,29,Salary,12/25/21,12/22/21,12/22/22,Comprehensive,Basic,Private,Mazda,Sedan,2019,2,White,Manual ,Gasoline,447.01
+ID00155,Female,Married,35,Self Employed,12/21/21,12/28/21,12/28/22,Comprehensive,Basic,Private,Honda,SUV,2020,1,Silver,Automatic,Diesel,957.88
+ID00267,Male,Single,55,Self Employed,12/18/21,12/25/21,12/25/22,CTPL,Premium,Commercial,Suzuki,MPV,2016,5,White,Automatic,Gasoline,199.55
+ID00225,Female,Single,44,Salary,12/17/21,12/24/21,12/24/22,Comprehensive,Premium,Private,Mitsubishi,MPV,2017,4,Silver,Automatic,Gasoline,199.55
+ID00207,Male,Single,30,Self Employed,12/14/21,12/21/21,12/21/22,CTPL,Basic,Commercial,Mitsubishi,MPV,2016,5,Gray,Manual,Diesel,199.55
+ID00264,Male,Married,35,Self Employed,12/13/21,12/20/21,12/20/22,CTPL,Premium,Commercial,Honda,Sedan,2015,6,Blue,Automatic,Gasoline,447.01
+ID00252,Female,Married,32,Self Employed,12/11/21,12/8/21,12/8/22,CTPL,Basic,Commercial,Mazda,Sedan,2019,2,White,Manual,Gasoline,447.01
+ID00013,Female,Single,33,Salary,12/10/21,12/17/21,12/17/22,Comprehensive,Basic,Private,Honda,Sedan,2017,4,Black,Automatic,Gasoline,447.01
+ID00171,Male,Married,36,Self Employed,12/10/21,12/15/21,12/15/22,Comprehensive,Premium,Private,Ford,Pickup,2013,8,Blue,Manual ,Diesel,1211.25
+ID00064,Male,Married,50,Salary,12/9/21,12/16/21,12/16/22,CTPL,Premium,Commercial,Nissan,Van,2017,4,White,Manual,Diesel,848.75
+ID00358,Female,Single,34,Self Employed,12/9/21,12/16/21,12/16/22,CTPL,Premium,Private,Mazda,MPV,2017,4,Red,Automatic,Gasoline,199.55
+ID00368,Female,Single,35,Self Employed,12/4/21,12/11/21,12/11/22,CTPL,Premium,Private,Honda,SUV,2020,1,Silver,Automatic,Diesel,957.88
+ID00192,Male,Single,39,Self Employed,11/29/21,12/6/21,12/6/22,Comprehensive,Premium,Commercial,Toyota,MPV,2017,4,Black,Manual,Gasoline,199.55
+ID00234,Male,Married,46,Self Employed,11/28/21,12/5/21,12/5/22,CTPL,Premium,Commercial,Toyota,Van,2014,7,Silver,Manual,Diesel,848.75
+ID00069,Male,Married,33,Salary,11/27/21,12/4/21,12/4/22,Comprehensive,Basic,Private,Nissan,Sedan,2016,5,Black,Manual,Gasoline,447.01
+ID00220,Male,Married,58,Salary,11/27/21,12/4/21,12/5/22,Comprehensive,Premium,Private,MG,Sedan,2019,2,Red,Manual,Gasoline,447.01
+ID00098,Female,Single,44,Salary,11/26/21,12/9/21,12/9/22,CTPL,Premium,Private,Mitsubishi,MPV,2018,3,Red,Manual,Gasoline,199.55
+ID00250,Male,Married,36,Self Employed,11/26/21,12/3/21,12/3/22,CTPL,Basic,Commercial,Honda,Sedan,2017,4,Black,Automatic,Gasoline,447.01
+ID00157,Female,Married,34,Self Employed,11/19/21,11/26/21,11/26/22,Comprehensive,Basic,Private,Mazda,MPV,2017,4,Red,Automatic,Gasoline,199.55
+ID00073,Male,Single,30,Salary,11/16/21,11/23/21,11/23/22,Comprehensive,Premium,Private,MG,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00097,Male,Married,31,Self Employed,11/16/21,11/23/21,11/23/22,CTPL,Premium,Commercial,Mazda,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00040,Female,Single,39,Salary,11/15/21,11/22/21,11/22/22,Comprehensive,Premium,Private,Mitsubishi,MPV,2017,4,Black,Manual,Diesel,199.55
+ID00165,Female,Married,35,Self Employed,11/14/21,11/21/21,11/21/22,Comprehensive,Basic,Private,Honda,SUV,2020,1,Silver,Automatic,Diesel,957.88
+ID00306,Female,Single,36,Self Employed,11/13/21,11/20/21,11/20/22,CTPL,Basic,Commercial,Nissan,Sedan,2016,5,Black,Manual,Gasoline,447.01
+ID00017,Male,Single,30,Salary,11/6/21,11/13/21,11/13/22,CTPL,Premium,Private,Hyundai,Sedan,2016,5,Black,Automatic,Gasoline,447.01
+ID00310,Female,Married,33,Self Employed,11/2/21,11/9/21,11/9/22,CTPL,Premium,Commercial,MG,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00278,Male,Married,42,Self Employed,11/1/21,11/8/21,11/8/22,CTPL,Premium,Commercial,Mitsubishi,MPV,2017,4,Black,Manual,Diesel,199.55
+ID00108,Male,Single,54,Self Employed,10/26/21,11/2/21,11/2/22,CTPL,Premium,Commercial,Suzuki,MPV,2016,5,White,Automatic,Gasoline,199.55
+ID00191,Male,Married,43,Salary,10/26/21,11/2/21,11/2/22,Comprehensive,Basic,Private,Kia,SUV,2016,5,Red,Automatic,Diesel,957.88
+ID00062,Female,Single,43,Salary,10/25/21,11/1/21,11/1/22,Comprehensive,Premium,Private,Mitsubishi,MPV,2017,4,Silver,Automatic,Gasoline,199.55
+ID00255,Female,Married,33,Self Employed,10/23/21,10/30/21,10/30/22,Comprehensive,Premium,Commercial,Hyundai,Sedan,2016,5,Black,Automatic,Gasoline,447.01
+ID00043,Male,Single,29,Self Employed,10/22/21,10/29/21,10/29/22,CTPL,Basic,Commercial,Mitsubishi,MPV,2016,5,Gray,Manual,Diesel,199.55
+ID00105,Male,Married,34,Self Employed,10/21/21,10/28/21,10/28/22,CTPL,Premium,Commercial,Honda,Sedan,2015,6,Blue,Automatic,Gasoline,447.01
+ID00093,Female,Married,31,Self Employed,10/19/21,10/16/21,10/16/22,CTPL,Basic,Commercial,Mazda,Sedan,2019,2,White,Manual,Gasoline,447.01
+ID00007,Male,Married,35,Self Employed,10/18/21,10/23/21,10/23/22,Comprehensive,Premium,Private,Ford,Pickup,2013,8,Blue,Manual ,Diesel,1211.25
+ID00168,Female,Single,33,Self Employed,10/12/21,10/19/21,10/19/22,Comprehensive,Premium,Private,Honda,Sedan,2016,5,White,Automatic,Gasoline,447.01
+ID00300,Male,Married,46,Self Employed,10/11/21,10/18/21,10/18/22,CTPL,Premium,Commercial,Mitsubishi,MPV,2017,4,Silver,Automatic,Gasoline,199.55
+ID00281,Female,Married,32,Salary,10/8/21,10/15/21,10/15/22,Comprehensive,Basic,Private,Mitsubishi,MPV,2016,5,Gray,Manual,Diesel,199.55
+ID00028,Male,Single,38,Self Employed,10/7/21,10/14/21,10/14/22,Comprehensive,Premium,Commercial,Toyota,MPV,2017,4,Black,Manual,Gasoline,199.55
+ID00071,Male,Married,45,Self Employed,10/6/21,10/13/21,10/13/22,CTPL,Premium,Commercial,Toyota,Van,2014,7,Silver,Manual,Diesel,848.75
+ID00057,Male,Married,57,Salary,10/5/21,10/12/21,10/13/22,Comprehensive,Premium,Private,MG,Sedan,2019,2,Red,Manual,Gasoline,447.01
+ID00091,Male,Married,35,Self Employed,10/4/21,10/11/21,10/11/22,CTPL,Basic,Commercial,Honda,Sedan,2017,4,Black,Automatic,Gasoline,447.01
+ID00245,Female,Single,38,Self Employed,10/4/21,10/9/21,10/9/22,CTPL,Premium,Commercial,Ford,Pickup,2013,8,Blue,Manual,Diesel,1211.25
+ID00211,Female,Married,38,Self Employed,9/30/21,10/7/21,10/7/22,Comprehensive,Basic,Private,MG,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00226,Male,Single,37,Self Employed,9/30/21,10/7/21,10/7/22,CTPL,Premium,Commercial,Nissan,Van,2017,4,White,Manual,Diesel,848.75
+ID00266,Female,Married,41,Salary,9/23/21,9/30/21,9/30/22,CTPL,Premium,Private,Toyota,MPV,2017,4,Black,Manual,Gasoline,199.55
+ID00308,Female,Single,48,Salary,9/22/21,9/29/21,9/29/22,Comprehensive,Premium,Private,Toyota,Van,2014,7,Silver,Manual,Diesel,848.75
+ID00146,Female,Single,35,Self Employed,9/21/21,9/28/21,9/28/22,CTPL,Basic,Commercial,Nissan,Sedan,2016,5,Black,Manual,Gasoline,447.01
+ID00295,Female,Single,60,Self Employed,9/21/21,9/28/21,9/29/22,CTPL,Premium,Commercial,MG,Sedan,2019,2,Red,Manual,Gasoline,447.01
+ID00179,Female,Single,28,Salary,9/14/21,9/21/21,9/21/22,CTPL,Premium,Private,Hyundai,Sedan,2019,2,Black,Automatic,Gasoline,447.01
+ID00150,Female,Married,32,Self Employed,9/10/21,9/17/21,9/17/22,CTPL,Premium,Commercial,MG,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00119,Male,Married,41,Self Employed,9/9/21,9/16/21,9/16/22,CTPL,Premium,Commercial,Mitsubishi,MPV,2017,4,Black,Manual,Diesel,199.55
+ID00184,Female,Single,33,Salary,9/5/21,9/12/21,9/12/22,Comprehensive,Basic,Private,Kia,SUV,2015,6,White,Automatic,Diesel,957.88
+ID00239,Female,Married,38,Salary,9/5/21,9/12/21,9/12/22,Comprehensive,Premium,Private,Kia,MPV,2017,4,Blue,Automatic,Diesel,199.55
+ID00027,Male,Married,42,Salary,9/3/21,9/10/21,9/10/22,Comprehensive,Basic,Private,Kia,SUV,2016,5,Red,Automatic,Diesel,957.88
+ID00096,Female,Married,32,Self Employed,8/31/21,9/7/21,9/7/22,Comprehensive,Premium,Commercial,Hyundai,Sedan,2016,5,Black,Automatic,Gasoline,447.01
+ID00222,Male,Single,33,Self Employed,8/27/21,9/3/21,9/3/22,CTPL,Basic,Commercial,Kia,MPV,2017,4,Blue,Automatic,Gasoline,199.55
+ID00003,Female,Single,32,Self Employed,8/20/21,8/27/21,8/27/22,Comprehensive,Premium,Private,Honda,Sedan,2016,5,White,Automatic,Gasoline,447.01
+ID00265,Female,Single,45,Self Employed,8/20/21,8/27/21,8/27/22,CTPL,Basic,Commercial,Kia,SUV,2016,5,Red,Automatic,Diesel,957.88
+ID00140,Male,Married,45,Self Employed,8/19/21,8/26/21,8/26/22,CTPL,Premium,Commercial,Mitsubishi,MPV,2017,4,Silver,Automatic,Gasoline,199.55
+ID00206,Female,Married,44,Salary,8/18/21,8/25/21,8/25/22,Comprehensive,Premium,Private,Audi,Sedan,2018,3,Black,Automatic,Gasoline,447.01
+ID00345,Male,Married,44,Self Employed,8/17/21,8/24/21,8/24/22,CTPL,Basic,Commercial,Toyota,Van,2018,3,Black,Automatic,Diesel,848.75
+ID00347,Male,Married,49,Self Employed,8/17/21,8/24/21,8/24/22,Comprehensive,Basic,Commercial,Mitsubishi,SUV,2018,3,Silver,Automatic,Diesel,957.88
+ID00122,Female,Married,31,Salary,8/16/21,8/23/21,8/23/22,Comprehensive,Basic,Private,Mitsubishi,MPV,2016,5,Gray,Manual,Diesel,199.55
+ID00224,Male,Married,52,Self Employed,8/16/21,8/23/21,8/23/22,Comprehensive,Basic,Commercial,Isuzu,Pickup,2019,2,Black,Manual ,Diesel,1211.25
+ID00228,Female,Married,55,Salary,8/16/21,8/23/21,8/23/22,Comprehensive,Basic,Private,Audi,MPV,2018,3,Black,Automatic,Gasoline,199.55
+ID00187,Male,Married,51,Self Employed,8/15/21,8/22/21,5/27/22,CTPL,Premium,Commercial,Toyota,Van,2015,6,Black,Manual,Diesel,848.75
+ID00199,Male,Married,47,Salary,8/14/21,8/21/21,8/21/22,Comprehensive,Premium,Private,Audi,SUV,2017,4,Silver,Automatic,Diesel,957.88
+ID00085,Female,Single,37,Self Employed,8/12/21,8/17/21,8/17/22,CTPL,Premium,Commercial,Ford,Pickup,2013,8,Blue,Manual,Diesel,1211.25
+ID00048,Female,Married,37,Self Employed,8/8/21,8/15/21,8/15/22,Comprehensive,Basic,Private,MG,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00063,Male,Single,36,Self Employed,8/8/21,8/15/21,8/15/22,CTPL,Premium,Commercial,Nissan,Van,2017,4,White,Manual,Diesel,848.75
+ID00242,Male,Married,35,Self Employed,8/6/21,8/13/21,8/13/22,CTPL,Premium,Commercial,Honda,Sedan,2016,5,White,Automatic,Gasoline,447.01
+ID00208,Female,Married,39,Salary,8/4/21,8/11/21,8/11/22,Comprehensive,Premium,Private,Ford,SUV,2018,3,Blue,Automatic,Diesel,957.88
+ID00107,Female,Married,40,Salary,8/1/21,8/8/21,8/8/22,CTPL,Premium,Private,Toyota,MPV,2017,4,Black,Manual,Gasoline,199.55
+ID00148,Female,Single,47,Salary,7/31/21,8/7/21,8/7/22,Comprehensive,Premium,Private,Toyota,Van,2014,7,Silver,Manual,Diesel,848.75
+ID00135,Female,Single,59,Self Employed,7/30/21,8/6/21,8/7/22,CTPL,Premium,Commercial,MG,Sedan,2019,2,Red,Manual,Gasoline,447.01
+ID00286,Male,Single,40,Self Employed,7/25/21,8/1/21,8/1/22,CTPL,Basic,Commercial,MG,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00301,Female,Married,39,Salary,7/25/21,8/1/21,8/1/22,Comprehensive,Premium,Private,Nissan,Van,2017,4,White,Manual,Diesel,848.75
+ID00016,Female,Single,27,Salary,7/23/21,7/30/21,7/30/22,CTPL,Premium,Private,Hyundai,Sedan,2019,6,Black,Automatic,Gasoline,447.01
+ID00343,Male,Married,39,Salary,7/22/21,7/29/21,7/29/22,CTPL,Basic,Private,Mitsubishi,SUV,2017,4,Silver,Automatic,Diesel,957.88
+ID00194,Female,Single,30,Self Employed,7/21/21,7/28/21,7/31/22,CTPL,Basic,Private,Chevrolet,Sedan,2017,4,Red,Manual,Gasoline,447.01
+ID00188,Female,Single,34,Salary,7/20/21,7/27/21,7/27/22,Comprehensive,Basic,Private,Nissan,Sedan,2019,2,Silver,Automatic,Gasoline,447.01
+ID00195,Male,Single,35,Salary,7/18/21,7/25/21,7/25/22,Comprehensive,Basic,Private,Mazda,Hatchback,2017,4,Gray,Manual,Gasoline,486.92
+ID00349,Male,Single,44,Self Employed,7/16/21,7/23/21,7/23/22,CTPL,Basic,Commercial,Mitsubishi,SUV,2014,7,Black,Automatic,Diesel,957.88
+ID00020,Female,Single,32,Salary,7/14/21,7/21/21,7/21/22,Comprehensive,Basic,Private,Kia,SUV,2015,6,White,Automatic,Diesel,957.88
+ID00076,Female,Married,37,Salary,7/14/21,7/21/21,7/21/22,Comprehensive,Premium,Private,Kia,MPV,2017,4,Blue,Automatic,Diesel,199.55
+ID00238,Male,Married,31,Self Employed,7/13/21,7/20/21,7/20/22,Comprehensive,Basic,Commercial,Mitsubishi,SUV,2018,3,White,Automatic,Diesel,957.88
+ID00253,Male,Married,30,Self Employed,7/9/21,7/16/21,7/16/22,Comprehensive,Premium,Commercial,Hyundai,Sedan,2019,2,Black,Automatic,Gasoline,447.01
+ID00045,Male,Married,40,Salary,7/8/21,7/15/21,7/15/22,Comprehensive,Basic,Private,Ford,SUV,2018,3,Blue,Automatic,Diesel,957.88
+ID00185,Male,Single,28,Salary,7/6/21,7/13/21,7/13/22,CTPL,Basic,Commercial,Honda,Hatchback,2017,4,Red,Manual,Gasoline,486.92
+ID00059,Male,Single,32,Self Employed,7/5/21,7/12/21,7/12/22,CTPL,Basic,Commercial,Kia,MPV,2017,4,Blue,Automatic,Gasoline,199.55
+ID00332,Male,Married,46,Self Employed,7/2/21,7/9/21,7/9/22,CTPL,Basic,Commercial,Toyota,Van,2018,3,Black,Automatic,Diesel,848.75
+ID00334,Male,Married,51,Self Employed,7/2/21,7/9/21,7/9/22,Comprehensive,Basic,Commercial,Mitsubishi,SUV,2018,3,Silver,Automatic,Diesel,957.88
+ID00258,Male,Married,35,Self Employed,6/30/21,7/7/21,7/7/22,CTPL,Basic,Commercial,Kia,SUV,2015,6,White,Automatic,Diesel,957.88
+ID00312,Male,Single,40,Self Employed,6/30/21,7/7/21,7/7/22,CTPL,Premium,Commercial,Kia,MPV,2017,4,Blue,Automatic,Diesel,199.55
+ID00106,Female,Single,44,Self Employed,6/28/21,7/5/21,7/5/22,CTPL,Basic,Commercial,Kia,SUV,2016,5,Red,Automatic,Diesel,957.88
+ID00186,Female,Married,46,Salary,6/28/21,7/5/21,7/5/22,Comprehensive,Basic,Private,Chevrolet,Sedan,2018,3,Blue,Automatic,Gasoline,447.01
+ID00042,Female,Married,43,Salary,6/26/21,7/3/21,7/3/22,Comprehensive,Premium,Private,Audi,Sedan,2018,3,Black,Automatic,Gasoline,447.01
+ID00061,Male,Married,51,Self Employed,6/24/21,7/1/21,7/1/22,Comprehensive,Basic,Commercial,Isuzu,Pickup,2019,2,Black,Manual ,Diesel,1211.25
+ID00065,Female,Married,54,Salary,6/24/21,7/1/21,7/1/22,Comprehensive,Basic,Private,Audi,MPV,2018,3,Black,Automatic,Gasoline,199.55
+ID00283,Female,Single,43,Self Employed,6/24/21,7/1/21,7/1/22,CTPL,Basic,Commercial,Ford,SUV,2018,3,Blue,Automatic,Diesel,957.88
+ID00023,Male,Married,50,Self Employed,6/23/21,6/30/21,4/4/22,CTPL,Premium,Commercial,Toyota,Van,2015,6,Black,Manual,Diesel,848.75
+ID00198,Female,Single,31,Self Employed,6/23/21,6/30/21,6/30/22,CTPL,Premium,Private,MG,Sedan,2020,1,Black,Automatic,Gasoline,447.01
+ID00210,Male,Single,30,Self Employed,6/23/21,6/30/21,6/30/22,CTPL,Basic,Commercial,Chevrolet,Sedan,2018,3,Red,Manual,Gasoline,447.01
+ID00035,Male,Married,46,Salary,6/22/21,6/29/21,6/29/22,Comprehensive,Premium,Private,Audi,SUV,2017,4,Silver,Automatic,Diesel,957.88
+ID00297,Female,Married,35,Salary,6/21/21,6/28/21,6/28/22,Comprehensive,Basic,Private,Kia,MPV,2017,4,Blue,Automatic,Gasoline,199.55
+ID00081,Male,Married,34,Self Employed,6/14/21,6/21/21,6/21/22,CTPL,Premium,Commercial,Honda,Sedan,2016,5,White,Automatic,Gasoline,447.01
+ID00044,Female,Married,38,Salary,6/12/21,6/19/21,6/19/22,Comprehensive,Premium,Private,Ford,SUV,2018,3,Blue,Automatic,Diesel,957.88
+ID00280,Male,Single,46,Self Employed,6/12/21,6/19/21,6/19/22,CTPL,Premium,Commercial,Audi,Sedan,2018,3,Black,Automatic,Gasoline,447.01
+ID00341,Male,Single,36,Salary,6/11/21,6/18/21,6/18/22,CTPL,Basic,Private,Toyota,MPV,2012,9,Black,Automatic,Gasoline,199.55
+ID00223,Female,Married,39,Salary,6/10/21,6/17/21,6/17/22,Comprehensive,Premium,Private,Audi,Sedan,2020,1,Silver,Automatic,Gasoline,447.01
+ID00299,Female,Single,54,Salary,6/10/21,6/17/21,6/17/22,CTPL,Basic,Private,Isuzu,Pickup,2019,2,Black,Manual,Diesel,1211.25
+ID00302,Male,Single,57,Self Employed,6/10/21,6/17/21,6/17/22,CTPL,Basic,Commercial,Audi,MPV,2018,3,Black,Automatic,Gasoline,199.55
+ID00261,Female,Single,53,Salary,6/9/21,6/16/21,3/21/22,Comprehensive,Premium,Private,Toyota,Van,2015,6,Black,Manual,Diesel,848.75
+ID00203,Male,Single,36,Self Employed,6/8/21,6/15/21,6/15/22,CTPL,Basic,Commercial ,Kia ,Hatchback,2016,5,Yellow,Automatic,Gasoline,486.92
+ID00273,Female,Single,49,Self Employed,6/8/21,6/15/21,6/15/22,CTPL,Premium,Commercial,Audi,SUV,2017,4,Silver,Automatic,Diesel,957.88
+ID00330,Male,Married,41,Salary,6/6/21,6/13/21,6/13/22,CTPL,Basic,Private,Mitsubishi,SUV,2017,4,Silver,Automatic,Diesel,957.88
+ID00229,Male,Single,29,Salary,6/4/21,6/11/21,6/11/22,CTPL,Basic,Private,Chevrolet,Sedan,2020,1,Blue,Manual,Gasoline,447.01
+ID00126,Male,Single,39,Self Employed,6/2/21,6/9/21,6/9/22,CTPL,Basic,Commercial,MG,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00141,Female,Married,38,Salary,6/2/21,6/9/21,6/9/22,Comprehensive,Premium,Private,Nissan,Van,2017,4,White,Manual,Diesel,848.75
+ID00336,Male,Single,46,Self Employed,5/31/21,6/7/21,6/7/22,CTPL,Basic,Commercial,Mitsubishi,SUV,2014,7,Black,Automatic,Diesel,957.88
+ID00030,Female,Single,29,Self Employed,5/29/21,6/5/21,6/8/22,CTPL,Basic,Private,Chevrolet,Sedan,2017,5,Red,Manual,Gasoline,447.01
+ID00282,Male,Single,41,Self Employed,5/29/21,6/5/21,6/5/22,CTPL,Premium,Commercial,Ford,SUV,2018,3,Blue,Automatic,Diesel,957.88
+ID00024,Female,Single,33,Salary,5/28/21,6/4/21,6/4/22,Comprehensive,Basic,Private,Nissan,Sedan,2019,2,Silver,Automatic,Gasoline,447.01
+ID00031,Male,Single,34,Salary,5/26/21,6/2/21,6/2/22,Comprehensive,Basic,Private,Mazda,Hatchback,2017,4,Gray,Manual,Gasoline,486.92
+ID00235,Female,Married,42,Salary,5/22/21,5/29/21,5/29/22,Comprehensive,Basic,Private,Audi,Sedan,2017,4,Silver,Automatic,Gasoline,447.01
+ID00075,Male,Married,30,Self Employed,5/21/21,5/28/21,5/28/22,Comprehensive,Basic,Commercial,Mitsubishi,SUV,2018,3,White,Automatic,Diesel,957.88
+ID00180,Female,Married,33,Self Employed,5/19/21,5/26/21,5/26/22,Comprehensive,Basic,Private,Honda,SUV,2017,4,Silver,Manual ,Diesel,957.88
+ID00094,Male,Married,29,Self Employed,5/17/21,5/24/21,5/24/22,Comprehensive,Premium,Commercial,Hyundai,Sedan,2019,2,Black,Automatic,Gasoline,447.01
+ID00268,Male,Married,32,Self Employed,5/15/21,5/22/21,5/25/22,Comprehensive,Basic,Commercial,Chevrolet,Sedan,2017,4,Red,Manual,Gasoline,447.01
+ID00021,Male,Single,27,Salary,5/14/21,5/21/21,5/21/22,CTPL,Basic,Commercial,Honda,Hatchback,2017,4,Red,Manual,Gasoline,486.92
+ID00262,Male,Married,36,Self Employed,5/14/21,5/21/21,5/21/22,CTPL,Basic,Commercial,Nissan,Sedan,2019,2,Silver,Automatic,Gasoline,447.01
+ID00269,Female,Married,37,Self Employed,5/12/21,5/19/21,5/19/22,CTPL,Basic,Commercial,Mazda,Hatchback,2017,4,Gray,Manual,Gasoline,486.92
+ID00099,Male,Married,34,Self Employed,5/8/21,5/15/21,5/15/22,CTPL,Basic,Commercial,Kia,SUV,2015,6,White,Automatic,Diesel,957.88
+ID00152,Male,Single,39,Self Employed,5/8/21,5/15/21,5/15/22,CTPL,Premium,Commercial,Kia,MPV,2017,4,Blue,Automatic,Diesel,199.55
+ID00311,Female,Single,33,Salary,5/7/21,5/14/21,5/14/22,CTPL,Basic,Private,Mitsubishi,SUV,2018,3,White,Automatic,Diesel,957.88
+ID00022,Female,Married,45,Salary,5/6/21,5/13/21,5/13/22,Comprehensive,Basic,Private,Chevrolet,Sedan,2018,3,Blue,Automatic,Gasoline,447.01
+ID00351,Male,Single,36,Salary,5/5/21,5/12/21,5/12/22,CTPL,Basic,Commercial,Isuzu,Pickup,2013,8,Black,Automatic,Diesel,1211.25
+ID00348,Female,Single,39,Salary,5/2/21,5/9/21,5/9/22,Comprehensive,Premium,Private,Toyota,Sedan,2018,3,Red,Automatic,Gasoline,447.01
+ID00034,Female,Single,30,Self Employed,5/1/21,5/8/21,5/8/22,CTPL,Premium,Private,MG,Sedan,2020,1,Black,Automatic,Gasoline,447.01
+ID00047,Male,Single,29,Self Employed,5/1/21,5/8/21,5/8/22,CTPL,Basic,Commercial,Chevrolet,Sedan,2018,3,Red,Manual,Gasoline,447.01
+ID00259,Female,Married,30,Salary,4/30/21,5/7/21,5/7/22,Comprehensive,Basic,Private,Honda,Hatchback,2017,4,Red,Manual,Gasoline,486.92
+ID00137,Female,Married,34,Salary,4/29/21,5/6/21,5/6/22,Comprehensive,Basic,Private,Kia,MPV,2017,4,Blue,Automatic,Gasoline,199.55
+ID00174,Female,Single,36,Self Employed,4/26/21,5/3/21,5/3/22,CTPL,Premium,Private,Mazda,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00175,Male,Married,47,Salary,4/26/21,5/3/21,5/3/22,Comprehensive,Premium,Private,Audi,SUV,2018,3,Black,Automatic,Diesel,957.88
+ID00328,Male,Single,38,Salary,4/26/21,5/3/21,5/3/22,CTPL,Basic,Private,Hyundai,MPV,2012,9,Black,Automatic,Gasoline,199.55
+ID00260,Male,Single,48,Self Employed,4/22/21,4/29/21,4/29/22,CTPL,Basic,Commercial,Chevrolet,Sedan,2018,3,Blue,Automatic,Gasoline,447.01
+ID00353,Male,Married,44,Self Employed,4/21/21,4/28/21,4/28/22,CTPL,Basic,Commercial,Toyota,Van,2018,3,Black,Automatic,Diesel,848.75
+ID00121,Male,Single,45,Self Employed,4/20/21,4/27/21,4/27/22,CTPL,Premium,Commercial,Audi,Sedan,2018,3,Black,Automatic,Gasoline,447.01
+ID00060,Female,Married,38,Salary,4/18/21,4/25/21,4/25/22,Comprehensive,Premium,Private,Audi,Sedan,2020,1,Silver,Automatic,Gasoline,447.01
+ID00139,Female,Single,53,Salary,4/18/21,4/25/21,4/25/22,CTPL,Basic,Private,Isuzu,Pickup,2019,2,Black,Manual,Diesel,1211.25
+ID00142,Male,Single,56,Self Employed,4/18/21,4/25/21,4/25/22,CTPL,Basic,Commercial,Audi,MPV,2018,3,Black,Automatic,Gasoline,199.55
+ID00102,Female,Single,52,Salary,4/17/21,4/24/21,1/27/22,Comprehensive,Premium,Private,Toyota,Van,2015,6,Black,Manual,Diesel,848.75
+ID00272,Male,Married,33,Self Employed,4/17/21,4/24/21,4/24/22,Comprehensive,Premium,Commercial,MG,Sedan,2020,1,Black,Automatic,Gasoline,447.01
+ID00285,Female,Married,32,Salary,4/17/21,4/24/21,4/24/22,Comprehensive,Basic,Private,Chevrolet,Sedan,2018,3,Red,Manual,Gasoline,447.01
+ID00039,Male,Single,35,Self Employed,4/16/21,4/23/21,4/23/22,CTPL,Basic,Commercial ,Kia ,Hatchback,2016,5,Yellow,Automatic,Gasoline,486.92
+ID00114,Female,Single,48,Self Employed,4/16/21,4/23/21,4/23/22,CTPL,Premium,Commercial,Audi,SUV,2017,4,Silver,Automatic,Diesel,957.88
+ID00230,Female,Single,38,Self Employed,4/14/21,4/21/21,4/21/22,Comprehensive,Basic,Private,Suzuki,Hatchback,2014,7,Yellow,Automatic,Gasoline,486.92
+ID00066,Male,Single,28,Salary,4/12/21,4/19/21,4/19/22,CTPL,Basic,Private,Chevrolet,Sedan,2020,1,Blue,Manual,Gasoline,447.01
+ID00319,Male,Married,43,Self Employed,4/7/21,4/14/21,4/14/22,CTPL,Premium,Commercial,Toyota,Van,2018,3,Black,Automatic,Diesel,848.75
+ID00321,Male,Married,48,Self Employed,4/7/21,4/14/21,4/14/22,Comprehensive,Premium,Commercial,Mitsubishi,SUV,2018,3,Silver,Automatic,Diesel,957.88
+ID00123,Male,Single,40,Self Employed,4/6/21,4/13/21,4/13/22,CTPL,Premium,Commercial,Ford,SUV,2018,3,Blue,Automatic,Diesel,957.88
+ID00298,Male,Single,41,Self Employed,4/4/21,4/11/21,4/11/22,CTPL,Premium,Commercial,Audi,Sedan,2020,1,Silver,Automatic,Gasoline,447.01
+ID00346,Female,Single,37,Salary,4/3/21,4/10/21,4/10/22,Comprehensive,Basic,Private,Honda,MPV,2020,1,Red,Automatic,Diesel,199.55
+ID00277,Female,Married,38,Salary,4/2/21,4/9/21,4/9/22,Comprehensive,Basic,Private,Kia,Hatchback,2016,5,Yellow,Automatic,Gasoline,486.92
+ID00072,Female,Married,41,Salary,3/30/21,4/6/21,4/6/22,Comprehensive,Basic,Private,Audi,Sedan,2017,4,Silver,Automatic,Gasoline,447.01
+ID00303,Female,Married,31,Self Employed,3/29/21,4/5/21,4/5/22,Comprehensive,Basic,Commercial,Chevrolet,Sedan,2020,1,Blue,Manual,Gasoline,447.01
+ID00167,Male,Married,34,Salary,3/27/21,4/3/21,5/1/22,Comprehensive,Premium,Private,Mitsubishi ,SUV,2018,3,Silver,Automatic,Diesel,957.88
+ID00109,Male,Married,31,Self Employed,3/23/21,3/30/21,4/2/22,Comprehensive,Basic,Commercial,Chevrolet,Sedan,2017,4,Red,Manual,Gasoline,447.01
+ID00103,Male,Married,35,Self Employed,3/22/21,3/29/21,3/29/22,CTPL,Basic,Commercial,Nissan,Sedan,2019,2,Silver,Automatic,Gasoline,447.01
+ID00110,Female,Married,36,Self Employed,3/20/21,3/27/21,3/27/22,CTPL,Basic,Commercial,Mazda,Hatchback,2017,4,Gray,Manual,Gasoline,486.92
+ID00338,Male,Single,38,Salary,3/20/21,3/27/21,3/27/22,CTPL,Basic,Commercial,Isuzu,Pickup,2013,8,Black,Automatic,Diesel,1211.25
+ID00335,Female,Single,41,Salary,3/17/21,3/24/21,3/24/22,Comprehensive,Premium,Private,Toyota,Sedan,2018,3,Red,Automatic,Gasoline,447.01
+ID00309,Male,Single,44,Self Employed,3/16/21,3/23/21,3/23/22,CTPL,Basic,Commercial,Audi,Sedan,2017,4,Silver,Automatic,Gasoline,447.01
+ID00151,Female,Single,32,Salary,3/15/21,3/22/21,3/22/22,CTPL,Basic,Private,Mitsubishi,SUV,2018,3,White,Automatic,Diesel,957.88
+ID00254,Male,Single,35,Self Employed,3/13/21,3/20/21,3/20/22,CTPL,Basic,Commercial,Honda,SUV,2017,4,Silver,Manual,Diesel,957.88
+ID00316,Male,Married,38,Salary,3/12/21,3/19/21,3/19/22,CTPL,Premium,Private,Mitsubishi,SUV,2017,4,Silver,Automatic,Diesel,957.88
+ID00100,Female,Married,29,Salary,3/8/21,3/15/21,3/15/22,Comprehensive,Basic,Private,Honda,Hatchback,2017,4,Red,Manual,Gasoline,486.92
+ID00183,Male,Married,42,Self Employed,3/8/21,3/19/21,3/19/22,Comprehensive,Premium,Commercial,Mitsubishi,MPV,2018,3,Red,Manual,Gasoline,199.55
+ID00323,Male,Single,43,Self Employed,3/6/21,3/13/21,3/13/22,CTPL,Premium,Commercial,Mitsubishi,SUV,2014,7,Black,Automatic,Diesel,957.88
+ID00340,Male,Married,46,Self Employed,3/6/21,3/13/21,3/13/22,CTPL,Basic,Commercial,Nissan,Van,2018,3,Black,Automatic,Diesel,848.75
+ID00359,Male,Single,42,Self Employed,3/5/21,3/12/21,3/12/22,Comprehensive,Basic,Commercial,Toyota,Van,2018,3,Black,Automatic,Diesel,848.75
+ID00362,Male,Single,47,Self Employed,3/5/21,3/12/21,3/12/22,CTPL,Basic,Commercial,Mitsubishi,SUV,2018,3,Silver,Automatic,Diesel,957.88
+ID00011,Female,Single,35,Self Employed,3/4/21,3/11/21,3/11/22,CTPL,Premium,Private,Mazda,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00012,Male,Married,46,Salary,3/4/21,3/11/21,3/11/22,Comprehensive,Premium,Private,Audi,SUV,2018,3,Black,Automatic,Diesel,957.88
+ID00342,Female,Married,36,Self Employed,3/2/21,3/9/21,3/9/22,Comprehensive,Premium,Private,Honda,SUV,2020,1,Silver,Automatic,Diesel,957.88
+ID00350,Female,Married,37,Salary,3/2/21,3/9/21,3/9/22,Comprehensive,Basic,Private,Mazda,Sedan,2012,9,White,Automatic,Gasoline,447.01
+ID00101,Male,Single,47,Self Employed,2/28/21,3/7/21,3/7/22,CTPL,Basic,Commercial,Chevrolet,Sedan,2018,3,Blue,Automatic,Gasoline,447.01
+ID00182,Female,Single,29,Salary,2/28/21,3/9/21,3/9/22,Comprehensive,Premium,Private,Mazda,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00113,Male,Married,32,Self Employed,2/23/21,3/2/21,3/2/22,Comprehensive,Premium,Commercial,MG,Sedan,2020,1,Black,Automatic,Gasoline,447.01
+ID00125,Female,Married,31,Salary,2/23/21,3/2/21,3/2/22,Comprehensive,Basic,Private,Chevrolet,Sedan,2018,3,Red,Manual,Gasoline,447.01
+ID00067,Female,Single,37,Self Employed,2/20/21,2/27/21,2/27/22,Comprehensive,Basic,Private,Suzuki,Hatchback,2014,7,Yellow,Automatic,Gasoline,486.92
+ID00248,Male,Married,38,Self Employed,2/18/21,2/25/21,2/25/22,Comprehensive,Premium,Commercial,Mazda,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00249,Female,Single,49,Self Employed,2/18/21,2/25/21,2/25/22,CTPL,Premium,Commercial,Audi,SUV,2018,3,Black,Automatic,Diesel,957.88
+ID00209,Female,Single,33,Self Employed,2/17/21,2/24/21,2/24/22,CTPL,Premium,Private,Mazda,Hatchback,2017,4,Silver,Automatic,Gasoline,486.92
+ID00333,Female,Single,39,Salary,2/16/21,2/23/21,2/23/22,Comprehensive,Basic,Private,Honda,MPV,2020,1,Red,Automatic,Diesel,199.55
+ID00197,Male,Married,39,Self Employed,2/15/21,2/22/21,2/24/22,Comprehensive,Basic,Commercial,Isuzu,Pickup,2017,4,White,Automatic,Diesel,1211.25
+ID00158,Male,Married,42,Self Employed,2/13/21,2/20/21,2/20/22,CTPL,Premium,Commercial,Toyota,Van,2018,3,Black,Automatic,Diesel,848.75
+ID00160,Male,Married,47,Self Employed,2/13/21,2/20/21,2/20/22,Comprehensive,Premium,Commercial,Mitsubishi,SUV,2018,3,Silver,Automatic,Diesel,957.88
+ID00138,Male,Single,40,Self Employed,2/10/21,2/17/21,2/17/22,CTPL,Premium,Commercial,Audi,Sedan,2020,1,Silver,Automatic,Gasoline,447.01
+ID00118,Female,Married,37,Salary,2/8/21,2/15/21,2/15/22,Comprehensive,Basic,Private,Kia,Hatchback,2016,5,Yellow,Automatic,Gasoline,486.92
+ID00357,Male,Single,37,Salary,2/7/21,2/14/21,2/14/22,Comprehensive,Basic,Private,Mitsubishi,SUV,2017,4,Silver,Automatic,Diesel,957.88
+ID00304,Male,Married,40,Self Employed,2/6/21,2/13/21,2/13/22,CTPL,Basic,Commercial,Suzuki,Hatchback,2014,7,Yellow,Automatic,Gasoline,486.92
+ID00143,Female,Married,30,Self Employed,2/4/21,2/11/21,2/11/22,Comprehensive,Basic,Commercial,Chevrolet,Sedan,2020,1,Blue,Manual,Gasoline,447.01
+ID00001,Male,Single,33,Salary,2/2/21,2/9/21,2/9/22,Comprehensive,Premium,Private,Mitsubishi ,SUV,2018,2,Silver,Automatic,Diesel,957.88
+ID00002,Male,Married,33,Salary,2/2/21,2/9/21,3/9/22,Comprehensive,Premium,Private,Mitsubishi ,SUV,2018,3,Silver,Automatic,Diesel,957.88
+ID00178,Male,Single,29,Salary,2/2/21,2/1/21,2/1/22,Comprehensive,Basic,Private,Mazda,Sedan,2019,2,White,Manual ,Gasoline,447.01
+ID00190,Female,Single,32,Salary,2/1/21,2/8/21,2/8/22,Comprehensive,Premium,Private,Honda,Sedan,2015,6,Blue,Automatic,Gasoline,447.01
+ID00364,Male,Married,42,Self Employed,2/1/21,2/8/21,2/8/22,Comprehensive,Basic,Commercial,Mitsubishi,SUV,2014,7,Black,Automatic,Diesel,957.88
+ID00314,Male,Single,35,Salary,1/30/21,2/6/21,2/6/22,CTPL,Premium,Private,Toyota,MPV,2012,9,Black,Automatic,Gasoline,199.55
+ID00193,Female,Married,52,Salary,1/29/21,2/5/21,2/5/22,Comprehensive,Premium,Private,Suzuki,MPV,2016,5,White,Automatic,Gasoline,199.55
+ID00352,Female,Married,36,Self Employed,1/24/21,1/31/21,1/31/22,Comprehensive,Premium,Private,Honda,SUV,2020,1,Silver,Automatic,Diesel,957.88
+ID00149,Male,Single,43,Self Employed,1/22/21,1/29/21,1/29/22,CTPL,Basic,Commercial,Audi,Sedan,2017,4,Silver,Automatic,Gasoline,447.01
+ID00095,Male,Single,34,Self Employed,1/19/21,1/26/21,1/26/22,CTPL,Basic,Commercial,Honda,SUV,2017,4,Silver,Manual,Diesel,957.88
+ID00241,Female,Single,37,Self Employed,1/19/21,3/5/22,4/5/23,CTPL,Premium,Commercial,Mitsubishi,SUV,2018,3,Silver,Automatic,Diesel,957.88
+ID00156,Male,Married,37,Salary,1/18/21,1/25/21,1/25/22,CTPL,Premium,Private,Mitsubishi,SUV,2017,4,Silver,Automatic,Diesel,957.88
+ID00176,Female,Single,33,Salary,1/18/21,1/25/21,1/25/22,Comprehensive,Basic,Private,Honda,Sedan,2017,4,Black,Automatic,Gasoline,447.01
+ID00227,Male,Married,50,Salary,1/17/21,1/24/21,1/24/22,CTPL,Premium,Commercial,Nissan,Van,2017,4,White,Manual,Diesel,848.75
+ID00329,Female,Married,38,Self Employed,1/15/21,1/22/21,1/22/22,Comprehensive,Premium,Private,Honda,SUV,2020,1,Silver,Automatic,Diesel,957.88
+ID00337,Female,Married,39,Salary,1/15/21,1/22/21,1/22/22,Comprehensive,Basic,Private,Mazda,Sedan,2012,9,White,Automatic,Gasoline,447.01
+ID00019,Male,Married,41,Self Employed,1/14/21,1/25/21,1/25/22,Comprehensive,Premium,Commercial,Mitsubishi,MPV,2018,2,Red,Manual,Gasoline,199.55
+ID00162,Male,Single,42,Self Employed,1/12/21,1/19/21,1/19/22,CTPL,Premium,Commercial,Mitsubishi,SUV,2014,7,Black,Automatic,Diesel,957.88
+ID00018,Female,Single,28,Salary,1/6/21,1/15/21,1/15/22,Comprehensive,Premium,Private,Mazda,Sedan,2019,2,White,Automatic,Gasoline,447.01
+ID00232,Male,Married,33,Salary,1/5/21,1/12/21,1/12/22,Comprehensive,Basic,Private,Nissan,Sedan,2016,5,Black,Manual,Gasoline,447.01

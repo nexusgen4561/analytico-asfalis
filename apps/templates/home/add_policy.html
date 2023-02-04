@@ -1,0 +1,130 @@
+{% extends "layouts/base.html" %} {% block title %} Add Policy {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %} {% block content %}
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-25" style="font-weight: 600"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="./policies.html">Policies</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:">Add Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Add Policy</h5>
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-12 mx-auto">
+                        <hr />
+                        <form
+                          method="post"
+                          action='{{url_for("home_blueprint.add_policy")}}'
+                          enctype="multipart/form-data">
+                          <div class="form-group">
+                            <label>Date</label>
+                            <input
+                              type="date"
+                              name="date"
+                              required
+                              class="form-control"
+                              placeholder="Select Date" />
+                          </div>
+                          <div class="form-group">
+                            <label>Policy Code</label>
+                            <input
+                              type="text"
+                              name="code"
+                              required
+                              class="form-control"
+                              placeholder="Enter Policy Code..." />
+                          </div>
+                          <div class="form-group">
+                            <label>Policy Name</label>
+                            <input
+                              type="text"
+                              name="name"
+                              required
+                              class="form-control"
+                              placeholder="Enter Policy Name..." />
+                          </div>
+                          <div class="form-group">
+                            <label>Policy Cost</label>
+                            <input
+                              name="cost"
+                              required
+                              class="form-control"
+                              placeholder="Enter Policy Cost..." />
+                          </div>
+                          <div class="form-group">
+                            <label>Document</label>
+                            <div class="col-sm-12 p-0 mb-3">
+                              <label
+                                for="formFile"
+                                class="form-label"
+                                style="
+                                  text-transform: uppercase;
+                                  text-decoration: underline;
+                                "
+                                >Upload Policy File Below</label
+                              >
+                              <input
+                                class="form-control"
+                                type="file"
+                                id="document"
+                                name="document"
+                                accept=".pdf" />
+                            </div>
+                          </div>
+                          <input
+                            type="submit"
+                            value="SUBMIT"
+                            class="btn btn-success f-w-500" />
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- [ Main Content ] end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

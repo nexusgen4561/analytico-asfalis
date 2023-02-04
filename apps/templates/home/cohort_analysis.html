@@ -1,0 +1,556 @@
+{% extends "layouts/base.html" %} {% block title %} Cohort Analysis {% endblock
+%}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+{% endblock stylesheets %} {% block content %}
+
+<!-- [ Main Content ] start -->
+
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-25"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:" style="font-weight: 200"
+                      >Cohort Analysis</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <!-- [ Main Content ] start -->
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5 style="font-weight: 600">
+                      Cohort Analysis: Customer Retention Matrix
+                    </h5>
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="card col-sm-6 p-0">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Use Sample Dataset</b></h5>
+
+                          <div class="col-sm-6 p-0 mb-3">
+                            <label
+                              for="formFile"
+                              class="form-label"
+                              style="
+                                text-transform: uppercase;
+                                text-decoration: underline;
+                              "
+                              >Import Dataset</label
+                            >
+                          </div>
+
+                          <div class="col-sm-6 p-0">
+                            <form action="/cohort_analysis.html" method="post">
+                              <input
+                                type="submit"
+                                class="btn btn-success"
+                                name="sample_cohort"
+                                value="Load & Analyze" />
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card col-sm-6 p-0">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            <b>Use Policyholders Dataset</b>
+                          </h5>
+                          <form
+                            action="/upload_excel"
+                            method="POST"
+                            enctype="multipart/form-data">
+                            <div class="col-sm-6 p-0 mb-3">
+                              <label
+                                for="formFile"
+                                class="form-label"
+                                style="
+                                  text-transform: uppercase;
+                                  text-decoration: underline;
+                                "
+                                >Upload CSV File Below</label
+                              >
+
+                              <input
+                                type="file"
+                                class="form-control"
+                                name="excelfile"
+                                id="excelfile"
+                                accept=".csv" />
+
+                              <form
+                                action="/cohort_analysis.html"
+                                method="post">
+                                <div class="col-sm-6 p-0 my-4">
+                                  <input
+                                    type="submit"
+                                    class="btn btn-success"
+                                    name="sample_cohort"
+                                    value="Analyze" />
+                                </div>
+                              </form>
+                            </div>
+                            <div class="col-sm-12 p-0">
+                              {% if error %}
+                              <p style="color: red">{{ error }}</p>
+
+                              {% endif %} {% if success %}
+                              <p style="color: green">{{ success }}</p>
+
+                              {% endif %} {% if allErrors %}
+                              <p style="color: red">{{ allErrors }}</p>
+
+                              {% endif %}
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="card col-sm-12 p-0">
+                        <div>
+                          <img
+                            src="{{ config.ASSETS_ROOT }}/images/cohort/heatmap-general.png"
+                            alt=""
+                            class="responsive"
+                            style="width: 100%; height: auto" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <!--[ daily sales section ] start-->
+                      <div class="col-md-6 col-xl-6">
+                        <div class="card yearly-sales">
+                          <div class="card-block">
+                            <h6 class="mb-4 f-18 f-w-600">
+                              Average Retention Rate
+                            </h6>
+                            <div class="row d-flex align-items-center">
+                              <div class="col-9">
+                                {% if retained: %}
+                                <h3
+                                  class="f-w-600 d-flex align-items-center m-b-0">
+                                  <i
+                                    class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                  {{ retained }}%
+                                </h3>
+                                {% else: %}
+                                <h3
+                                  class="f-w-100 f-16 d-flex align-items-center m-b-0">
+                                  <i
+                                    class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                  Please load or upload a dataset first...
+                                </h3>
+                                {% endif %}
+                              </div>
+                            </div>
+                            <div class="progress m-t-30" style="height: 7px">
+                              <div
+                                id="progress-bar"
+                                class="progress-bar progress-c-theme"
+                                role="progressbar"
+                                aria-valuenow=""
+                                aria-valuemin="0"
+                                aria-valuemax="100">
+                                <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                                <script>
+                                  $("#progress-bar").css(
+                                    "width",
+                                    "{{retained}}%"
+                                  );
+                                </script>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6 col-xl-6">
+                        <div class="card yearly-sales">
+                          <div class="card-block">
+                            <h6 class="mb-4 f-18 f-w-600">
+                              Actions/Strategies to Improve Customer Retention:
+                            </h6>
+
+                            <div class="col-12">
+                              {% if (retained == 0): %}
+                              <h3
+                                class="f-w-100 f-16 d-flex align-items-center m-b-0">
+                                <i
+                                  class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                Please load or upload a dataset first...
+                              </h3>
+                              {% elif (retained < 80): %}
+                              <h3 class="f-w-400 f-16 align-items-center m-b-0">
+                                1. Optimize Customer Onboarding <br />
+                                2. Standout in the Industry by Personalizing
+                                Service <br />
+                                3. Listen to Customer Needs <br />
+                                4. Optimize Customer
+                                <a
+                                  href="{{
+                                  url_for('home_blueprint.policiesindex') }}"
+                                  class="f-w-600">
+                                  Policies</a
+                                >
+                                <br />
+                                5. Collect
+                                <a
+                                  href="{{
+                                  url_for('home_blueprint.feedback') }}"
+                                  class="f-w-600">
+                                  Customer Feedback</a
+                                >
+                              </h3>
+                              {% elif (retained>80): %}
+                              <h3
+                                class="f-w-100 f-16 d-flex align-items-center m-b-0">
+                                <i
+                                  class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                You're doing great! Keep up your strategies to
+                                retain your customer retention.
+                              </h3>
+                              {% else: %}
+                              <h3
+                                class="f-w-100 f-16 d-flex align-items-center m-b-0">
+                                <i
+                                  class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                Please load or upload a dataset first...
+                              </h3>
+                              {% endif %}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5 style="font-weight: 600">
+                      Cohort Analysis: Customer Retention Matrix per Policy
+                      Category
+                    </h5>
+                  </div>
+
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-lg-6 mb-5">
+                        <hr />
+                        <h3 class="my-3 mb-0 f-w-600 f-24 ml-3 p-0">
+                          Policy Category: Comprehensive
+                        </h3>
+                        <hr />
+                        <div class="mb-5">
+                          <img
+                            src="{{ config.ASSETS_ROOT }}/images/cohort/heatmap-comprehensive.png"
+                            alt=""
+                            class="responsive"
+                            style="width: 100%; height: auto" />
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="card yearly-sales">
+                              <div class="card-block">
+                                <h6 class="mb-4 f-18 f-w-600">
+                                  Average Retention Rate: Comprehensive
+                                </h6>
+                                <div class="row d-flex align-items-center">
+                                  <div class="col-9">
+                                    {% if compreRetained: %}
+                                    <h3
+                                      class="f-w-600 d-flex align-items-center m-b-0">
+                                      <i
+                                        class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                      {{ compreRetained }}%
+                                    </h3>
+                                    {% else: %}
+                                    <h3
+                                      class="f-w-100 f-16 d-flex align-items-center m-b-0">
+                                      <i
+                                        class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                      Please load or upload a dataset first...
+                                    </h3>
+                                    {% endif %}
+                                  </div>
+                                </div>
+                                <div
+                                  class="progress m-t-30"
+                                  style="height: 7px">
+                                  <div
+                                    id="compreprogress-bar"
+                                    class="progress-bar progress-c-theme"
+                                    role="progressbar"
+                                    aria-valuenow=""
+                                    aria-valuemin="0"
+                                    aria-valuemax="100">
+                                    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                                    <script>
+                                      $("#compreprogress-bar").css(
+                                        "width",
+                                        "{{compreRetained}}%"
+                                      );
+                                    </script>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mb-5">
+                        <hr />
+                        <h3 class="my-3 mb-0 f-w-600 f-24 ml-3 p-0">
+                          Policy Category: CTPL
+                        </h3>
+                        <hr />
+                        <div class="mb-5">
+                          <img
+                            src="{{ config.ASSETS_ROOT }}/images/cohort/heatmap-ctpl.png"
+                            alt=""
+                            class="responsive"
+                            style="width: 100%; height: auto" />
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="card yearly-sales">
+                              <div class="card-block">
+                                <h6 class="mb-4 f-18 f-w-600">
+                                  Average Retention Rate: CTPL
+                                </h6>
+                                <div class="row d-flex align-items-center">
+                                  <div class="col-9">
+                                    {% if ctplRetained: %}
+                                    <h3
+                                      class="f-w-600 d-flex align-items-center m-b-0">
+                                      <i
+                                        class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                      {{ ctplRetained }}%
+                                    </h3>
+                                    {% else: %}
+                                    <h3
+                                      class="f-w-100 f-16 d-flex align-items-center m-b-0">
+                                      <i
+                                        class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                      Please load or upload a dataset first...
+                                    </h3>
+                                    {% endif %}
+                                  </div>
+                                </div>
+                                <div
+                                  class="progress m-t-30"
+                                  style="height: 7px">
+                                  <div
+                                    id="ctplprogress-bar"
+                                    class="progress-bar progress-c-theme"
+                                    role="progressbar"
+                                    aria-valuenow=""
+                                    aria-valuemin="0"
+                                    aria-valuemax="100">
+                                    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                                    <script>
+                                      $("#ctplprogress-bar").css(
+                                        "width",
+                                        "{{ctplRetained}}%"
+                                      );
+                                    </script>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5 style="font-weight: 600">
+                      Cohort Analysis: Customer Retention Matrix per Policy Type
+                    </h5>
+                  </div>
+
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-lg-6 mb-5">
+                        <hr />
+                        <h3 class="my-3 mb-0 f-w-600 f-24 ml-3 p-0">
+                          Policy Type: Basic
+                        </h3>
+                        <hr />
+                        <div class="mb-5">
+                          <img
+                            src="{{ config.ASSETS_ROOT }}/images/cohort/heatmap-basic.png"
+                            alt=""
+                            class="responsive"
+                            style="width: 100%; height: auto" />
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="card yearly-sales">
+                              <div class="card-block">
+                                <h6 class="mb-4 f-18 f-w-600">
+                                  Average Retention Rate: Basic
+                                </h6>
+                                <div class="row d-flex align-items-center">
+                                  <div class="col-9">
+                                    {% if basicRetained: %}
+                                    <h3
+                                      class="f-w-600 d-flex align-items-center m-b-0">
+                                      <i
+                                        class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                      {{ basicRetained }}%
+                                    </h3>
+                                    {% else: %}
+                                    <h3
+                                      class="f-w-100 f-16 d-flex align-items-center m-b-0">
+                                      <i
+                                        class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                      Please load or upload a dataset first...
+                                    </h3>
+                                    {% endif %}
+                                  </div>
+                                </div>
+                                <div
+                                  class="progress m-t-30"
+                                  style="height: 7px">
+                                  <div
+                                    id="basicprogress-bar"
+                                    class="progress-bar progress-c-theme"
+                                    role="progressbar"
+                                    aria-valuenow=""
+                                    aria-valuemin="0"
+                                    aria-valuemax="100">
+                                    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                                    <script>
+                                      $("#basicprogress-bar").css(
+                                        "width",
+                                        "{{basicRetained}}%"
+                                      );
+                                    </script>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 mb-5">
+                        <hr />
+                        <h3 class="my-3 mb-0 f-w-600 f-24 ml-3 p-0">
+                          Policy Type: Premium
+                        </h3>
+                        <hr />
+                        <div class="mb-5">
+                          <img
+                            src="{{ config.ASSETS_ROOT }}/images/cohort/heatmap-premium.png"
+                            alt=""
+                            class="responsive"
+                            style="width: 100%; height: auto" />
+                        </div>
+                        <div class="row">
+                          <div class="col-sm-12">
+                            <div class="card yearly-sales">
+                              <div class="card-block">
+                                <h6 class="mb-4 f-18 f-w-600">
+                                  Average Retention Rate: Premium
+                                </h6>
+                                <div class="row d-flex align-items-center">
+                                  <div class="col-9">
+                                    {% if premiumRetained: %}
+                                    <h3
+                                      class="f-w-600 d-flex align-items-center m-b-0">
+                                      <i
+                                        class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                      {{ premiumRetained }}%
+                                    </h3>
+                                    {% else: %}
+                                    <h3
+                                      class="f-w-100 f-16 d-flex align-items-center m-b-0">
+                                      <i
+                                        class="feather icon-arrow-up text-c-green f-30 m-r-10"></i>
+                                      Please load or upload a dataset first...
+                                    </h3>
+                                    {% endif %}
+                                  </div>
+                                </div>
+                                <div
+                                  class="progress m-t-30"
+                                  style="height: 7px">
+                                  <div
+                                    id="premiumprogress-bar"
+                                    class="progress-bar progress-c-theme"
+                                    role="progressbar"
+                                    aria-valuenow=""
+                                    aria-valuemin="0"
+                                    aria-valuemax="100">
+                                    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                                    <script>
+                                      $("#premiumprogress-bar").css(
+                                        "width",
+                                        "{{premiumRetained}}%"
+                                      );
+                                    </script>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- [ Main Content ] end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %} {% endblock javascripts %}

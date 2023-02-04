@@ -1,0 +1,776 @@
+{% extends "layouts/base.html" %} {% block title %} Policies {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %} {% block content %}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js" />
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-25" style="font-weight: 600"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:" style="font-weight: 400">Policies</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Policies Management</h5>
+                  </div>
+                  <div class="container pt-3">
+                    {% with messages=get_flashed_messages(with_categories=true)
+                    %} {% if messages %} {% for category,message in messages %}
+                    <div class="alert alert-{{category}}">{{message}}</div>
+                    {% endfor %} {% endif %} {% endwith %}
+                  </div>
+                  <div class="card-block table-border-style">
+                    {% block body %}
+                    <p class="text-right">
+                      <a
+                        href='{{url_for("home_blueprint.add_policy")}}'
+                        class="btn btn-success"
+                        >Add Policy</a
+                      >
+                    </p>
+                    <div class="table-responsive">
+                      <table id="example" class="table table-hover">
+                        <thead>
+                          <th>Policy No.</th>
+                          <th>Date Created</th>
+                          <th>Policy Code</th>
+                          <th>Policy Name</th>
+                          <th>Premium</th>
+                          <th>Document</th>
+                          <th>Operations</th>
+                        </thead>
+                        <tbody>
+                          {% for row in datas %}
+                          <tr>
+                            <td>{{row.id}}</td>
+                            <td>{{row.date}}</td>
+                            <td>{{row.code}}</td>
+                            <td>{{row.name}}</td>
+                            <td>{{'%0.2f'| format(row.cost|float)}}</td>
+                            <td>
+                              <a href="{{
+                              url_for("home_blueprint.fileviewer",uid=row.id)
+                              }}"> View Policy File
+                            </td>
+                            <td>
+                              <a
+                                href='{{url_for("home_blueprint.edit_policy",uid=row.id)}}'
+                                class="btn btn-dark"
+                                >Edit</a
+                              >
+                              <a
+                                href='{{url_for("home_blueprint.delete_policy",uid=row.id)}}'
+                                class="btn btn-danger"
+                                onclick='return confirm("Are You Sure")'
+                                >Delete</a
+                              >
+                            </td>
+                          </tr>
+                          {%endfor%}
+                        </tbody>
+                      </table>
+                    </div>
+
+                    {% endblock %}
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <hr />
+                        <h3 class="f-w-600 f-24">Branches</h3>
+                        <hr />
+                        <p class="text-left">
+                          <button
+                            data-toggle="modal"
+                            data-target="#add"
+                            class="btn btn-success"
+                            style="width: 150px; height: 50px">
+                            <div data-toggle="tooltip" title="Add">
+                              Add Branch
+                              <i class="feather icon-plus-circle"></i>
+                            </div>
+                          </button>
+                        </p>
+
+                        <div class="table-responsive">
+                          <table id="branches" class="table table-hover">
+                            <thead>
+                              <th>Branch No.</th>
+                              <th>Branch Code</th>
+                              <th>Operations</th>
+                            </thead>
+                            <tbody>
+                              {% for row in branches %}
+                              <tr>
+                                <td>{{row.id}}</td>
+                                <td>{{row.branch}}</td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.delete_branch",uid=row.id)}}'
+                                    class="btn btn-danger"
+                                    onclick='return confirm("Are You Sure")'
+                                    >Delete</a
+                                  >
+                                </td>
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <hr />
+                        <h3 class="f-w-600 f-24">Policy Types</h3>
+                        <hr />
+                        <p class="text-left">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addPtype"
+                            class="btn btn-success"
+                            style="width: 180px; height: 50px">
+                            <div data-toggle="tooltip" title="Add">
+                              Add Policy Type
+                              <i class="feather icon-plus-circle"></i>
+                            </div>
+                          </button>
+                        </p>
+
+                        <div class="table-responsive">
+                          <table id="policytype" class="table table-hover">
+                            <thead>
+                              <th>No.</th>
+                              <th>Policy Type</th>
+                              <th>Operations</th>
+                            </thead>
+                            <tbody>
+                              {% for row in ptype %}
+                              <tr>
+                                <td>{{row.id}}</td>
+                                <td>{{row.ptype}}</td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.delete_ptype",uid=row.id)}}'
+                                    class="btn btn-danger"
+                                    onclick='return confirm("Are You Sure")'
+                                    >Delete</a
+                                  >
+                                </td>
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row my-5">
+                      <div class="col-md-6">
+                        <hr />
+                        <h3 class="f-w-600 f-24">Policy Category</h3>
+                        <hr />
+                        <p class="text-left">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addPcategory"
+                            class="btn btn-success"
+                            style="width: 150px; height: 50px">
+                            <div data-toggle="tooltip" title="Add">
+                              Add Category
+                              <i class="feather icon-plus-circle"></i>
+                            </div>
+                          </button>
+                        </p>
+
+                        <div class="table-responsive">
+                          <table id="pCategory" class="table table-hover">
+                            <thead>
+                              <th>No.</th>
+                              <th>Policy Category</th>
+                              <th>Operations</th>
+                            </thead>
+                            <tbody>
+                              {% for row in pcategory %}
+                              <tr>
+                                <td>{{row.id}}</td>
+                                <td>{{row.pcategory}}</td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.delete_pcategory",uid=row.id)}}'
+                                    class="btn btn-danger"
+                                    onclick='return confirm("Are You Sure")'
+                                    >Delete</a
+                                  >
+                                </td>
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <hr />
+                        <h3 class="f-w-600 f-24">Vehicle Use</h3>
+                        <hr />
+                        <p class="text-left">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addVuse"
+                            class="btn btn-success"
+                            style="width: 180px; height: 50px">
+                            <div data-toggle="tooltip" title="Add">
+                              Add Vehicle Use
+                              <i class="feather icon-plus-circle"></i>
+                            </div>
+                          </button>
+                        </p>
+
+                        <div class="table-responsive">
+                          <table id="vUse" class="table table-hover">
+                            <thead>
+                              <th>No.</th>
+                              <th>Vehicle Use</th>
+                              <th>Operations</th>
+                            </thead>
+                            <tbody>
+                              {% for row in vuse %}
+                              <tr>
+                                <td>{{row.id}}</td>
+                                <td>{{row.vuse}}</td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.delete_vuse",uid=row.id)}}'
+                                    class="btn btn-danger"
+                                    onclick='return confirm("Are You Sure")'
+                                    >Delete</a
+                                  >
+                                </td>
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row my-5">
+                      <div class="col-md-6">
+                        <hr />
+                        <h3 class="f-w-600 f-24">Vehicle Transmission</h3>
+                        <hr />
+                        <p class="text-left">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addVtrans"
+                            class="btn btn-success"
+                            style="width: 170px; height: 50px">
+                            <div data-toggle="tooltip" title="Add">
+                              Add Transmission
+                              <i class="feather icon-plus-circle"></i>
+                            </div>
+                          </button>
+                        </p>
+
+                        <div class="table-responsive">
+                          <table id="vTransmission" class="table table-hover">
+                            <thead>
+                              <th>No.</th>
+                              <th>Vehicle Transmission</th>
+                              <th>Operations</th>
+                            </thead>
+                            <tbody>
+                              {% for row in transmission %}
+                              <tr>
+                                <td>{{row.id}}</td>
+                                <td>{{row.transmission}}</td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.delete_transmission",uid=row.id)}}'
+                                    class="btn btn-danger"
+                                    onclick='return confirm("Are You Sure")'
+                                    >Delete</a
+                                  >
+                                </td>
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <hr />
+                        <h3 class="f-w-600 f-24">Vehicle Fuel Type</h3>
+                        <hr />
+                        <p class="text-left">
+                          <button
+                            data-toggle="modal"
+                            data-target="#addVfuel"
+                            class="btn btn-success"
+                            style="width: 180px; height: 50px">
+                            <div data-toggle="tooltip" title="Add">
+                              Add Fuel Type
+                              <i class="feather icon-plus-circle"></i>
+                            </div>
+                          </button>
+                        </p>
+
+                        <div class="table-responsive">
+                          <table id="vFuel" class="table table-hover">
+                            <thead>
+                              <th>No.</th>
+                              <th>Vehicle Fuel Type</th>
+                              <th>Operations</th>
+                            </thead>
+                            <tbody>
+                              {% for row in fuel %}
+                              <tr>
+                                <td>{{row.id}}</td>
+                                <td>{{row.fuel}}</td>
+                                <td>
+                                  <a
+                                    href='{{url_for("home_blueprint.delete_vuse",uid=row.id)}}'
+                                    class="btn btn-danger"
+                                    onclick='return confirm("Are You Sure")'
+                                    >Delete</a
+                                  >
+                                </td>
+                              </tr>
+                              {%endfor%}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- [ Main Content ] end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="add" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title f-w-600">
+            <img
+              src="./static/assets/images/logo-green.png"
+              style="width: 50px; height: 50px" />&nbsp;&nbsp;&nbsp;Add Branch
+          </h5>
+
+          <button type="button" class="close" data-dismiss="modal">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="col-sm-6 p-0">
+            {% if error %}
+            <p style="color: red">{{ error }}</p>
+
+            {% endif %} {% if success %}
+            <p style="color: green">{{ success }}</p>
+
+            {% endif %} {% if allErrors %}
+            <p style="color: red">{{ allErrors }}</p>
+
+            {% endif %}
+          </div>
+          <form
+            class="edit-profile m-b30"
+            method="POST"
+            action='{{url_for("home_blueprint.add_branch")}}'
+            enctype="multipart/form-data">
+            <div class="modal-dialog modal-xl"></div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="form-group">
+                  <label>Branch Code</label>
+                  <input
+                    type="text"
+                    name="branch"
+                    required
+                    class="form-control"
+                    placeholder="Enter New Branch Code..." />
+                </div>
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="SUBMIT"
+              class="btn btn-success f-w-500" />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn red outline radius-xl"
+            data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="addPtype" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title f-w-600">
+            <img
+              src="./static/assets/images/logo-green.png"
+              style="width: 50px; height: 50px" />&nbsp;&nbsp;&nbsp;Add Policy
+            Type
+          </h5>
+
+          <button type="button" class="close" data-dismiss="modal">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="col-sm-6 p-0">
+            {% if error %}
+            <p style="color: red">{{ error }}</p>
+
+            {% endif %} {% if success %}
+            <p style="color: green">{{ success }}</p>
+
+            {% endif %} {% if allErrors %}
+            <p style="color: red">{{ allErrors }}</p>
+
+            {% endif %}
+          </div>
+          <form
+            class="edit-profile m-b30"
+            method="POST"
+            action='{{url_for("home_blueprint.add_ptype")}}'
+            enctype="multipart/form-data">
+            <div class="modal-dialog modal-xl"></div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="form-group">
+                  <label>Policy Type</label>
+                  <input
+                    type="text"
+                    name="ptype"
+                    required
+                    class="form-control"
+                    placeholder="Enter New Policy Type..." />
+                </div>
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="SUBMIT"
+              class="btn btn-success f-w-500" />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn red outline radius-xl"
+            data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="addPcategory" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title f-w-600">
+            <img
+              src="./static/assets/images/logo-green.png"
+              style="width: 50px; height: 50px" />&nbsp;&nbsp;&nbsp;Add Policy
+            Category
+          </h5>
+
+          <button type="button" class="close" data-dismiss="modal">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="col-sm-6 p-0">
+            {% if error %}
+            <p style="color: red">{{ error }}</p>
+
+            {% endif %} {% if success %}
+            <p style="color: green">{{ success }}</p>
+
+            {% endif %} {% if allErrors %}
+            <p style="color: red">{{ allErrors }}</p>
+
+            {% endif %}
+          </div>
+          <form
+            class="edit-profile m-b30"
+            method="POST"
+            action='{{url_for("home_blueprint.add_pcategory")}}'
+            enctype="multipart/form-data">
+            <div class="modal-dialog modal-xl"></div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="form-group">
+                  <label>Policy Category</label>
+                  <input
+                    type="text"
+                    name="pcategory"
+                    required
+                    class="form-control"
+                    placeholder="Enter New Policy Type..." />
+                </div>
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="SUBMIT"
+              class="btn btn-success f-w-500" />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn red outline radius-xl"
+            data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="addVuse" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title f-w-600">
+            <img
+              src="./static/assets/images/logo-green.png"
+              style="width: 50px; height: 50px" />&nbsp;&nbsp;&nbsp;Add Vehicle
+            Use
+          </h5>
+
+          <button type="button" class="close" data-dismiss="modal">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="col-sm-6 p-0">
+            {% if error %}
+            <p style="color: red">{{ error }}</p>
+
+            {% endif %} {% if success %}
+            <p style="color: green">{{ success }}</p>
+
+            {% endif %} {% if allErrors %}
+            <p style="color: red">{{ allErrors }}</p>
+
+            {% endif %}
+          </div>
+          <form
+            class="edit-profile m-b30"
+            method="POST"
+            action='{{url_for("home_blueprint.add_vuse")}}'
+            enctype="multipart/form-data">
+            <div class="modal-dialog modal-xl"></div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="form-group">
+                  <label>Vehicle Use</label>
+                  <input
+                    type="text"
+                    name="vuse"
+                    required
+                    class="form-control"
+                    placeholder="Enter New Vehicle Use..." />
+                </div>
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="SUBMIT"
+              class="btn btn-success f-w-500" />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn red outline radius-xl"
+            data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="addVtrans" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title f-w-600">
+            <img
+              src="./static/assets/images/logo-green.png"
+              style="width: 50px; height: 50px" />&nbsp;&nbsp;&nbsp;Add Vehicle
+            Transmission
+          </h5>
+
+          <button type="button" class="close" data-dismiss="modal">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="col-sm-6 p-0">
+            {% if error %}
+            <p style="color: red">{{ error }}</p>
+
+            {% endif %} {% if success %}
+            <p style="color: green">{{ success }}</p>
+
+            {% endif %} {% if allErrors %}
+            <p style="color: red">{{ allErrors }}</p>
+
+            {% endif %}
+          </div>
+          <form
+            class="edit-profile m-b30"
+            method="POST"
+            action='{{url_for("home_blueprint.add_transmission")}}'
+            enctype="multipart/form-data">
+            <div class="modal-dialog modal-xl"></div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="form-group">
+                  <label>Vehicle Transmission</label>
+                  <input
+                    type="text"
+                    name="transmission"
+                    required
+                    class="form-control"
+                    placeholder="Enter New Vehicle Transmission..." />
+                </div>
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="SUBMIT"
+              class="btn btn-success f-w-500" />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn red outline radius-xl"
+            data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="addVfuel" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title f-w-600">
+            <img
+              src="./static/assets/images/logo-green.png"
+              style="width: 50px; height: 50px" />&nbsp;&nbsp;&nbsp;Add Vehicle
+            Fuel Type
+          </h5>
+
+          <button type="button" class="close" data-dismiss="modal">
+            &times;
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="col-sm-6 p-0">
+            {% if error %}
+            <p style="color: red">{{ error }}</p>
+
+            {% endif %} {% if success %}
+            <p style="color: green">{{ success }}</p>
+
+            {% endif %} {% if allErrors %}
+            <p style="color: red">{{ allErrors }}</p>
+
+            {% endif %}
+          </div>
+          <form
+            class="edit-profile m-b30"
+            method="POST"
+            action='{{url_for("home_blueprint.add_fuel")}}'
+            enctype="multipart/form-data">
+            <div class="modal-dialog modal-xl"></div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="form-group">
+                  <label>Vehicle Fuel Type</label>
+                  <input
+                    type="text"
+                    name="fuel"
+                    required
+                    class="form-control"
+                    placeholder="Enter New Vehicle Use..." />
+                </div>
+              </div>
+            </div>
+            <input
+              type="submit"
+              value="SUBMIT"
+              class="btn btn-success f-w-500" />
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button
+            type="button"
+            class="btn red outline radius-xl"
+            data-dismiss="modal">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- [ Main Content ] end -->
+
+  {% endblock content %}
+
+  <!-- Specific Page JS goes HERE  -->
+  {% block javascripts %}{% endblock javascripts %}
+</div>

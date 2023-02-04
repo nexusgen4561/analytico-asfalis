@@ -1,0 +1,204 @@
+{% extends "layouts/base.html" %} {% block title %} Policyholders {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %} {% block content %}
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://cdn.datatables.net/v/dt/dt-1.12.1/datatables.min.css" />
+<link
+  rel="stylesheet"
+  href="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js" />
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-25" style="font-weight: 600"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:" style="font-weight: 200"
+                      >Policyholders</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Customer Information Management</h5>
+                  </div>
+                  <div class="container pt-3">
+                    {% with messages=get_flashed_messages(with_categories=true)
+                    %} {% if messages %} {% for category,message in messages %}
+                    <div class="alert alert-{{category}}">{{message}}</div>
+                    {% endfor %} {% endif %} {% endwith %}
+                  </div>
+                  <div class="card-block">
+                    <div class="col-sm-12">
+                      <form
+                        action="/upload_csv"
+                        method="POST"
+                        enctype="multipart/form-data">
+                        <div class="col-sm-6 p-0 mb-3">
+                          <label
+                            for="formFile"
+                            class="form-label"
+                            style="
+                              text-transform: uppercase;
+                              text-decoration: underline;
+                            "
+                            >Upload CSV File Below</label
+                          >
+                          <input
+                            class="form-control"
+                            type="file"
+                            id="csvfile"
+                            name="csvfile" />
+                        </div>
+                        <div class="col-sm-6 p-0">
+                          {% if error %}
+                          <p style="color: red">{{ error }}</p>
+
+                          {% endif %} {% if success %}
+                          <p style="color: green">{{ success }}</p>
+
+                          {% endif %} {% if allErrors %}
+                          <p style="color: red">{{ allErrors }}</p>
+
+                          {% endif %}
+                        </div>
+
+                        <div class="col-sm-6 p-0">
+                          <button type="submit" class="btn btn-success">
+                            Upload CSV
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="col-sm-12 p-0 text-right">
+                      <div>
+                        <form
+                          action='{{url_for("home_blueprint.addnew")}}'
+                          method="POST">
+                          <button type="submit" class="btn btn-success">
+                            Add Policyholder
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                    <div class="col-sm-12 my-4">
+                      <div class="table-responsive">
+                        <table id="policyholders" class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th scope="col">Entry Date</th>
+                              <th scope="col">Assured ID</th>
+                              <th scope="col">Line</th>
+                              <th scope="col">Branch</th>
+                              <th scope="col">Insured Date</th>
+                              <th scope="col">End Date</th>
+                              <th scope="col">Policy Category</th>
+                              <th scope="col">Policy Type</th>
+                              <th scope="col">Vehicle Use</th>
+                              <th scope="col">Vehicle Brand</th>
+                              <th scope="col">Vehicle Body</th>
+                              <th scope="col">Vehicle Model</th>
+                              <th scope="col">Vehicle Color</th>
+                              <th scope="col">Vehicle Transmission</th>
+                              <th scope="col">Vehicle Fuel</th>
+                              <th scope="col">Premium</th>
+                              <th scope="col">Status</th>
+                              <th scope="col">Update</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {% for details in datas %}
+                            <tr>
+                              <td>{{ details.endate}}</td>
+                              <td>{{ details.agcode1}}</td>
+                              <td>{{ details.line }}</td>
+                              <td>{{ details.branch }}</td>
+                              <td>{{ details.idate }}</td>
+                              <td>{{ details.edate }}</td>
+                              <td>{{ details.pcategory }}</td>
+                              <td>{{ details.ptype }}</td>
+                              <td>{{ details.vuse }}</td>
+                              <td>{{ details.brand }}</td>
+                              <td>{{ details.body }}</td>
+                              <td>{{ details.model }}</td>
+                              <td>{{ details.color }}</td>
+                              <td>{{ details.transmission }}</td>
+                              <td>{{ details.fuel }}</td>
+                              <td>{{ details.prem }}</td>
+                              <td id="status" class="status">
+                                {{ details.status }}
+                              </td>
+                              <td>
+                                <a
+                                  href='{{url_for("home_blueprint.update",agcode1=details.agcode1)}}'
+                                  type="button"
+                                  class="btn btn-sm mx-1 f-w-600"
+                                  style="background: #f4f2dc; color: #265138"
+                                  >Update
+                                </a>
+                              </td>
+                            </tr>
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- [ Main Content ] end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<script>
+  var activeStyle = {
+    color: "#265138",
+    fontWeight: "600",
+  };
+
+  var inactiveStyle = {
+    color: "red",
+    fontWeight: "600",
+  };
+  $(document).ready(function () {
+    $("#policyholders td.status:contains('Active')").css(activeStyle);
+    $("#policyholders td.status:contains('Inactive')").css(inactiveStyle);
+  });
+</script>
+
+{% endblock javascripts %}

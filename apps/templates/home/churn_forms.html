@@ -1,0 +1,1113 @@
+{% extends "layouts/base.html" %} {% block title %} Page Blank {% endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %} {% block content %}
+<link rel="stylesheet" href="/static/style.css" />
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-10">Sample Page</h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:">Sample Page</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <img
+              src="{{ config.ASSETS_ROOT}}/images/asfalis.svg"
+              class="myImage" />
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <!-- Eto code ng html front end-->
+                    <body id="bg">
+                      <div class="page-wraper">
+                        <div class="container">
+                          <div class="page-banner-entry">
+                            <div class="page-banner-entry">
+                              <div class="page-content bg-white">
+                                <div class="page-banner ovbl-dark"></div>
+
+                                <div class="container"></div>
+                              </div>
+                            </div>
+                            <div class="content-block">
+                              <div class="content-block">
+                                <div class="section-area section-sp1">
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="page-content bg-white">
+                                        <div class="col-lg-12 col-md-12">
+                                          <form
+                                            class="contact-bx dzForm"
+                                            method="POST">
+                                            <div class="dzFormMsg"></div>
+                                            <div class="heading-bx left">
+                                              <b
+                                                ><h1 class="title-head">
+                                                  Customer <span>Feedback</span>
+                                                </h1>
+                                                <p>
+                                                  We'd like to hear from you!
+                                                </p>
+
+                                                <div
+                                                  class="row placeani"
+                                                  id="sent">
+                                                  <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                      <label>Name</label>
+                                                      <div class="input-group">
+                                                        <input
+                                                          name="name"
+                                                          type="text"
+                                                          class="form-control"
+                                                          minlength="3"
+                                                          maxlength="70"
+                                                          required />
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-4">
+                                                    <div class="form-group">
+                                                      <label>Age</label>
+                                                      <div class="input-group">
+                                                        <input
+                                                          name="age"
+                                                          type="number"
+                                                          class="form-control"
+                                                          minh="1"
+                                                          maxh="500"
+                                                          required />
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-4">
+                                                    <div class="form-group">
+                                                      <label
+                                                        >&nbsp;&nbsp;&nbsp;&nbsp;Gender: </label
+                                                      ><br />
+                                                      <div
+                                                        style="
+                                                          height: 10px;
+                                                        "></div>
+                                                      <span class="container">
+                                                        <span
+                                                          class="checkmark"></span
+                                                        ><input
+                                                          type="radio"
+                                                          name="gender"
+                                                          required
+                                                          value="Male" />&nbsp;&nbsp;Male
+                                                      </span>
+                                                      <span class="container">
+                                                        <span
+                                                          class="checkmark"></span
+                                                        ><input
+                                                          type="radio"
+                                                          name="gender"
+                                                          value="Female" />&nbsp;&nbsp;Female
+                                                      </span>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-4">
+                                                    <div class="form-group">
+                                                      <label>Email</label>
+                                                      <div class="input-group">
+                                                        <input
+                                                          name="email"
+                                                          type="email"
+                                                          class="form-control"
+                                                          minlength="3"
+                                                          maxlength="50"
+                                                          required />
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                      <label
+                                                        >Previous Product
+                                                        Subscription</label
+                                                      >
+                                                      <select
+                                                        class="form-control"
+                                                        name="prev_sub"
+                                                        id="prev_sub"
+                                                        required
+                                                        style="
+                                                          color: black !important;
+                                                        ">
+                                                        <option
+                                                          value="Liberty Auto Insurance Plan A">
+                                                          Liberty Auto Insurance
+                                                          Plan A
+                                                        </option>
+                                                        <option
+                                                          value="Liberty Auto Insurance Plan B">
+                                                          Liberty Auto Insurance
+                                                          Plan B
+                                                        </option>
+                                                        <option
+                                                          value="Liberty Auto Insurance Plan C">
+                                                          Liberty Auto Insurance
+                                                          Plan C
+                                                        </option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+
+                                                  <div class="table-responsive">
+                                                    <table
+                                                      id="table"
+                                                      class="table hover"
+                                                      style="width: 100%">
+                                                      <thead>
+                                                        <tr>
+                                                          <th width="800">
+                                                            <center>
+                                                              Product and
+                                                              Services
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Strongly<br />Agree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Agree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Somewhat<br />Agree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Disagree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Strongly<br />Disagree
+                                                            </center>
+                                                          </th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                          <td>
+                                                            Does the company
+                                                            provide a wide
+                                                            variety of products
+                                                            and services?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q1"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q1"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q1"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q1"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q1"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Does the company's
+                                                            products and
+                                                            services suit your
+                                                            needs?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q2"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q2"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q2"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q2"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q2"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Does your plan
+                                                            subscription have
+                                                            competitive
+                                                            coverage?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q3"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q3"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q3"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q3"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q3"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Do you find the
+                                                            company's products
+                                                            and services
+                                                            relevant?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q4"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q4"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q4"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q4"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q4"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
+
+                                                  <div class="table-responsive">
+                                                    <table
+                                                      id="table"
+                                                      class="table hover"
+                                                      style="width: 100%">
+                                                      <thead>
+                                                        <tr>
+                                                          <th width="800">
+                                                            <center>
+                                                              Quality Service
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Strongly<br />Agree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Agree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Somewhat<br />Agree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Disagree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Strongly<br />Disagree
+                                                            </center>
+                                                          </th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                          <td>
+                                                            Does the company's
+                                                            customer care and
+                                                            services satisfy
+                                                            your expectations?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q5"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q5"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q5"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q5"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q5"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Does the company
+                                                            have different
+                                                            platforms of
+                                                            communication and
+                                                            contacting?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q6"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q6"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q6"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q6"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q6"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Does the company
+                                                            provide accessible
+                                                            and flexible
+                                                            services?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q7"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q7"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q7"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q7"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q7"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Does the company
+                                                            provide reliable and
+                                                            easy policy claims?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q8"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q8"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q8"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q8"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q8"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Does the company
+                                                            maintain good
+                                                            relationships with
+                                                            their clients and
+                                                            policy holders?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q9"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q9"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q9"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q9"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q9"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
+
+                                                  <div class="table-responsive">
+                                                    <table
+                                                      id="table"
+                                                      class="table hover"
+                                                      style="width: 100%">
+                                                      <thead>
+                                                        <tr>
+                                                          <th width="800">
+                                                            <center>
+                                                              Price and
+                                                              Affordability
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Strongly<br />Agree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Agree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Somewhat<br />Agree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Disagree
+                                                            </center>
+                                                          </th>
+                                                          <th>
+                                                            <center>
+                                                              Strongly<br />Disagree
+                                                            </center>
+                                                          </th>
+                                                        </tr>
+                                                      </thead>
+                                                      <tbody>
+                                                        <tr>
+                                                          <td>
+                                                            Does the company
+                                                            provide affordable
+                                                            products and
+                                                            services?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q10"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q10"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q10"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q10"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q10"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Does the company
+                                                            provide good and
+                                                            flexible payment
+                                                            terms?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q11"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q11"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q11"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q11"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q11"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Does your current
+                                                            plan subscription
+                                                            value for money?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q12"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q12"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q12"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q12"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q12"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                        <tr>
+                                                          <td>
+                                                            Do you get what you
+                                                            pay for?
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q13"
+                                                                required
+                                                                value="1" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q13"
+                                                                required
+                                                                value="2" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q13"
+                                                                required
+                                                                value="3" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q13"
+                                                                required
+                                                                value="4" />
+                                                            </center>
+                                                          </td>
+                                                          <td>
+                                                            <center>
+                                                              <input
+                                                                type="radio"
+                                                                name="q13"
+                                                                required
+                                                                value="5" />
+                                                            </center>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </div>
+
+                                                  <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                      <label
+                                                        >What was the main
+                                                        reason for switching
+                                                        your car insurance
+                                                        company?</label
+                                                      >
+                                                      <select
+                                                        class="form-control"
+                                                        name="reason"
+                                                        id="reason"
+                                                        required
+                                                        style="
+                                                          color: black !important;
+                                                        ">
+                                                        <!-- <option value="" disabled selected hidden="">-- Please select --</option> -->
+                                                        <option value="1">
+                                                          Products and Services
+                                                        </option>
+                                                        <option value="2">
+                                                          Quality of Service
+                                                          (Customer Service)
+                                                        </option>
+                                                        <option value="3">
+                                                          Price and
+                                                          Affordability
+                                                        </option>
+                                                        <option value="4">
+                                                          Plan Coverage
+                                                        </option>
+                                                        <option value="5">
+                                                          Others
+                                                        </option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+                                                  <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                      <label>Comments:</label>
+                                                      <div class="input-group">
+                                                        <textarea
+                                                          name="comment"
+                                                          rows="2"
+                                                          class="form-control"
+                                                          minlength="5"
+                                                          maxlength="300"
+                                                          required></textarea>
+                                                      </div>
+                                                    </div>
+                                                  </div>
+                                                  <div
+                                                    class="col-lg-12"
+                                                    align="right">
+                                                    <button
+                                                      name="post_feedback"
+                                                      type="submit"
+                                                      value="Submit"
+                                                      class="btn button-md btn-block">
+                                                      SUBMIT FEEDBACK
+                                                    </button>
+                                                    <hr />
+                                                    <center>
+                                                      <center>
+                                                        <div
+                                                          class="col-lg-12"
+                                                          align="center">
+                                                          <br />
+                                                          <label
+                                                            style="
+                                                              color: green;
+                                                              font-weight: 540;
+                                                            ">
+                                                            <!-- [ Main Content ] end -->
+
+                                                            {% endblock content
+                                                            %}
+
+                                                            <!-- Specific Page JS goes HERE  -->
+                                                            {% block javascripts
+                                                            %}{% endblock
+                                                            javascripts %}
+                                                          </label>
+                                                        </div>
+                                                      </center>
+                                                    </center>
+                                                  </div>
+                                                </div></b
+                                              >
+                                            </div>
+                                          </form>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </body>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

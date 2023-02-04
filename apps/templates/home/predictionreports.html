@@ -1,0 +1,374 @@
+{% extends "layouts/base.html" %} {% block title %} Churn Prediction Reports {%
+endblock %}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"
+  integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"
+  integrity="sha512-Tfw6etYMUhL4RTki37niav99C6OHwMDB2iBT5S5piyHO+ltK2YX8Hjy9TXxhE1Gm/TmAV0uaykSpnHKFIAif/A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"></script>
+
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
+{% endblock stylesheets %} {% block content %}
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-10"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:">Policyholders Feedback Reports</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Churn Analysis Reports</h5>
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-sm-4 col-xl-6 col-l-6">
+                        <div class="card-body">
+                          <div id="chart6"></div>
+                        </div>
+                      </div>
+                      <div class="col-sm-4 col-xl-6 col-l-6">
+                        <div class="card-body">
+                          <div class="card yearly-sales">
+                            <div class="card-block">
+                              <div class="card-header">
+                                <h5>Average Churn Prediction Probability</h5>
+                              </div>
+                              <div class="row d-flex align-items-center">
+                                <div class="col-6">
+                                  <h6 class="f-w-600 mt-3 f-16 m-b-0">
+                                    {{'%0.2f'| format(churnrate|float)}} %
+                                  </h6>
+                                </div>
+                              </div>
+                              <div class="progress m-t-10" style="height: 7px">
+                                <div
+                                  id="progress-bar"
+                                  class="progress-bar progress-c-theme2"
+                                  role="progressbar"
+                                  aria-valuenow="{{ churnrate }}"
+                                  aria-valuemin="0"
+                                  aria-valuemax="100">
+                                  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                                  <script>
+                                    $("#progress-bar").css(
+                                      "width",
+                                      "{{churnrate}}%"
+                                    );
+                                  </script>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <div class="card yearly-sales">
+                            <div class="card-block">
+                              <div class="card-header">
+                                <h5>Actions / Strategies:</h5>
+                              </div>
+                              <div class="row d-flex align-items-center">
+                                <div class="col-12">
+                                  <h6 class="f-w-600 mt-3 f-16 m-b-0">
+                                    {% if (ratio <= 22): %}
+                                    <p></p>
+                                    <h4 class="f-w-600">
+                                      You have a churn ratio of:
+                                      <b class="text-danger"
+                                        >{{'%0.2f'| format(ratio|float)}}</b
+                                      >
+                                      %
+                                    </h4>
+                                    You're doing great! Keep up your strategies
+                                    to retain your churn ratio {% elif (ratio >
+                                    22): %}
+                                    <p></p>
+                                    <h4 class="f-w-600">
+                                      You have a churn ratio of:
+                                      <b class="text-danger"
+                                        >{{'%0.2f'| format(ratio|float)}}</b
+                                      >
+                                      %
+                                    </h4>
+                                    <br />
+                                    <p>
+                                      Strategies recommendation to reduce churn
+                                      rate:
+                                    </p>
+
+                                    1. Analyze why churn occurs <br />
+                                    2. Engage with your customers <br />
+                                    3. Define your most valuable customers
+                                    <br />
+                                    4. Offer incentives<br />
+                                    5. Pay attention to complaints<br />
+
+                                    {% endif %}
+                                  </h6>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 col-xl-6 col-lg-6">
+                        <div class="card-body">
+                          <div id="chart1"></div>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-xl-6 col-lg-6">
+                        <div class="card-body">
+                          <div id="chart2"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 col-xl-12 col-lg-12">
+                        <div class="card-body">
+                          <div id="chart3"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 col-xl-6 col-lg-6">
+                        <div class="card-body">
+                          <div id="chart4"></div>
+                        </div>
+                      </div>
+                      <div class="col-sm-12 col-xl-6 col-lg-6">
+                        <div class="card-body">
+                          <div id="chart5"></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-sm-12 col-xl-12 col-lg-12">
+                        <hr />
+                        <h3 class="my-3 mb-0 f-w-600 f-24 ml-3 p-0">
+                          Churn Factors Correlation % per Attribute
+                        </h3>
+                        <hr />
+                        <div class="mb-5">
+                          <img
+                            src="{{ config.ASSETS_ROOT }}/images/cohort/churnFactors.png"
+                            alt=""
+                            class="responsive"
+                            style="width: 100%; height: auto" />
+                        </div>
+                        <div class="row">
+                          <div class="col-lg-6">
+                            <hr />
+                            <h3
+                              class="my-3 mb-0 f-w-600 f-20 ml-3 p-0 text-danger">
+                              Top 10 Most Churn Factors from Predictions
+                            </h3>
+                            <hr />
+                            <p
+                              class="col-lg-12 f-w-300 f-16"
+                              style="color: black">
+                              <b class="f-w-600 f-18">Attributes:</b> <br />
+                              {% for k, v in churnFactors.items() %} <br />{{ k
+                              }} {% endfor %}
+                            </p>
+                          </div>
+                          <div class="col-lg-6">
+                            <hr />
+                            <h3
+                              class="my-3 mb-0 f-w-600 f-20 ml-3 p-0 text-success">
+                              Top 10 Least Churn Factors from Predictions
+                            </h3>
+                            <hr />
+                            <p
+                              class="col-lg-12 f-w-300 f-16"
+                              style="color: black">
+                              <b class="f-w-600 f-18">Attributes:</b> <br />
+                              {% for k, v in leastFactors.items() %} <br />{{ k
+                              }} {% endfor %}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Recent Predictions</h5>
+                  </div>
+                  <div class="card-block">
+                    <div class="table-responsive">
+                      <table
+                        id="churnTable"
+                        class="table table-bordered"
+                        width="100%">
+                        <thead>
+                          <tr>
+                            <th scope="col">Entry Date</th>
+                            <th scope="col">Assured ID</th>
+                            <th scope="col">Churn</th>
+                            <th scope="col">Probability</th>
+                            <th scope="col">Line</th>
+                            <th scope="col">Branch</th>
+                            <th scope="col">Insured Date</th>
+                            <th scope="col">End Date</th>
+                            <th scope="col">Policy Category</th>
+                            <th scope="col">Policy Type</th>
+                            <th scope="col">Vehicle Use</th>
+                            <th scope="col">Vehicle Brand</th>
+                            <th scope="col">Vehicle Body</th>
+                            <th scope="col">Vehicle Model</th>
+                            <th scope="col">Vehicle Color</th>
+                            <th scope="col">Vehicle Transmission</th>
+                            <th scope="col">Vehicle Fuel</th>
+                            <th scope="col">Premium</th>
+                            <th scope="col">Delete</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          {% for details in datas %}
+                          <tr>
+                            <td>{{ details.endate}}</td>
+                            <td>{{ details.agcode1}}</td>
+                            <td id="churn" class="churn">
+                              {{ details.churn }}
+                            </td>
+                            <td>{{'%0.2f'| format(details.proba|float)}}</td>
+                            <td>{{ details.line }}</td>
+                            <td>{{ details.branch }}</td>
+                            <td>{{ details.idate }}</td>
+                            <td>{{ details.edate }}</td>
+                            <td>{{ details.pcategory }}</td>
+                            <td>{{ details.ptype }}</td>
+                            <td>{{ details.vuse }}</td>
+                            <td>{{ details.brand }}</td>
+                            <td>{{ details.body }}</td>
+                            <td>{{ details.model }}</td>
+                            <td>{{ details.color }}</td>
+                            <td>{{ details.transmission }}</td>
+                            <td>{{ details.fuel }}</td>
+                            <td>{{ details.prem }}</td>
+                            <td>
+                              <a
+                                href='{{url_for("home_blueprint.delete_prediction",uid=details.id)}}'
+                                class="btn btn-danger"
+                                onclick='return confirm("Are You Sure")'
+                                >Delete</a
+                              >
+                            </td>
+                          </tr>
+                          {% endfor %}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- [ Main Content ] end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+  var graph1 = {{ graph1JSON | safe }};
+  Plotly.plot("chart1", graph1, {})
+</script>
+<script>
+  var graph2 = {{ graph2JSON | safe }};
+  Plotly.plot("chart2", graph2, {})
+</script>
+<script>
+  var graph3 = {{ graph3JSON | safe }};
+  Plotly.plot("chart3", graph3, {})
+</script>
+<script>
+  var graph4 = {{ graph4JSON | safe }};
+  Plotly.plot("chart4", graph4, {})
+</script>
+<script>
+  var graph5 = {{ graph5JSON | safe }};
+  Plotly.plot("chart5", graph5, {})
+</script>
+<script>
+  var graph6 = {{ graph6JSON | safe }};
+  Plotly.plot("chart6", graph6, {})
+</script>
+
+<script>
+  $(document).ready(function () {
+    $("#churnTable td.churn:contains('No')").css("background-color", "#a9c8a3");
+    $("#churnTable td.churn:contains('Yes')").css(
+      "background-color",
+      "#ec8b8b"
+    );
+  });
+
+  $(document).ready(function () {
+    $("#churnTable tr td").each(function () {
+      if ($(this).text() >= 0 && $(this).text() <= 50) {
+        $(this).css("background-color", "#a9c8a3");
+      } else if ($(this).text() > 50 && $(this).text() <= 100) {
+        $(this).css("background-color", "#ec8b8b");
+      }
+    });
+  });
+</script>
+
+<script>
+  function toggler(divId) {
+    $("#" + divId).toggle();
+  }
+</script>
+{% endblock javascripts %}

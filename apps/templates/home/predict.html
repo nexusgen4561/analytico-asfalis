@@ -1,0 +1,326 @@
+{% extends "layouts/base.html" %} {% block title %} Churn Prediction {% endblock
+%}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}{% endblock stylesheets %} {% block content %}
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-25" style="font-weight: 600"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="./churn_analysis.html">Churn Analysis</a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:">Predict Churn</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper">
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Predict Policyholder Churn</h5>
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-md-6 col-xl-6 my-5 ml-0 pl-0">
+                        <div class="container pt-3">
+                          {% with
+                          messages=get_flashed_messages(with_categories=true) %}
+                          {% if messages %} {% for category,message in messages
+                          %}
+                          <div class="alert alert-{{category}}">
+                            {{message}}
+                          </div>
+                          {% endfor %} {% endif %} {% endwith %}
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-xl-6 my-1 ml-0 pl-0">
+                        <div class="card yearly-sales">
+                          <div class="card-block">
+                            <h4 class="mb-3 f-w-700">Prediction Results</h4>
+                            <div class="row d-flex align-items-center">
+                              <div class="col-9">
+                                <h6 class="f-w-400 mt-3 f-16 m-b-0">
+                                  {{ prediction }}
+                                </h6>
+                                <h6
+                                  class="align-items-center f-w-200 f-16 my-4 f-w-500">
+                                  {{ probability }}
+                                </h6>
+                              </div>
+                            </div>
+                            <div class="progress m-t-10" style="height: 7px">
+                              <div
+                                id="progress-bar"
+                                class="progress-bar progress-c-theme2"
+                                role="progressbar"
+                                aria-valuenow="{{ percentage }}"
+                                aria-valuemin="0"
+                                aria-valuemax="100">
+                                <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+                                <script>
+                                  $("#progress-bar").css(
+                                    "width",
+                                    "{{percentage}}%"
+                                  );
+                                </script>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col mx-auto">
+                        <form
+                          method="post"
+                          action='{{url_for("home_blueprint.predict")}}'>
+                          <div class="row">
+                            <div class="col form-group">
+                              <label>Entry Date</label>
+                              <input
+                                type="date"
+                                name="endate"
+                                required
+                                class="form-control"
+                                placeholder="Enter Date..."
+                                value="{{ endate }}" />
+                            </div>
+                            <div class="col form-group">
+                              <label>Assured ID</label>
+                              <input
+                                type="text"
+                                name="agcode1"
+                                required
+                                class="form-control" />
+                            </div>
+                            <div class="col form-group mb-3">
+                              <label>Line</label>
+                              <select
+                                class="form-control"
+                                name="line"
+                                id="line"
+                                readonly="true">
+                                <option>MC</option>
+                              </select>
+                            </div>
+                            <div class="col form-group mb-3">
+                              <label>Branch</label>
+                              <select
+                                class="form-control"
+                                name="branch"
+                                id="branch">
+                                {% for row in branches %}
+
+                                <option value="{{ row.branch }}">
+                                  {{ row.branch }}
+                                </option>
+
+                                {% endfor %}
+                              </select>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col form-group">
+                              <label>Policy Start Date</label>
+                              <input
+                                type="date"
+                                name="idate"
+                                required
+                                class="form-control"
+                                placeholder="Select Policy Start Date..." />
+                            </div>
+                            <div class="col form-group">
+                              <label>Policy End Date</label>
+                              <input
+                                type="date"
+                                name="edate"
+                                required
+                                class="form-control"
+                                placeholder="Select Policy End Date..." />
+                            </div>
+                            <div class="col form-group mb-3">
+                              <label>Policy Category</label>
+                              <select
+                                class="form-control"
+                                name="pcategory"
+                                id="ptype">
+                                {% for data in pcategory %}
+
+                                <option value="{{ data.pcategory }}">
+                                  {{ data.pcategory }}
+                                </option>
+
+                                {% endfor %}
+                              </select>
+                            </div>
+                            <div class="col form-group mb-3">
+                              <label>Policy Type</label>
+                              <select
+                                class="form-control"
+                                name="ptype"
+                                id="ptype">
+                                {% for data in ptype %}
+
+                                <option value="{{ data.ptype }}">
+                                  {{ data.ptype }}
+                                </option>
+
+                                {% endfor %}
+                              </select>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col form-group mb-3">
+                              <label>Vehicle Use</label>
+                              <select
+                                class="col form-control"
+                                name="vuse"
+                                id="vuse">
+                                {% for data in vuse %}
+
+                                <option value="{{ data.vuse }}">
+                                  {{ data.vuse }}
+                                </option>
+
+                                {% endfor %}
+                              </select>
+                            </div>
+                            <div class="col form-group mb-3">
+                              <label>Vehicle Brand</label>
+                              <input
+                                type="text"
+                                name="brand"
+                                required
+                                class="form-control"
+                                placeholder="Enter Vehicle Maker..." />
+                            </div>
+                            <div class="col form-group mb-3">
+                              <label>Vehicle Body Type</label>
+                              <input
+                                type="text"
+                                name="body"
+                                required
+                                class="form-control"
+                                placeholder="Enter Vehicle Type..." />
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col form-group mb-3">
+                              <label>Vehicle Model Year</label>
+                              <input
+                                name="model"
+                                required
+                                class="form-control"
+                                placeholder="Enter Vehicle Model..." />
+                            </div>
+                            <div class="col form-group mb-3">
+                              <label>Vehicle Color</label>
+                              <input
+                                type="text"
+                                name="color"
+                                required
+                                class="form-control"
+                                placeholder="Enter Vehicle Color..." />
+                            </div>
+                            <div class="col form-group mb-3">
+                              <label>Vehicle Transmission</label>
+                              <select
+                                class="form-control"
+                                name="transmission"
+                                id="transmission">
+                                {% for data in transmission %}
+
+                                <option value="{{ data.transmission }}">
+                                  {{ data.transmission }}
+                                </option>
+
+                                {% endfor %}
+                              </select>
+                            </div>
+                            <div class="col form-group">
+                              <label>Vehicle Fuel Type</label>
+                              <select
+                                class="col form-control"
+                                name="fuel"
+                                id="fuel">
+                                {% for data in fuel %}
+
+                                <option value="{{ data.fuel }}">
+                                  {{ data.fuel }}
+                                </option>
+
+                                {% endfor %}
+                              </select>
+                            </div>
+                          </div>
+                          <hr />
+                          <div class="row">
+                            <div class="col form-group">
+                              <label>Premium</label>
+                              <select
+                                class="col form-control"
+                                name="prem"
+                                id="prem">
+                                {% for data in premiumCost %}
+
+                                <option value="{{ data.cost }}">
+                                  {{ data.cost }}
+                                </option>
+
+                                {% endfor %}
+                              </select>
+                            </div>
+                            <div class="col my-4">
+                              <input
+                                type="submit"
+                                value="Submit"
+                                class="btn btn-success" />
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <hr />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- [ Main Content ] end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

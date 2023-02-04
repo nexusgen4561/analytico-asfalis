@@ -1,0 +1,1252 @@
+{% extends "layouts/base.html" %} {% block title %} Feedback Reports {% endblock
+%}
+
+<!-- Specific CSS goes HERE -->
+{% block stylesheets %}
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"
+  integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"
+  integrity="sha512-Tfw6etYMUhL4RTki37niav99C6OHwMDB2iBT5S5piyHO+ltK2YX8Hjy9TXxhE1Gm/TmAV0uaykSpnHKFIAif/A=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"></script>
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
+{% endblock stylesheets %} {% block content %}
+
+<!-- [ Main Content ] start -->
+<div class="pcoded-main-container">
+  <div class="pcoded-wrapper">
+    <div class="pcoded-content">
+      <div class="pcoded-inner-content">
+        <!-- [ breadcrumb ] start -->
+        <div class="page-header">
+          <div class="page-block">
+            <div class="row align-items-center">
+              <div class="col-md-12">
+                <div class="page-header-title">
+                  <h5 class="m-b-10"></h5>
+                </div>
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    <a href="/"><i class="feather icon-home"></i></a>
+                  </li>
+                  <li class="breadcrumb-item">
+                    <a href="javascript:">Policyholders Feedback Reports</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- [ breadcrumb ] end -->
+        <div class="main-body">
+          <div class="page-wrapper" id="divToExport">
+            <!-- [ Main Content ] start -->
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div
+                    class="card-header"
+                    id="element-to-hide"
+                    data-html2canvas-ignore="true">
+                    <h5>Feedback Reports</h5>
+                    <span class="float-right pt-2">
+                      <button
+                        type="button"
+                        id="download-button"
+                        onclick="window.print()"
+                        class="btn-sm btn-danger pull-right">
+                        Export to PDF
+                      </button>
+                    </span>
+                  </div>
+                  <div class="card-block">
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <p class="m-b-15 f-w-600 f-16">
+                          Feedback Reports Generated As of {{ date }}
+                        </p>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                What was the main reason for switching your car
+                                insurance company?
+                              </h6>
+
+                              <canvas
+                                id="hbarchart"
+                                width="100"
+                                height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-6 col-sm-6 col-md-6">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                Previous Subscriptions from Feedback Responses
+                              </h6>
+
+                              <canvas
+                                id="prevsubChart"
+                                width="100"
+                                height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="row"
+                      id="element-to-hide"
+                      data-html2canvas-ignore="true">
+                      <h6 class="f-w-600 f-18" style="margin-left: 40px">
+                        Click the following buttons to display the reports:
+                      </h6>
+                    </div>
+                    <div
+                      class="row"
+                      id="element-to-hide"
+                      data-html2canvas-ignore="true">
+                      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+
+                            <a
+                              href="#psContent"
+                              style="background: #265138; color: white"
+                              class="btn btn-lg active f-w-500"
+                              role="button"
+                              aria-pressed="true"
+                              data-toggle="collapse"
+                              >Products and Services</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <a
+                              href="#qsContent"
+                              style="background: #265138; color: white"
+                              class="btn btn-lg active f-w-500"
+                              role="button"
+                              aria-pressed="true"
+                              data-toggle="collapse"
+                              >Quality Service(Customer Service)</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <a
+                              href="#paContent"
+                              style="background: #265138; color: white"
+                              class="btn btn-lg active"
+                              role="button"
+                              aria-pressed="true"
+                              data-toggle="collapse"
+                              >Price and Affordability</a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row main-container collapse" id="psContent">
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                Product and Services
+                              </h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does the company provide a wide variety of
+                                products and services?
+                              </h4>
+                              <canvas id="q1" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                Product and Services
+                              </h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does the company's products and services suit
+                                your needs?
+                              </h4>
+                              <canvas id="q2" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                Product and Services
+                              </h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does your plan subscription have competitive
+                                coverage?
+                              </h4>
+                              <canvas id="q3" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                Product and Services
+                              </h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Do you find the company's products and services
+                                relevant?
+                              </h4>
+                              <canvas id="q4" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row main-container collapse" id="qsContent">
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">Quality Service</h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does the company's customer care and services
+                                satisfy your expectations?
+                              </h4>
+                              <canvas id="q5" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">Quality Service</h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does the company have different platforms of
+                                communication and contacting?
+                              </h4>
+                              <canvas id="q6" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">Quality Service</h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does the company provide accessible and flexible
+                                services?
+                              </h4>
+                              <canvas id="q7" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">Quality Service</h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does the company provide reliable and easy
+                                policy claims?
+                              </h4>
+                              <canvas id="q8" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row main-container collapse" id="paContent">
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                Price and Affordability
+                              </h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does the company provide affordable products and
+                                services?
+                              </h4>
+                              <canvas id="q9" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                Price and Affordability
+                              </h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does the company provide good and flexible
+                                payment terms?
+                              </h4>
+                              <canvas id="q10" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                Price and Affordability
+                              </h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Does your current plan subscription value for
+                                money?
+                              </h4>
+                              <canvas id="q11" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-xs-4 col-sm-4 col-md-4">
+                        <div class="card card-style mb-2">
+                          <div class="card-body">
+                            <div class="card-title"></div>
+                            <div
+                              class="chart-container"
+                              style="position: relative">
+                              <h6 class="f-w-600 mb-3 f-18">
+                                Price and Affordability
+                              </h6>
+
+                              <h4 class="f-w-300 f-14 mb-4">
+                                Do you get what you pay for?
+                              </h4>
+                              <canvas id="q12" width="100" height="60"></canvas>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h5>Table of Responses</h5>
+                  </div>
+                  <div class="container pt-3">
+                    {% with messages=get_flashed_messages(with_categories=true)
+                    %} {% if messages %} {% for category,message in messages %}
+                    <div class="alert alert-{{category}}">{{message}}</div>
+                    {% endfor %} {% endif %} {% endwith %}
+                  </div>
+                  <div class="card-block">
+                    <div class="table-responsive">
+                      <table
+                        id="fbTable"
+                        class="table"
+                        style="border-collapse: spacing; border-spacing: 1em">
+                        <thead>
+                          <th>Name</th>
+                          <th>Age</th>
+                          <th>Gender</th>
+                          <th>Email</th>
+                          <th>Comment/Suggestion</th>
+                          <th>Action</th>
+                        </thead>
+                        <tbody>
+                          {% for row in data %}
+                          <tr>
+                            <td>{{row.name}}</td>
+                            <td>{{row.age}}</td>
+                            <td>{{row.gender}}</td>
+                            <td>{{row.email}}</td>
+                            <td>{{row.comments}}</td>
+                            <td>
+                              <button
+                                data-toggle="modal"
+                                data-target="#view-{{ row.id }}"
+                                class="btn blue"
+                                style="width: 50px; height: 37px">
+                                <div data-toggle="tooltip" title="View">
+                                  <i class="feather icon-search"></i>
+                                </div>
+                              </button>
+
+                              <a
+                                href='{{url_for("home_blueprint.delete_response",uid=row.id)}}'
+                                class="btn btn-danger"
+                                onclick='return confirm("Are You Sure")'
+                                >Delete</a
+                              >
+                            </td>
+                          </tr>
+                          <div
+                            id="view-{{ row.id }}"
+                            class="modal"
+                            tabindex="-1"
+                            role="dialog">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title">
+                                    <img
+                                      src="./static/assets/images/logo-green.png"
+                                      style="
+                                        width: 50px;
+                                        height: 50px;
+                                      " />&nbsp;&nbsp;&nbsp;Customer Feedback
+                                  </h5>
+                                  <button
+                                    type="button"
+                                    class="close"
+                                    data-dismiss="modal">
+                                    &times;
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  <form
+                                    class="edit-profile m-b30"
+                                    method="POST"
+                                    enctype="multipart/form-data">
+                                    <div class="modal-dialog modal-xl"></div>
+                                    <div class="modal-body">
+                                      <div class="row">
+                                        <div class="form-group col-6">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            Name
+                                          </label>
+                                          <br />
+                                          {{ row.name }}
+                                        </div>
+                                        <div class="form-group col-3">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            Age
+                                          </label>
+                                          <br />
+                                          {{ row.age }}
+                                        </div>
+                                        <div class="form-group col-3">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            Gender
+                                          </label>
+                                          <br />
+                                          {{ row.gender }}
+                                        </div>
+                                        <div class="form-group col-6">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            Email
+                                          </label>
+                                          <br />
+                                          {{ row.email }}
+                                        </div>
+                                        <div class="form-group col-6">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            Previous Product Subscription
+                                          </label>
+                                          <br />
+                                          {{ row.prev_sub }}
+                                        </div>
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            1. Does the company provide a wide
+                                            variety of products and
+                                            services?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q1 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            2. Does the company's products and
+                                            services suit your needs?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q2 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            3. Does your plan subscription have
+                                            competitive coverage?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q3 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            4. Do you find the company's
+                                            products and services
+                                            relevant?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q4 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            5. Does the company's customer care
+                                            and services satisfy your
+                                            expectations?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q5 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            6. Does the company have different
+                                            platforms of communication and
+                                            contacting?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q6 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            7. Does the company provide
+                                            accessible and flexible
+                                            services?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q7 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            8. Does the company provide reliable
+                                            and easy policy claims?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q8 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            9. Does the company provide
+                                            affordable products and
+                                            services?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q9 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            10. Does the company provide good
+                                            and flexible payment terms?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q10 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            11. Does your current plan
+                                            subscription value for money?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q11 }}
+                                        </div>
+
+                                        <div class="form-group col-8">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            12. Do you get what you pay
+                                            for?</label
+                                          >
+                                        </div>
+                                        <div class="form-group col-4">
+                                          {{ row.q12 }}
+                                        </div>
+                                        <div class="form-group col-12">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            What was the main reason for
+                                            unsubscribing to your current
+                                            policy?
+                                          </label>
+                                          <h5>{{ row.reason }}</h5>
+                                        </div>
+                                        <div class="form-group col-12">
+                                          <label
+                                            class="col-form-label f-w-600 f-12 text-dark">
+                                            Comments/Suggestions
+                                          </label>
+                                          <br />
+                                          <h5>{{ row.comments }}</h5>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </form>
+                                </div>
+                                <div class="modal-footer">
+                                  <button
+                                    type="button"
+                                    class="btn red outline radius-xl"
+                                    data-dismiss="modal">
+                                    Close
+                                  </button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          {%endfor%}
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- [ Main Content ] end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- [ Main Content ] end -->
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}
+<script>
+  function toggler(divId) {
+    $("#" + divId).toggle();
+  }
+</script>
+
+<!-- <script>
+  const button = document.getElementById("download-button");
+  var element = document.getElementById("divToExport");
+  html2pdf(element, {
+    margin: 10,
+    filename: "myfile.pdf",
+    image: { type: "jpeg", quality: 0.98 },
+    html2canvas: { scale: 2, logging: true, dpi: 192, letterRendering: true },
+    jsPDF: { unit: "mm", format: "a4", orientation: "portrait" },
+  });
+  button.addEventListener("click", generatePDF);
+</script> -->
+
+<!-- <script>
+  const button = document.getElementById("download-button");
+
+  function generatePDF() {
+    // Choose the element that your content will be rendered to.
+    const element = document.getElementById("divToExport");
+    var opt = {
+      margin: 0,
+      padding: 0,
+      filename: "feedbackreports.pdf",
+      image: { type: "jpeg", quality: 1 },
+      html2canvas: { scale: 2, logging: true, dpi: 192, letterRendering: true },
+      jsPDF: {
+        unit: "mm",
+        format: "legal",
+        orientation: "landscape",
+      },
+    };
+    // Choose the element and save the PDF for your user.
+    html2pdf().set(opt).from(element).save();
+  }
+
+  button.addEventListener("click", generatePDF);
+</script> -->
+
+<!-- <script type="text/javascript">
+  function generatePDF() {
+    // Choose the element id which you want to export.
+    var element = document.getElementById("divToExport");
+    element.style.width = "100%";
+    element.style.height = "100%";
+    var opt = {
+      margin: 0.5,
+      filename: "feedbackreports.pdf",
+      image: { type: "jpeg", quality: 1 },
+      html2canvas: { scale: 1 },
+      jsPDF: {
+        unit: "in",
+        format: "letter",
+        orientation: "landscape",
+        precision: "12",
+      },
+    };
+
+    // choose the element and pass it to html2pdf() function and call the save() on it to save as pdf.
+    html2pdf().set(opt).from(element).save();
+  }
+</script> -->
+
+<script>
+  var reason = document.getElementById("hbarchart");
+  var hbarchart = new Chart(reason, {
+    type: "bar",
+    data: {
+      labels: {{ reasonLabels | safe }},
+      datasets: [
+        {
+          data: {{ reasonValues | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          legend: {
+            display: false
+        }
+      }
+    }
+  });
+</script>
+<script>
+  var prev_sub = document.getElementById("prevsubChart");
+  var prevsubChart = new Chart(prev_sub, {
+    type: "bar",
+    data: {
+      labels: {{ prevLabels | safe }},
+      datasets: [
+        {
+          data: {{ prevValues | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          legend: {
+            display: false
+        }
+      }
+    }
+  });
+</script>
+
+<script>
+  var q1pie = document.getElementById("q1");
+  var q1 = new Chart(q1pie, {
+    type: "pie",
+    data: {
+      labels: {{ q1Labels | safe }},
+      datasets: [
+        {
+          data: {{ q1Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+<script>
+  var q2pie = document.getElementById("q2");
+  var q2 = new Chart(q2pie, {
+    type: "pie",
+    data: {
+      labels: {{ q2Labels | safe }},
+      datasets: [
+        {
+          data: {{ q2Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+<script>
+  var q3pie = document.getElementById("q3");
+  var q3 = new Chart(q3pie, {
+    type: "pie",
+    data: {
+      labels: {{ q3Labels | safe }},
+      datasets: [
+        {
+          data: {{ q3Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+<script>
+  var q4pie = document.getElementById("q4");
+  var q4 = new Chart(q4pie, {
+    type: "pie",
+    data: {
+      labels: {{ q4Labels | safe }},
+      datasets: [
+        {
+          data: {{ q4Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+
+<script>
+  var q5pie = document.getElementById("q5");
+  var q5 = new Chart(q5pie, {
+    type: "pie",
+    data: {
+      labels: {{ q5Labels | safe }},
+      datasets: [
+        {
+          data: {{ q5Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+<script>
+  var q6pie = document.getElementById("q6");
+  var q6 = new Chart(q6pie, {
+    type: "pie",
+    data: {
+      labels: {{ q6Labels | safe }},
+      datasets: [
+        {
+          data: {{ q6Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+<script>
+  var q7pie = document.getElementById("q7");
+  var q7 = new Chart(q7pie, {
+    type: "pie",
+    data: {
+      labels: {{ q7Labels | safe }},
+      datasets: [
+        {
+          data: {{ q7Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+<script>
+  var q8pie = document.getElementById("q8");
+  var q8 = new Chart(q8pie, {
+    type: "pie",
+    data: {
+      labels: {{ q8Labels | safe }},
+      datasets: [
+        {
+          data: {{ q8Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+<script>
+  var q9pie = document.getElementById("q9");
+  var q9 = new Chart(q9pie, {
+    type: "pie",
+    data: {
+      labels: {{ q9Labels | safe }},
+      datasets: [
+        {
+          data: {{ q9Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+
+<script>
+  var q10pie = document.getElementById("q10");
+  var q10 = new Chart(q10pie, {
+    type: "pie",
+    data: {
+      labels: {{ q10Labels | safe }},
+      datasets: [
+        {
+          data: {{ q10Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+<script>
+  var q11pie = document.getElementById("q11");
+  var q11 = new Chart(q11pie, {
+    type: "pie",
+    data: {
+      labels: {{ q11Labels | safe }},
+      datasets: [
+        {
+          data: {{ q11Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+<script>
+  var q12pie = document.getElementById("q12");
+  var q12 = new Chart(q12pie, {
+    type: "pie",
+    data: {
+      labels: {{ q12Labels | safe }},
+      datasets: [
+        {
+          data: {{ q12Values | safe }},
+          backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#265138", "#f4f2dc","#98FE3B","#BF27BD","#616E6A","#4E780E","#851B26","#C8D34B"]
+        }
+      ]
+    },
+    options: {
+      plugins: {
+          datalabels: {
+            color: 'blue',
+            labels: {
+              title: {
+                font: {
+                  weight: 'bold'
+                }
+              },
+              value: {
+                color: 'white'
+              }
+            }
+          }
+        }
+      },
+      plugins: [ChartDataLabels]
+  });
+</script>
+{% endblock javascripts %}

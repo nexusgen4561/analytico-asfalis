@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Asfalis - {% block title %}{% endblock %}</title>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" />
+
+    <!-- Favicon icon -->
+    <link
+      rel="icon"
+      href="{{ config.ASSETS_ROOT }}/images/logo-beige.ico"
+      type="image/x-icon" />
+    <!-- fontawesome icon -->
+    <link
+      rel="stylesheet"
+      href="{{ config.ASSETS_ROOT }}/fonts/fontawesome/css/fontawesome-all.min.css" />
+    <!-- animation css -->
+    <link
+      rel="stylesheet"
+      href="{{ config.ASSETS_ROOT }}/plugins/animation/css/animate.min.css" />
+    <!-- vendor css -->
+    <link rel="stylesheet" href="{{ config.ASSETS_ROOT }}/css/style.css" />
+    <!-- dark mode css -->
+    <link rel="stylesheet" href="{{ config.ASSETS_ROOT }}/css/dark.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/buttons/2.2.3/css/buttons.dataTables.min.css" />
+    <!-- Specific CSS goes HERE -->
+    {% block stylesheets %}{% endblock stylesheets %}
+  </head>
+  <body>
+    <!-- [ Pre-loader ] start -->
+    <div class="loader-bg">
+      <div class="loader-track">
+        <div class="loader-fill"></div>
+      </div>
+    </div>
+    <!-- [ Pre-loader ] End -->
+
+    {% include 'includes/sidebar.html' %} {% include 'includes/navigation.html'
+    %} {% block content %}{% endblock content %} {% include
+    'includes/scripts.html' %}
+
+    <!-- Specific Page JS goes HERE  -->
+    {% block javascripts %}{% endblock javascripts %}
+    <script>
+      $(document).ready(function () {
+        $("#example").DataTable({
+          aLengthMenu: [
+            [5, 10, 15, 25, -1],
+            [5, 10, 15, 25, "All"],
+          ],
+          iDisplayLength: 5,
+          dom: 'B<"clear">lfrtip',
+          buttons: ["copy", "csv", "excel", "pdf", "print"],
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#branches").DataTable({
+          aLengthMenu: [
+            [3, 5, 10, 25, -1],
+            [3, 5, 10, 25, "All"],
+          ],
+          iDisplayLength: 3,
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#policytype").DataTable({
+          aLengthMenu: [
+            [3, 5, 10, 25, -1],
+            [3, 5, 10, 25, "All"],
+          ],
+          iDisplayLength: 3,
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#pCategory").DataTable({
+          aLengthMenu: [
+            [3, 5, 10, 25, -1],
+            [3, 5, 10, 25, "All"],
+          ],
+          iDisplayLength: 3,
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#vUse").DataTable({
+          aLengthMenu: [
+            [3, 5, 10, 25, -1],
+            [3, 5, 10, 25, "All"],
+          ],
+          iDisplayLength: 3,
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#vTransmission").DataTable({
+          aLengthMenu: [
+            [3, 5, 10, 25, -1],
+            [3, 5, 10, 25, "All"],
+          ],
+          iDisplayLength: 3,
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#vFuel").DataTable({
+          aLengthMenu: [
+            [3, 5, 10, 25, -1],
+            [3, 5, 10, 25, "All"],
+          ],
+          iDisplayLength: 3,
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#policyholders")
+          .DataTable({
+            iDisplayLength: 5,
+            dom: 'B<"clear">lfrtip',
+            buttons: [
+              "copy",
+              "csv",
+              "excel",
+              "pdf",
+              "print",
+              "selectAll",
+              "selectNone",
+            ],
+            aLengthMenu: [
+              [5, 10, 25, 50, 100, -1],
+              [5, 10, 25, 50, 100, "All"],
+            ],
+            language: {
+              buttons: {
+                selectAll: "Select all policyholders",
+                selectNone: "Select none",
+              },
+            },
+            scrollY: 350,
+            scrollX: true,
+          })
+          .columns.adjust();
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#fbTable")
+          .DataTable({
+            iDisplayLength: 5,
+            columnDefs: [{ orderable: false, targets: 0 }],
+
+            aLengthMenu: [
+              [5, 10, 25, 50, 100, -1],
+              [5, 10, 25, 50, 100, "All"],
+            ],
+          })
+          .columns.adjust();
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#feedbackQues")
+          .DataTable({
+            iDisplayLength: 4,
+            columnDefs: [{ orderable: false, targets: 0 }],
+
+            aLengthMenu: [
+              [4, 8, 12, -1],
+              [4, 8, 12, "All"],
+            ],
+          })
+          .columns.adjust();
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#products").DataTable({
+          aLengthMenu: [
+            [3, 5, 10, 25, -1],
+            [3, 5, 10, 25, "All"],
+          ],
+          iDisplayLength: 3,
+        });
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#reasons").DataTable({
+          aLengthMenu: [
+            [3, 5, 10, 25, -1],
+            [3, 5, 10, 25, "All"],
+          ],
+          iDisplayLength: 3,
+        });
+      });
+    </script>
+
+    <script>
+      var table = $(document).ready(function () {
+        $("#churnTable")
+          .DataTable({
+            iDisplayLength: 5,
+            columnDefs: [{ orderable: false, targets: 0 }],
+            dom: 'B<"clear">lfrtip',
+            buttons: ["copy", "csv", "excel", "pdf", "print"],
+            aLengthMenu: [
+              [5, 10, 25, 50, 100, -1],
+              [5, 10, 25, 50, 100, "All"],
+            ],
+            scrollY: 450,
+            scrollX: true,
+          })
+          .columns.adjust();
+      });
+    </script>
+    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/dataTables.buttons.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/datatables-responsive/2.3.0/dataTables.responsive.min.js"
+      integrity="sha512-jHZCTFSeSUkjMMzALVJ5aztNk1+qw1EOhBu6AZIIJo0j4YsCyG4S/feS27WkEAV7C6htBoE4GCqPOjAOodu2Jw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"
+      integrity="sha512-5BqtYqlWfJemW5+v+TZUs22uigI8tXeVah5S/1Z6qBLVO7gakAOtkOzUtgq6dsIo5c0NJdmGPs0H9I+2OHUHVQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.3/js/buttons.print.min.js"></script>
+  </body>
+</html>
